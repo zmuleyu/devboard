@@ -1,10 +1,10 @@
 [
   {
     "date": "2026-03-15",
-    "totalTokens": 36300000,
+    "totalTokens": 39300000,
     "byModel": {
       "haiku": 0,
-      "sonnet": 11900000,
+      "sonnet": 14900000,
       "opus": 24400000
     },
     "byProject": {
@@ -15,8 +15,9 @@
       "ziyou-chrome-refactor": 5500000,
       "ziyou-server": 1400000,
       "ziyou-browser": 100000,
-      "pixel-herbarium": 4400000
+      "pixel-herbarium": 4400000,
+      "ziyou-chrome": 3000000
     },
-    "sessionCount": 16
+    "sessionCount": 17
   }
 ]

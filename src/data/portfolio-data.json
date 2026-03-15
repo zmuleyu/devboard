@@ -67,13 +67,13 @@
       "role": "app",
       "health": "A-",
       "healthTrend": "→",
-      "testCount": 221,
+      "testCount": 242,
       "techDebtMarkers": 0,
       "lastCommitDate": "2026-03-15",
-      "lastCommitMessage": "fix: registration bar button and add drag support",
+      "lastCommitMessage": "a567564 fix: registration bar button and add drag support",
       "branch": "master",
-      "uncommittedChanges": 1,
-      "topTodo": "Registration Engine WIP 完成",
+      "uncommittedChanges": 6,
+      "topTodo": "Registration Engine E2E 修复验证 + 实操案例对比",
       "path": "D:\\projects\\ziyou-assistant\\ziyou-chrome-refactor"
     },
     {
