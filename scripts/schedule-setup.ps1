@@ -22,7 +22,7 @@ $Action = New-ScheduledTaskAction `
   -WorkingDirectory $ProjectDir
 
 # Daily at 09:00; StartWhenAvailable ensures it runs after wakeup if missed
-$Trigger = New-ScheduledTaskTrigger -Daily -At "09:00"
+$Trigger = New-ScheduledTaskTrigger -Daily -At "23:00"
 
 $Settings = New-ScheduledTaskSettingsSet `
   -ExecutionTimeLimit (New-TimeSpan -Hours 1) `
