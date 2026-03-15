@@ -1,3 +1,4 @@
+import { useState } from 'react';
 import type { ProjectStatus, HealthGrade, Ecosystem } from '../types';
 
 const healthColors: Record<HealthGrade, string> = {
@@ -13,6 +14,13 @@ const ecosystemStyles: Record<Ecosystem, { label: string; bg: string }> = {
   standalone: { label: 'SOLO', bg: 'bg-mid-gray text-card-bg' },
 };
 
+const roleLabels: Record<string, string> = {
+  infra: 'INFRA',
+  app: 'APP',
+  presentation: 'WEB',
+  tool: 'TOOL',
+};
+
 function daysAgo(dateStr: string): string {
   const diff = Math.floor(
     (Date.now() - new Date(dateStr).getTime()) / (1000 * 60 * 60 * 24)
@@ -23,11 +31,15 @@ function daysAgo(dateStr: string): string {
 }
 
 export function ProjectCard({ project }: { project: ProjectStatus }) {
+  const [expanded, setExpanded] = useState(false);
   const eco = ecosystemStyles[project.ecosystem];
   const healthColor = healthColors[project.health];
 
   return (
-    <div className="pixel-border pixel-hover bg-card-bg p-0 flex flex-col">
+    <div
+      className="pixel-border pixel-hover bg-card-bg p-0 flex flex-col"
+      onClick={() => setExpanded(!expanded)}
+    >
       {/* Header */}
       <div className="flex items-center justify-between px-3 pt-3 pb-2">
         <span
@@ -97,6 +109,33 @@ export function ProjectCard({ project }: { project: ProjectStatus }) {
         <span className="text-text-muted">TODO: </span>
         <span className="text-amber font-bold">{project.topTodo}</span>
       </div>
+
+      {/* Expanded Detail */}
+      {expanded && (
+        <>
+          <hr className="pixel-divider" />
+          <div className="px-3 py-2 text-[10px] bg-board-bg space-y-1.5">
+            <div className="flex items-center justify-between">
+              <span className="text-text-muted">role</span>
+              <span className="font-pixel text-[7px]">
+                {roleLabels[project.role] || project.role}
+              </span>
+            </div>
+            <div className="flex items-center justify-between">
+              <span className="text-text-muted">tech debt</span>
+              <span className={project.techDebtMarkers > 0 ? 'text-amber font-bold' : ''}>
+                {project.techDebtMarkers} marker{project.techDebtMarkers !== 1 ? 's' : ''}
+              </span>
+            </div>
+            <div className="flex items-center justify-between">
+              <span className="text-text-muted">path</span>
+              <span className="truncate ml-2 text-text-muted" title={project.path}>
+                {project.path.replace(/\\/g, '/').split('/').slice(-2).join('/')}
+              </span>
+            </div>
+          </div>
+        </>
+      )}
     </div>
   );
 }

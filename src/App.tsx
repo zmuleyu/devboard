@@ -1,6 +1,7 @@
 import { PortfolioGrid } from './components/PortfolioGrid';
 import { TokenAnalytics } from './components/TokenAnalytics';
 import { SessionLog } from './components/SessionLog';
+import { Timeline } from './components/Timeline';
 import { usePortfolioData } from './hooks/usePortfolioData';
 
 export default function App() {
@@ -39,11 +40,7 @@ export default function App() {
 
         <hr className="pixel-divider my-8" />
 
-        <div className="pixel-border bg-card-bg p-6 min-h-[200px] flex items-center justify-center mb-8">
-          <span className="font-pixel text-[9px] text-mid-gray">
-            TIMELINE · PHASE 3
-          </span>
-        </div>
+        <Timeline />
 
         {/* Footer */}
         <footer className="text-center py-4 text-[10px] text-text-muted">
