@@ -18,4 +18,15 @@ fi
 # Convert JSONL files to JSON arrays
 node scripts/convert-jsonl.js
 
-echo "Sync complete. Run 'npm run build' to rebuild."
+echo "Sync complete."
+
+# Auto-commit & push if data changed
+if git diff --quiet src/data/; then
+  echo "No data changes, skipping commit."
+else
+  DATE=$(date +%Y-%m-%d)
+  git add src/data/
+  git commit -m "data: sync ${DATE}"
+  git push origin master
+  echo "Pushed data update to GitHub → Vercel will auto-deploy."
+fi

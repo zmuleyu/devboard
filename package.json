@@ -8,7 +8,8 @@
     "build": "tsc -b && vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "sync": "bash scripts/sync-data.sh"
+    "sync": "bash scripts/sync-data.sh",
+    "update": "bash scripts/sync-data.sh"
   },
   "dependencies": {
     "react": "^19.2.4",
