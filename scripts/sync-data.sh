@@ -15,6 +15,19 @@ else
   echo "  skip: portfolio-data.json (not found)"
 fi
 
+# Sync agent-logs (last 7 days)
+AGENT_LOGS_SRC="$HOME/.claude/agent-logs"
+AGENT_LOGS_DST="src/data/agent-logs"
+mkdir -p "$AGENT_LOGS_DST"
+rm -f "$AGENT_LOGS_DST"/*.md
+if [ -d "$AGENT_LOGS_SRC" ]; then
+  find "$AGENT_LOGS_SRC" -name "*.md" -mtime -7 -exec cp {} "$AGENT_LOGS_DST/" \; 2>/dev/null
+  COUNT=$(ls -1 "$AGENT_LOGS_DST"/*.md 2>/dev/null | wc -l)
+  echo "  done: agent-logs ($COUNT files)"
+else
+  echo "  skip: agent-logs (source dir not found)"
+fi
+
 # Convert JSONL files to JSON arrays
 node scripts/convert-jsonl.js
 
