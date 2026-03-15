@@ -100,7 +100,7 @@ export default function App() {
         {/* Footer */}
         <footer className="text-center py-4 text-[10px] text-text-muted">
           <span className="font-pixel text-[7px]">
-            DEVBOARD v0.5.0 · built with Vite + React + Tailwind
+            DEVBOARD v0.6.0 · built with Vite + React + Tailwind
           </span>
         </footer>
       </div>
