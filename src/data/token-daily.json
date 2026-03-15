@@ -19,5 +19,19 @@
       "ziyou-chrome": 3000000
     },
     "sessionCount": 19
+  },
+  {
+    "date": "2026-03-16",
+    "totalTokens": 800000,
+    "byModel": {
+      "haiku": 0,
+      "sonnet": 0,
+      "opus": 800000
+    },
+    "byProject": {
+      "devboard": 700000,
+      "claude-cron": 100000
+    },
+    "sessionCount": 1
   }
 ]
