@@ -2,6 +2,7 @@ import { useState } from 'react';
 import { AlertBanner } from './components/AlertBanner';
 import { PortfolioGrid } from './components/PortfolioGrid';
 import { TokenAnalytics } from './components/TokenAnalytics';
+import { BudgetForecast } from './components/BudgetForecast';
 import { SessionLog } from './components/SessionLog';
 import { Timeline } from './components/Timeline';
 import { ProjectTasks } from './components/ProjectTasks';
@@ -53,6 +54,11 @@ export default function App() {
 
         {/* Module 2: Token Analytics */}
         <TokenAnalytics />
+
+        <hr className="pixel-divider my-8" />
+
+        {/* Module 14: Budget Forecast */}
+        <BudgetForecast />
 
         <hr className="pixel-divider my-8" />
 
