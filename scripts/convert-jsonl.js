@@ -9,6 +9,7 @@ const files = [
   { input: 'portfolio-history.jsonl', output: 'portfolio-history.json' },
   { input: 'sessions-log.jsonl', output: 'sessions-log.json' },
   { input: 'token-daily.jsonl', output: 'token-daily.json' },
+  { input: 'cron-log.jsonl', output: 'cron-log.json' },
 ];
 
 for (const { input, output } of files) {
@@ -20,10 +21,17 @@ for (const { input, output } of files) {
     continue;
   }
 
-  let lines = readFileSync(inputPath, 'utf-8')
+  const rawLines = readFileSync(inputPath, 'utf-8')
     .split('\n')
-    .filter((l) => l.trim())
-    .map((l) => JSON.parse(l));
+    .filter((l) => l.trim());
+  let lines = [];
+  for (const l of rawLines) {
+    try {
+      lines.push(JSON.parse(l));
+    } catch (e) {
+      console.warn(`  warn: skipped malformed line in ${input}: ${l.slice(0, 80)}`);
+    }
+  }
 
   // Merge same-date token-daily entries (byModel + byProject accumulated)
   if (input === 'token-daily.jsonl') {

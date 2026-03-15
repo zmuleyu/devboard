@@ -6,6 +6,7 @@ import { SessionLog } from './components/SessionLog';
 import { Timeline } from './components/Timeline';
 import { ProjectTasks } from './components/ProjectTasks';
 import { RoadmapGantt } from './components/RoadmapGantt';
+import { CronDashboard } from './components/CronDashboard';
 import { usePortfolioData } from './hooks/usePortfolioData';
 
 export default function App() {
@@ -54,6 +55,11 @@ export default function App() {
 
         <hr className="pixel-divider my-8" />
 
+        {/* Module 7: Cron Dashboard */}
+        <CronDashboard selectedProject={selectedProject} />
+
+        <hr className="pixel-divider my-8" />
+
         {/* Module 4: Timeline */}
         <Timeline selectedProject={selectedProject} />
 
@@ -70,7 +76,7 @@ export default function App() {
         {/* Footer */}
         <footer className="text-center py-4 text-[10px] text-text-muted">
           <span className="font-pixel text-[7px]">
-            DEVBOARD v0.3.0 · built with Vite + React + Tailwind
+            DEVBOARD v0.4.0 · built with Vite + React + Tailwind
           </span>
         </footer>
       </div>

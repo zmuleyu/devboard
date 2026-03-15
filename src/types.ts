@@ -70,3 +70,17 @@ export interface TokenDailyEntry {
   byProject: Record<string, number>;
   sessionCount: number;
 }
+
+export type CronTaskType = 'dev' | 'monitor' | 'grind' | 'manual';
+export type CronResult = 'pass' | 'fail' | 'warn' | 'info';
+
+export interface CronLogEntry {
+  date: string;
+  time: string;
+  taskName: string;
+  taskType: CronTaskType;
+  project: string;
+  result: CronResult;
+  detail: string;
+  durationSec: number;
+}
