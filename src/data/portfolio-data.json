@@ -14,7 +14,17 @@
       "branch": "dev",
       "uncommittedChanges": 1,
       "topTodo": "补测试 + DataTable commit",
-      "path": "D:\\projects\\cybernium\\ai_projects"
+      "path": "D:\\projects\\cybernium\\ai_projects",
+      "timeline": { "start": "2026-02-01", "target": "2026-04-05" },
+      "milestones": [
+        { "label": "v1.30.0 基础功能完成", "date": "2026-03-10", "done": true },
+        { "label": "Migration 093 + DB constraints", "date": "2026-03-12", "done": true },
+        { "label": "207 tests + API pagination", "date": "2026-03-15", "done": true },
+        { "label": "补充 Vitest 测试覆盖", "date": "2026-03-20", "done": false },
+        { "label": "KR 内容建设（区域法规数据）", "date": "2026-04-05", "done": false }
+      ],
+      "dependencies": ["cyber-landing"],
+      "notes": "双轨部署：internal.cybernium.cn（Vercel SSR）· ai.cybernium.cn（TOS CDN 静态版）\n发版规则：dev semver X.Y.Z → main 整数 vN\nschema 改动需运行 pnpm check:field-sync"
     },
     {
       "name": "cyber-landing",
@@ -29,7 +39,9 @@
       "branch": "main",
       "uncommittedChanges": 0,
       "topTodo": "吉祥物像素图替换",
-      "path": "D:\\projects\\cybernium\\cyber-landing"
+      "path": "D:\\projects\\cybernium\\cyber-landing",
+      "status": "completed",
+      "timeline": { "start": "2026-02-15", "target": "2026-03-13" }
     },
     {
       "name": "ziyou-server",
@@ -44,7 +56,9 @@
       "branch": "master",
       "uncommittedChanges": 0,
       "topTodo": "维护模式",
-      "path": "D:\\projects\\ziyou-assistant\\ziyou-server"
+      "path": "D:\\projects\\ziyou-assistant\\ziyou-server",
+      "timeline": { "start": "2026-01-10", "target": "2026-03-01" },
+      "notes": "稳定运行，DB 名为 browser_auto（历史原因）"
     },
     {
       "name": "ziyou-browser",
@@ -59,7 +73,8 @@
       "branch": "master",
       "uncommittedChanges": 0,
       "topTodo": "维护模式",
-      "path": "D:\\projects\\ziyou-browser"
+      "path": "D:\\projects\\ziyou-browser",
+      "timeline": { "start": "2026-01-10", "target": "2026-03-01" }
     },
     {
       "name": "ziyou-chrome",
@@ -74,7 +89,9 @@
       "branch": "master",
       "uncommittedChanges": 0,
       "topTodo": "维护模式",
-      "path": "D:\\projects\\ziyou-assistant\\ziyou-chrome-refactor"
+      "path": "D:\\projects\\ziyou-assistant\\ziyou-chrome-refactor",
+      "timeline": { "start": "2026-02-01", "target": "2026-03-15" },
+      "notes": "Prompt Panel 模块化重设计已完成（浅蓝主题 + 拖拽 + 连接诊断）\nGitHub 备份：zmuleyu/ziyou-chrome-refactor"
     },
     {
       "name": "Data_management",
@@ -89,7 +106,13 @@
       "branch": "master",
       "uncommittedChanges": 5,
       "topTodo": "Dashboard 增强",
-      "path": "D:\\projects\\Others\\Data_management"
+      "path": "D:\\projects\\Others\\Data_management",
+      "timeline": { "start": "2026-02-20", "target": "2026-04-01" },
+      "milestones": [
+        { "label": "195 tests + Tabulator 修复", "date": "2026-03-15", "done": true },
+        { "label": "Dashboard 增强", "date": "2026-03-25", "done": false },
+        { "label": "bundle 优化 + jQuery→DOM", "date": "2026-04-01", "done": false }
+      ]
     },
     {
       "name": "scrapling-mcp",
@@ -104,7 +127,10 @@
       "branch": "main",
       "uncommittedChanges": 0,
       "topTodo": "维护模式",
-      "path": "D:\\projects\\Others\\scrapling-mcp"
+      "path": "D:\\projects\\Others\\scrapling-mcp",
+      "status": "completed",
+      "timeline": { "start": "2026-02-10", "target": "2026-03-15" },
+      "notes": "v2.0.0 通用化完成（Site Pack 架构 + 4 站点包）\ndev/generalization 分支待合并 main"
     },
     {
       "name": "pixel-herbarium",
@@ -119,7 +145,17 @@
       "branch": "master",
       "uncommittedChanges": 0,
       "topTodo": "MVP 核心循环实现",
-      "path": "D:\\projects\\Games\\gardern\\pixel-herbarium"
+      "path": "D:\\projects\\Games\\gardern\\pixel-herbarium",
+      "status": "planned",
+      "timeline": { "start": "2026-03-25", "target": "2026-04-15" },
+      "milestones": [
+        { "label": "植物数据 + Supabase seed", "date": "2026-03-10", "done": true },
+        { "label": "Discovery 界面 + 动画", "date": "2026-03-15", "done": true },
+        { "label": "核心循环：发现→培育→收集", "date": "2026-04-01", "done": false },
+        { "label": "季节系统 + 稀有度解锁", "date": "2026-04-10", "done": false },
+        { "label": "MVP 打包 + TestFlight", "date": "2026-04-15", "done": false }
+      ],
+      "notes": "设计约束：所有面向用户文案必须温柔/诗意/不焦虑\nplants.ts 和 seed SQL 是数据权威来源\nExpo 55 + Supabase"
     }
   ]
 }

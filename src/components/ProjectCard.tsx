@@ -5,8 +5,10 @@ import type { ProjectStatus, HealthGrade, Ecosystem } from '../types';
 const healthColors: Record<HealthGrade, string> = {
   A: 'bg-health-a',
   'A-': 'bg-health-a-minus',
+  B: 'bg-health-b-minus',
   'B-': 'bg-health-b-minus',
   C: 'bg-health-c',
+  'C-': 'bg-health-c',
 };
 
 const ecosystemStyles: Record<Ecosystem, { label: string; bg: string }> = {

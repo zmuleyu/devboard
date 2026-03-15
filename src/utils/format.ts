@@ -16,3 +16,9 @@ const HEALTH_SCORES: Record<string, number> = {
 export function healthScore(grade: string): number {
   return HEALTH_SCORES[grade] ?? 2;
 }
+
+export function daysSince(dateStr: string): number {
+  if (!dateStr) return Infinity;
+  const diff = Date.now() - new Date(dateStr).getTime();
+  return Math.floor(diff / (1000 * 60 * 60 * 24));
+}

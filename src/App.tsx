@@ -1,9 +1,11 @@
 import { useState } from 'react';
+import { AlertBanner } from './components/AlertBanner';
 import { PortfolioGrid } from './components/PortfolioGrid';
 import { TokenAnalytics } from './components/TokenAnalytics';
 import { SessionLog } from './components/SessionLog';
 import { Timeline } from './components/Timeline';
 import { ProjectTasks } from './components/ProjectTasks';
+import { RoadmapGantt } from './components/RoadmapGantt';
 import { usePortfolioData } from './hooks/usePortfolioData';
 
 export default function App() {
@@ -32,6 +34,9 @@ export default function App() {
           </p>
         </header>
 
+        {/* Alert Banner */}
+        <AlertBanner />
+
         <hr className="pixel-divider mb-8" />
 
         {/* Module 1: Portfolio Overview */}
@@ -57,10 +62,15 @@ export default function App() {
         {/* Module 5: Project Tasks */}
         <ProjectTasks selectedProject={selectedProject} />
 
+        <hr className="pixel-divider my-8" />
+
+        {/* Module 6: Roadmap Gantt */}
+        <RoadmapGantt selectedProject={selectedProject} onSelectProject={setSelectedProject} />
+
         {/* Footer */}
         <footer className="text-center py-4 text-[10px] text-text-muted">
           <span className="font-pixel text-[7px]">
-            DEVBOARD v0.2.0 · built with Vite + React + Tailwind
+            DEVBOARD v0.3.0 · built with Vite + React + Tailwind
           </span>
         </footer>
       </div>
