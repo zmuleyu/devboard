@@ -30,3 +30,11 @@ else
   git push origin master
   echo "Pushed data update to GitHub → Vercel will auto-deploy."
 fi
+
+# Write timestamped log entry
+mkdir -p logs
+echo "[$(date '+%Y-%m-%d %H:%M:%S')] sync done" >> logs/sync.log
+# Keep only last 7 days of log lines
+if [ -f logs/sync.log ]; then
+  tail -n 500 logs/sync.log > logs/sync.tmp && mv logs/sync.tmp logs/sync.log
+fi
