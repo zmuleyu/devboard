@@ -1,22 +1,50 @@
 [
-  { "date": "2026-03-15", "startTime": "14:00", "duration": "3h 20m", "tokenUsed": 2800000, "model": "opus", "projectsTouched": ["devboard", "scrapling-mcp"], "summary": "DevBoard Phase 1 scaffold + pixel-art UI + PortfolioGrid", "commitsCreated": 1 },
-  { "date": "2026-03-15", "startTime": "09:00", "duration": "1h 45m", "tokenUsed": 980000, "model": "sonnet", "projectsTouched": ["ziyou-chrome", "ziyou-server"], "summary": "Fix content-form registration + LLM response validation", "commitsCreated": 2 },
-  { "date": "2026-03-14", "startTime": "20:00", "duration": "2h 10m", "tokenUsed": 1500000, "model": "sonnet", "projectsTouched": ["ai_projects"], "summary": "Generic DataTable component for admin panel", "commitsCreated": 1 },
-  { "date": "2026-03-14", "startTime": "14:00", "duration": "4h 00m", "tokenUsed": 3200000, "model": "opus", "projectsTouched": ["pixel-herbarium"], "summary": "Discovery UX animation + error boundaries", "commitsCreated": 3 },
-  { "date": "2026-03-13", "startTime": "19:00", "duration": "2h 30m", "tokenUsed": 1800000, "model": "sonnet", "projectsTouched": ["cyber-landing"], "summary": "Landing page pixel game + terminal fusion redesign", "commitsCreated": 1 },
-  { "date": "2026-03-13", "startTime": "10:00", "duration": "3h 00m", "tokenUsed": 2100000, "model": "opus", "projectsTouched": ["ziyou-browser", "ziyou-chrome"], "summary": "SSEClient reconnection + silent polling mode", "commitsCreated": 2 },
-  { "date": "2026-03-12", "startTime": "15:00", "duration": "2h 00m", "tokenUsed": 1200000, "model": "sonnet", "projectsTouched": ["ai_projects"], "summary": "Audit log sidebar + LEVEL_2_NAV_ITEMS fix", "commitsCreated": 2 },
-  { "date": "2026-03-12", "startTime": "09:30", "duration": "1h 30m", "tokenUsed": 850000, "model": "haiku", "projectsTouched": ["scrapling-mcp"], "summary": "Batch actress filmography + collection export", "commitsCreated": 1 },
-  { "date": "2026-03-11", "startTime": "14:00", "duration": "3h 15m", "tokenUsed": 2400000, "model": "opus", "projectsTouched": ["pixel-herbarium"], "summary": "Plant discovery core loop + seasonal system", "commitsCreated": 4 },
-  { "date": "2026-03-10", "startTime": "20:00", "duration": "1h 45m", "tokenUsed": 1100000, "model": "sonnet", "projectsTouched": ["ai_projects"], "summary": "Mobile menu fix + navTabs dependency ordering", "commitsCreated": 2 },
-  { "date": "2026-03-09", "startTime": "15:00", "duration": "2h 45m", "tokenUsed": 1900000, "model": "sonnet", "projectsTouched": ["ai_projects", "Data_management"], "summary": "Omnibus bugfix + cherry-pick workflow recovery", "commitsCreated": 3 },
-  { "date": "2026-03-08", "startTime": "10:00", "duration": "4h 30m", "tokenUsed": 3500000, "model": "opus", "projectsTouched": ["pixel-herbarium"], "summary": "Supabase schema + seed data + 185 test files scaffold", "commitsCreated": 5 },
-  { "date": "2026-03-07", "startTime": "14:00", "duration": "2h 00m", "tokenUsed": 1300000, "model": "sonnet", "projectsTouched": ["Data_management"], "summary": "Dashboard Recharts integration + CSV export", "commitsCreated": 2 },
-  { "date": "2026-03-06", "startTime": "19:00", "duration": "1h 20m", "tokenUsed": 750000, "model": "haiku", "projectsTouched": ["scrapling-mcp"], "summary": "CLI commands + MCP tool definitions cleanup", "commitsCreated": 1 },
-  { "date": "2026-03-05", "startTime": "10:00", "duration": "3h 00m", "tokenUsed": 2200000, "model": "sonnet", "projectsTouched": ["ziyou-chrome"], "summary": "Phase 5 UX polish P1-P6 completion", "commitsCreated": 4 },
-  { "date": "2026-03-04", "startTime": "14:00", "duration": "2h 30m", "tokenUsed": 1700000, "model": "sonnet", "projectsTouched": ["ai_projects"], "summary": "Region store migration + dual-track sync check", "commitsCreated": 2 },
-  { "date": "2026-03-03", "startTime": "09:00", "duration": "1h 00m", "tokenUsed": 550000, "model": "haiku", "projectsTouched": ["ziyou-server"], "summary": "Test suite maintenance + dependency updates", "commitsCreated": 1 },
-  { "date": "2026-03-02", "startTime": "15:00", "duration": "3h 45m", "tokenUsed": 2800000, "model": "opus", "projectsTouched": ["scrapling-mcp", "Data_management"], "summary": "Scrapling v1.0.0 release prep + Data_management batch ops", "commitsCreated": 3 },
-  { "date": "2026-03-01", "startTime": "10:00", "duration": "2h 15m", "tokenUsed": 1400000, "model": "sonnet", "projectsTouched": ["pixel-herbarium"], "summary": "Plant database schema + rarity distribution tuning", "commitsCreated": 2 },
-  { "date": "2026-02-28", "startTime": "14:00", "duration": "2h 00m", "tokenUsed": 1300000, "model": "sonnet", "projectsTouched": ["ai_projects", "cyber-landing"], "summary": "CDN static build legalLayer fix + landing page draft", "commitsCreated": 2 }
+  {
+    "date": "2026-03-15",
+    "startTime": "10:00",
+    "duration": "5h 00m",
+    "tokenUsed": 4500000,
+    "model": "opus",
+    "projectsTouched": [
+      "devboard"
+    ],
+    "summary": "DevBoard Phase 1-3 + Vercel deploy + data pipeline setup",
+    "commitsCreated": 4
+  },
+  {
+    "date": "2026-03-15",
+    "startTime": "11:30",
+    "duration": "1h 0m",
+    "tokenUsed": 800000,
+    "model": "sonnet",
+    "projectsTouched": [
+      "ai_projects"
+    ],
+    "summary": "ai_projects quality improvement: Vitest 66 tests, DB constraints, API pagination, .env.example, request ID tracing, merge to main",
+    "commitsCreated": 4
+  },
+  {
+    "date": "2026-03-15",
+    "startTime": "10:30",
+    "duration": "2h 0m",
+    "tokenUsed": 2500000,
+    "model": "opus",
+    "projectsTouched": [
+      "scrapling-mcp"
+    ],
+    "summary": "scrapling-mcp v2.0.0 generalization — Site Pack plugin architecture with 4 site packs (46 MCP tools)",
+    "commitsCreated": 2
+  },
+  {
+    "date": "2026-03-15",
+    "startTime": "10:40",
+    "duration": "2h 0m",
+    "tokenUsed": 800000,
+    "model": "opus",
+    "projectsTouched": [
+      "Data_management"
+    ],
+    "summary": "Data_management test coverage 62→195, Tabulator fix, Xunlei subtitle completion, dependency cleanup",
+    "commitsCreated": 4
+  }
 ]
