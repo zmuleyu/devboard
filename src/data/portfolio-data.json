@@ -100,7 +100,7 @@
       "testCount": 71,
       "techDebtMarkers": 0,
       "lastCommitDate": "2026-03-15",
-      "lastCommitMessage": "feat: add Layer 2 signal classifier for competitor review analysis",
+      "lastCommitMessage": "feat: add Layer 2 signal classifier for competitor review analysis (S1 M1.3)",
       "branch": "main",
       "uncommittedChanges": 0,
       "topTodo": "S1 M1.4 定时调度",
@@ -115,10 +115,10 @@
       "testCount": 165,
       "techDebtMarkers": 0,
       "lastCommitDate": "2026-03-15",
-      "lastCommitMessage": "docs: add onboarding polish design spec",
+      "lastCommitMessage": "chore: commit .gitignore and package-lock.json updates",
       "branch": "master",
-      "uncommittedChanges": 4,
-      "topTodo": "清理未提交变更 + EAS Build",
+      "uncommittedChanges": 0,
+      "topTodo": "EAS Build 执行",
       "path": "D:\\projects\\Games\\gardern\\pixel-herbarium"
     }
   ]
