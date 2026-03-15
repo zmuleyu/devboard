@@ -10,5 +10,17 @@
     "durationSec": 12,
     "source": "cron",
     "isOffPeak": false
+  },
+  {
+    "date": "2026-03-16",
+    "time": "03:55",
+    "taskName": "tsc-check",
+    "taskType": "dev",
+    "project": "ai_projects",
+    "result": "pass",
+    "detail": "0 type errors",
+    "durationSec": 15,
+    "source": "cron",
+    "isOffPeak": false
   }
 ]

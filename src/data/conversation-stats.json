@@ -1,0 +1,363 @@
+{
+  "timestamp": "2026-03-15T19:38:51.222Z",
+  "totalConversations": 687,
+  "totalMessages": 4094,
+  "withSummary": 671,
+  "dateRange": {
+    "from": "2026-02-26",
+    "to": "2026-03-14"
+  },
+  "topicDistribution": [
+    {
+      "topic": "regulatory-research",
+      "count": 231,
+      "pct": "33.6%"
+    },
+    {
+      "topic": "scraping-data",
+      "count": 114,
+      "pct": "16.6%"
+    },
+    {
+      "topic": "frontend-dev",
+      "count": 77,
+      "pct": "11.2%"
+    },
+    {
+      "topic": "browser-automation",
+      "count": 64,
+      "pct": "9.3%"
+    },
+    {
+      "topic": "toolchain",
+      "count": 56,
+      "pct": "8.2%"
+    },
+    {
+      "topic": "export-control",
+      "count": 53,
+      "pct": "7.7%"
+    },
+    {
+      "topic": "product-research",
+      "count": 35,
+      "pct": "5.1%"
+    },
+    {
+      "topic": "design",
+      "count": 24,
+      "pct": "3.5%"
+    },
+    {
+      "topic": "misc",
+      "count": 22,
+      "pct": "3.2%"
+    },
+    {
+      "topic": "gaming-compliance",
+      "count": 11,
+      "pct": "1.6%"
+    }
+  ],
+  "dailyActivity": {
+    "2026-03-03": 24,
+    "2026-03-02": 39,
+    "2026-03-01": 16,
+    "2026-02-28": 11,
+    "2026-02-27": 13,
+    "2026-02-26": 4,
+    "2026-03-04": 51,
+    "2026-03-05": 83,
+    "2026-03-06": 80,
+    "2026-03-07": 120,
+    "2026-03-08": 27,
+    "2026-03-09": 51,
+    "2026-03-10": 73,
+    "2026-03-11": 81,
+    "2026-03-12": 12,
+    "2026-03-14": 1,
+    "2026-03-13": 1
+  },
+  "topicByDate": {
+    "2026-03-03|toolchain": 4,
+    "2026-03-03|misc": 1,
+    "2026-03-03|frontend-dev": 5,
+    "2026-03-03|regulatory-research": 1,
+    "2026-03-02|toolchain": 10,
+    "2026-03-02|misc": 1,
+    "2026-03-03|design": 12,
+    "2026-03-02|browser-automation": 2,
+    "2026-03-02|regulatory-research": 11,
+    "2026-03-02|export-control": 5,
+    "2026-03-02|scraping-data": 1,
+    "2026-03-02|frontend-dev": 7,
+    "2026-03-02|product-research": 2,
+    "2026-03-01|misc": 3,
+    "2026-03-01|frontend-dev": 2,
+    "2026-03-01|regulatory-research": 5,
+    "2026-03-01|toolchain": 3,
+    "2026-03-01|export-control": 2,
+    "2026-02-28|misc": 2,
+    "2026-02-27|misc": 1,
+    "2026-02-28|toolchain": 3,
+    "2026-02-27|frontend-dev": 9,
+    "2026-02-28|frontend-dev": 3,
+    "2026-02-28|regulatory-research": 2,
+    "2026-02-28|export-control": 1,
+    "2026-02-27|regulatory-research": 3,
+    "2026-02-26|export-control": 3,
+    "2026-02-26|frontend-dev": 1,
+    "2026-03-01|product-research": 1,
+    "2026-03-04|misc": 2,
+    "2026-03-04|export-control": 7,
+    "2026-03-04|product-research": 10,
+    "2026-03-03|product-research": 1,
+    "2026-03-04|design": 6,
+    "2026-03-04|regulatory-research": 3,
+    "2026-03-04|frontend-dev": 2,
+    "2026-03-04|browser-automation": 3,
+    "2026-03-04|toolchain": 4,
+    "2026-03-04|scraping-data": 14,
+    "2026-03-05|scraping-data": 54,
+    "2026-03-05|misc": 4,
+    "2026-03-05|browser-automation": 7,
+    "2026-03-05|frontend-dev": 1,
+    "2026-03-05|regulatory-research": 12,
+    "2026-03-06|frontend-dev": 19,
+    "2026-03-06|regulatory-research": 17,
+    "2026-03-06|toolchain": 12,
+    "2026-03-06|browser-automation": 9,
+    "2026-03-06|export-control": 7,
+    "2026-03-06|misc": 1,
+    "2026-03-06|scraping-data": 13,
+    "2026-03-05|toolchain": 2,
+    "2026-03-05|product-research": 3,
+    "2026-03-06|product-research": 1,
+    "2026-03-07|frontend-dev": 12,
+    "2026-03-06|design": 1,
+    "2026-03-07|regulatory-research": 56,
+    "2026-03-07|design": 4,
+    "2026-03-07|scraping-data": 21,
+    "2026-03-07|export-control": 7,
+    "2026-03-07|browser-automation": 1,
+    "2026-03-07|toolchain": 5,
+    "2026-03-07|product-research": 14,
+    "2026-03-08|toolchain": 3,
+    "2026-03-08|regulatory-research": 20,
+    "2026-03-08|misc": 1,
+    "2026-03-08|export-control": 1,
+    "2026-03-08|frontend-dev": 1,
+    "2026-03-09|regulatory-research": 27,
+    "2026-03-09|browser-automation": 7,
+    "2026-03-09|frontend-dev": 2,
+    "2026-03-09|export-control": 6,
+    "2026-03-09|product-research": 3,
+    "2026-03-09|scraping-data": 4,
+    "2026-03-09|misc": 2,
+    "2026-03-08|scraping-data": 1,
+    "2026-03-10|regulatory-research": 33,
+    "2026-03-11|regulatory-research": 40,
+    "2026-03-10|frontend-dev": 8,
+    "2026-03-10|gaming-compliance": 9,
+    "2026-03-10|export-control": 4,
+    "2026-03-10|scraping-data": 4,
+    "2026-03-10|browser-automation": 15,
+    "2026-03-11|browser-automation": 17,
+    "2026-03-11|toolchain": 5,
+    "2026-03-11|misc": 3,
+    "2026-03-11|gaming-compliance": 2,
+    "2026-03-11|export-control": 7,
+    "2026-03-11|frontend-dev": 5,
+    "2026-03-11|design": 1,
+    "2026-03-11|scraping-data": 1,
+    "2026-03-12|toolchain": 4,
+    "2026-03-12|browser-automation": 3,
+    "2026-03-12|export-control": 3,
+    "2026-03-12|regulatory-research": 1,
+    "2026-03-14|toolchain": 1,
+    "2026-03-13|misc": 1,
+    "2026-03-12|scraping-data": 1
+  },
+  "topConversations": [
+    {
+      "name": "Node.js爬虫方案替代浏览器脚本",
+      "topic": "scraping-data",
+      "msgs": 129,
+      "date": "2026-03-06"
+    },
+    {
+      "name": "Chrome滚动截屏扩展P0开发",
+      "topic": "browser-automation",
+      "msgs": 82,
+      "date": "2026-03-09"
+    },
+    {
+      "name": "欧盟法规markdown整理与翻译",
+      "topic": "regulatory-research",
+      "msgs": 76,
+      "date": "2026-03-09"
+    },
+    {
+      "name": "Claude 登录",
+      "topic": "toolchain",
+      "msgs": 70,
+      "date": "2026-02-28"
+    },
+    {
+      "name": "Puppeteer爬虫中断后的恢复方案",
+      "topic": "scraping-data",
+      "msgs": 66,
+      "date": "2026-03-08"
+    },
+    {
+      "name": "VPN连接",
+      "topic": "toolchain",
+      "msgs": 57,
+      "date": "2026-03-02"
+    },
+    {
+      "name": "【*】JavaDB清单猎手",
+      "topic": "scraping-data",
+      "msgs": 55,
+      "date": "2026-03-06"
+    },
+    {
+      "name": "双引擎扩展源码项目重建",
+      "topic": "browser-automation",
+      "msgs": 54,
+      "date": "2026-03-10"
+    },
+    {
+      "name": "Puppeteer爬取器Sprint开发计划执行",
+      "topic": "scraping-data",
+      "msgs": 52,
+      "date": "2026-03-07"
+    },
+    {
+      "name": "Phase 1开发执行计划",
+      "topic": "scraping-data",
+      "msgs": 48,
+      "date": "2026-03-09"
+    },
+    {
+      "name": "Windows C盘优化方法",
+      "topic": "frontend-dev",
+      "msgs": 42,
+      "date": "2026-03-03"
+    },
+    {
+      "name": "项目代码审查与改进方案",
+      "topic": "frontend-dev",
+      "msgs": 38,
+      "date": "2026-02-27"
+    },
+    {
+      "name": "二级域名生成",
+      "topic": "frontend-dev",
+      "msgs": 34,
+      "date": "2026-03-05"
+    },
+    {
+      "name": "Puppeteer 本地方案实施",
+      "topic": "scraping-data",
+      "msgs": 32,
+      "date": "2026-03-07"
+    },
+    {
+      "name": "StudyGarden",
+      "topic": "product-research",
+      "msgs": 31,
+      "date": "2026-03-01"
+    },
+    {
+      "name": "当前版本模块功能冲突分析",
+      "topic": "scraping-data",
+      "msgs": 30,
+      "date": "2026-03-05"
+    },
+    {
+      "name": "PDF和图片识别开发方案",
+      "topic": "regulatory-research",
+      "msgs": 27,
+      "date": "2026-03-10"
+    },
+    {
+      "name": "前端页面优化建议分析",
+      "topic": "export-control",
+      "msgs": 26,
+      "date": "2026-02-26"
+    },
+    {
+      "name": "删除图标功能代码而保持脚本运行",
+      "topic": "scraping-data",
+      "msgs": 26,
+      "date": "2026-03-10"
+    },
+    {
+      "name": "3.3 微信和B站数据抓取",
+      "topic": "frontend-dev",
+      "msgs": 25,
+      "date": "2026-03-02"
+    },
+    {
+      "name": "浏览器任务管理插件开发方案",
+      "topic": "browser-automation",
+      "msgs": 25,
+      "date": "2026-03-10"
+    },
+    {
+      "name": "javdb影片详情页面评论显示问题",
+      "topic": "scraping-data",
+      "msgs": 24,
+      "date": "2026-03-12"
+    },
+    {
+      "name": "2. 植物花园交互设计案例",
+      "topic": "frontend-dev",
+      "msgs": 21,
+      "date": "2026-03-02"
+    },
+    {
+      "name": "V1.5.0影片详情增强开发文档",
+      "topic": "scraping-data",
+      "msgs": 21,
+      "date": "2026-03-09"
+    },
+    {
+      "name": "EU EEA DPA在线资源汇总与检索",
+      "topic": "regulatory-research",
+      "msgs": 21,
+      "date": "2026-03-09"
+    },
+    {
+      "name": "JavaDB网站工具脚本整合",
+      "topic": "scraping-data",
+      "msgs": 20,
+      "date": "2026-03-10"
+    },
+    {
+      "name": "提示词功能强化分析",
+      "topic": "frontend-dev",
+      "msgs": 20,
+      "date": "2026-03-10"
+    },
+    {
+      "name": "已成功1",
+      "topic": "scraping-data",
+      "msgs": 18,
+      "date": "2026-03-04"
+    },
+    {
+      "name": "VSCode和Claude同时开发多个项目",
+      "topic": "toolchain",
+      "msgs": 18,
+      "date": "2026-03-06"
+    },
+    {
+      "name": "EU AI Act 序言翻译项目进度",
+      "topic": "regulatory-research",
+      "msgs": 18,
+      "date": "2026-03-09"
+    }
+  ]
+}
