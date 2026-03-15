@@ -89,6 +89,16 @@ export interface CronLogEntry {
   isOffPeak?: boolean;
 }
 
+export interface UsageLogEntry {
+  ts: string;
+  tsCN: string;
+  event: 'start' | 'end';
+  cwd: string;
+  model: string;
+  offPeak: boolean;
+  platform: string;
+}
+
 export interface HealthStatus {
   timestamp: string;
   claudeAuth: 'ok' | 'FAIL';

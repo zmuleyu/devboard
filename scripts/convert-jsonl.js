@@ -10,6 +10,7 @@ const files = [
   { input: 'sessions-log.jsonl', output: 'sessions-log.json' },
   { input: 'token-daily.jsonl', output: 'token-daily.json' },
   { input: 'cron-log.jsonl', output: 'cron-log.json' },
+  { input: 'usage-log.jsonl', output: 'usage-log.json' },
 ];
 
 for (const { input, output } of files) {

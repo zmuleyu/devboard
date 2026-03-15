@@ -10,6 +10,7 @@ import { CronDashboard } from './components/CronDashboard';
 import { AgentLogViewer } from './components/AgentLogViewer';
 import { AgentTimeline } from './components/AgentTimeline';
 import { OffPeakMetrics } from './components/OffPeakMetrics';
+import { UsageDashboard } from './components/UsageDashboard';
 import { usePortfolioData } from './hooks/usePortfolioData';
 
 export default function App() {
@@ -75,6 +76,11 @@ export default function App() {
 
         {/* Module 10: Off-Peak Metrics */}
         <OffPeakMetrics />
+
+        <hr className="pixel-divider my-8" />
+
+        {/* Module 11: Usage Tracker */}
+        <UsageDashboard />
 
         <hr className="pixel-divider my-8" />
 
