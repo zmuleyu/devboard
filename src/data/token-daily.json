@@ -1,14 +1,14 @@
 [
   {
     "date": "2026-03-15",
-    "totalTokens": 27800000,
+    "totalTokens": 36300000,
     "byModel": {
       "haiku": 0,
       "sonnet": 11900000,
-      "opus": 15900000
+      "opus": 24400000
     },
     "byProject": {
-      "devboard": 4500000,
+      "devboard": 13000000,
       "ai_projects": 3900000,
       "scrapling-mcp": 3400000,
       "Data_management": 4600000,
@@ -17,6 +17,6 @@
       "ziyou-browser": 100000,
       "pixel-herbarium": 4400000
     },
-    "sessionCount": 15
+    "sessionCount": 16
   }
 ]
