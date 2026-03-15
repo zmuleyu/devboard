@@ -4,6 +4,9 @@ import {
   Area,
   BarChart,
   Bar,
+  PieChart,
+  Pie,
+  Cell,
   XAxis,
   YAxis,
   CartesianGrid,
@@ -13,22 +16,12 @@ import {
   ResponsiveContainer,
 } from 'recharts';
 import { useTokenData } from '../hooks/useTokenData';
-
-function formatTokens(value: number): string {
-  if (value >= 1_000_000) return `${(value / 1_000_000).toFixed(1)}M`;
-  if (value >= 1_000) return `${(value / 1_000).toFixed(0)}K`;
-  return String(value);
-}
+import { MODEL_COLORS, projectColor } from '../theme';
+import { formatTokens } from '../utils/format';
 
 function formatDate(dateStr: string): string {
   return dateStr.slice(5); // "03-15"
 }
-
-const MODEL_COLORS = {
-  haiku: '#86efac',
-  sonnet: '#e8834a',
-  opus: '#c084fc',
-};
 
 // Weekly budget reference (daily equivalent)
 const WEEKLY_NORMAL = 15_000_000 / 7; // ~2.14M/day
@@ -55,6 +48,24 @@ export function TokenAnalytics() {
       })),
     [data]
   );
+
+  // Aggregate byProject across all days
+  const projectData = useMemo(() => {
+    const totals: Record<string, number> = {};
+    data.forEach((d) => {
+      Object.entries(d.byProject).forEach(([project, tokens]) => {
+        totals[project] = (totals[project] || 0) + tokens;
+      });
+    });
+    const total = Object.values(totals).reduce((s, v) => s + v, 0);
+    return Object.entries(totals)
+      .sort((a, b) => b[1] - a[1])
+      .map(([name, value]) => ({
+        name,
+        value,
+        pct: total > 0 ? Math.round((value / total) * 100) : 0,
+      }));
+  }, [data]);
 
   return (
     <div className="pixel-border bg-card-bg p-4">
@@ -119,40 +130,100 @@ export function TokenAnalytics() {
 
       <hr className="pixel-divider mb-4" />
 
-      {/* Model breakdown stacked bar */}
-      <div>
-        <p className="text-[9px] text-text-muted mb-2 font-pixel">BY MODEL</p>
-        <ResponsiveContainer width="100%" height={180}>
-          <BarChart data={chartData}>
-            <CartesianGrid strokeDasharray="3 3" stroke="#d5d0c8" />
-            <XAxis
-              dataKey="date"
-              tick={{ fontSize: 9, fontFamily: 'JetBrains Mono' }}
-              stroke="#706858"
-            />
-            <YAxis
-              tickFormatter={formatTokens}
-              tick={{ fontSize: 9, fontFamily: 'JetBrains Mono' }}
-              stroke="#706858"
-              width={45}
-            />
-            <Tooltip
-              formatter={(value, name) => [formatTokens(Number(value)), String(name)]}
-              contentStyle={{
-                fontFamily: 'JetBrains Mono',
-                fontSize: 11,
-                border: '2px solid #2a2a2a',
-                boxShadow: '2px 2px 0 #2a2a2a',
-              }}
-            />
-            <Legend
-              wrapperStyle={{ fontSize: 10, fontFamily: 'JetBrains Mono' }}
-            />
-            <Bar dataKey="haiku" stackId="model" fill={MODEL_COLORS.haiku} />
-            <Bar dataKey="sonnet" stackId="model" fill={MODEL_COLORS.sonnet} />
-            <Bar dataKey="opus" stackId="model" fill={MODEL_COLORS.opus} />
-          </BarChart>
-        </ResponsiveContainer>
+      {/* Model breakdown + Project distribution side by side */}
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+        {/* Model stacked bar */}
+        <div>
+          <p className="text-[9px] text-text-muted mb-2 font-pixel">BY MODEL</p>
+          <ResponsiveContainer width="100%" height={180}>
+            <BarChart data={chartData}>
+              <CartesianGrid strokeDasharray="3 3" stroke="#d5d0c8" />
+              <XAxis
+                dataKey="date"
+                tick={{ fontSize: 9, fontFamily: 'JetBrains Mono' }}
+                stroke="#706858"
+              />
+              <YAxis
+                tickFormatter={formatTokens}
+                tick={{ fontSize: 9, fontFamily: 'JetBrains Mono' }}
+                stroke="#706858"
+                width={45}
+              />
+              <Tooltip
+                formatter={(value, name) => [formatTokens(Number(value)), String(name)]}
+                contentStyle={{
+                  fontFamily: 'JetBrains Mono',
+                  fontSize: 11,
+                  border: '2px solid #2a2a2a',
+                  boxShadow: '2px 2px 0 #2a2a2a',
+                }}
+              />
+              <Legend wrapperStyle={{ fontSize: 10, fontFamily: 'JetBrains Mono' }} />
+              <Bar dataKey="haiku"  stackId="model" fill={MODEL_COLORS.haiku} />
+              <Bar dataKey="sonnet" stackId="model" fill={MODEL_COLORS.sonnet} />
+              <Bar dataKey="opus"   stackId="model" fill={MODEL_COLORS.opus} />
+            </BarChart>
+          </ResponsiveContainer>
+        </div>
+
+        {/* Project distribution donut */}
+        <div>
+          <p className="text-[9px] text-text-muted mb-2 font-pixel">BY PROJECT</p>
+          {projectData.length > 0 ? (
+            <div className="flex items-center gap-4">
+              <ResponsiveContainer width="50%" height={180}>
+                <PieChart>
+                  <Pie
+                    data={projectData}
+                    cx="50%"
+                    cy="50%"
+                    innerRadius={45}
+                    outerRadius={75}
+                    dataKey="value"
+                    strokeWidth={1}
+                    stroke="#2a2a2a"
+                  >
+                    {projectData.map((entry) => (
+                      <Cell key={entry.name} fill={projectColor(entry.name)} />
+                    ))}
+                  </Pie>
+                  <Tooltip
+                    formatter={(value, _name, props) => [
+                      `${formatTokens(Number(value))} (${props.payload.pct}%)`,
+                      props.payload.name,
+                    ]}
+                    contentStyle={{
+                      fontFamily: 'JetBrains Mono',
+                      fontSize: 10,
+                      border: '2px solid #2a2a2a',
+                      boxShadow: '2px 2px 0 #2a2a2a',
+                    }}
+                  />
+                </PieChart>
+              </ResponsiveContainer>
+              {/* Legend */}
+              <div className="flex flex-col gap-1.5 text-[10px] flex-1 min-w-0">
+                {projectData.map((entry) => (
+                  <div key={entry.name} className="flex items-center gap-1.5 min-w-0">
+                    <div
+                      className="shrink-0"
+                      style={{
+                        width: 8,
+                        height: 8,
+                        backgroundColor: projectColor(entry.name),
+                        border: '1px solid #2a2a2a',
+                      }}
+                    />
+                    <span className="truncate text-text-muted">{entry.name}</span>
+                    <span className="shrink-0 font-bold ml-auto">{entry.pct}%</span>
+                  </div>
+                ))}
+              </div>
+            </div>
+          ) : (
+            <p className="text-[10px] text-text-muted italic">No project data</p>
+          )}
+        </div>
       </div>
     </div>
   );

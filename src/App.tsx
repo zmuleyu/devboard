@@ -1,3 +1,4 @@
+import { useState } from 'react';
 import { PortfolioGrid } from './components/PortfolioGrid';
 import { TokenAnalytics } from './components/TokenAnalytics';
 import { SessionLog } from './components/SessionLog';
@@ -6,6 +7,7 @@ import { usePortfolioData } from './hooks/usePortfolioData';
 
 export default function App() {
   const { data } = usePortfolioData();
+  const [selectedProject, setSelectedProject] = useState<string | null>(null);
 
   return (
     <div className="dot-grid min-h-screen">
@@ -13,20 +15,26 @@ export default function App() {
         {/* Header */}
         <header className="mb-8">
           <div className="flex items-center gap-4 mb-2">
-            <h1 className="font-pixel text-[20px] text-text-main tracking-wide">
-              DEVBOARD
-            </h1>
+            <h1 className="font-pixel text-[20px] text-text-main tracking-wide">DEVBOARD</h1>
             <span className="blink" />
           </div>
           <p className="text-[12px] text-text-muted">
             snapshot: {data.date} · project management dashboard
+            {selectedProject && (
+              <span className="ml-3 text-amber font-bold">
+                · filtered: {selectedProject}
+                <button className="ml-2 underline text-text-muted font-normal" onClick={() => setSelectedProject(null)}>
+                  clear
+                </button>
+              </span>
+            )}
           </p>
         </header>
 
         <hr className="pixel-divider mb-8" />
 
         {/* Module 1: Portfolio Overview */}
-        <PortfolioGrid />
+        <PortfolioGrid selectedProject={selectedProject} onSelectProject={setSelectedProject} />
 
         <hr className="pixel-divider my-8" />
 
@@ -36,16 +44,17 @@ export default function App() {
         <hr className="pixel-divider my-8" />
 
         {/* Module 3: Session Log */}
-        <SessionLog />
+        <SessionLog selectedProject={selectedProject} onSelectProject={setSelectedProject} />
 
         <hr className="pixel-divider my-8" />
 
-        <Timeline />
+        {/* Module 4: Timeline */}
+        <Timeline selectedProject={selectedProject} />
 
         {/* Footer */}
         <footer className="text-center py-4 text-[10px] text-text-muted">
           <span className="font-pixel text-[7px]">
-            DEVBOARD v0.1.0 · built with Vite + React + Tailwind
+            DEVBOARD v0.2.0 · built with Vite + React + Tailwind
           </span>
         </footer>
       </div>

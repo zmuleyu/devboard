@@ -1,12 +1,9 @@
 import { useMemo } from 'react';
 import { useSessionData } from '../hooks/useSessionData';
 import { usePortfolioData } from '../hooks/usePortfolioData';
+import { MODEL_COLORS, projectColor } from '../theme';
 
-const MODEL_DOT: Record<string, string> = {
-  haiku: '#86efac',
-  sonnet: '#e8834a',
-  opus: '#c084fc',
-};
+const MODEL_DOT = MODEL_COLORS;
 
 function getWeekDates(sessions: { date: string }[]): string[] {
   if (sessions.length === 0) return [];
@@ -23,7 +20,11 @@ function getWeekDates(sessions: { date: string }[]): string[] {
   return result;
 }
 
-export function Timeline() {
+interface TimelineProps {
+  selectedProject?: string | null;
+}
+
+export function Timeline({ selectedProject }: TimelineProps) {
   const { data: sessions } = useSessionData();
   const { data: portfolio } = usePortfolioData();
 
@@ -71,11 +72,13 @@ export function Timeline() {
           </div>
 
           {/* Project rows */}
-          {projects.map((project) => (
-            <div key={project} className="flex items-center h-7">
+          {projects.map((project) => {
+            const dimmed = selectedProject !== null && selectedProject !== project;
+            return (
+            <div key={project} className="flex items-center h-7" style={{ opacity: dimmed ? 0.25 : 1, transition: 'opacity 0.15s' }}>
               <div
-                className="text-[10px] text-text-main truncate shrink-0"
-                style={{ width: 120 }}
+                className="text-[10px] truncate shrink-0 font-bold"
+                style={{ width: 120, color: projectColor(project) }}
                 title={project}
               >
                 {project}
@@ -126,7 +129,8 @@ export function Timeline() {
                 })}
               </div>
             </div>
-          ))}
+            );
+          })}
         </div>
       </div>
 

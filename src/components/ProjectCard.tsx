@@ -30,7 +30,13 @@ function daysAgo(dateStr: string): string {
   return `${diff}d ago`;
 }
 
-export function ProjectCard({ project }: { project: ProjectStatus }) {
+interface ProjectCardProps {
+  project: ProjectStatus;
+  isSelected?: boolean;
+  onSelect?: () => void;
+}
+
+export function ProjectCard({ project, isSelected, onSelect }: ProjectCardProps) {
   const [expanded, setExpanded] = useState(false);
   const eco = ecosystemStyles[project.ecosystem];
   const healthColor = healthColors[project.health];
@@ -38,7 +44,8 @@ export function ProjectCard({ project }: { project: ProjectStatus }) {
   return (
     <div
       className="pixel-border pixel-hover bg-card-bg p-0 flex flex-col"
-      onClick={() => setExpanded(!expanded)}
+      style={isSelected ? { outline: '2px solid #e8834a', outlineOffset: '2px' } : undefined}
+      onClick={() => { setExpanded(!expanded); onSelect?.(); }}
     >
       {/* Header */}
       <div className="flex items-center justify-between px-3 pt-3 pb-2">
