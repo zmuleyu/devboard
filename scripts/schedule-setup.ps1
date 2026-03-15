@@ -1,4 +1,7 @@
-# DevBoard - Windows Task Scheduler Setup
+# DEPRECATED — Superseded by D:\tools\claude-cron\register-tasks.ps1
+# That script registers DevBoard-DailySync (and all other cron tasks) in one place.
+#
+# DevBoard - Windows Task Scheduler Setup (legacy)
 # Run once as Administrator to register the daily sync task.
 #
 # Usage:
