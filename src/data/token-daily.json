@@ -1,30 +1,22 @@
 [
   {
     "date": "2026-03-15",
-    "totalTokens": 7800000,
+    "totalTokens": 27800000,
     "byModel": {
       "haiku": 0,
-      "sonnet": 1300000,
-      "opus": 6500000
+      "sonnet": 11900000,
+      "opus": 15900000
     },
     "byProject": {
       "devboard": 4500000,
-      "ai_projects": 800000,
-      "scrapling-mcp": 2500000
+      "ai_projects": 3900000,
+      "scrapling-mcp": 3400000,
+      "Data_management": 4600000,
+      "ziyou-chrome-refactor": 5500000,
+      "ziyou-server": 1400000,
+      "ziyou-browser": 100000,
+      "pixel-herbarium": 4400000
     },
-    "sessionCount": 3
-  },
-  {
-    "date": "2026-03-15",
-    "totalTokens": 800000,
-    "byModel": {
-      "haiku": 0,
-      "sonnet": 0,
-      "opus": 800000
-    },
-    "byProject": {
-      "Data_management": 800000
-    },
-    "sessionCount": 1
+    "sessionCount": 15
   }
 ]
