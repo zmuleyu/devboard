@@ -6,6 +6,7 @@ const RESULT_ICON: Record<CronResult, { icon: string; cls: string }> = {
   fail: { icon: '✗', cls: 'text-[#ef4444]' },
   warn: { icon: '⚠', cls: 'text-amber' },
   info: { icon: 'ℹ', cls: 'text-[#60a5fa]' },
+  crash: { icon: '💥', cls: 'text-[#ef4444]' },
 };
 
 const RESULT_FILTERS: Array<{ key: CronResult | null; label: string }> = [

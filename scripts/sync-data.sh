@@ -37,6 +37,12 @@ else
   echo "  skip: health-status.json (not found)"
 fi
 
+# Rotate old logs before converting
+ROTATE_SCRIPT="D:/tools/claude-cron/rotate-logs.sh"
+if [ -f "$ROTATE_SCRIPT" ]; then
+  bash "$ROTATE_SCRIPT"
+fi
+
 # Convert JSONL files to JSON arrays
 node scripts/convert-jsonl.js
 

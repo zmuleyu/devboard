@@ -71,8 +71,9 @@ export interface TokenDailyEntry {
   sessionCount: number;
 }
 
-export type CronTaskType = 'dev' | 'monitor' | 'grind' | 'manual';
-export type CronResult = 'pass' | 'fail' | 'warn' | 'info';
+export type CronTaskType = 'dev' | 'monitor' | 'grind' | 'patrol' | 'batch-fix' | 'data-sync' | 'pr-review' | 'manual' | 'verify';
+export type CronResult = 'pass' | 'fail' | 'warn' | 'info' | 'crash';
+export type CronSource = 'session' | 'cron' | 'loop' | 'persistent';
 
 export interface CronLogEntry {
   date: string;
@@ -84,7 +85,8 @@ export interface CronLogEntry {
   detail: string;
   durationSec: number;
   budgetCap?: number;
-  source?: 'persistent' | 'session';
+  source?: CronSource;
+  isOffPeak?: boolean;
 }
 
 export interface HealthStatus {
