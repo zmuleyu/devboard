@@ -1,0 +1,119 @@
+@import "tailwindcss";
+
+/* ── Design Tokens ── */
+@theme {
+  --color-board-bg: #edece8;
+  --color-grid-dot: #d5d0c8;
+  --color-pixel-black: #2a2a2a;
+  --color-amber: #e8834a;
+  --color-card-bg: #faf9f6;
+  --color-chrome: #3a3a42;
+  --color-text-main: #2a2a2a;
+  --color-text-muted: #706858;
+  --color-mid-gray: #b5a898;
+  --color-health-a: #4ade80;
+  --color-health-a-minus: #86efac;
+  --color-health-b-minus: #fbbf24;
+  --color-health-c: #ef4444;
+  --font-family-pixel: 'Press Start 2P', monospace;
+  --font-family-mono: 'JetBrains Mono', 'Courier New', monospace;
+}
+
+/* ── Fonts ── */
+@font-face {
+  font-family: 'Press Start 2P';
+  src: url('/fonts/PressStart2P.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'JetBrains Mono';
+  src: url('/fonts/JetBrainsMono-Regular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'JetBrains Mono';
+  src: url('/fonts/JetBrainsMono-Bold.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* ── Base ── */
+body {
+  font-family: var(--font-family-mono);
+  background: var(--color-board-bg);
+  color: var(--color-text-main);
+  margin: 0;
+  min-height: 100vh;
+}
+
+/* ── Pixel Utilities ── */
+.pixel-border {
+  border: 3px solid var(--color-pixel-black);
+  box-shadow: 4px 4px 0 var(--color-pixel-black);
+}
+
+.pixel-border-sm {
+  border: 2px solid var(--color-pixel-black);
+  box-shadow: 2px 2px 0 var(--color-pixel-black);
+}
+
+.pixel-hover {
+  transition: all 0.15s;
+  cursor: pointer;
+}
+
+.pixel-hover:hover {
+  transform: translate(-2px, -2px);
+  box-shadow: 6px 6px 0 var(--color-pixel-black);
+}
+
+.pixel-divider {
+  border: none;
+  height: 4px;
+  background: repeating-linear-gradient(
+    90deg,
+    var(--color-pixel-black) 0,
+    var(--color-pixel-black) 4px,
+    transparent 4px,
+    transparent 8px
+  );
+  margin: 0;
+  opacity: 0.15;
+}
+
+/* ── Dot Grid Background ── */
+.dot-grid {
+  position: relative;
+}
+
+.dot-grid::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  z-index: 0;
+  background: radial-gradient(circle, var(--color-grid-dot) 1.5px, transparent 1.5px);
+  background-size: 12px 12px;
+  opacity: 0.6;
+}
+
+/* ── Blink Cursor ── */
+@keyframes blink-cursor {
+  0%, 50% { opacity: 1; }
+  51%, 100% { opacity: 0; }
+}
+
+.blink {
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  background: var(--color-amber);
+  animation: blink-cursor 1s step-end infinite;
+}
