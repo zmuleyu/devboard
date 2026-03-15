@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import { LineChart, Line } from 'recharts';
 import type { ProjectStatus, HealthGrade, Ecosystem } from '../types';
 
 const healthColors: Record<HealthGrade, string> = {
@@ -34,9 +35,10 @@ interface ProjectCardProps {
   project: ProjectStatus;
   isSelected?: boolean;
   onSelect?: () => void;
+  healthHistory?: number[];
 }
 
-export function ProjectCard({ project, isSelected, onSelect }: ProjectCardProps) {
+export function ProjectCard({ project, isSelected, onSelect, healthHistory }: ProjectCardProps) {
   const [expanded, setExpanded] = useState(false);
   const eco = ecosystemStyles[project.ecosystem];
   const healthColor = healthColors[project.health];
@@ -80,7 +82,7 @@ export function ProjectCard({ project, isSelected, onSelect }: ProjectCardProps)
       <div className="px-3 py-2 flex items-center gap-3 text-[11px] text-text-muted">
         <span title="tests">
           <span className="font-bold text-text-main">{project.testCount}</span>{' '}
-          tests
+          个测试
         </span>
         <span className="text-grid-dot">|</span>
         <span title="branch" className="truncate">
@@ -90,7 +92,7 @@ export function ProjectCard({ project, isSelected, onSelect }: ProjectCardProps)
           <>
             <span className="text-grid-dot">|</span>
             <span className="text-amber font-bold">
-              {project.uncommittedChanges} uncommitted
+              {project.uncommittedChanges} 个未提交
             </span>
           </>
         )}
@@ -101,7 +103,7 @@ export function ProjectCard({ project, isSelected, onSelect }: ProjectCardProps)
       {/* Last Commit */}
       <div className="px-3 py-2 text-[11px]">
         <div className="flex items-center justify-between mb-1">
-          <span className="text-text-muted">last commit</span>
+          <span className="text-text-muted">最近提交</span>
           <span className="text-text-muted">{daysAgo(project.lastCommitDate)}</span>
         </div>
         <p className="text-[10px] text-text-main truncate leading-relaxed">
@@ -123,23 +125,36 @@ export function ProjectCard({ project, isSelected, onSelect }: ProjectCardProps)
           <hr className="pixel-divider" />
           <div className="px-3 py-2 text-[10px] bg-board-bg space-y-1.5">
             <div className="flex items-center justify-between">
-              <span className="text-text-muted">role</span>
+              <span className="text-text-muted">类型</span>
               <span className="font-pixel text-[7px]">
                 {roleLabels[project.role] || project.role}
               </span>
             </div>
             <div className="flex items-center justify-between">
-              <span className="text-text-muted">tech debt</span>
+              <span className="text-text-muted">技术债</span>
               <span className={project.techDebtMarkers > 0 ? 'text-amber font-bold' : ''}>
-                {project.techDebtMarkers} marker{project.techDebtMarkers !== 1 ? 's' : ''}
+                {project.techDebtMarkers} 处
               </span>
             </div>
             <div className="flex items-center justify-between">
-              <span className="text-text-muted">path</span>
+              <span className="text-text-muted">路径</span>
               <span className="truncate ml-2 text-text-muted" title={project.path}>
                 {project.path.replace(/\\/g, '/').split('/').slice(-2).join('/')}
               </span>
             </div>
+            {healthHistory && healthHistory.length >= 2 && (() => {
+              const last = healthHistory[healthHistory.length - 1];
+              const sparkColor = last >= 3.5 ? '#86efac' : last >= 2.5 ? '#fbbf24' : '#f87171';
+              const sparkData = healthHistory.map((v, i) => ({ i, v }));
+              return (
+                <div className="flex items-center justify-between mt-1">
+                  <span className="text-text-muted">趋势（{healthHistory.length}周）</span>
+                  <LineChart width={48} height={20} data={sparkData} margin={{ top: 2, right: 0, bottom: 2, left: 0 }}>
+                    <Line type="monotone" dataKey="v" stroke={sparkColor} dot={false} strokeWidth={1.5} isAnimationActive={false} />
+                  </LineChart>
+                </div>
+              );
+            })()}
           </div>
         </>
       )}

@@ -16,6 +16,7 @@ import {
   ResponsiveContainer,
 } from 'recharts';
 import { useTokenData } from '../hooks/useTokenData';
+import { useConfig } from '../hooks/useConfig';
 import { MODEL_COLORS, projectColor } from '../theme';
 import { formatTokens } from '../utils/format';
 
@@ -29,13 +30,17 @@ const WEEKLY_RED = 30_000_000 / 7; // ~4.29M/day
 
 export function TokenAnalytics() {
   const { data } = useTokenData();
+  const config = useConfig();
 
   const weeklyStats = useMemo(() => {
     const currentWeekTokens = data.slice(-7).reduce((s, d) => s + d.totalTokens, 0);
     const prevWeekTokens = data.slice(-14, -7).reduce((s, d) => s + d.totalTokens, 0);
     const trend = currentWeekTokens > prevWeekTokens ? '↑' : currentWeekTokens < prevWeekTokens ? '↓' : '→';
-    return { currentWeekTokens, prevWeekTokens, trend };
-  }, [data]);
+    const budget = config.weeklyTokenBudget;
+    const ratio = budget > 0 ? currentWeekTokens / budget : 0;
+    const budgetColor = ratio >= 1 ? '#f87171' : ratio >= config.warningThreshold ? '#fbbf24' : '#86efac';
+    return { currentWeekTokens, prevWeekTokens, trend, budget, ratio, budgetColor };
+  }, [data, config]);
 
   const chartData = useMemo(
     () =>
@@ -69,18 +74,44 @@ export function TokenAnalytics() {
 
   return (
     <div className="pixel-border bg-card-bg p-4">
-      <div className="flex items-center justify-between mb-4">
-        <h2 className="font-pixel text-[10px]">TOKEN ANALYTICS</h2>
+      <div className="flex items-center justify-between mb-1">
+        <h2 className="font-pixel text-[10px]">Token 分析</h2>
         <div className="flex items-center gap-3 text-[11px]">
-          <span className="text-text-muted">this week:</span>
+          <span className="text-text-muted">本周：</span>
           <span className="font-bold">{formatTokens(weeklyStats.currentWeekTokens)}</span>
           <span>{weeklyStats.trend}</span>
+        </div>
+      </div>
+      <p className="text-[10px] text-text-muted mb-3">统计 Claude Code 各项目 token 消耗，帮助识别高消耗工作</p>
+
+      {/* Weekly budget progress */}
+      <div className="mb-4 px-1">
+        <div className="flex justify-between text-[9px] text-text-muted mb-1">
+          <span>周预算进度</span>
+          <span>{formatTokens(weeklyStats.currentWeekTokens)} / {formatTokens(weeklyStats.budget)}</span>
+        </div>
+        <div className="h-2 bg-board-bg pixel-border-sm overflow-hidden">
+          <div
+            style={{
+              width: `${Math.min(weeklyStats.ratio * 100, 100)}%`,
+              backgroundColor: weeklyStats.budgetColor,
+              height: '100%',
+              transition: 'width 0.3s',
+            }}
+          />
+        </div>
+        <div className="text-[9px] mt-1" style={{ color: weeklyStats.budgetColor }}>
+          {weeklyStats.ratio >= 1
+            ? '⚠ 已超出预算'
+            : weeklyStats.ratio >= config.warningThreshold
+            ? `⚠ 接近上限（${Math.round(weeklyStats.ratio * 100)}%）`
+            : `剩余 ${formatTokens(weeklyStats.budget - weeklyStats.currentWeekTokens)}`}
         </div>
       </div>
 
       {/* Daily trend area chart */}
       <div className="mb-6">
-        <p className="text-[9px] text-text-muted mb-2 font-pixel">DAILY CONSUMPTION</p>
+        <p className="text-[9px] text-text-muted mb-2 font-pixel">每日消耗趋势</p>
         <ResponsiveContainer width="100%" height={200}>
           <AreaChart data={chartData}>
             <CartesianGrid strokeDasharray="3 3" stroke="#d5d0c8" />
@@ -134,7 +165,7 @@ export function TokenAnalytics() {
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
         {/* Model stacked bar */}
         <div>
-          <p className="text-[9px] text-text-muted mb-2 font-pixel">BY MODEL</p>
+          <p className="text-[9px] text-text-muted mb-2 font-pixel">按模型</p>
           <ResponsiveContainer width="100%" height={180}>
             <BarChart data={chartData}>
               <CartesianGrid strokeDasharray="3 3" stroke="#d5d0c8" />
@@ -168,7 +199,7 @@ export function TokenAnalytics() {
 
         {/* Project distribution donut */}
         <div>
-          <p className="text-[9px] text-text-muted mb-2 font-pixel">BY PROJECT</p>
+          <p className="text-[9px] text-text-muted mb-2 font-pixel">按项目</p>
           {projectData.length > 0 ? (
             <div className="flex items-center gap-4">
               <ResponsiveContainer width="50%" height={180}>

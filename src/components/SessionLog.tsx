@@ -51,14 +51,15 @@ export function SessionLog({ selectedProject, onSelectProject }: SessionLogProps
 
   return (
     <div className="pixel-border bg-card-bg p-4">
-      <h2 className="font-pixel text-[10px] mb-4">SESSION LOG</h2>
+      <h2 className="font-pixel text-[10px] mb-1">会话日志</h2>
+      <p className="text-[10px] text-text-muted mb-4">记录每次开发会话的时长、模型和工作摘要</p>
 
       {/* Stats bar */}
       <div className="flex flex-wrap gap-4 mb-4 text-[11px]">
-        <div><span className="text-text-muted">sessions: </span><span className="font-bold">{stats.sessionCount}</span></div>
-        <div><span className="text-text-muted">tokens: </span><span className="font-bold">{formatTokens(stats.totalTokens)}</span></div>
-        <div><span className="text-text-muted">commits: </span><span className="font-bold">{stats.totalCommits}</span></div>
-        <div><span className="text-text-muted">top: </span><span className="font-bold text-amber">{stats.topProject}</span></div>
+        <div><span className="text-text-muted">会话：</span><span className="font-bold">{stats.sessionCount} 次</span></div>
+        <div><span className="text-text-muted">Token：</span><span className="font-bold">{formatTokens(stats.totalTokens)}</span></div>
+        <div><span className="text-text-muted">提交：</span><span className="font-bold">{stats.totalCommits} 次</span></div>
+        <div><span className="text-text-muted">主力项目：</span><span className="font-bold text-amber">{stats.topProject}</span></div>
       </div>
 
       <hr className="pixel-divider mb-3" />
@@ -114,7 +115,7 @@ export function SessionLog({ selectedProject, onSelectProject }: SessionLogProps
             onClick={() => { setFilterModel(null); onSelectProject?.(null); }}
             className="text-[9px] text-text-muted underline"
           >
-            clear
+            清除
           </button>
         )}
       </div>
@@ -122,7 +123,7 @@ export function SessionLog({ selectedProject, onSelectProject }: SessionLogProps
       {/* Session list */}
       <div className="space-y-2 max-h-[400px] overflow-y-auto pr-1">
         {filtered.length === 0 ? (
-          <p className="text-[11px] text-text-muted italic py-4 text-center">No sessions match filter</p>
+          <p className="text-[11px] text-text-muted italic py-4 text-center">无匹配会话</p>
         ) : (
           filtered.map((session, i) => {
             const expanded = expandedIndex === i;
@@ -172,7 +173,7 @@ export function SessionLog({ selectedProject, onSelectProject }: SessionLogProps
                     ))}
                   </div>
                   <span className="text-text-muted text-[10px]">
-                    {session.commitsCreated} commit{session.commitsCreated !== 1 ? 's' : ''}
+                    {session.commitsCreated} 次提交
                   </span>
                 </div>
               </div>

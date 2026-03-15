@@ -54,7 +54,8 @@ export function Timeline({ selectedProject }: TimelineProps) {
 
   return (
     <div className="pixel-border bg-card-bg p-4">
-      <h2 className="font-pixel text-[10px] mb-4">TIMELINE</h2>
+      <h2 className="font-pixel text-[10px] mb-1">时间线</h2>
+      <p className="text-[10px] text-text-muted mb-4">各项目每日活跃度热图，色块颜色代表使用模型</p>
 
       <div className="overflow-x-auto">
         <div style={{ minWidth: Math.max(600, dates.length * 28 + 120) }}>
@@ -150,7 +151,7 @@ export function Timeline({ selectedProject }: TimelineProps) {
             {model}
           </div>
         ))}
-        <span className="ml-2">size = session count</span>
+        <span className="ml-2">色块大小 = 会话次数</span>
       </div>
     </div>
   );

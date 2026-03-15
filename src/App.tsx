@@ -3,6 +3,7 @@ import { PortfolioGrid } from './components/PortfolioGrid';
 import { TokenAnalytics } from './components/TokenAnalytics';
 import { SessionLog } from './components/SessionLog';
 import { Timeline } from './components/Timeline';
+import { ProjectTasks } from './components/ProjectTasks';
 import { usePortfolioData } from './hooks/usePortfolioData';
 
 export default function App() {
@@ -19,12 +20,12 @@ export default function App() {
             <span className="blink" />
           </div>
           <p className="text-[12px] text-text-muted">
-            snapshot: {data.date} · project management dashboard
+            快照：{data.date} · 项目管理看板
             {selectedProject && (
               <span className="ml-3 text-amber font-bold">
-                · filtered: {selectedProject}
+                · 筛选：{selectedProject}
                 <button className="ml-2 underline text-text-muted font-normal" onClick={() => setSelectedProject(null)}>
-                  clear
+                  清除
                 </button>
               </span>
             )}
@@ -50,6 +51,11 @@ export default function App() {
 
         {/* Module 4: Timeline */}
         <Timeline selectedProject={selectedProject} />
+
+        <hr className="pixel-divider my-8" />
+
+        {/* Module 5: Project Tasks */}
+        <ProjectTasks selectedProject={selectedProject} />
 
         {/* Footer */}
         <footer className="text-center py-4 text-[10px] text-text-muted">
