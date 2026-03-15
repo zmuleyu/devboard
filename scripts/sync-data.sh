@@ -28,6 +28,15 @@ else
   echo "  skip: agent-logs (source dir not found)"
 fi
 
+# Copy health-status from claude-cron
+HEALTH_SRC="D:/tools/claude-cron/logs/health-status.json"
+if [ -f "$HEALTH_SRC" ]; then
+  cp "$HEALTH_SRC" src/data/
+  echo "  done: health-status.json"
+else
+  echo "  skip: health-status.json (not found)"
+fi
+
 # Convert JSONL files to JSON arrays
 node scripts/convert-jsonl.js
 

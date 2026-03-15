@@ -1,5 +1,6 @@
 import { useMemo, useState } from 'react';
 import { useCronData } from '../hooks/useCronData';
+import { useHealthStatus } from '../hooks/useHealthStatus';
 import { projectColor } from '../theme';
 import { formatDuration } from '../utils/format';
 import type { CronTaskType, CronResult } from '../types';
@@ -51,6 +52,7 @@ interface CronDashboardProps {
 
 export function CronDashboard({ selectedProject }: CronDashboardProps) {
   const { data } = useCronData();
+  const health = useHealthStatus();
   const [filterType, setFilterType] = useState<CronTaskType | null>(null);
   const [filterResult, setFilterResult] = useState<CronResult | null>(null);
 
@@ -72,7 +74,8 @@ export function CronDashboard({ selectedProject }: CronDashboardProps) {
     const totalDuration = todayEntries.reduce((s, d) => s + d.durationSec, 0);
     const avgDuration = todayEntries.length > 0 ? Math.round(totalDuration / todayEntries.length) : 0;
     const passRate = todayEntries.length > 0 ? Math.round((passCount / todayEntries.length) * 100) : 0;
-    return { runs: todayEntries.length, passRate, avgDuration, failCount };
+    const budgetCapTotal = todayEntries.reduce((s, d) => s + (d.budgetCap ?? 0), 0);
+    return { runs: todayEntries.length, passRate, avgDuration, failCount, budgetCapTotal };
   }, [filtered, today]);
 
   const groupedByDate = useMemo(() => {
@@ -121,12 +124,32 @@ export function CronDashboard({ selectedProject }: CronDashboardProps) {
       <h2 className="font-pixel text-[10px] mb-1">定时任务</h2>
       <p className="text-[10px] text-text-muted mb-4">计划任务执行历史与 Autopilot 模式概览</p>
 
+      {/* Health status bar */}
+      <div className={`flex items-center gap-2 mb-3 px-2 py-1 text-[10px] border ${
+        health.issues.length === 0 ? 'border-health-a-minus/40 bg-health-a-minus/10' : 'border-[#ef4444]/40 bg-[#ef4444]/10'
+      }`}>
+        <span className={health.issues.length === 0 ? 'text-health-a-minus' : 'text-[#ef4444]'}>
+          {health.issues.length === 0 ? '●' : '▲'}
+        </span>
+        <span>{health.issues.length === 0 ? 'System OK' : `${health.issues.length} issue${health.issues.length > 1 ? 's' : ''}`}</span>
+        <span className="text-text-muted">·</span>
+        <span className="text-text-muted">Auth: {health.claudeAuth}</span>
+        <span className="text-text-muted">·</span>
+        <span className="text-text-muted">Last exec: {health.lastExecAge} ago</span>
+        {health.issues.length > 0 && (
+          <span className="text-[#ef4444] ml-auto">{health.issues.join(' · ')}</span>
+        )}
+      </div>
+
       {/* Stats bar */}
       <div className="flex flex-wrap gap-4 mb-4 text-[11px]">
         <div><span className="text-text-muted">今日：</span><span className="font-bold">{stats.runs} 次</span></div>
         <div><span className="text-text-muted">通过率：</span><span className="font-bold">{stats.passRate}%</span></div>
         <div><span className="text-text-muted">平均耗时：</span><span className="font-bold">{formatDuration(stats.avgDuration)}</span></div>
         <div><span className="text-text-muted">失败：</span><span className="font-bold text-[#ef4444]">{stats.failCount}</span></div>
+        {stats.budgetCapTotal > 0 && (
+          <div><span className="text-text-muted">预算上限：</span><span className="font-bold">${stats.budgetCapTotal.toFixed(2)}</span></div>
+        )}
       </div>
 
       {/* Filter chips */}

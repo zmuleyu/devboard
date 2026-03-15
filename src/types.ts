@@ -83,4 +83,14 @@ export interface CronLogEntry {
   result: CronResult;
   detail: string;
   durationSec: number;
+  budgetCap?: number;
+  source?: 'persistent' | 'session';
+}
+
+export interface HealthStatus {
+  timestamp: string;
+  claudeAuth: 'ok' | 'FAIL';
+  lastExecAge: string;
+  logStatus: string;
+  issues: string[];
 }
