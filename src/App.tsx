@@ -7,6 +7,7 @@ import { Timeline } from './components/Timeline';
 import { ProjectTasks } from './components/ProjectTasks';
 import { RoadmapGantt } from './components/RoadmapGantt';
 import { CronDashboard } from './components/CronDashboard';
+import { AgentLogViewer } from './components/AgentLogViewer';
 import { usePortfolioData } from './hooks/usePortfolioData';
 
 export default function App() {
@@ -57,6 +58,11 @@ export default function App() {
 
         {/* Module 7: Cron Dashboard */}
         <CronDashboard selectedProject={selectedProject} />
+
+        <hr className="pixel-divider my-8" />
+
+        {/* Module 8: Agent Log Viewer */}
+        <AgentLogViewer />
 
         <hr className="pixel-divider my-8" />
 
