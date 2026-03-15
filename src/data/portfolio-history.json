@@ -1,0 +1,54 @@
+[
+  {
+    "date": "2026-02-22",
+    "projects": [
+      { "name": "ai_projects", "health": "B-", "testCount": 0, "commitCount": 8 },
+      { "name": "cyber-landing", "health": "B-", "testCount": 0, "commitCount": 3 },
+      { "name": "ziyou-server", "health": "A", "testCount": 55, "commitCount": 2 },
+      { "name": "ziyou-browser", "health": "A", "testCount": 155, "commitCount": 1 },
+      { "name": "ziyou-chrome", "health": "A-", "testCount": 180, "commitCount": 5 },
+      { "name": "Data_management", "health": "B-", "testCount": 45, "commitCount": 6 },
+      { "name": "scrapling-mcp", "health": "B-", "testCount": 20, "commitCount": 12 },
+      { "name": "pixel-herbarium", "health": "B-", "testCount": 90, "commitCount": 15 }
+    ]
+  },
+  {
+    "date": "2026-03-01",
+    "projects": [
+      { "name": "ai_projects", "health": "B-", "testCount": 0, "commitCount": 12 },
+      { "name": "cyber-landing", "health": "A-", "testCount": 0, "commitCount": 7 },
+      { "name": "ziyou-server", "health": "A", "testCount": 58, "commitCount": 3 },
+      { "name": "ziyou-browser", "health": "A", "testCount": 158, "commitCount": 2 },
+      { "name": "ziyou-chrome", "health": "A", "testCount": 190, "commitCount": 8 },
+      { "name": "Data_management", "health": "A-", "testCount": 55, "commitCount": 9 },
+      { "name": "scrapling-mcp", "health": "A-", "testCount": 32, "commitCount": 8 },
+      { "name": "pixel-herbarium", "health": "A-", "testCount": 140, "commitCount": 20 }
+    ]
+  },
+  {
+    "date": "2026-03-08",
+    "projects": [
+      { "name": "ai_projects", "health": "B-", "testCount": 0, "commitCount": 6 },
+      { "name": "cyber-landing", "health": "A", "testCount": 0, "commitCount": 4 },
+      { "name": "ziyou-server", "health": "A", "testCount": 60, "commitCount": 2 },
+      { "name": "ziyou-browser", "health": "A", "testCount": 160, "commitCount": 1 },
+      { "name": "ziyou-chrome", "health": "A", "testCount": 195, "commitCount": 4 },
+      { "name": "Data_management", "health": "A-", "testCount": 60, "commitCount": 5 },
+      { "name": "scrapling-mcp", "health": "A-", "testCount": 38, "commitCount": 4 },
+      { "name": "pixel-herbarium", "health": "A-", "testCount": 170, "commitCount": 12 }
+    ]
+  },
+  {
+    "date": "2026-03-15",
+    "projects": [
+      { "name": "ai_projects", "health": "B-", "testCount": 0, "commitCount": 3 },
+      { "name": "cyber-landing", "health": "A", "testCount": 0, "commitCount": 1 },
+      { "name": "ziyou-server", "health": "A", "testCount": 60, "commitCount": 2 },
+      { "name": "ziyou-browser", "health": "A", "testCount": 161, "commitCount": 1 },
+      { "name": "ziyou-chrome", "health": "A", "testCount": 199, "commitCount": 3 },
+      { "name": "Data_management", "health": "A-", "testCount": 62, "commitCount": 4 },
+      { "name": "scrapling-mcp", "health": "A-", "testCount": 40, "commitCount": 2 },
+      { "name": "pixel-herbarium", "health": "A-", "testCount": 185, "commitCount": 8 }
+    ]
+  }
+]

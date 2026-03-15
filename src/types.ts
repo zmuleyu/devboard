@@ -23,3 +23,32 @@ export interface PortfolioSnapshot {
   date: string;
   projects: ProjectStatus[];
 }
+
+export interface PortfolioHistoryEntry {
+  date: string;
+  projects: Array<{
+    name: string;
+    health: string;
+    testCount: number;
+    commitCount: number;
+  }>;
+}
+
+export interface SessionLogEntry {
+  date: string;
+  startTime: string;
+  duration: string;
+  tokenUsed: number;
+  model: 'haiku' | 'sonnet' | 'opus';
+  projectsTouched: string[];
+  summary: string;
+  commitsCreated: number;
+}
+
+export interface TokenDailyEntry {
+  date: string;
+  totalTokens: number;
+  byModel: { haiku: number; sonnet: number; opus: number };
+  byProject: Record<string, number>;
+  sessionCount: number;
+}

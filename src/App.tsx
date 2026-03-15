@@ -1,4 +1,6 @@
 import { PortfolioGrid } from './components/PortfolioGrid';
+import { TokenAnalytics } from './components/TokenAnalytics';
+import { SessionLog } from './components/SessionLog';
 import { usePortfolioData } from './hooks/usePortfolioData';
 
 export default function App() {
@@ -25,21 +27,15 @@ export default function App() {
         {/* Module 1: Portfolio Overview */}
         <PortfolioGrid />
 
-        {/* Module 2-4 Placeholders */}
         <hr className="pixel-divider my-8" />
 
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-5">
-          <div className="pixel-border bg-card-bg p-6 min-h-[200px] flex items-center justify-center">
-            <span className="font-pixel text-[9px] text-mid-gray">
-              TOKEN ANALYTICS · PHASE 2
-            </span>
-          </div>
-          <div className="pixel-border bg-card-bg p-6 min-h-[200px] flex items-center justify-center">
-            <span className="font-pixel text-[9px] text-mid-gray">
-              SESSION LOG · PHASE 2
-            </span>
-          </div>
-        </div>
+        {/* Module 2: Token Analytics */}
+        <TokenAnalytics />
+
+        <hr className="pixel-divider my-8" />
+
+        {/* Module 3: Session Log */}
+        <SessionLog />
 
         <hr className="pixel-divider my-8" />
 
