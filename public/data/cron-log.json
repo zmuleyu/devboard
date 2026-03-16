@@ -106,5 +106,29 @@
     "durationSec": 0,
     "source": "cron",
     "isOffPeak": false
+  },
+  {
+    "date": "2026-03-16",
+    "time": "13:35",
+    "taskName": "portfolio-digest",
+    "taskType": "dev",
+    "project": "all",
+    "result": "pass",
+    "detail": "9 cron runs (2 pass, 1 fail, 6 warn); 61.4M tokens over 2 days; 6 projects all active (ai_projects 318 commits); changelog-gen budget exhaustion x3 flagged",
+    "durationSec": 45,
+    "source": "cron",
+    "isOffPeak": true
+  },
+  {
+    "date": "2026-03-16",
+    "time": "13:35",
+    "taskName": "portfolio-digest",
+    "taskType": "portfolio-digest",
+    "project": "unknown",
+    "result": "warn",
+    "detail": "budget exceeded or max turns reached (exit 0)",
+    "durationSec": 0,
+    "source": "cron",
+    "isOffPeak": false
   }
 ]
