@@ -6,14 +6,14 @@
       "ecosystem": "cybernium",
       "role": "app",
       "health": "A",
-      "healthTrend": "→",
+      "healthTrend": "↑",
       "testCount": 207,
       "techDebtMarkers": 0,
       "lastCommitDate": "2026-03-16",
-      "lastCommitMessage": "27e2220 chore: gitignore Claude.ai archive directory",
+      "lastCommitMessage": "8d5f3e1 refactor: extract oversized admin pages into focused components",
       "branch": "dev",
-      "uncommittedChanges": 0,
-      "topTodo": "KR 内容建设",
+      "uncommittedChanges": 6,
+      "topTodo": "DevBoard整合 P4 前端迁移",
       "path": "D:\\projects\\cybernium\\ai_projects"
     },
     {
