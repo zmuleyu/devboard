@@ -5,14 +5,19 @@
   },
   "defaultModel": "sonnet",
   "alerts": {
-    "toast": { "enabled": true },
+    "toast": {
+      "enabled": true
+    },
     "webhook": {
       "enabled": false,
       "url": "",
       "onlyOnFail": true,
       "headers": {}
     },
-    "devboard": { "enabled": true, "recentFailuresCount": 10 },
+    "devboard": {
+      "enabled": true,
+      "recentFailuresCount": 10
+    },
     "escalation": {
       "consecutiveFailThreshold": 3,
       "action": "webhook"
@@ -240,7 +245,8 @@
       "schedule": "02:30",
       "tools": "Bash,Read,Write,Edit",
       "maxTurns": 20,
-      "description": "One-shot: install @lobehub/icons across ecosystem projects"
+      "description": "One-shot: install @lobehub/icons across ecosystem projects",
+      "enabled": false
     },
     {
       "name": "trpc-scaffold",
@@ -248,7 +254,8 @@
       "schedule": "03:00",
       "tools": "Bash,Read,Write,Edit",
       "maxTurns": 12,
-      "description": "One-shot: set up tRPC scaffold in ai_projects"
+      "description": "One-shot: set up tRPC scaffold in ai_projects",
+      "enabled": false
     },
     {
       "name": "mcp-health",

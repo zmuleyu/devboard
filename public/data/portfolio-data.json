@@ -1,5 +1,5 @@
 {
-  "date": "2026-03-16",
+  "date": "2026-03-17",
   "projects": [
     {
       "name": "ai_projects",
@@ -67,13 +67,13 @@
       "role": "app",
       "health": "A",
       "healthTrend": "↑",
-      "testCount": 39,
+      "testCount": 40,
       "techDebtMarkers": 0,
-      "lastCommitDate": "2026-03-16",
-      "lastCommitMessage": "00d6cde feat: add site adaptation infra — URL patterns, fill tracker, recon script",
+      "lastCommitDate": "2026-03-17",
+      "lastCommitMessage": "92ca878 feat: Chinese CTA vocabulary expansion + autocomplete attribute support",
       "branch": "master",
-      "uncommittedChanges": 7,
-      "topTodo": "12306 URL fix + 登录→注册导航器 + rules.ts 婚姻/紧急联系人",
+      "uncommittedChanges": 0,
+      "topTodo": "Phase 2 E2E mock + Vision · Gov catalog URL · CAPTCHA · Shadow DOM",
       "path": "D:\\projects\\ziyou-assistant\\ziyou-chrome-refactor"
     },
     {
