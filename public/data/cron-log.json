@@ -154,5 +154,29 @@
     "durationSec": 0,
     "source": "cron",
     "isOffPeak": false
+  },
+  {
+    "date": "2026-03-16",
+    "time": "13:43",
+    "taskName": "content-freshness",
+    "taskType": "dev",
+    "project": "gaming-compliance",
+    "result": "pass",
+    "detail": "37 .md files total, 0 stale (all modified 2026-03-16)",
+    "durationSec": 12,
+    "source": "cron",
+    "isOffPeak": true
+  },
+  {
+    "date": "2026-03-16",
+    "time": "13:43",
+    "taskName": "content-freshness",
+    "taskType": "dev",
+    "project": "cybernium/ai_projects",
+    "result": "pass",
+    "detail": "8 data files (json+ts), 0 stale; oldest: eu-ai-act-articles.ts (13d), newest: seed-data.ts (5d)",
+    "durationSec": 12,
+    "source": "cron",
+    "isOffPeak": true
   }
 ]
