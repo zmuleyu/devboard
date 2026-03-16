@@ -202,6 +202,36 @@
       "maxTurns": 12,
       "budgetUsd": 0.50,
       "description": "One-shot: set up tRPC scaffold in ai_projects"
+    },
+    {
+      "name": "portfolio-digest",
+      "prompt": "prompts/portfolio-digest.txt",
+      "schedule": "06:00",
+      "scheduleDays": "0",
+      "tools": "Bash,Read,Write",
+      "maxTurns": 12,
+      "budgetUsd": 0.50,
+      "description": "Weekly development digest — cron stats, token usage, project activity (Sunday)"
+    },
+    {
+      "name": "mypy-check",
+      "prompt": "prompts/mypy-check.txt",
+      "schedule": "02:30",
+      "scheduleDays": "0",
+      "tools": "Bash,Read",
+      "maxTurns": 6,
+      "budgetUsd": 0.10,
+      "description": "Weekly Python type check with mypy (Sunday)"
+    },
+    {
+      "name": "content-freshness",
+      "prompt": "prompts/content-freshness.txt",
+      "schedule": "09:00",
+      "scheduleDays": "1",
+      "tools": "Bash,Read",
+      "maxTurns": 6,
+      "budgetUsd": 0.15,
+      "description": "Weekly content freshness scan — flag stale docs >30 days (Monday)"
     }
   ]
 }
