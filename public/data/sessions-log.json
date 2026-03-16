@@ -497,5 +497,17 @@
     ],
     "summary": "hanakotoba enrichment pipeline: parser fix + PH_SLUG_MAP + batch fetch 39 pages + enrichment 44/60 + competitor signal report + hana300 probe",
     "commitsCreated": 4
+  },
+  {
+    "date": "2026-03-16",
+    "startTime": "17:00",
+    "duration": "1h 30m",
+    "tokenUsed": 800000,
+    "model": "sonnet",
+    "projectsTouched": [
+      "claude-cron"
+    ],
+    "summary": "移除所有 budgetUsd 预算字段（4文件）+ /portfolio 全景分析",
+    "commitsCreated": 1
   }
 ]

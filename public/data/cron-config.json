@@ -76,7 +76,6 @@
       "schedule": "09:07",
       "tools": "Bash,Read",
       "maxTurns": 8,
-      "budgetUsd": 0.30,
       "description": "TypeScript check for ai_projects"
     },
     {
@@ -85,7 +84,6 @@
       "schedule": "02:00",
       "tools": "Bash,Read,Grep,Glob",
       "maxTurns": 15,
-      "budgetUsd": 0.50,
       "description": "Full project TSC + test + lint patrol"
     },
     {
@@ -94,7 +92,6 @@
       "schedule": "05:30",
       "tools": "Bash,Read,Write,Grep,Glob",
       "maxTurns": 8,
-      "budgetUsd": 0.20,
       "description": "DevBoard data sync + daily report"
     },
     {
@@ -104,7 +101,6 @@
       "scheduleDays": "1,3,5",
       "tools": "Bash,Read,Grep,Glob",
       "maxTurns": 10,
-      "budgetUsd": 0.40,
       "description": "Auto review open PRs (Mon/Wed/Fri)"
     },
     {
@@ -113,7 +109,6 @@
       "schedule": "04:00",
       "tools": "Bash,Read",
       "maxTurns": 5,
-      "budgetUsd": 0.15,
       "description": "Daily claude-guard backup of Claude Code assets"
     },
     {
@@ -123,7 +118,6 @@
       "scheduleDays": "1",
       "tools": "Bash,Read",
       "maxTurns": 5,
-      "budgetUsd": 0.15,
       "description": "Weekly account health audit (Monday)"
     },
     {
@@ -133,7 +127,6 @@
       "scheduleDays": "0",
       "tools": "Bash,Read",
       "maxTurns": 6,
-      "budgetUsd": 0.15,
       "description": "Weekly PH competitor review collection + signal classification (Sunday)"
     },
     {
@@ -142,7 +135,6 @@
       "schedule": "manual",
       "tools": "Bash,Read,Write,Edit,Grep,Glob",
       "maxTurns": 20,
-      "budgetUsd": 1.00,
       "description": "Manual batch code modifications"
     },
     {
@@ -152,7 +144,6 @@
       "scheduleDays": "0",
       "tools": "Bash,Read",
       "maxTurns": 8,
-      "budgetUsd": 0.15,
       "description": "Weekly npm/pnpm audit across JS/TS projects (Sunday)"
     },
     {
@@ -162,7 +153,6 @@
       "scheduleDays": "6",
       "tools": "Bash,Read,Grep",
       "maxTurns": 15,
-      "budgetUsd": 0.80,
       "description": "Weekly test coverage report (Saturday)"
     },
     {
@@ -172,7 +162,6 @@
       "scheduleDays": "0",
       "tools": "Bash,Read",
       "maxTurns": 6,
-      "budgetUsd": 0.10,
       "description": "Weekly merged branch cleanup (Sunday)"
     },
     {
@@ -182,7 +171,6 @@
       "scheduleDays": "1",
       "tools": "Bash,Read,Write",
       "maxTurns": 15,
-      "budgetUsd": 1.00,
       "description": "Weekly changelog summary (Monday)"
     },
     {
@@ -191,7 +179,6 @@
       "schedule": "02:30",
       "tools": "Bash,Read,Write,Edit",
       "maxTurns": 20,
-      "budgetUsd": 0.80,
       "description": "One-shot: install @lobehub/icons across ecosystem projects"
     },
     {
@@ -200,7 +187,6 @@
       "schedule": "03:00",
       "tools": "Bash,Read,Write,Edit",
       "maxTurns": 12,
-      "budgetUsd": 0.50,
       "description": "One-shot: set up tRPC scaffold in ai_projects"
     },
     {
@@ -209,7 +195,6 @@
       "schedule": "07:30",
       "tools": "Bash,Read,mcp__fetch__fetch,mcp__plugin_github_github__get_me,mcp__supabase__list_tables",
       "maxTurns": 8,
-      "budgetUsd": 0.20,
       "description": "Daily MCP server health check"
     },
     {
@@ -219,7 +204,6 @@
       "scheduleDays": "3",
       "tools": "Bash,Read",
       "maxTurns": 10,
-      "budgetUsd": 0.30,
       "description": "Weekly dependency update scan — flag outdated packages by severity (Wednesday)"
     },
     {
@@ -229,7 +213,6 @@
       "scheduleDays": "0",
       "tools": "Bash,Read,Write",
       "maxTurns": 12,
-      "budgetUsd": 0.50,
       "description": "Weekly development digest — cron stats, token usage, project activity (Sunday)"
     },
     {
@@ -239,7 +222,6 @@
       "scheduleDays": "0",
       "tools": "Bash,Read",
       "maxTurns": 6,
-      "budgetUsd": 0.10,
       "description": "Weekly Python type check with mypy (Sunday)"
     },
     {
@@ -249,7 +231,6 @@
       "scheduleDays": "1",
       "tools": "Bash,Read",
       "maxTurns": 8,
-      "budgetUsd": 0.30,
       "description": "Weekly content freshness scan — flag stale docs >30 days (Monday)"
     }
   ]
