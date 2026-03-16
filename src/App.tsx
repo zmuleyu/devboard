@@ -57,62 +57,62 @@ export default function App() {
 
         <hr className="pixel-divider my-8" />
 
-        {/* Module 14: Budget Forecast */}
+        {/* Module 3: Budget Forecast */}
         <BudgetForecast />
 
         <hr className="pixel-divider my-8" />
 
-        {/* Module 3: Session Log */}
+        {/* Module 4: Session Log */}
         <SessionLog selectedProject={selectedProject} onSelectProject={setSelectedProject} />
 
         <hr className="pixel-divider my-8" />
 
-        {/* Module 7: Cron Dashboard */}
+        {/* Module 5: Cron Dashboard */}
         <CronDashboard selectedProject={selectedProject} />
 
         <hr className="pixel-divider my-8" />
 
-        {/* Module 8: Agent Log Viewer */}
+        {/* Module 6: Agent Log Viewer */}
         <AgentLogViewer />
 
         <hr className="pixel-divider my-8" />
 
-        {/* Module 9: 24h Agent Timeline */}
+        {/* Module 7: 24h Agent Timeline */}
         <AgentTimeline selectedProject={selectedProject} />
 
         <hr className="pixel-divider my-8" />
 
-        {/* Module 10: Off-Peak Metrics */}
+        {/* Module 8: Off-Peak Metrics */}
         <OffPeakMetrics />
 
         <hr className="pixel-divider my-8" />
 
-        {/* Module 11: Usage Tracker */}
+        {/* Module 9: Usage Dashboard */}
         <UsageDashboard />
 
         <hr className="pixel-divider my-8" />
 
-        {/* Module 12: Knowledge Archive */}
+        {/* Module 10: Knowledge Archive */}
         <KnowledgeArchive />
 
         <hr className="pixel-divider my-8" />
 
-        {/* Module 13: Conversation Timeline */}
+        {/* Module 11: Conversation Timeline */}
         <ConversationTimeline />
 
         <hr className="pixel-divider my-8" />
 
-        {/* Module 4: Timeline */}
+        {/* Module 12: Timeline */}
         <Timeline selectedProject={selectedProject} />
 
         <hr className="pixel-divider my-8" />
 
-        {/* Module 5: Project Tasks */}
+        {/* Module 13: Project Tasks */}
         <ProjectTasks selectedProject={selectedProject} />
 
         <hr className="pixel-divider my-8" />
 
-        {/* Module 6: Roadmap Gantt */}
+        {/* Module 14: Roadmap Gantt */}
         <RoadmapGantt selectedProject={selectedProject} onSelectProject={setSelectedProject} />
 
         {/* Footer */}
