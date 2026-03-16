@@ -1,0 +1,9 @@
+{
+  "redirects": [
+    {
+      "source": "/(.*)",
+      "destination": "https://internal.cybernium.cn/admin/devboard",
+      "permanent": true
+    }
+  ]
+}

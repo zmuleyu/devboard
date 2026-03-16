@@ -1,3 +1,11 @@
+# DevBoard (Archived)
+
+> **This project has been migrated to [ai_projects /admin/devboard](https://internal.cybernium.cn/admin/devboard).**
+> `devboard.cybernium.cn` now 301 redirects to the integrated version.
+> This repo is kept as a historical reference only.
+
+---
+
 # React + TypeScript + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
