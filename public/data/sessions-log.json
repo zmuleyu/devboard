@@ -572,5 +572,31 @@
     ],
     "summary": "tRPC extension: updates+publicData routers + admin page migration POC + 11 router tests (16/222 tests)",
     "commitsCreated": 1
+  },
+  {
+    "date": "2026-03-16",
+    "startTime": "19:00",
+    "duration": "0h 45m",
+    "tokenUsed": 500000,
+    "model": "opus",
+    "projectsTouched": [
+      "ai_projects",
+      "devboard",
+      "claude-cron"
+    ],
+    "summary": "DevBoard P6 Cutover — proxy fix + Vercel env + full backfill + cron switch + DNS 301 redirect",
+    "commitsCreated": 6
+  },
+  {
+    "date": "2026-03-16",
+    "startTime": "19:30",
+    "duration": "1h 30m",
+    "tokenUsed": 2500000,
+    "model": "sonnet",
+    "projectsTouched": [
+      "scrapling-mcp"
+    ],
+    "summary": "PH Monitor 3页采集(450评论/731信号) + 16关键词调优 + --force UNIQUE修复，零命中率13.3%",
+    "commitsCreated": 5
   }
 ]

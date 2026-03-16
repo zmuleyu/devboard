@@ -10,10 +10,10 @@
       "testCount": 16,
       "techDebtMarkers": 2,
       "lastCommitDate": "2026-03-16",
-      "lastCommitMessage": "6d67790 feat: extend tRPC with updates and publicData routers",
+      "lastCommitMessage": "e8aeb87 DevBoard P6 Cutover complete — proxy fix + backfill + DNS redirect",
       "branch": "dev",
       "uncommittedChanges": 1,
-      "topTodo": "P6 数据回填切换（Vercel INTERNAL_API_KEY → live sync）",
+      "topTodo": "Phase 3 双轨优化",
       "path": "D:\\projects\\cybernium\\ai_projects"
     },
     {
@@ -100,9 +100,9 @@
       "testCount": 17,
       "techDebtMarkers": 0,
       "lastCommitDate": "2026-03-16",
-      "lastCommitMessage": "7592856 auto: agent checkpoint 18:58 (ph_config + information_gap + chiebukuro SPA doc)",
+      "lastCommitMessage": "150992c auto: agent checkpoint 19:48",
       "branch": "main",
-      "uncommittedChanges": 1,
+      "uncommittedChanges": 3,
       "topTodo": "注册 Yahoo Developer API Key；首次真实数据采集（--save --classify）",
       "path": "D:\\projects\\Others\\scrapling-mcp"
     },
