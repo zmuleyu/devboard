@@ -67,13 +67,13 @@
       "role": "app",
       "health": "A",
       "healthTrend": "↑",
-      "testCount": 38,
+      "testCount": 39,
       "techDebtMarkers": 0,
       "lastCommitDate": "2026-03-16",
       "lastCommitMessage": "00d6cde feat: add site adaptation infra — URL patterns, fill tracker, recon script",
       "branch": "master",
-      "uncommittedChanges": 4,
-      "topTodo": "SimilarWeb Top N 适配测试矩阵",
+      "uncommittedChanges": 7,
+      "topTodo": "12306 URL fix + 登录→注册导航器 + rules.ts 婚姻/紧急联系人",
       "path": "D:\\projects\\ziyou-assistant\\ziyou-chrome-refactor"
     },
     {

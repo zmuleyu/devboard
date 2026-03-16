@@ -4,6 +4,20 @@
     "end": "07:00"
   },
   "defaultModel": "sonnet",
+  "alerts": {
+    "toast": { "enabled": true },
+    "webhook": {
+      "enabled": false,
+      "url": "",
+      "onlyOnFail": true,
+      "headers": {}
+    },
+    "devboard": { "enabled": true, "recentFailuresCount": 10 },
+    "escalation": {
+      "consecutiveFailThreshold": 3,
+      "action": "webhook"
+    }
+  },
   "projects": [
     {
       "name": "ai_projects",
