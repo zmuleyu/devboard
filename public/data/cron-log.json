@@ -82,5 +82,17 @@
     "durationSec": 12,
     "source": "cron",
     "isOffPeak": true
+  },
+  {
+    "date": "2026-03-16",
+    "time": "17:32",
+    "taskName": "mcp-health",
+    "taskType": "mcp-health",
+    "project": "unknown",
+    "result": "warn",
+    "detail": "budget exceeded or max turns reached (exit 1)",
+    "durationSec": 0,
+    "source": "cron",
+    "isOffPeak": false
   }
 ]
