@@ -1,21 +1,21 @@
 import { useState, useEffect, useCallback } from 'react';
 
-interface AppConfig {
-  weeklyTokenBudget: number;
-  warningThreshold: number;
+export interface TaskConfig {
+  name: string;
+  schedule: string;
+  enabled: boolean;
+  goal: string;
+  execution: string;
+  budgetPerRun: string;
+  scheduleReason: string;
 }
 
-const DEFAULT_CONFIG: AppConfig = {
-  weeklyTokenBudget: 15_000_000,
-  warningThreshold: 0.8,
-};
-
-export function useConfig() {
-  const [data, setData] = useState<AppConfig>(DEFAULT_CONFIG);
+export function useTaskConfig() {
+  const [data, setData] = useState<TaskConfig[]>([]);
   const [loading, setLoading] = useState(true);
 
   const refresh = useCallback(() => {
-    fetch('/data/config.json')
+    fetch('/data/task-config.json')
       .then(r => r.json())
       .then(d => { setData(d); setLoading(false); })
       .catch(() => setLoading(false));

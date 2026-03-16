@@ -1,19 +1,18 @@
 import { useState, useCallback, lazy, Suspense } from 'react';
-import { AlertBanner } from './components/AlertBanner';
 import { TabBar } from './components/TabBar';
 import { LoadingPlaceholder } from './components/LoadingPlaceholder';
 import { usePortfolioData } from './hooks/usePortfolioData';
 
-const PortfolioTab = lazy(() => import('./components/tabs/PortfolioTab'));
-const DevOpsTab = lazy(() => import('./components/tabs/DevOpsTab'));
-const AnalyticsTab = lazy(() => import('./components/tabs/AnalyticsTab'));
-const KnowledgeTab = lazy(() => import('./components/tabs/KnowledgeTab'));
+const ProjectsTab = lazy(() => import('./components/tabs/ProjectsTab'));
+const TasksTab = lazy(() => import('./components/tabs/TasksTab'));
+const UsageTab = lazy(() => import('./components/tabs/UsageTab'));
+const RegistryTab = lazy(() => import('./components/tabs/RegistryTab'));
 
 export default function App() {
   const { data } = usePortfolioData();
   const [selectedProject, setSelectedProject] = useState<string | null>(null);
-  const [activeTab, setActiveTab] = useState('portfolio');
-  const [visitedTabs, setVisitedTabs] = useState<Set<string>>(() => new Set(['portfolio']));
+  const [activeTab, setActiveTab] = useState('projects');
+  const [visitedTabs, setVisitedTabs] = useState<Set<string>>(() => new Set(['projects']));
 
   const handleTabChange = useCallback((key: string) => {
     setActiveTab(key);
@@ -46,9 +45,6 @@ export default function App() {
           </p>
         </header>
 
-        {/* Alert Banner */}
-        <AlertBanner />
-
         <hr className="pixel-divider mb-8" />
 
         {/* Tab Navigation */}
@@ -56,31 +52,31 @@ export default function App() {
 
         {/* Tab Content */}
         <Suspense fallback={<LoadingPlaceholder />}>
-          {/* ── Portfolio Tab ── */}
-          {visitedTabs.has('portfolio') && (
-            <div style={{ display: activeTab === 'portfolio' ? 'block' : 'none' }}>
-              <PortfolioTab selectedProject={selectedProject} onSelectProject={setSelectedProject} />
+          {/* ── Projects Tab ── */}
+          {visitedTabs.has('projects') && (
+            <div style={{ display: activeTab === 'projects' ? 'block' : 'none' }}>
+              <ProjectsTab selectedProject={selectedProject} onSelectProject={setSelectedProject} />
             </div>
           )}
 
-          {/* ── DevOps Tab ── */}
-          {visitedTabs.has('devops') && (
-            <div style={{ display: activeTab === 'devops' ? 'block' : 'none' }}>
-              <DevOpsTab selectedProject={selectedProject} />
+          {/* ── Tasks Tab ── */}
+          {visitedTabs.has('tasks') && (
+            <div style={{ display: activeTab === 'tasks' ? 'block' : 'none' }}>
+              <TasksTab />
             </div>
           )}
 
-          {/* ── Analytics Tab ── */}
-          {visitedTabs.has('analytics') && (
-            <div style={{ display: activeTab === 'analytics' ? 'block' : 'none' }}>
-              <AnalyticsTab selectedProject={selectedProject} onSelectProject={setSelectedProject} />
+          {/* ── Usage Tab ── */}
+          {visitedTabs.has('usage') && (
+            <div style={{ display: activeTab === 'usage' ? 'block' : 'none' }}>
+              <UsageTab selectedProject={selectedProject} onSelectProject={setSelectedProject} />
             </div>
           )}
 
-          {/* ── Knowledge Tab ── */}
-          {visitedTabs.has('knowledge') && (
-            <div style={{ display: activeTab === 'knowledge' ? 'block' : 'none' }}>
-              <KnowledgeTab />
+          {/* ── Registry Tab ── */}
+          {visitedTabs.has('registry') && (
+            <div style={{ display: activeTab === 'registry' ? 'block' : 'none' }}>
+              <RegistryTab />
             </div>
           )}
         </Suspense>
@@ -88,7 +84,7 @@ export default function App() {
         {/* Footer */}
         <footer className="text-center py-4 text-[10px] text-text-muted">
           <span className="font-pixel text-[7px]">
-            DEVBOARD v0.8.0 · devboard.cybernium.cn
+            DEVBOARD v1.0.0 · devboard.cybernium.cn
           </span>
         </footer>
       </div>

@@ -30,7 +30,7 @@ const WEEKLY_RED = 30_000_000 / 7; // ~4.29M/day
 
 export function TokenAnalytics() {
   const { data } = useTokenData();
-  const config = useConfig();
+  const { data: config } = useConfig();
 
   const weeklyStats = useMemo(() => {
     const currentWeekTokens = data.slice(-7).reduce((s, d) => s + d.totalTokens, 0);

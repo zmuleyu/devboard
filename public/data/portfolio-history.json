@@ -1,0 +1,280 @@
+[
+  {
+    "date": "2026-03-15",
+    "projects": [
+      {
+        "name": "ai_projects",
+        "health": "A",
+        "testCount": 14,
+        "commitCount": 422
+      },
+      {
+        "name": "cyber-landing",
+        "health": "B-",
+        "testCount": 0,
+        "commitCount": 16
+      },
+      {
+        "name": "ziyou-server",
+        "health": "A-",
+        "testCount": 13,
+        "commitCount": 41
+      },
+      {
+        "name": "ziyou-browser",
+        "health": "A-",
+        "testCount": 17,
+        "commitCount": 47
+      },
+      {
+        "name": "ziyou-chrome",
+        "health": "A-",
+        "testCount": 30,
+        "commitCount": 86
+      },
+      {
+        "name": "Data_management",
+        "health": "A-",
+        "testCount": 32,
+        "commitCount": 70
+      },
+      {
+        "name": "scrapling-mcp",
+        "health": "A",
+        "testCount": 4,
+        "commitCount": 11
+      },
+      {
+        "name": "pixel-herbarium",
+        "health": "A-",
+        "testCount": 16,
+        "commitCount": 62
+      }
+    ]
+  },
+  {
+    "date": "2026-03-15",
+    "projects": [
+      {
+        "name": "ai_projects",
+        "health": "A",
+        "testCount": 207,
+        "commitCount": 419
+      },
+      {
+        "name": "cyber-landing",
+        "health": "B-",
+        "testCount": 0,
+        "commitCount": 17
+      },
+      {
+        "name": "ziyou-server",
+        "health": "A",
+        "testCount": 17,
+        "commitCount": 43
+      },
+      {
+        "name": "ziyou-browser",
+        "health": "A",
+        "testCount": 161,
+        "commitCount": 48
+      },
+      {
+        "name": "ziyou-chrome",
+        "health": "A-",
+        "testCount": 221,
+        "commitCount": 91
+      },
+      {
+        "name": "Data_management",
+        "health": "A",
+        "testCount": 289,
+        "commitCount": 71
+      },
+      {
+        "name": "scrapling-mcp",
+        "health": "A",
+        "testCount": 71,
+        "commitCount": 15
+      },
+      {
+        "name": "pixel-herbarium",
+        "health": "A-",
+        "testCount": 165,
+        "commitCount": 67
+      }
+    ]
+  },
+  {
+    "date": "2026-03-15",
+    "projects": [
+      {
+        "name": "ziyou-chrome",
+        "health": "A-",
+        "testCount": 242,
+        "commitCount": 0
+      }
+    ]
+  },
+  {
+    "date": "2026-03-15",
+    "projects": [
+      {
+        "name": "scrapling-mcp",
+        "health": "A",
+        "testCount": 71,
+        "commitCount": 1
+      },
+      {
+        "name": "pixel-herbarium",
+        "health": "A-",
+        "testCount": 165,
+        "commitCount": 4
+      }
+    ]
+  },
+  {
+    "date": "2026-03-15",
+    "projects": [
+      {
+        "name": "pixel-herbarium",
+        "health": "A-",
+        "testCount": 182,
+        "commitCount": 4
+      }
+    ]
+  },
+  {
+    "date": "2026-03-16",
+    "projects": [
+      {
+        "name": "devboard",
+        "health": "A",
+        "testCount": 0,
+        "commitCount": 6
+      }
+    ]
+  },
+  {
+    "date": "2026-03-16",
+    "projects": [
+      {
+        "name": "devboard",
+        "health": "A",
+        "testCount": 0,
+        "commitCount": 8
+      }
+    ]
+  },
+  {
+    "date": "2026-03-16",
+    "projects": [
+      {
+        "name": "devboard",
+        "health": "A",
+        "testCount": 0,
+        "commitCount": 3
+      }
+    ]
+  },
+  {
+    "date": "2026-03-16",
+    "projects": [
+      {
+        "name": "ai_projects",
+        "health": "A",
+        "testCount": 207,
+        "commitCount": 2
+      }
+    ]
+  },
+  {
+    "date": "2026-03-16",
+    "projects": [
+      {
+        "name": "devboard",
+        "health": "A",
+        "testCount": 0,
+        "commitCount": 3
+      }
+    ]
+  },
+  {
+    "date": "2026-03-16",
+    "projects": [
+      {
+        "name": "Data_management",
+        "health": "A",
+        "testCount": 384,
+        "commitCount": 4
+      }
+    ]
+  },
+  {
+    "date": "2026-03-16",
+    "projects": [
+      {
+        "name": "pixel-herbarium",
+        "health": "A-",
+        "testCount": 201,
+        "commitCount": 12
+      }
+    ]
+  },
+  {
+    "date": "2026-03-16",
+    "projects": [
+      {
+        "name": "devboard",
+        "health": "A",
+        "testCount": 0,
+        "commitCount": 2
+      }
+    ]
+  },
+  {
+    "date": "2026-03-16",
+    "projects": [
+      {
+        "name": "devboard",
+        "health": "A",
+        "testCount": 0,
+        "commitCount": 3
+      },
+      {
+        "name": "ai_projects",
+        "health": "A",
+        "testCount": 207,
+        "commitCount": 1
+      }
+    ]
+  },
+  {
+    "date": "2026-03-16",
+    "projects": [
+      {
+        "name": "devboard",
+        "health": "A",
+        "testCount": 0,
+        "commitCount": 1
+      }
+    ]
+  },
+  {
+    "date": "2026-03-16",
+    "projects": [
+      {
+        "name": "devboard",
+        "health": "A",
+        "testCount": 0,
+        "commitCount": 4
+      },
+      {
+        "name": "claude-cron",
+        "health": "A",
+        "testCount": 0,
+        "commitCount": 1
+      }
+    ]
+  }
+]

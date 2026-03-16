@@ -63,7 +63,7 @@ const DAY_LABELS = ['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun'];
 
 export function BudgetForecast() {
   const { data } = useTokenData();
-  const config = useConfig();
+  const { data: config } = useConfig();
   const budget = config.weeklyTokenBudget;
 
   const forecast = useMemo(() => {

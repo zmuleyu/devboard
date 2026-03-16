@@ -1,4 +1,4 @@
-import { useState, useMemo } from 'react';
+import { useState, useEffect, useMemo, useCallback } from 'react';
 import type { CronResult } from '../types';
 
 export interface AgentLogEntry {
@@ -100,25 +100,44 @@ function parseLogContent(filename: string, raw: string): AgentLogDay {
   return { date, entries, summary };
 }
 
-// Import all .md files from data/agent-logs/ at build time
-const logModules = import.meta.glob('../data/agent-logs/*.md', { query: '?raw', import: 'default', eager: true }) as Record<string, string>;
-
 export function useAgentLogs() {
+  const [days, setDays] = useState<AgentLogDay[]>([]);
+  const [loading, setLoading] = useState(true);
   const [selectedDate, setSelectedDate] = useState<string | null>(null);
   const [filterProject, setFilterProject] = useState<string | null>(null);
   const [filterResult, setFilterResult] = useState<CronResult | null>(null);
 
-  const days = useMemo(() => {
-    const parsed: AgentLogDay[] = [];
-    for (const [path, raw] of Object.entries(logModules)) {
-      const filename = path.split('/').pop() ?? '';
-      if (!filename.endsWith('.md')) continue;
-      parsed.push(parseLogContent(filename, raw));
+  const refresh = useCallback(async () => {
+    try {
+      const indexRes = await fetch('/data/agent-logs/index.json');
+      const filenames: string[] = await indexRes.json();
+
+      const parsed: AgentLogDay[] = [];
+      for (const filename of filenames) {
+        try {
+          const res = await fetch(`/data/agent-logs/${filename}`);
+          const raw = await res.text();
+          parsed.push(parseLogContent(filename, raw));
+        } catch {
+          // Skip files that fail to load
+        }
+      }
+
+      parsed.sort((a, b) => b.date.localeCompare(a.date));
+      setDays(parsed);
+    } catch {
+      // Index fetch failed
+    } finally {
+      setLoading(false);
     }
-    // Sort by date descending
-    parsed.sort((a, b) => b.date.localeCompare(a.date));
-    return parsed;
   }, []);
+
+  useEffect(() => {
+    refresh();
+    const handler = () => { if (document.visibilityState === 'visible') refresh(); };
+    document.addEventListener('visibilitychange', handler);
+    return () => document.removeEventListener('visibilitychange', handler);
+  }, [refresh]);
 
   const activeDate = selectedDate ?? days[0]?.date ?? null;
   const activeDay = days.find((d) => d.date === activeDate) ?? null;
@@ -134,6 +153,7 @@ export function useAgentLogs() {
 
   return {
     days,
+    loading,
     activeDate,
     setSelectedDate,
     activeDay,

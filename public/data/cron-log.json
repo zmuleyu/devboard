@@ -1,0 +1,50 @@
+[
+  {
+    "date": "2026-03-16",
+    "time": "03:30",
+    "taskName": "tsc-check",
+    "taskType": "dev",
+    "project": "ai_projects",
+    "result": "fail",
+    "detail": "1 type error in region-configs/route.test.ts",
+    "durationSec": 12,
+    "source": "cron",
+    "isOffPeak": false
+  },
+  {
+    "date": "2026-03-16",
+    "time": "03:55",
+    "taskName": "tsc-check",
+    "taskType": "dev",
+    "project": "ai_projects",
+    "result": "pass",
+    "detail": "0 type errors",
+    "durationSec": 15,
+    "source": "cron",
+    "isOffPeak": false
+  },
+  {
+    "date": "2026-03-16",
+    "time": "21:34",
+    "taskName": "tsc-check",
+    "taskType": "dev",
+    "project": "ai_projects",
+    "result": "pass",
+    "detail": "no errors",
+    "durationSec": 6,
+    "source": "cron",
+    "isOffPeak": false
+  },
+  {
+    "date": "2026-03-16",
+    "time": "11:14",
+    "taskName": "tsc-check",
+    "taskType": "tsc-check",
+    "project": "unknown",
+    "result": "warn",
+    "detail": "budget exceeded or max turns reached (exit 0)",
+    "durationSec": 0,
+    "source": "cron",
+    "isOffPeak": false
+  }
+]

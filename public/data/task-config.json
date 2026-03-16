@@ -1,0 +1,74 @@
+[
+  {
+    "name": "HealthCheck",
+    "schedule": "08:00 每日",
+    "enabled": true,
+    "goal": "验证 Claude Code 认证状态、日志完整性和最后执行时间，确保自动化系统健康",
+    "execution": "Task Scheduler → run-task.bat → claude --print",
+    "budgetPerRun": "~0.1M tokens ($0.05)",
+    "scheduleReason": "工作日开始前检查系统状态"
+  },
+  {
+    "name": "TSC Check",
+    "schedule": "09:07 每日",
+    "enabled": true,
+    "goal": "运行 TypeScript 类型检查，确保项目代码质量",
+    "execution": "Task Scheduler → run-task.bat → claude --print TSC check",
+    "budgetPerRun": "~0.3M tokens ($0.30)",
+    "scheduleReason": "HealthCheck 后执行，确认开发环境就绪"
+  },
+  {
+    "name": "DailySync",
+    "schedule": "23:07 每日",
+    "enabled": true,
+    "goal": "同步数据文件到 DevBoard，包括 portfolio/token/session/cron 日志",
+    "execution": "Task Scheduler → run-task.bat → sync-data.sh",
+    "budgetPerRun": "~0.05M tokens",
+    "scheduleReason": "工作日结束后归档当天数据"
+  },
+  {
+    "name": "Patrol",
+    "schedule": "02:00 每日",
+    "enabled": false,
+    "goal": "全项目巡查：检测未提交变更、过期分支、安全问题",
+    "execution": "Task Scheduler → run-task.bat → claude --print patrol",
+    "budgetPerRun": "~0.5M tokens",
+    "scheduleReason": "凌晨 off-peak 时段执行，节省 credits"
+  },
+  {
+    "name": "PRReview",
+    "schedule": "03:00 周一/三/五",
+    "enabled": false,
+    "goal": "自动审查 GitHub PR，提供代码质量反馈",
+    "execution": "Task Scheduler → run-task.bat → claude --print PR review",
+    "budgetPerRun": "~1.0M tokens",
+    "scheduleReason": "Off-peak + 工作日隔天检查"
+  },
+  {
+    "name": "GuardBackup",
+    "schedule": "04:00 每日",
+    "enabled": false,
+    "goal": "执行 claude-guard backup，备份关键配置和数据",
+    "execution": "Task Scheduler → run-task.bat → claude-guard backup",
+    "budgetPerRun": "~0.2M tokens",
+    "scheduleReason": "凌晨 off-peak 时段执行"
+  },
+  {
+    "name": "DataSync",
+    "schedule": "05:30 每日",
+    "enabled": false,
+    "goal": "跨项目数据同步：portfolio 快照、token 数据、session 日志",
+    "execution": "Task Scheduler → run-task.bat → data sync scripts",
+    "budgetPerRun": "~0.1M tokens",
+    "scheduleReason": "与 DailySync 互补，off-peak 深度同步"
+  },
+  {
+    "name": "GuardAudit",
+    "schedule": "08:30 周一",
+    "enabled": false,
+    "goal": "每周安全审计：扫描 API key 泄露、权限检查、配置完整性",
+    "execution": "Task Scheduler → run-task.bat → claude-guard audit",
+    "budgetPerRun": "~0.3M tokens",
+    "scheduleReason": "每周一次，工作日开始时获得审计报告"
+  }
+]

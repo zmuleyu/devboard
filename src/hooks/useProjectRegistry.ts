@@ -1,21 +1,27 @@
 import { useState, useEffect, useCallback } from 'react';
 
-interface AppConfig {
-  weeklyTokenBudget: number;
-  warningThreshold: number;
+export interface ProjectRegistryEntry {
+  name: string;
+  type: string;
+  ecosystem: string;
+  description: string;
+  techStack: string[];
+  deployUrls: string[];
+  gitRemote: string;
+  hasClaudeMd: boolean;
+  hasReadme: boolean;
+  specCount: number;
+  setupCommand: string;
+  currentPhase: string;
+  version: string;
 }
 
-const DEFAULT_CONFIG: AppConfig = {
-  weeklyTokenBudget: 15_000_000,
-  warningThreshold: 0.8,
-};
-
-export function useConfig() {
-  const [data, setData] = useState<AppConfig>(DEFAULT_CONFIG);
+export function useProjectRegistry() {
+  const [data, setData] = useState<ProjectRegistryEntry[]>([]);
   const [loading, setLoading] = useState(true);
 
   const refresh = useCallback(() => {
-    fetch('/data/config.json')
+    fetch('/data/project-registry.json')
       .then(r => r.json())
       .then(d => { setData(d); setLoading(false); })
       .catch(() => setLoading(false));

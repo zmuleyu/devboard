@@ -3,7 +3,7 @@ import { join } from 'path';
 import { homedir } from 'os';
 
 const dataDir = join(homedir(), '.claude', 'data');
-const outDir = join(import.meta.dirname, '..', 'src', 'data');
+const outDir = join(import.meta.dirname, '..', 'public', 'data');
 
 const files = [
   { input: 'portfolio-history.jsonl', output: 'portfolio-history.json' },

@@ -4,8 +4,8 @@ export interface TabConfig {
 }
 
 export const TAB_CONFIG: TabConfig[] = [
-  { key: 'portfolio', label: 'PORTFOLIO' },
-  { key: 'devops', label: 'DEVOPS' },
-  { key: 'analytics', label: 'ANALYTICS' },
-  { key: 'knowledge', label: 'KNOWLEDGE' },
+  { key: 'projects', label: '项目总览' },
+  { key: 'tasks', label: '定时任务' },
+  { key: 'usage', label: '用量分析' },
+  { key: 'registry', label: '项目档案' },
 ];

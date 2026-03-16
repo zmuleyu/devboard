@@ -1,0 +1,2422 @@
+{
+  "timestamp": "2026-03-15T19:36:38.042Z",
+  "source": "C:/Users/Admin/Downloads/data-2026-03-15-18-58-21-batch-0000/projects.json",
+  "totalProjects": 12,
+  "totalDocs": 329,
+  "migratedDocs": 329,
+  "skippedDocs": 0,
+  "projects": [
+    {
+      "name": "桌宠",
+      "description": "DeskBuddy design docs — emotion engine, Spine animation, character design",
+      "target": "D:/projects/Games/gardern/pixel-herbarium/docs/reference/deskbuddy",
+      "docCount": 28,
+      "files": [
+        {
+          "filename": "小红书乙游×酒馆_研究方法论工程化开发方案.docx",
+          "originalName": "小红书乙游×酒馆_研究方法论工程化开发方案.docx",
+          "targetDir": "D:/projects/Games/gardern/pixel-herbarium/docs/reference/deskbuddy",
+          "chars": 17697,
+          "isDuplicate": false
+        },
+        {
+          "filename": "otome-character-guide.jsx",
+          "originalName": "otome-character-guide.jsx",
+          "targetDir": "D:/projects/Games/gardern/pixel-herbarium/docs/reference/deskbuddy",
+          "chars": 19224,
+          "isDuplicate": false
+        },
+        {
+          "filename": "zhixing-character-v3.jsx",
+          "originalName": "zhixing-character-v3.jsx",
+          "targetDir": "D:/projects/Games/gardern/pixel-herbarium/docs/reference/deskbuddy",
+          "chars": 52325,
+          "isDuplicate": false
+        },
+        {
+          "filename": "五款中国乙女游戏角色素材资源全景索引.md",
+          "originalName": "五款中国乙女游戏角色素材资源全景索引.md",
+          "targetDir": "D:/projects/Games/gardern/pixel-herbarium/docs/reference/deskbuddy",
+          "chars": 5713,
+          "isDuplicate": false
+        },
+        {
+          "filename": "DeskBuddy_x_SillyTavern_方案B_开发方案.docx",
+          "originalName": "DeskBuddy_x_SillyTavern_方案B_开发方案.docx",
+          "targetDir": "D:/projects/Games/gardern/pixel-herbarium/docs/reference/deskbuddy",
+          "chars": 23480,
+          "isDuplicate": false
+        },
+        {
+          "filename": "当AI酒馆遇上乙游：SillyTavern如何重塑恋爱游戏体验.md",
+          "originalName": "当AI酒馆遇上乙游：SillyTavern如何重塑恋爱游戏体验.md",
+          "targetDir": "D:/projects/Games/gardern/pixel-herbarium/docs/reference/deskbuddy",
+          "chars": 5856,
+          "isDuplicate": false
+        },
+        {
+          "filename": "小红书检索方案_酒馆×乙游.md",
+          "originalName": "小红书检索方案_酒馆×乙游.md",
+          "targetDir": "D:/projects/Games/gardern/pixel-herbarium/docs/reference/deskbuddy",
+          "chars": 5713,
+          "isDuplicate": false
+        },
+        {
+          "filename": "小红书乙游×酒馆_研究方法论工程化开发方案_1.docx",
+          "originalName": "小红书乙游×酒馆_研究方法论工程化开发方案.docx",
+          "targetDir": "D:/projects/Games/gardern/pixel-herbarium/docs/reference/deskbuddy",
+          "chars": 17697,
+          "isDuplicate": true
+        },
+        {
+          "filename": "hardware-sim.jsx",
+          "originalName": "hardware-sim.jsx",
+          "targetDir": "D:/projects/Games/gardern/pixel-herbarium/docs/reference/deskbuddy",
+          "chars": 32990,
+          "isDuplicate": false
+        },
+        {
+          "filename": "deskbuddy-animation-workflow.jsx",
+          "originalName": "deskbuddy-animation-workflow.jsx",
+          "targetDir": "D:/projects/Games/gardern/pixel-herbarium/docs/reference/deskbuddy",
+          "chars": 29356,
+          "isDuplicate": false
+        },
+        {
+          "filename": "DeskBuddy_模块化架构设计方案_v1.0.docx",
+          "originalName": "DeskBuddy_模块化架构设计方案_v1.0.docx",
+          "targetDir": "D:/projects/Games/gardern/pixel-herbarium/docs/reference/deskbuddy",
+          "chars": 27255,
+          "isDuplicate": false
+        },
+        {
+          "filename": "DeskBuddy_IME_桌宠开发规划.md",
+          "originalName": "DeskBuddy_IME_桌宠开发规划.md",
+          "targetDir": "D:/projects/Games/gardern/pixel-herbarium/docs/reference/deskbuddy",
+          "chars": 13839,
+          "isDuplicate": false
+        },
+        {
+          "filename": "DeskBuddy_IME_桌宠开发规划_1.md",
+          "originalName": "DeskBuddy_IME_桌宠开发规划.md",
+          "targetDir": "D:/projects/Games/gardern/pixel-herbarium/docs/reference/deskbuddy",
+          "chars": 13839,
+          "isDuplicate": true
+        },
+        {
+          "filename": "DeskBuddy_技术路线深度分析.md",
+          "originalName": "DeskBuddy_技术路线深度分析.md",
+          "targetDir": "D:/projects/Games/gardern/pixel-herbarium/docs/reference/deskbuddy",
+          "chars": 23519,
+          "isDuplicate": false
+        },
+        {
+          "filename": "桌宠语音功能技术方案.docx",
+          "originalName": "桌宠语音功能技术方案.docx",
+          "targetDir": "D:/projects/Games/gardern/pixel-herbarium/docs/reference/deskbuddy",
+          "chars": 9517,
+          "isDuplicate": false
+        },
+        {
+          "filename": "DeskBuddy_8项行动_技术实现方案.docx",
+          "originalName": "DeskBuddy_8项行动_技术实现方案.docx",
+          "targetDir": "D:/projects/Games/gardern/pixel-herbarium/docs/reference/deskbuddy",
+          "chars": 26503,
+          "isDuplicate": false
+        },
+        {
+          "filename": "AI乙女游戏实践案例分析.md",
+          "originalName": "AI乙女游戏实践案例分析.md",
+          "targetDir": "D:/projects/Games/gardern/pixel-herbarium/docs/reference/deskbuddy",
+          "chars": 7722,
+          "isDuplicate": false
+        },
+        {
+          "filename": "interaction-animation-prototype.jsx",
+          "originalName": "interaction-animation-prototype.jsx",
+          "targetDir": "D:/projects/Games/gardern/pixel-herbarium/docs/reference/deskbuddy",
+          "chars": 48423,
+          "isDuplicate": false
+        },
+        {
+          "filename": "DeskBuddy_乙女角色设计_陆知行.md",
+          "originalName": "DeskBuddy_乙女角色设计_陆知行.md",
+          "targetDir": "D:/projects/Games/gardern/pixel-herbarium/docs/reference/deskbuddy",
+          "chars": 10415,
+          "isDuplicate": false
+        },
+        {
+          "filename": "DeskBuddy_个人目标规划场景_开发文档_v1.0.docx",
+          "originalName": "DeskBuddy_个人目标规划场景_开发文档_v1.0.docx",
+          "targetDir": "D:/projects/Games/gardern/pixel-herbarium/docs/reference/deskbuddy",
+          "chars": 13616,
+          "isDuplicate": false
+        },
+        {
+          "filename": "DeskBuddy_情侣互动场景_开发文档_v1.0.docx",
+          "originalName": "DeskBuddy_情侣互动场景_开发文档_v1.0.docx",
+          "targetDir": "D:/projects/Games/gardern/pixel-herbarium/docs/reference/deskbuddy",
+          "chars": 14127,
+          "isDuplicate": false
+        },
+        {
+          "filename": "DeskBuddy_综合开发计划_v1.0.docx",
+          "originalName": "DeskBuddy_综合开发计划_v1.0.docx",
+          "targetDir": "D:/projects/Games/gardern/pixel-herbarium/docs/reference/deskbuddy",
+          "chars": 22304,
+          "isDuplicate": false
+        },
+        {
+          "filename": "DeskBuddy_飞书接入开发文档.docx",
+          "originalName": "DeskBuddy_飞书接入开发文档.docx",
+          "targetDir": "D:/projects/Games/gardern/pixel-herbarium/docs/reference/deskbuddy",
+          "chars": 47184,
+          "isDuplicate": false
+        },
+        {
+          "filename": "Demo3_端到端管线集成_开发方案.md",
+          "originalName": "Demo3_端到端管线集成_开发方案.md",
+          "targetDir": "D:/projects/Games/gardern/pixel-herbarium/docs/reference/deskbuddy",
+          "chars": 48249,
+          "isDuplicate": false
+        },
+        {
+          "filename": "DeskBuddy_照片生成皮肤_技术方案.docx",
+          "originalName": "DeskBuddy_照片生成皮肤_技术方案.docx",
+          "targetDir": "D:/projects/Games/gardern/pixel-herbarium/docs/reference/deskbuddy",
+          "chars": 13607,
+          "isDuplicate": false
+        },
+        {
+          "filename": "DeskBuddy_prototype.jsx",
+          "originalName": "DeskBuddy_prototype.jsx",
+          "targetDir": "D:/projects/Games/gardern/pixel-herbarium/docs/reference/deskbuddy",
+          "chars": 27497,
+          "isDuplicate": false
+        },
+        {
+          "filename": "zhixing-pixel-expression-v2.jsx",
+          "originalName": "zhixing-pixel-expression-v2.jsx",
+          "targetDir": "D:/projects/Games/gardern/pixel-herbarium/docs/reference/deskbuddy",
+          "chars": 36457,
+          "isDuplicate": false
+        },
+        {
+          "filename": "DeskBuddy_Chrome_Extension_开发方案.docx",
+          "originalName": "DeskBuddy_Chrome_Extension_开发方案.docx",
+          "targetDir": "D:/projects/Games/gardern/pixel-herbarium/docs/reference/deskbuddy",
+          "chars": 19840,
+          "isDuplicate": false
+        }
+      ],
+      "totalChars": 633964
+    },
+    {
+      "name": "好物花园",
+      "description": "Gamification research — plant metaphor habit tracking",
+      "target": "D:/projects/Games/gardern/pixel-herbarium/docs/reference/gamification",
+      "docCount": 1,
+      "files": [
+        {
+          "filename": "织梦森林_设计拆解与借鉴分析.docx",
+          "originalName": "织梦森林_设计拆解与借鉴分析.docx",
+          "targetDir": "D:/projects/Games/gardern/pixel-herbarium/docs/reference/gamification",
+          "chars": 6893,
+          "isDuplicate": false
+        }
+      ],
+      "totalChars": 6893
+    },
+    {
+      "name": "Claude开发",
+      "description": "Claude Code toolchain guides, MCP config, automation",
+      "target": "C:/Users/Admin/claude-guides/docs/claude-ai-archive",
+      "docCount": 19,
+      "files": [
+        {
+          "filename": "Claude.ai 网页端高效使用完全指南.md",
+          "originalName": "Claude.ai 网页端高效使用完全指南.md",
+          "targetDir": "C:/Users/Admin/claude-guides/docs/claude-ai-archive",
+          "chars": 8312,
+          "isDuplicate": false
+        },
+        {
+          "filename": "claude-tampermonkey-dev-plan.md",
+          "originalName": "claude-tampermonkey-dev-plan.md",
+          "targetDir": "C:/Users/Admin/claude-guides/docs/claude-ai-archive",
+          "chars": 34683,
+          "isDuplicate": false
+        },
+        {
+          "filename": "Claude插件开发方案.docx",
+          "originalName": "Claude插件开发方案.docx",
+          "targetDir": "C:/Users/Admin/claude-guides/docs/claude-ai-archive",
+          "chars": 15418,
+          "isDuplicate": false
+        },
+        {
+          "filename": "浏览器自动操作Claude网页版研究报告.md",
+          "originalName": "浏览器自动操作Claude网页版研究报告.md",
+          "targetDir": "C:/Users/Admin/claude-guides/docs/claude-ai-archive",
+          "chars": 5891,
+          "isDuplicate": false
+        },
+        {
+          "filename": "复杂多步骤浏览器自动化_Playwright_CLI与MCP深度研究.md",
+          "originalName": "复杂多步骤浏览器自动化_Playwright_CLI与MCP深度研究.md",
+          "targetDir": "C:/Users/Admin/claude-guides/docs/claude-ai-archive",
+          "chars": 9811,
+          "isDuplicate": false
+        },
+        {
+          "filename": "DEVELOPMENT_ROADMAP.md",
+          "originalName": "DEVELOPMENT_ROADMAP.md",
+          "targetDir": "C:/Users/Admin/claude-guides/docs/claude-ai-archive",
+          "chars": 27083,
+          "isDuplicate": false
+        },
+        {
+          "filename": "避免Claude回复中断_完整指引.md",
+          "originalName": "避免Claude回复中断_完整指引.md",
+          "targetDir": "C:/Users/Admin/claude-guides/docs/claude-ai-archive",
+          "chars": 7199,
+          "isDuplicate": false
+        },
+        {
+          "filename": "Awesome_Claude_Code_开发指引手册_v2.docx",
+          "originalName": "Awesome_Claude_Code_开发指引手册_v2.docx",
+          "targetDir": "C:/Users/Admin/claude-guides/docs/claude-ai-archive",
+          "chars": 17275,
+          "isDuplicate": false
+        },
+        {
+          "filename": "避免Claude回复中断_完整指引_1.md",
+          "originalName": "避免Claude回复中断_完整指引.md",
+          "targetDir": "C:/Users/Admin/claude-guides/docs/claude-ai-archive",
+          "chars": 7199,
+          "isDuplicate": true
+        },
+        {
+          "filename": "Awesome_Claude_Code_开发指引手册.docx",
+          "originalName": "Awesome_Claude_Code_开发指引手册.docx",
+          "targetDir": "C:/Users/Admin/claude-guides/docs/claude-ai-archive",
+          "chars": 13441,
+          "isDuplicate": false
+        },
+        {
+          "filename": "PDF转Markdown自动化开发方案.md",
+          "originalName": "PDF转Markdown自动化开发方案.md",
+          "targetDir": "C:/Users/Admin/claude-guides/docs/claude-ai-archive",
+          "chars": 18615,
+          "isDuplicate": false
+        },
+        {
+          "filename": "VSCode双项目并行开发操作指南.md",
+          "originalName": "VSCode双项目并行开发操作指南.md",
+          "targetDir": "C:/Users/Admin/claude-guides/docs/claude-ai-archive",
+          "chars": 5332,
+          "isDuplicate": false
+        },
+        {
+          "filename": "中国网站ICP与公安备案完全指南.md",
+          "originalName": "中国网站ICP与公安备案完全指南.md",
+          "targetDir": "C:/Users/Admin/claude-guides/docs/claude-ai-archive",
+          "chars": 7042,
+          "isDuplicate": false
+        },
+        {
+          "filename": "VSCode_Claude_Code_Git_Worktree并行开发指南.md",
+          "originalName": "VSCode_Claude_Code_Git_Worktree并行开发指南.md",
+          "targetDir": "C:/Users/Admin/claude-guides/docs/claude-ai-archive",
+          "chars": 5757,
+          "isDuplicate": false
+        },
+        {
+          "filename": "Native_Messaging_Host集成方案.md",
+          "originalName": "Native_Messaging_Host集成方案.md",
+          "targetDir": "C:/Users/Admin/claude-guides/docs/claude-ai-archive",
+          "chars": 26640,
+          "isDuplicate": false
+        },
+        {
+          "filename": "VSCode并行开发指南_Worktree与多项目.md",
+          "originalName": "VSCode并行开发指南_Worktree与多项目.md",
+          "targetDir": "C:/Users/Admin/claude-guides/docs/claude-ai-archive",
+          "chars": 10515,
+          "isDuplicate": false
+        },
+        {
+          "filename": "Chrome滚动截屏扩展_开发方案.md",
+          "originalName": "Chrome滚动截屏扩展_开发方案.md",
+          "targetDir": "C:/Users/Admin/claude-guides/docs/claude-ai-archive",
+          "chars": 4962,
+          "isDuplicate": false
+        },
+        {
+          "filename": "网页分享页生成器_开发思路.md",
+          "originalName": "网页分享页生成器_开发思路.md",
+          "targetDir": "C:/Users/Admin/claude-guides/docs/claude-ai-archive",
+          "chars": 8577,
+          "isDuplicate": false
+        },
+        {
+          "filename": "scroll-capture-开发过程指南.md",
+          "originalName": "scroll-capture-开发过程指南.md",
+          "targetDir": "C:/Users/Admin/claude-guides/docs/claude-ai-archive",
+          "chars": 6757,
+          "isDuplicate": false
+        }
+      ],
+      "totalChars": 240509
+    },
+    {
+      "name": "AI 追踪器",
+      "description": "AI legislation tracker — data platform, Phase docs, EU AI Act",
+      "target": "D:/projects/cybernium/ai_projects/docs/claude-ai-archive/tracker",
+      "docCount": 73,
+      "files": [
+        {
+          "filename": "AI法案合规文件关系梳理.docx",
+          "originalName": "AI法案合规文件关系梳理.docx",
+          "targetDir": "D:/projects/cybernium/ai_projects/docs/claude-ai-archive/tracker",
+          "chars": 31596,
+          "isDuplicate": false
+        },
+        {
+          "filename": "欧盟AI法案（已核实修订版）.docx",
+          "originalName": "欧盟AI法案（已核实修订版）.docx",
+          "targetDir": "D:/projects/cybernium/ai_projects/docs/claude-ai-archive/tracker",
+          "chars": 46353,
+          "isDuplicate": false
+        },
+        {
+          "filename": "欧盟人工智能法案探索工具（简版）.docx",
+          "originalName": "欧盟人工智能法案探索工具（简版）.docx",
+          "targetDir": "D:/projects/cybernium/ai_projects/docs/claude-ai-archive/tracker",
+          "chars": 2444,
+          "isDuplicate": false
+        },
+        {
+          "filename": "欧盟数字简化提案完善.docx",
+          "originalName": "欧盟数字简化提案完善.docx",
+          "targetDir": "D:/projects/cybernium/ai_projects/docs/claude-ai-archive/tracker",
+          "chars": 13530,
+          "isDuplicate": false
+        },
+        {
+          "filename": "EU AI Act Compliance: Seven Critical Gaps Filled.md",
+          "originalName": "EU AI Act Compliance: Seven Critical Gaps Filled.md",
+          "targetDir": "D:/projects/cybernium/ai_projects/docs/claude-ai-archive/tracker",
+          "chars": 23407,
+          "isDuplicate": false
+        },
+        {
+          "filename": "eu-ai-act-map.jsx",
+          "originalName": "eu-ai-act-map.jsx",
+          "targetDir": "D:/projects/cybernium/ai_projects/docs/claude-ai-archive/tracker",
+          "chars": 18082,
+          "isDuplicate": false
+        },
+        {
+          "filename": "EU AI Act Implementation Across All 27 Member States: A Three-Speed Europe in March 2026.md",
+          "originalName": "EU AI Act Implementation Across All 27 Member States: A Three-Speed Europe in March 2026.md",
+          "targetDir": "D:/projects/cybernium/ai_projects/docs/claude-ai-archive/tracker",
+          "chars": 26740,
+          "isDuplicate": false
+        },
+        {
+          "filename": "EU_AI_Act_配套文件关系映射_校对报告.md",
+          "originalName": "EU_AI_Act_配套文件关系映射_校对报告.md",
+          "targetDir": "D:/projects/cybernium/ai_projects/docs/claude-ai-archive/tracker",
+          "chars": 4971,
+          "isDuplicate": false
+        },
+        {
+          "filename": "欧盟AI法案成员国实施全景报告（2026年3月）.md",
+          "originalName": "欧盟AI法案成员国实施全景报告（2026年3月）.md",
+          "targetDir": "D:/projects/cybernium/ai_projects/docs/claude-ai-archive/tracker",
+          "chars": 11423,
+          "isDuplicate": false
+        },
+        {
+          "filename": "The EU AI Act's Governance Machine: Who Runs It and What's Changing.md",
+          "originalName": "The EU AI Act's Governance Machine: Who Runs It and What's Changing.md",
+          "targetDir": "D:/projects/cybernium/ai_projects/docs/claude-ai-archive/tracker",
+          "chars": 19805,
+          "isDuplicate": false
+        },
+        {
+          "filename": "EU AI Act Compliance: Seven Critical Gaps Filled_1.md",
+          "originalName": "EU AI Act Compliance: Seven Critical Gaps Filled.md",
+          "targetDir": "D:/projects/cybernium/ai_projects/docs/claude-ai-archive/tracker",
+          "chars": 23407,
+          "isDuplicate": true
+        },
+        {
+          "filename": "Legal Database Interaction Design: A Competitive Analysis of Regulatory Visualization.md",
+          "originalName": "Legal Database Interaction Design: A Competitive Analysis of Regulatory Visualization.md",
+          "targetDir": "D:/projects/cybernium/ai_projects/docs/claude-ai-archive/tracker",
+          "chars": 24602,
+          "isDuplicate": false
+        },
+        {
+          "filename": "Legal Database Interaction Design: A Competitive Analysis of Regulatory Visualization_1.md",
+          "originalName": "Legal Database Interaction Design: A Competitive Analysis of Regulatory Visualization.md",
+          "targetDir": "D:/projects/cybernium/ai_projects/docs/claude-ai-archive/tracker",
+          "chars": 24602,
+          "isDuplicate": true
+        },
+        {
+          "filename": "Building a Regulatory Knowledge Base with Claude: Architecture, Retrieval, and Production Deployment Guide.md",
+          "originalName": "Building a Regulatory Knowledge Base with Claude: Architecture, Retrieval, and Production Deployment Guide.md",
+          "targetDir": "D:/projects/cybernium/ai_projects/docs/claude-ai-archive/tracker",
+          "chars": 17786,
+          "isDuplicate": false
+        },
+        {
+          "filename": "supplementary-layer-architecture.json",
+          "originalName": "supplementary-layer-architecture.json",
+          "targetDir": "D:/projects/cybernium/ai_projects/docs/claude-ai-archive/tracker",
+          "chars": 45972,
+          "isDuplicate": false
+        },
+        {
+          "filename": "architecture-relationship-graph.mermaid",
+          "originalName": "architecture-relationship-graph.mermaid",
+          "targetDir": "D:/projects/cybernium/ai_projects/docs/claude-ai-archive/tracker",
+          "chars": 3408,
+          "isDuplicate": false
+        },
+        {
+          "filename": "pipeline-manager.jsx",
+          "originalName": "pipeline-manager.jsx",
+          "targetDir": "D:/projects/cybernium/ai_projects/docs/claude-ai-archive/tracker",
+          "chars": 39616,
+          "isDuplicate": false
+        },
+        {
+          "filename": "legislation-pipeline.md",
+          "originalName": "legislation-pipeline.md",
+          "targetDir": "D:/projects/cybernium/ai_projects/docs/claude-ai-archive/tracker",
+          "chars": 29928,
+          "isDuplicate": false
+        },
+        {
+          "filename": "EU AI Act Implementation: Where Things Stand in Early March 2026.md",
+          "originalName": "EU AI Act Implementation: Where Things Stand in Early March 2026.md",
+          "targetDir": "D:/projects/cybernium/ai_projects/docs/claude-ai-archive/tracker",
+          "chars": 15627,
+          "isDuplicate": false
+        },
+        {
+          "filename": "监管内容研究层_四步骤完善方案.md",
+          "originalName": "监管内容研究层_四步骤完善方案.md",
+          "targetDir": "D:/projects/cybernium/ai_projects/docs/claude-ai-archive/tracker",
+          "chars": 15651,
+          "isDuplicate": false
+        },
+        {
+          "filename": "EU_AI_法规动态完善_开发方案.md",
+          "originalName": "EU_AI_法规动态完善_开发方案.md",
+          "targetDir": "D:/projects/cybernium/ai_projects/docs/claude-ai-archive/tracker",
+          "chars": 6555,
+          "isDuplicate": false
+        },
+        {
+          "filename": "数据管理中台_开发方案.md",
+          "originalName": "数据管理中台_开发方案.md",
+          "targetDir": "D:/projects/cybernium/ai_projects/docs/claude-ai-archive/tracker",
+          "chars": 30671,
+          "isDuplicate": false
+        },
+        {
+          "filename": "多模型接入方案.md",
+          "originalName": "多模型接入方案.md",
+          "targetDir": "D:/projects/cybernium/ai_projects/docs/claude-ai-archive/tracker",
+          "chars": 29002,
+          "isDuplicate": false
+        },
+        {
+          "filename": "AI法规追踪系统_整体中台开发思路_v2.md",
+          "originalName": "AI法规追踪系统_整体中台开发思路_v2.md",
+          "targetDir": "D:/projects/cybernium/ai_projects/docs/claude-ai-archive/tracker",
+          "chars": 15073,
+          "isDuplicate": false
+        },
+        {
+          "filename": "EU_AI_法规动态完善_开发方案_1.md",
+          "originalName": "EU_AI_法规动态完善_开发方案.md",
+          "targetDir": "D:/projects/cybernium/ai_projects/docs/claude-ai-archive/tracker",
+          "chars": 25859,
+          "isDuplicate": true
+        },
+        {
+          "filename": "Phase0_AdminShell原型.jsx",
+          "originalName": "Phase0_AdminShell原型.jsx",
+          "targetDir": "D:/projects/cybernium/ai_projects/docs/claude-ai-archive/tracker",
+          "chars": 28291,
+          "isDuplicate": false
+        },
+        {
+          "filename": "Phase0_DDL执行脚本.md",
+          "originalName": "Phase0_DDL执行脚本.md",
+          "targetDir": "D:/projects/cybernium/ai_projects/docs/claude-ai-archive/tracker",
+          "chars": 32339,
+          "isDuplicate": false
+        },
+        {
+          "filename": "Phase0_LLM模块实现指南.md",
+          "originalName": "Phase0_LLM模块实现指南.md",
+          "targetDir": "D:/projects/cybernium/ai_projects/docs/claude-ai-archive/tracker",
+          "chars": 27919,
+          "isDuplicate": false
+        },
+        {
+          "filename": "Phase1_PipelineUI原型.jsx",
+          "originalName": "Phase1_PipelineUI原型.jsx",
+          "targetDir": "D:/projects/cybernium/ai_projects/docs/claude-ai-archive/tracker",
+          "chars": 41040,
+          "isDuplicate": false
+        },
+        {
+          "filename": "Phase1_TrackedPipeline重构文档.md",
+          "originalName": "Phase1_TrackedPipeline重构文档.md",
+          "targetDir": "D:/projects/cybernium/ai_projects/docs/claude-ai-archive/tracker",
+          "chars": 25845,
+          "isDuplicate": false
+        },
+        {
+          "filename": "Phase3_补充分析层组件族.jsx",
+          "originalName": "Phase3_补充分析层组件族.jsx",
+          "targetDir": "D:/projects/cybernium/ai_projects/docs/claude-ai-archive/tracker",
+          "chars": 49526,
+          "isDuplicate": false
+        },
+        {
+          "filename": "Phase3_Dashboard运营看板.jsx",
+          "originalName": "Phase3_Dashboard运营看板.jsx",
+          "targetDir": "D:/projects/cybernium/ai_projects/docs/claude-ai-archive/tracker",
+          "chars": 24047,
+          "isDuplicate": false
+        },
+        {
+          "filename": "Phase3_补充分析层组件族.md",
+          "originalName": "Phase3_补充分析层组件族.md",
+          "targetDir": "D:/projects/cybernium/ai_projects/docs/claude-ai-archive/tracker",
+          "chars": 14813,
+          "isDuplicate": false
+        },
+        {
+          "filename": "Phase2_监控引擎与UI原型.md",
+          "originalName": "Phase2_监控引擎与UI原型.md",
+          "targetDir": "D:/projects/cybernium/ai_projects/docs/claude-ai-archive/tracker",
+          "chars": 27307,
+          "isDuplicate": false
+        },
+        {
+          "filename": "Phase2_监控引擎与UI原型.jsx",
+          "originalName": "Phase2_监控引擎与UI原型.jsx",
+          "targetDir": "D:/projects/cybernium/ai_projects/docs/claude-ai-archive/tracker",
+          "chars": 33882,
+          "isDuplicate": false
+        },
+        {
+          "filename": "Phase2_ContentEditor原型.md",
+          "originalName": "Phase2_ContentEditor原型.md",
+          "targetDir": "D:/projects/cybernium/ai_projects/docs/claude-ai-archive/tracker",
+          "chars": 20561,
+          "isDuplicate": false
+        },
+        {
+          "filename": "Phase2_ContentEditor原型.jsx",
+          "originalName": "Phase2_ContentEditor原型.jsx",
+          "targetDir": "D:/projects/cybernium/ai_projects/docs/claude-ai-archive/tracker",
+          "chars": 34523,
+          "isDuplicate": false
+        },
+        {
+          "filename": "Phase2_Settings页面原型.jsx",
+          "originalName": "Phase2_Settings页面原型.jsx",
+          "targetDir": "D:/projects/cybernium/ai_projects/docs/claude-ai-archive/tracker",
+          "chars": 31402,
+          "isDuplicate": false
+        },
+        {
+          "filename": "PDF转Markdown自动化开发方案.md",
+          "originalName": "PDF转Markdown自动化开发方案.md",
+          "targetDir": "D:/projects/cybernium/ai_projects/docs/claude-ai-archive/tracker",
+          "chars": 18615,
+          "isDuplicate": false
+        },
+        {
+          "filename": "F0_转换引擎核心_开发文档.md",
+          "originalName": "F0_转换引擎核心_开发文档.md",
+          "targetDir": "D:/projects/cybernium/ai_projects/docs/claude-ai-archive/tracker",
+          "chars": 25221,
+          "isDuplicate": false
+        },
+        {
+          "filename": "F2_文档库UI与批量导入_开发文档.md",
+          "originalName": "F2_文档库UI与批量导入_开发文档.md",
+          "targetDir": "D:/projects/cybernium/ai_projects/docs/claude-ai-archive/tracker",
+          "chars": 27840,
+          "isDuplicate": false
+        },
+        {
+          "filename": "F1_文件上传与管线对接_开发文档.md",
+          "originalName": "F1_文件上传与管线对接_开发文档.md",
+          "targetDir": "D:/projects/cybernium/ai_projects/docs/claude-ai-archive/tracker",
+          "chars": 35371,
+          "isDuplicate": false
+        },
+        {
+          "filename": "F3_可观测性与高级功能_开发文档.md",
+          "originalName": "F3_可观测性与高级功能_开发文档.md",
+          "targetDir": "D:/projects/cybernium/ai_projects/docs/claude-ai-archive/tracker",
+          "chars": 36689,
+          "isDuplicate": false
+        },
+        {
+          "filename": "双引擎浏览器自动化系统_实施方案框架_2.0.md",
+          "originalName": "双引擎浏览器自动化系统_实施方案框架_2.0.md",
+          "targetDir": "D:/projects/cybernium/ai_projects/docs/claude-ai-archive/tracker",
+          "chars": 23592,
+          "isDuplicate": false
+        },
+        {
+          "filename": "AI追踪器_数据中台开发指南_Webhook架构版.md",
+          "originalName": "AI追踪器_数据中台开发指南_Webhook架构版.md",
+          "targetDir": "D:/projects/cybernium/ai_projects/docs/claude-ai-archive/tracker",
+          "chars": 20852,
+          "isDuplicate": false
+        },
+        {
+          "filename": "数据中台开发指南_README.md",
+          "originalName": "数据中台开发指南_README.md",
+          "targetDir": "D:/projects/cybernium/ai_projects/docs/claude-ai-archive/tracker",
+          "chars": 13056,
+          "isDuplicate": false
+        },
+        {
+          "filename": "eu-ai-regulation-data-catalog.md",
+          "originalName": "eu-ai-regulation-data-catalog.md",
+          "targetDir": "D:/projects/cybernium/ai_projects/docs/claude-ai-archive/tracker",
+          "chars": 18086,
+          "isDuplicate": false
+        },
+        {
+          "filename": "项目知识库内容目录.md",
+          "originalName": "项目知识库内容目录.md",
+          "targetDir": "D:/projects/cybernium/ai_projects/docs/claude-ai-archive/tracker",
+          "chars": 12685,
+          "isDuplicate": false
+        },
+        {
+          "filename": "数据库完善与数据丰富思路.md",
+          "originalName": "数据库完善与数据丰富思路.md",
+          "targetDir": "D:/projects/cybernium/ai_projects/docs/claude-ai-archive/tracker",
+          "chars": 6688,
+          "isDuplicate": false
+        },
+        {
+          "filename": "数据库完善与数据丰富_分步骤完善方案.md",
+          "originalName": "数据库完善与数据丰富_分步骤完善方案.md",
+          "targetDir": "D:/projects/cybernium/ai_projects/docs/claude-ai-archive/tracker",
+          "chars": 14009,
+          "isDuplicate": false
+        },
+        {
+          "filename": "Step1_4_6_11_合并执行结果.md",
+          "originalName": "Step1_4_6_11_合并执行结果.md",
+          "targetDir": "D:/projects/cybernium/ai_projects/docs/claude-ai-archive/tracker",
+          "chars": 26362,
+          "isDuplicate": false
+        },
+        {
+          "filename": "Step2_3_8_9_10_合并执行结果.md",
+          "originalName": "Step2_3_8_9_10_合并执行结果.md",
+          "targetDir": "D:/projects/cybernium/ai_projects/docs/claude-ai-archive/tracker",
+          "chars": 13940,
+          "isDuplicate": false
+        },
+        {
+          "filename": "AI立法追踪器_前端问题分析与修改建议.md",
+          "originalName": "AI立法追踪器_前端问题分析与修改建议.md",
+          "targetDir": "D:/projects/cybernium/ai_projects/docs/claude-ai-archive/tracker",
+          "chars": 6851,
+          "isDuplicate": false
+        },
+        {
+          "filename": "双轨架构_ICP合规部署方案_开发文档.md",
+          "originalName": "双轨架构_ICP合规部署方案_开发文档.md",
+          "targetDir": "D:/projects/cybernium/ai_projects/docs/claude-ai-archive/tracker",
+          "chars": 12697,
+          "isDuplicate": false
+        },
+        {
+          "filename": "internal站完善方案_分步骤.md",
+          "originalName": "internal站完善方案_分步骤.md",
+          "targetDir": "D:/projects/cybernium/ai_projects/docs/claude-ai-archive/tracker",
+          "chars": 5231,
+          "isDuplicate": false
+        },
+        {
+          "filename": "Step4_核心可视化交互化_开发方案.md",
+          "originalName": "Step4_核心可视化交互化_开发方案.md",
+          "targetDir": "D:/projects/cybernium/ai_projects/docs/claude-ai-archive/tracker",
+          "chars": 11985,
+          "isDuplicate": false
+        },
+        {
+          "filename": "internal站完善_Step2-8_细化开发方案.md",
+          "originalName": "internal站完善_Step2-8_细化开发方案.md",
+          "targetDir": "D:/projects/cybernium/ai_projects/docs/claude-ai-archive/tracker",
+          "chars": 28577,
+          "isDuplicate": false
+        },
+        {
+          "filename": "Step1_访问控制与架构对齐_开发方案.md",
+          "originalName": "Step1_访问控制与架构对齐_开发方案.md",
+          "targetDir": "D:/projects/cybernium/ai_projects/docs/claude-ai-archive/tracker",
+          "chars": 7922,
+          "isDuplicate": false
+        },
+        {
+          "filename": "欧盟AI法案与配套法规时间线_完整梳理.md",
+          "originalName": "欧盟AI法案与配套法规时间线_完整梳理.md",
+          "targetDir": "D:/projects/cybernium/ai_projects/docs/claude-ai-archive/tracker",
+          "chars": 13619,
+          "isDuplicate": false
+        },
+        {
+          "filename": "eu-ai-act-map_1.jsx",
+          "originalName": "eu-ai-act-map.jsx",
+          "targetDir": "D:/projects/cybernium/ai_projects/docs/claude-ai-archive/tracker",
+          "chars": 19947,
+          "isDuplicate": true
+        },
+        {
+          "filename": "compliance-tools-seed-data.json",
+          "originalName": "compliance-tools-seed-data.json",
+          "targetDir": "D:/projects/cybernium/ai_projects/docs/claude-ai-archive/tracker",
+          "chars": 10172,
+          "isDuplicate": false
+        },
+        {
+          "filename": "合规工具数据回流操作文档.md",
+          "originalName": "合规工具数据回流操作文档.md",
+          "targetDir": "D:/projects/cybernium/ai_projects/docs/claude-ai-archive/tracker",
+          "chars": 13678,
+          "isDuplicate": false
+        },
+        {
+          "filename": "EU_AI_Act_合规工具全景索引.md",
+          "originalName": "EU_AI_Act_合规工具全景索引.md",
+          "targetDir": "D:/projects/cybernium/ai_projects/docs/claude-ai-archive/tracker",
+          "chars": 15597,
+          "isDuplicate": false
+        },
+        {
+          "filename": "eu-ai-act-export_修改计划.md",
+          "originalName": "eu-ai-act-export_修改计划.md",
+          "targetDir": "D:/projects/cybernium/ai_projects/docs/claude-ai-archive/tracker",
+          "chars": 10027,
+          "isDuplicate": false
+        },
+        {
+          "filename": "eu-ai-act-data-corrections (1).json",
+          "originalName": "eu-ai-act-data-corrections (1).json",
+          "targetDir": "D:/projects/cybernium/ai_projects/docs/claude-ai-archive/tracker",
+          "chars": 47877,
+          "isDuplicate": false
+        },
+        {
+          "filename": "Phase3_2_翻译对话分工方案.md",
+          "originalName": "Phase3_2_翻译对话分工方案.md",
+          "targetDir": "D:/projects/cybernium/ai_projects/docs/claude-ai-archive/tracker",
+          "chars": 8149,
+          "isDuplicate": false
+        },
+        {
+          "filename": "中文翻译专家",
+          "originalName": "中文翻译专家",
+          "targetDir": "D:/projects/cybernium/ai_projects/docs/claude-ai-archive/tracker",
+          "chars": 766,
+          "isDuplicate": false
+        },
+        {
+          "filename": "翻译输出_分类一_Batch01a_02_08_09.json",
+          "originalName": "翻译输出_分类一_Batch01a_02_08_09.json",
+          "targetDir": "D:/projects/cybernium/ai_projects/docs/claude-ai-archive/tracker",
+          "chars": 16142,
+          "isDuplicate": false
+        },
+        {
+          "filename": "EU_AI_Act_2024_1689_中英对照完整版.md",
+          "originalName": "EU_AI_Act_2024_1689_中英对照完整版.md",
+          "targetDir": "D:/projects/cybernium/ai_projects/docs/claude-ai-archive/tracker",
+          "chars": 262977,
+          "isDuplicate": false
+        },
+        {
+          "filename": "序言.md",
+          "originalName": "序言.md",
+          "targetDir": "D:/projects/cybernium/ai_projects/docs/claude-ai-archive/tracker",
+          "chars": 229072,
+          "isDuplicate": false
+        },
+        {
+          "filename": "preamble_P18_R171-180.md",
+          "originalName": "preamble_P18_R171-180.md",
+          "targetDir": "D:/projects/cybernium/ai_projects/docs/claude-ai-archive/tracker",
+          "chars": 10794,
+          "isDuplicate": false
+        },
+        {
+          "filename": "EU法规数据导出_分步骤完善方案.md",
+          "originalName": "EU法规数据导出_分步骤完善方案.md",
+          "targetDir": "D:/projects/cybernium/ai_projects/docs/claude-ai-archive/tracker",
+          "chars": 16700,
+          "isDuplicate": false
+        },
+        {
+          "filename": "欧盟DPA_AI指南梳理_2026Q1_v4_完整版.md",
+          "originalName": "欧盟DPA_AI指南梳理_2026Q1_v4_完整版.md",
+          "targetDir": "D:/projects/cybernium/ai_projects/docs/claude-ai-archive/tracker",
+          "chars": 24137,
+          "isDuplicate": false
+        }
+      ],
+      "totalChars": 2003528
+    },
+    {
+      "name": "115",
+      "description": "JAV userscript + Puppeteer crawler architecture",
+      "target": "D:/projects/Others/scrapling-mcp/docs/claude-ai-archive",
+      "docCount": 32,
+      "files": [
+        {
+          "filename": "115Master-1.13.0.user.js",
+          "originalName": "115Master-1.13.0.user.js",
+          "targetDir": "D:/projects/Others/scrapling-mcp/docs/claude-ai-archive",
+          "chars": 1487203,
+          "isDuplicate": false
+        },
+        {
+          "filename": "JAV老司机配合115Master版-3.8.90.user.js",
+          "originalName": "JAV老司机配合115Master版-3.8.90.user.js",
+          "targetDir": "D:/projects/Others/scrapling-mcp/docs/claude-ai-archive",
+          "chars": 174917,
+          "isDuplicate": false
+        },
+        {
+          "filename": "JAV-All-In-One_1_3_3_user.js",
+          "originalName": "JAV-All-In-One_1_3_3_user.js",
+          "targetDir": "D:/projects/Others/scrapling-mcp/docs/claude-ai-archive",
+          "chars": 1192682,
+          "isDuplicate": false
+        },
+        {
+          "filename": "JavDB-ListHunter.user.js",
+          "originalName": "JavDB-ListHunter.user.js",
+          "targetDir": "D:/projects/Others/scrapling-mcp/docs/claude-ai-archive",
+          "chars": 46670,
+          "isDuplicate": false
+        },
+        {
+          "filename": "清单猎手×AIO功能融合分析.md",
+          "originalName": "清单猎手×AIO功能融合分析.md",
+          "targetDir": "D:/projects/Others/scrapling-mcp/docs/claude-ai-archive",
+          "chars": 5046,
+          "isDuplicate": false
+        },
+        {
+          "filename": "清单猎手×AIO开发计划.md",
+          "originalName": "清单猎手×AIO开发计划.md",
+          "targetDir": "D:/projects/Others/scrapling-mcp/docs/claude-ai-archive",
+          "chars": 7099,
+          "isDuplicate": false
+        },
+        {
+          "filename": "JAV-All-In-One_1_4_0_user.js",
+          "originalName": "JAV-All-In-One_1_4_0_user.js",
+          "targetDir": "D:/projects/Others/scrapling-mcp/docs/claude-ai-archive",
+          "chars": 1285855,
+          "isDuplicate": false
+        },
+        {
+          "filename": "清单数据拓展_v1.5.0开发计划.md",
+          "originalName": "清单数据拓展_v1.5.0开发计划.md",
+          "targetDir": "D:/projects/Others/scrapling-mcp/docs/claude-ai-archive",
+          "chars": 10920,
+          "isDuplicate": false
+        },
+        {
+          "filename": "AIO_v1.5.0_batch1_开发文档.md",
+          "originalName": "AIO_v1.5.0_batch1_开发文档.md",
+          "targetDir": "D:/projects/Others/scrapling-mcp/docs/claude-ai-archive",
+          "chars": 20530,
+          "isDuplicate": false
+        },
+        {
+          "filename": "清单数据拓展_v1.5.0开发计划_1.md",
+          "originalName": "清单数据拓展_v1.5.0开发计划.md",
+          "targetDir": "D:/projects/Others/scrapling-mcp/docs/claude-ai-archive",
+          "chars": 10920,
+          "isDuplicate": true
+        },
+        {
+          "filename": "v1_5_1_标签系统_开发文档.md",
+          "originalName": "v1_5_1_标签系统_开发文档.md",
+          "targetDir": "D:/projects/Others/scrapling-mcp/docs/claude-ai-archive",
+          "chars": 32703,
+          "isDuplicate": false
+        },
+        {
+          "filename": "v1_5_2_开发文档_Step13_Step15.md",
+          "originalName": "v1_5_2_开发文档_Step13_Step15.md",
+          "targetDir": "D:/projects/Others/scrapling-mcp/docs/claude-ai-archive",
+          "chars": 21457,
+          "isDuplicate": false
+        },
+        {
+          "filename": "P1_开发文档_Step4_Step5.md",
+          "originalName": "P1_开发文档_Step4_Step5.md",
+          "targetDir": "D:/projects/Others/scrapling-mcp/docs/claude-ai-archive",
+          "chars": 18893,
+          "isDuplicate": false
+        },
+        {
+          "filename": "P2_开发文档_Step6_Step7_Step8.md",
+          "originalName": "P2_开发文档_Step6_Step7_Step8.md",
+          "targetDir": "D:/projects/Others/scrapling-mcp/docs/claude-ai-archive",
+          "chars": 20551,
+          "isDuplicate": false
+        },
+        {
+          "filename": "P3_开发文档_Step9_Step11_Step12.md",
+          "originalName": "P3_开发文档_Step9_Step11_Step12.md",
+          "targetDir": "D:/projects/Others/scrapling-mcp/docs/claude-ai-archive",
+          "chars": 35287,
+          "isDuplicate": false
+        },
+        {
+          "filename": "javdb-crawler-summary.md",
+          "originalName": "javdb-crawler-summary.md",
+          "targetDir": "D:/projects/Others/scrapling-mcp/docs/claude-ai-archive",
+          "chars": 7004,
+          "isDuplicate": false
+        },
+        {
+          "filename": "puppeteer_完善方案.md",
+          "originalName": "puppeteer_完善方案.md",
+          "targetDir": "D:/projects/Others/scrapling-mcp/docs/claude-ai-archive",
+          "chars": 9371,
+          "isDuplicate": false
+        },
+        {
+          "filename": "puppeteer_完善方案_1.md",
+          "originalName": "puppeteer_完善方案.md",
+          "targetDir": "D:/projects/Others/scrapling-mcp/docs/claude-ai-archive",
+          "chars": 9371,
+          "isDuplicate": true
+        },
+        {
+          "filename": "Puppeteer爬取器_P1开发文档.md",
+          "originalName": "Puppeteer爬取器_P1开发文档.md",
+          "targetDir": "D:/projects/Others/scrapling-mcp/docs/claude-ai-archive",
+          "chars": 31188,
+          "isDuplicate": false
+        },
+        {
+          "filename": "P0_Puppeteer完善_开发文档.md",
+          "originalName": "P0_Puppeteer完善_开发文档.md",
+          "targetDir": "D:/projects/Others/scrapling-mcp/docs/claude-ai-archive",
+          "chars": 21298,
+          "isDuplicate": false
+        },
+        {
+          "filename": "P2_Puppeteer_开发文档_增量更新_URL校验_数据审计.md",
+          "originalName": "P2_Puppeteer_开发文档_增量更新_URL校验_数据审计.md",
+          "targetDir": "D:/projects/Others/scrapling-mcp/docs/claude-ai-archive",
+          "chars": 37090,
+          "isDuplicate": false
+        },
+        {
+          "filename": "Puppeteer_P3_开发文档_AIO桥接_详情增强_定时调度.md",
+          "originalName": "Puppeteer_P3_开发文档_AIO桥接_详情增强_定时调度.md",
+          "targetDir": "D:/projects/Others/scrapling-mcp/docs/claude-ai-archive",
+          "chars": 39062,
+          "isDuplicate": false
+        },
+        {
+          "filename": "Puppeteer爬取器_多站点扩展分析.md",
+          "originalName": "Puppeteer爬取器_多站点扩展分析.md",
+          "targetDir": "D:/projects/Others/scrapling-mcp/docs/claude-ai-archive",
+          "chars": 16798,
+          "isDuplicate": false
+        },
+        {
+          "filename": "PhaseA_多站增强器_开发文档.md",
+          "originalName": "PhaseA_多站增强器_开发文档.md",
+          "targetDir": "D:/projects/Others/scrapling-mcp/docs/claude-ai-archive",
+          "chars": 51241,
+          "isDuplicate": false
+        },
+        {
+          "filename": "PhaseB_引擎层抽取_开发文档.md",
+          "originalName": "PhaseB_引擎层抽取_开发文档.md",
+          "targetDir": "D:/projects/Others/scrapling-mcp/docs/claude-ai-archive",
+          "chars": 39815,
+          "isDuplicate": false
+        },
+        {
+          "filename": "PhaseC_多站点适配器_开发文档.md",
+          "originalName": "PhaseC_多站点适配器_开发文档.md",
+          "targetDir": "D:/projects/Others/scrapling-mcp/docs/claude-ai-archive",
+          "chars": 56281,
+          "isDuplicate": false
+        },
+        {
+          "filename": "Puppeteer爬取器_全阶段开发文档汇总.md",
+          "originalName": "Puppeteer爬取器_全阶段开发文档汇总.md",
+          "targetDir": "D:/projects/Others/scrapling-mcp/docs/claude-ai-archive",
+          "chars": 16002,
+          "isDuplicate": false
+        },
+        {
+          "filename": "Puppeteer爬取器_分步开发测试计划.md",
+          "originalName": "Puppeteer爬取器_分步开发测试计划.md",
+          "targetDir": "D:/projects/Others/scrapling-mcp/docs/claude-ai-archive",
+          "chars": 18701,
+          "isDuplicate": false
+        },
+        {
+          "filename": "v1_5_0_影片详情增强_开发文档_v2.md",
+          "originalName": "v1_5_0_影片详情增强_开发文档_v2.md",
+          "targetDir": "D:/projects/Others/scrapling-mcp/docs/claude-ai-archive",
+          "chars": 49089,
+          "isDuplicate": false
+        },
+        {
+          "filename": "v1_5_0_影片详情增强_开发文档_v2_1.md",
+          "originalName": "v1_5_0_影片详情增强_开发文档_v2.md",
+          "targetDir": "D:/projects/Others/scrapling-mcp/docs/claude-ai-archive",
+          "chars": 49089,
+          "isDuplicate": true
+        },
+        {
+          "filename": "v1_6_0_增强缓存与分析扩展_开发计划.md",
+          "originalName": "v1_6_0_增强缓存与分析扩展_开发计划.md",
+          "targetDir": "D:/projects/Others/scrapling-mcp/docs/claude-ai-archive",
+          "chars": 27082,
+          "isDuplicate": false
+        },
+        {
+          "filename": "v1_8_0_数据丰富化开发计划.md",
+          "originalName": "v1_8_0_数据丰富化开发计划.md",
+          "targetDir": "D:/projects/Others/scrapling-mcp/docs/claude-ai-archive",
+          "chars": 8324,
+          "isDuplicate": false
+        }
+      ],
+      "totalChars": 4857539
+    },
+    {
+      "name": "SW",
+      "description": "Hosiery brand encyclopedia (non-dev, standalone archive)",
+      "target": "C:/Users/Admin/docs/archive/hosiery",
+      "docCount": 2,
+      "files": [
+        {
+          "filename": "The Definitive Guide to Global Hosiery Brands, Technology, and Specifications.md",
+          "originalName": "The Definitive Guide to Global Hosiery Brands, Technology, and Specifications.md",
+          "targetDir": "C:/Users/Admin/docs/archive/hosiery",
+          "chars": 28846,
+          "isDuplicate": false
+        },
+        {
+          "filename": "丝袜分类与搭配玩法总结.md",
+          "originalName": "丝袜分类与搭配玩法总结.md",
+          "targetDir": "C:/Users/Admin/docs/archive/hosiery",
+          "chars": 6211,
+          "isDuplicate": false
+        }
+      ],
+      "totalChars": 35057
+    },
+    {
+      "name": "美国出口管制",
+      "description": "US EAR/BIS export control research",
+      "target": "D:/projects/cybernium/ai_projects/docs/claude-ai-archive/export-control",
+      "docCount": 1,
+      "files": [
+        {
+          "filename": "「美国出口管制」法律检索方法汇总.docx",
+          "originalName": "「美国出口管制」法律检索方法汇总.docx",
+          "targetDir": "D:/projects/cybernium/ai_projects/docs/claude-ai-archive/export-control",
+          "chars": 6079,
+          "isDuplicate": false
+        }
+      ],
+      "totalChars": 6079
+    },
+    {
+      "name": "子尤浏览器",
+      "description": "Dual-engine browser automation system — full doc chain",
+      "target": "D:/projects/ziyou-assistant/docs/claude-ai-archive",
+      "docCount": 63,
+      "files": [
+        {
+          "filename": "双引擎浏览器自动化系统 — 实施方案框架 1.0",
+          "originalName": "双引擎浏览器自动化系统 — 实施方案框架 1.0",
+          "targetDir": "D:/projects/ziyou-assistant/docs/claude-ai-archive",
+          "chars": 2164,
+          "isDuplicate": false
+        },
+        {
+          "filename": "P1_Harvester_MVP_开发文档.md",
+          "originalName": "P1_Harvester_MVP_开发文档.md",
+          "targetDir": "D:/projects/ziyou-assistant/docs/claude-ai-archive",
+          "chars": 15534,
+          "isDuplicate": false
+        },
+        {
+          "filename": "P2_Scout_MVP_开发文档.md",
+          "originalName": "P2_Scout_MVP_开发文档.md",
+          "targetDir": "D:/projects/ziyou-assistant/docs/claude-ai-archive",
+          "chars": 13180,
+          "isDuplicate": false
+        },
+        {
+          "filename": "design-vault.jsx",
+          "originalName": "design-vault.jsx",
+          "targetDir": "D:/projects/ziyou-assistant/docs/claude-ai-archive",
+          "chars": 43956,
+          "isDuplicate": false
+        },
+        {
+          "filename": "P1.5_DesignVault_集成开发文档.md",
+          "originalName": "P1.5_DesignVault_集成开发文档.md",
+          "targetDir": "D:/projects/ziyou-assistant/docs/claude-ai-archive",
+          "chars": 37247,
+          "isDuplicate": false
+        },
+        {
+          "filename": "P1-R_Reddit数据采集模块_开发文档.md",
+          "originalName": "P1-R_Reddit数据采集模块_开发文档.md",
+          "targetDir": "D:/projects/ziyou-assistant/docs/claude-ai-archive",
+          "chars": 31974,
+          "isDuplicate": false
+        },
+        {
+          "filename": "Gemini-OCR-API-开发方案.md",
+          "originalName": "Gemini-OCR-API-开发方案.md",
+          "targetDir": "D:/projects/ziyou-assistant/docs/claude-ai-archive",
+          "chars": 36104,
+          "isDuplicate": false
+        },
+        {
+          "filename": "P1.6_BiliVideoData_集成开发文档.md",
+          "originalName": "P1.6_BiliVideoData_集成开发文档.md",
+          "targetDir": "D:/projects/ziyou-assistant/docs/claude-ai-archive",
+          "chars": 62626,
+          "isDuplicate": false
+        },
+        {
+          "filename": "P6_ResourceVault_本地资料管理模块_开发文档.md",
+          "originalName": "P6_ResourceVault_本地资料管理模块_开发文档.md",
+          "targetDir": "D:/projects/ziyou-assistant/docs/claude-ai-archive",
+          "chars": 39986,
+          "isDuplicate": false
+        },
+        {
+          "filename": "P1-OCR_Gemini视觉识别模块_集成开发文档.md",
+          "originalName": "P1-OCR_Gemini视觉识别模块_集成开发文档.md",
+          "targetDir": "D:/projects/ziyou-assistant/docs/claude-ai-archive",
+          "chars": 49132,
+          "isDuplicate": false
+        },
+        {
+          "filename": "P7_DocBridge_文档格式中转模块_开发文档.md",
+          "originalName": "P7_DocBridge_文档格式中转模块_开发文档.md",
+          "targetDir": "D:/projects/ziyou-assistant/docs/claude-ai-archive",
+          "chars": 46397,
+          "isDuplicate": false
+        },
+        {
+          "filename": "P1-T_PDF原图直翻模块_集成开发文档.md",
+          "originalName": "P1-T_PDF原图直翻模块_集成开发文档.md",
+          "targetDir": "D:/projects/ziyou-assistant/docs/claude-ai-archive",
+          "chars": 34625,
+          "isDuplicate": false
+        },
+        {
+          "filename": "浏览器扩展整合开发文档.md",
+          "originalName": "浏览器扩展整合开发文档.md",
+          "targetDir": "D:/projects/ziyou-assistant/docs/claude-ai-archive",
+          "chars": 9363,
+          "isDuplicate": false
+        },
+        {
+          "filename": "P8_PromptVault_集成开发文档.md",
+          "originalName": "P8_PromptVault_集成开发文档.md",
+          "targetDir": "D:/projects/ziyou-assistant/docs/claude-ai-archive",
+          "chars": 25601,
+          "isDuplicate": false
+        },
+        {
+          "filename": "P7-M_PDF转Markdown转换模块_集成开发文档.md",
+          "originalName": "P7-M_PDF转Markdown转换模块_集成开发文档.md",
+          "targetDir": "D:/projects/ziyou-assistant/docs/claude-ai-archive",
+          "chars": 47128,
+          "isDuplicate": false
+        },
+        {
+          "filename": "Claude自动化任务_双引擎集成开发文档.md",
+          "originalName": "Claude自动化任务_双引擎集成开发文档.md",
+          "targetDir": "D:/projects/ziyou-assistant/docs/claude-ai-archive",
+          "chars": 16871,
+          "isDuplicate": false
+        },
+        {
+          "filename": "双引擎浏览器自动化系统_实施方案框架_2.0.md",
+          "originalName": "双引擎浏览器自动化系统_实施方案框架_2.0.md",
+          "targetDir": "D:/projects/ziyou-assistant/docs/claude-ai-archive",
+          "chars": 23592,
+          "isDuplicate": false
+        },
+        {
+          "filename": "双引擎浏览器自动化系统_实施方案框架_3.0.md",
+          "originalName": "双引擎浏览器自动化系统_实施方案框架_3.0.md",
+          "targetDir": "D:/projects/ziyou-assistant/docs/claude-ai-archive",
+          "chars": 34120,
+          "isDuplicate": false
+        },
+        {
+          "filename": "双引擎系统_27项增强开发计划.md",
+          "originalName": "双引擎系统_27项增强开发计划.md",
+          "targetDir": "D:/projects/ziyou-assistant/docs/claude-ai-archive",
+          "chars": 14427,
+          "isDuplicate": false
+        },
+        {
+          "filename": "Phase0_基础设施奠基_开发计划.md",
+          "originalName": "Phase0_基础设施奠基_开发计划.md",
+          "targetDir": "D:/projects/ziyou-assistant/docs/claude-ai-archive",
+          "chars": 2561,
+          "isDuplicate": false
+        },
+        {
+          "filename": "Phase1_核心引擎增强_开发计划.md",
+          "originalName": "Phase1_核心引擎增强_开发计划.md",
+          "targetDir": "D:/projects/ziyou-assistant/docs/claude-ai-archive",
+          "chars": 8365,
+          "isDuplicate": false
+        },
+        {
+          "filename": "Phase2_垂直场景补强_开发计划.md",
+          "originalName": "Phase2_垂直场景补强_开发计划.md",
+          "targetDir": "D:/projects/ziyou-assistant/docs/claude-ai-archive",
+          "chars": 2733,
+          "isDuplicate": false
+        },
+        {
+          "filename": "Phase3_管理与运维增强_开发计划.md",
+          "originalName": "Phase3_管理与运维增强_开发计划.md",
+          "targetDir": "D:/projects/ziyou-assistant/docs/claude-ai-archive",
+          "chars": 8310,
+          "isDuplicate": false
+        },
+        {
+          "filename": "Phase6_质量保障体系_开发计划.md",
+          "originalName": "Phase6_质量保障体系_开发计划.md",
+          "targetDir": "D:/projects/ziyou-assistant/docs/claude-ai-archive",
+          "chars": 5024,
+          "isDuplicate": false
+        },
+        {
+          "filename": "Phase4_P6_P7阶段增强_开发计划.md",
+          "originalName": "Phase4_P6_P7阶段增强_开发计划.md",
+          "targetDir": "D:/projects/ziyou-assistant/docs/claude-ai-archive",
+          "chars": 20902,
+          "isDuplicate": false
+        },
+        {
+          "filename": "Phase5_扩展层与体验增强_开发计划.md",
+          "originalName": "Phase5_扩展层与体验增强_开发计划.md",
+          "targetDir": "D:/projects/ziyou-assistant/docs/claude-ai-archive",
+          "chars": 16009,
+          "isDuplicate": false
+        },
+        {
+          "filename": "小红书乙游×酒馆_研究方法论工程化开发方案.docx",
+          "originalName": "小红书乙游×酒馆_研究方法论工程化开发方案.docx",
+          "targetDir": "D:/projects/ziyou-assistant/docs/claude-ai-archive",
+          "chars": 17697,
+          "isDuplicate": false
+        },
+        {
+          "filename": "P1-XHS_小红书研究工具_集成开发文档.md",
+          "originalName": "P1-XHS_小红书研究工具_集成开发文档.md",
+          "targetDir": "D:/projects/ziyou-assistant/docs/claude-ai-archive",
+          "chars": 37800,
+          "isDuplicate": false
+        },
+        {
+          "filename": "双轨架构_ICP合规部署方案_开发文档.md",
+          "originalName": "双轨架构_ICP合规部署方案_开发文档.md",
+          "targetDir": "D:/projects/ziyou-assistant/docs/claude-ai-archive",
+          "chars": 12697,
+          "isDuplicate": false
+        },
+        {
+          "filename": "DeskBuddy_IME_桌宠开发规划.md",
+          "originalName": "DeskBuddy_IME_桌宠开发规划.md",
+          "targetDir": "D:/projects/ziyou-assistant/docs/claude-ai-archive",
+          "chars": 13839,
+          "isDuplicate": false
+        },
+        {
+          "filename": "DeskBuddy_技术路线深度分析.md",
+          "originalName": "DeskBuddy_技术路线深度分析.md",
+          "targetDir": "D:/projects/ziyou-assistant/docs/claude-ai-archive",
+          "chars": 23519,
+          "isDuplicate": false
+        },
+        {
+          "filename": "DeskBuddy_IME_Android_TRIME_Fork_整体开发方案.md",
+          "originalName": "DeskBuddy_IME_Android_TRIME_Fork_整体开发方案.md",
+          "targetDir": "D:/projects/ziyou-assistant/docs/claude-ai-archive",
+          "chars": 14990,
+          "isDuplicate": false
+        },
+        {
+          "filename": "DeskBuddy_IME_Phase0_TRIME工程剥离与基座搭建_细化开发方案.md",
+          "originalName": "DeskBuddy_IME_Phase0_TRIME工程剥离与基座搭建_细化开发方案.md",
+          "targetDir": "D:/projects/ziyou-assistant/docs/claude-ai-archive",
+          "chars": 30849,
+          "isDuplicate": false
+        },
+        {
+          "filename": "DeskBuddy_IME_Phase1_Compose键盘MVP_开发方案.md",
+          "originalName": "DeskBuddy_IME_Phase1_Compose键盘MVP_开发方案.md",
+          "targetDir": "D:/projects/ziyou-assistant/docs/claude-ai-archive",
+          "chars": 14799,
+          "isDuplicate": false
+        },
+        {
+          "filename": "DeskBuddy_IME_Phase3_AI能力层接入_细化开发方案.md",
+          "originalName": "DeskBuddy_IME_Phase3_AI能力层接入_细化开发方案.md",
+          "targetDir": "D:/projects/ziyou-assistant/docs/claude-ai-archive",
+          "chars": 60830,
+          "isDuplicate": false
+        },
+        {
+          "filename": "DeskBuddy_IME_Phase4_角色内容与成长体系_细化开发方案.md",
+          "originalName": "DeskBuddy_IME_Phase4_角色内容与成长体系_细化开发方案.md",
+          "targetDir": "D:/projects/ziyou-assistant/docs/claude-ai-archive",
+          "chars": 37862,
+          "isDuplicate": false
+        },
+        {
+          "filename": "DeskBuddy_IME_Phase2_EmotionCore移植与角色嵌入_细化开发方案.md",
+          "originalName": "DeskBuddy_IME_Phase2_EmotionCore移植与角色嵌入_细化开发方案.md",
+          "targetDir": "D:/projects/ziyou-assistant/docs/claude-ai-archive",
+          "chars": 57472,
+          "isDuplicate": false
+        },
+        {
+          "filename": "DeskBuddy_IME_Phase6_内测与数据驱动迭代_细化开发方案.md",
+          "originalName": "DeskBuddy_IME_Phase6_内测与数据驱动迭代_细化开发方案.md",
+          "targetDir": "D:/projects/ziyou-assistant/docs/claude-ai-archive",
+          "chars": 38288,
+          "isDuplicate": false
+        },
+        {
+          "filename": "DeskBuddy_IME_Phase5_性能优化与发布准备_细化开发方案.md",
+          "originalName": "DeskBuddy_IME_Phase5_性能优化与发布准备_细化开发方案.md",
+          "targetDir": "D:/projects/ziyou-assistant/docs/claude-ai-archive",
+          "chars": 37128,
+          "isDuplicate": false
+        },
+        {
+          "filename": "DeskBuddy_IME_Phase1_Compose键盘MVP_细化开发方案.md",
+          "originalName": "DeskBuddy_IME_Phase1_Compose键盘MVP_细化开发方案.md",
+          "targetDir": "D:/projects/ziyou-assistant/docs/claude-ai-archive",
+          "chars": 29122,
+          "isDuplicate": false
+        },
+        {
+          "filename": "DeskBuddy_IME_Phase3_4_补充功能细化开发方案.md",
+          "originalName": "DeskBuddy_IME_Phase3_4_补充功能细化开发方案.md",
+          "targetDir": "D:/projects/ziyou-assistant/docs/claude-ai-archive",
+          "chars": 42189,
+          "isDuplicate": false
+        },
+        {
+          "filename": "DeskBuddy_IME_Phase4_角色内容与成长体系_细化开发方案_v2.md",
+          "originalName": "DeskBuddy_IME_Phase4_角色内容与成长体系_细化开发方案_v2.md",
+          "targetDir": "D:/projects/ziyou-assistant/docs/claude-ai-archive",
+          "chars": 51802,
+          "isDuplicate": false
+        },
+        {
+          "filename": "DeskBuddy_IME_Phase5_性能优化与发布准备_细化开发方案_v2.md",
+          "originalName": "DeskBuddy_IME_Phase5_性能优化与发布准备_细化开发方案_v2.md",
+          "targetDir": "D:/projects/ziyou-assistant/docs/claude-ai-archive",
+          "chars": 40711,
+          "isDuplicate": false
+        },
+        {
+          "filename": "DeskBuddy_IME_Android端整体开发方案_最新梳理.md",
+          "originalName": "DeskBuddy_IME_Android端整体开发方案_最新梳理.md",
+          "targetDir": "D:/projects/ziyou-assistant/docs/claude-ai-archive",
+          "chars": 14029,
+          "isDuplicate": false
+        },
+        {
+          "filename": "DeskBuddy_IME_AI图片识别助手_集成开发文档.md",
+          "originalName": "DeskBuddy_IME_AI图片识别助手_集成开发文档.md",
+          "targetDir": "D:/projects/ziyou-assistant/docs/claude-ai-archive",
+          "chars": 43607,
+          "isDuplicate": false
+        },
+        {
+          "filename": "DeskBuddy_IME_AI智能填表助手_集成开发文档.md",
+          "originalName": "DeskBuddy_IME_AI智能填表助手_集成开发文档.md",
+          "targetDir": "D:/projects/ziyou-assistant/docs/claude-ai-archive",
+          "chars": 46289,
+          "isDuplicate": false
+        },
+        {
+          "filename": "DeskBuddy_IME_智能填表识别准确度提升_开发方案.md",
+          "originalName": "DeskBuddy_IME_智能填表识别准确度提升_开发方案.md",
+          "targetDir": "D:/projects/ziyou-assistant/docs/claude-ai-archive",
+          "chars": 41959,
+          "isDuplicate": false
+        },
+        {
+          "filename": "ChromeExt_智能填表模块_集成开发文档.md",
+          "originalName": "ChromeExt_智能填表模块_集成开发文档.md",
+          "targetDir": "D:/projects/ziyou-assistant/docs/claude-ai-archive",
+          "chars": 49212,
+          "isDuplicate": false
+        },
+        {
+          "filename": "DeskBuddy_IME_Android_完整开发方案_v2.md",
+          "originalName": "DeskBuddy_IME_Android_完整开发方案_v2.md",
+          "targetDir": "D:/projects/ziyou-assistant/docs/claude-ai-archive",
+          "chars": 18604,
+          "isDuplicate": false
+        },
+        {
+          "filename": "P1-XHS_爬取方案优化_基于开源工具调研.md",
+          "originalName": "P1-XHS_爬取方案优化_基于开源工具调研.md",
+          "targetDir": "D:/projects/ziyou-assistant/docs/claude-ai-archive",
+          "chars": 27029,
+          "isDuplicate": false
+        },
+        {
+          "filename": "P1-XHS_小红书研究工具_分步开发方案_v2.md",
+          "originalName": "P1-XHS_小红书研究工具_分步开发方案_v2.md",
+          "targetDir": "D:/projects/ziyou-assistant/docs/claude-ai-archive",
+          "chars": 37864,
+          "isDuplicate": false
+        },
+        {
+          "filename": "LazyApply vs. Simplify Copilot: Job Application Tool Comparison and Deep-Dive Analysis.md",
+          "originalName": "LazyApply vs. Simplify Copilot: Job Application Tool Comparison and Deep-Dive Analysis.md",
+          "targetDir": "D:/projects/ziyou-assistant/docs/claude-ai-archive",
+          "chars": 14227,
+          "isDuplicate": false
+        },
+        {
+          "filename": "网申插件研究_检索方案与执行计划.md",
+          "originalName": "网申插件研究_检索方案与执行计划.md",
+          "targetDir": "D:/projects/ziyou-assistant/docs/claude-ai-archive",
+          "chars": 7234,
+          "isDuplicate": false
+        },
+        {
+          "filename": "Claude自动化任务_双引擎集成开发文档_1.md",
+          "originalName": "Claude自动化任务_双引擎集成开发文档.md",
+          "targetDir": "D:/projects/ziyou-assistant/docs/claude-ai-archive",
+          "chars": 16871,
+          "isDuplicate": true
+        },
+        {
+          "filename": "P8-E_Claude自动化任务执行引擎_完整开发文档.md",
+          "originalName": "P8-E_Claude自动化任务执行引擎_完整开发文档.md",
+          "targetDir": "D:/projects/ziyou-assistant/docs/claude-ai-archive",
+          "chars": 27909,
+          "isDuplicate": false
+        },
+        {
+          "filename": "P8_PromptVault_AI提示词与任务管理模块_集成开发文档.md",
+          "originalName": "P8_PromptVault_AI提示词与任务管理模块_集成开发文档.md",
+          "targetDir": "D:/projects/ziyou-assistant/docs/claude-ai-archive",
+          "chars": 29346,
+          "isDuplicate": false
+        },
+        {
+          "filename": "浏览器自动化能力集成_完整开发文档.md",
+          "originalName": "浏览器自动化能力集成_完整开发文档.md",
+          "targetDir": "D:/projects/ziyou-assistant/docs/claude-ai-archive",
+          "chars": 28228,
+          "isDuplicate": false
+        },
+        {
+          "filename": "浏览器任务管理插件_完整开发方案.md",
+          "originalName": "浏览器任务管理插件_完整开发方案.md",
+          "targetDir": "D:/projects/ziyou-assistant/docs/claude-ai-archive",
+          "chars": 43690,
+          "isDuplicate": false
+        },
+        {
+          "filename": "ChromeExt_智能填表模块_集成开发文档_1.md",
+          "originalName": "ChromeExt_智能填表模块_集成开发文档.md",
+          "targetDir": "D:/projects/ziyou-assistant/docs/claude-ai-archive",
+          "chars": 76483,
+          "isDuplicate": true
+        },
+        {
+          "filename": "双引擎系统_开发进展归纳.md",
+          "originalName": "双引擎系统_开发进展归纳.md",
+          "targetDir": "D:/projects/ziyou-assistant/docs/claude-ai-archive",
+          "chars": 8049,
+          "isDuplicate": false
+        },
+        {
+          "filename": "P8_TaskTab_任务功能强化_细化开发方案.md",
+          "originalName": "P8_TaskTab_任务功能强化_细化开发方案.md",
+          "targetDir": "D:/projects/ziyou-assistant/docs/claude-ai-archive",
+          "chars": 30554,
+          "isDuplicate": false
+        },
+        {
+          "filename": "双引擎扩展_开发进展归纳_v2.5.md",
+          "originalName": "双引擎扩展_开发进展归纳_v2.5.md",
+          "targetDir": "D:/projects/ziyou-assistant/docs/claude-ai-archive",
+          "chars": 11252,
+          "isDuplicate": false
+        },
+        {
+          "filename": "延续工作指引_TaskTab全量完成_v2.8.1.md",
+          "originalName": "延续工作指引_TaskTab全量完成_v2.8.1.md",
+          "targetDir": "D:/projects/ziyou-assistant/docs/claude-ai-archive",
+          "chars": 2487,
+          "isDuplicate": false
+        }
+      ],
+      "totalChars": 1784448
+    },
+    {
+      "name": "数据出境",
+      "description": "China cross-border data transfer compliance",
+      "target": "D:/projects/cybernium/ai_projects/docs/claude-ai-archive/data-transfer",
+      "docCount": 3,
+      "files": [
+        {
+          "filename": "中国数据出境监管体系全景梳理.md",
+          "originalName": "中国数据出境监管体系全景梳理.md",
+          "targetDir": "D:/projects/cybernium/ai_projects/docs/claude-ai-archive/data-transfer",
+          "chars": 6527,
+          "isDuplicate": false
+        },
+        {
+          "filename": "中国数据出境监管机构官方网站全览.md",
+          "originalName": "中国数据出境监管机构官方网站全览.md",
+          "targetDir": "D:/projects/cybernium/ai_projects/docs/claude-ai-archive/data-transfer",
+          "chars": 5653,
+          "isDuplicate": false
+        },
+        {
+          "filename": "中国数据出境法规体系梳理.md",
+          "originalName": "中国数据出境法规体系梳理.md",
+          "targetDir": "D:/projects/cybernium/ai_projects/docs/claude-ai-archive/data-transfer",
+          "chars": 11829,
+          "isDuplicate": false
+        }
+      ],
+      "totalChars": 24009
+    },
+    {
+      "name": "前端设计",
+      "description": "Pixel UI resource lists, shadcn component library expansion",
+      "target": "D:/projects/devboard/docs/design-resources",
+      "docCount": 5,
+      "files": [
+        {
+          "filename": "像素风UI与状态可视化前端资源手册.md",
+          "originalName": "像素风UI与状态可视化前端资源手册.md",
+          "targetDir": "D:/projects/devboard/docs/design-resources",
+          "chars": 14472,
+          "isDuplicate": false
+        },
+        {
+          "filename": "像素风UI与状态可视化前端资源手册_1.md",
+          "originalName": "像素风UI与状态可视化前端资源手册.md",
+          "targetDir": "D:/projects/devboard/docs/design-resources",
+          "chars": 14472,
+          "isDuplicate": true
+        },
+        {
+          "filename": "前端设计借鉴分析.md",
+          "originalName": "前端设计借鉴分析.md",
+          "targetDir": "D:/projects/devboard/docs/design-resources",
+          "chars": 25275,
+          "isDuplicate": false
+        },
+        {
+          "filename": "shadcn-ui组件库扩充资料清单.md",
+          "originalName": "shadcn-ui组件库扩充资料清单.md",
+          "targetDir": "D:/projects/devboard/docs/design-resources",
+          "chars": 6159,
+          "isDuplicate": false
+        },
+        {
+          "filename": "像素风UI设计资源-分阶段检索清单.md",
+          "originalName": "像素风UI设计资源-分阶段检索清单.md",
+          "targetDir": "D:/projects/devboard/docs/design-resources",
+          "chars": 11073,
+          "isDuplicate": false
+        }
+      ],
+      "totalChars": 71451
+    },
+    {
+      "name": "个保框架",
+      "description": "Multi-jurisdiction data protection research (GDPR/APPI/LGPD/KVKK/PDPL)",
+      "target": "D:/projects/cybernium/ai_projects/docs/claude-ai-archive/privacy-frameworks",
+      "docCount": 65,
+      "files": [
+        {
+          "filename": "板块二_GDPR执法体系与机构_研究报告.md",
+          "originalName": "板块二_GDPR执法体系与机构_研究报告.md",
+          "targetDir": "D:/projects/cybernium/ai_projects/docs/claude-ai-archive/privacy-frameworks",
+          "chars": 10966,
+          "isDuplicate": false
+        },
+        {
+          "filename": "板块四_AI_Act_GDPR交叉研究报告.docx",
+          "originalName": "板块四_AI_Act_GDPR交叉研究报告.docx",
+          "targetDir": "D:/projects/cybernium/ai_projects/docs/claude-ai-archive/privacy-frameworks",
+          "chars": 8809,
+          "isDuplicate": false
+        },
+        {
+          "filename": "gdpr_cross_border_transfer_report.docx",
+          "originalName": "gdpr_cross_border_transfer_report.docx",
+          "targetDir": "D:/projects/cybernium/ai_projects/docs/claude-ai-archive/privacy-frameworks",
+          "chars": 10835,
+          "isDuplicate": false
+        },
+        {
+          "filename": "gdpr_cross_border_transfer_report_1.docx",
+          "originalName": "gdpr_cross_border_transfer_report.docx",
+          "targetDir": "D:/projects/cybernium/ai_projects/docs/claude-ai-archive/privacy-frameworks",
+          "chars": 10835,
+          "isDuplicate": true
+        },
+        {
+          "filename": "板块一_GDPR核心框架_研究报告.md",
+          "originalName": "板块一_GDPR核心框架_研究报告.md",
+          "targetDir": "D:/projects/cybernium/ai_projects/docs/claude-ai-archive/privacy-frameworks",
+          "chars": 10059,
+          "isDuplicate": false
+        },
+        {
+          "filename": "板块二_悬挂项更新_2026Q1.md",
+          "originalName": "板块二_悬挂项更新_2026Q1.md",
+          "targetDir": "D:/projects/cybernium/ai_projects/docs/claude-ai-archive/privacy-frameworks",
+          "chars": 2744,
+          "isDuplicate": false
+        },
+        {
+          "filename": "中国个人信息保护法律法规体系.docx",
+          "originalName": "中国个人信息保护法律法规体系.docx",
+          "targetDir": "D:/projects/cybernium/ai_projects/docs/claude-ai-archive/privacy-frameworks",
+          "chars": 16501,
+          "isDuplicate": false
+        },
+        {
+          "filename": "中国个人信息保护法规体系_官方链接索引.md",
+          "originalName": "中国个人信息保护法规体系_官方链接索引.md",
+          "targetDir": "D:/projects/cybernium/ai_projects/docs/claude-ai-archive/privacy-frameworks",
+          "chars": 5941,
+          "isDuplicate": false
+        },
+        {
+          "filename": "APPI_第2轮_现行条文体系与政令规则层_研究报告.md",
+          "originalName": "APPI_第2轮_现行条文体系与政令规则层_研究报告.md",
+          "targetDir": "D:/projects/cybernium/ai_projects/docs/claude-ai-archive/privacy-frameworks",
+          "chars": 13835,
+          "isDuplicate": false
+        },
+        {
+          "filename": "APPI_第5轮_执法体系与案例_研究报告.md",
+          "originalName": "APPI_第5轮_执法体系与案例_研究报告.md",
+          "targetDir": "D:/projects/cybernium/ai_projects/docs/claude-ai-archive/privacy-frameworks",
+          "chars": 10430,
+          "isDuplicate": false
+        },
+        {
+          "filename": "APPI_第6轮_AI监管交叉与日本AI立法动向_研究报告.md",
+          "originalName": "APPI_第6轮_AI监管交叉与日本AI立法动向_研究报告.md",
+          "targetDir": "D:/projects/cybernium/ai_projects/docs/claude-ai-archive/privacy-frameworks",
+          "chars": 11556,
+          "isDuplicate": false
+        },
+        {
+          "filename": "日本APPI个人信息保护法_综合研究报告.md",
+          "originalName": "日本APPI个人信息保护法_综合研究报告.md",
+          "targetDir": "D:/projects/cybernium/ai_projects/docs/claude-ai-archive/privacy-frameworks",
+          "chars": 16788,
+          "isDuplicate": false
+        },
+        {
+          "filename": "APPI_第3-4轮_补充研究报告.md",
+          "originalName": "APPI_第3-4轮_补充研究报告.md",
+          "targetDir": "D:/projects/cybernium/ai_projects/docs/claude-ai-archive/privacy-frameworks",
+          "chars": 16836,
+          "isDuplicate": false
+        },
+        {
+          "filename": "EU_EEA_数据保护机构汇总.md",
+          "originalName": "EU_EEA_数据保护机构汇总.md",
+          "targetDir": "D:/projects/cybernium/ai_projects/docs/claude-ai-archive/privacy-frameworks",
+          "chars": 4361,
+          "isDuplicate": false
+        },
+        {
+          "filename": "P0_七国DPA执法与AI_Act_MSA研究报告.md",
+          "originalName": "P0_七国DPA执法与AI_Act_MSA研究报告.md",
+          "targetDir": "D:/projects/cybernium/ai_projects/docs/claude-ai-archive/privacy-frameworks",
+          "chars": 15487,
+          "isDuplicate": false
+        },
+        {
+          "filename": "P1组_DPA执法档案_8国.md",
+          "originalName": "P1组_DPA执法档案_8国.md",
+          "targetDir": "D:/projects/cybernium/ai_projects/docs/claude-ai-archive/privacy-frameworks",
+          "chars": 12732,
+          "isDuplicate": false
+        },
+        {
+          "filename": "P2组_DPA执法概况_9国.md",
+          "originalName": "P2组_DPA执法概况_9国.md",
+          "targetDir": "D:/projects/cybernium/ai_projects/docs/claude-ai-archive/privacy-frameworks",
+          "chars": 12099,
+          "isDuplicate": false
+        },
+        {
+          "filename": "Singapore PDPA: Distinctive Features and Cross-Jurisdictional Analysis.md",
+          "originalName": "Singapore PDPA: Distinctive Features and Cross-Jurisdictional Analysis.md",
+          "targetDir": "D:/projects/cybernium/ai_projects/docs/claude-ai-archive/privacy-frameworks",
+          "chars": 25859,
+          "isDuplicate": false
+        },
+        {
+          "filename": "新加坡 PDPA 法律框架层全景研究（Layer 1）.md",
+          "originalName": "新加坡 PDPA 法律框架层全景研究（Layer 1）.md",
+          "targetDir": "D:/projects/cybernium/ai_projects/docs/claude-ai-archive/privacy-frameworks",
+          "chars": 15308,
+          "isDuplicate": false
+        },
+        {
+          "filename": "Singapore's PDPA Mapped to DPTM Certification: A Comprehensive Regulatory Guide.md",
+          "originalName": "Singapore's PDPA Mapped to DPTM Certification: A Comprehensive Regulatory Guide.md",
+          "targetDir": "D:/projects/cybernium/ai_projects/docs/claude-ai-archive/privacy-frameworks",
+          "chars": 24382,
+          "isDuplicate": false
+        },
+        {
+          "filename": "P3组_小型成员国与EEA非EU_DPA档案.md",
+          "originalName": "P3组_小型成员国与EEA非EU_DPA档案.md",
+          "targetDir": "D:/projects/cybernium/ai_projects/docs/claude-ai-archive/privacy-frameworks",
+          "chars": 11104,
+          "isDuplicate": false
+        },
+        {
+          "filename": "美国数据隐私机构信息体系_研究报告.md",
+          "originalName": "美国数据隐私机构信息体系_研究报告.md",
+          "targetDir": "D:/projects/cybernium/ai_projects/docs/claude-ai-archive/privacy-frameworks",
+          "chars": 13882,
+          "isDuplicate": false
+        },
+        {
+          "filename": "R1_EDPB_Guidelines_Recommendations_全量索引.md",
+          "originalName": "R1_EDPB_Guidelines_Recommendations_全量索引.md",
+          "targetDir": "D:/projects/cybernium/ai_projects/docs/claude-ai-archive/privacy-frameworks",
+          "chars": 17022,
+          "isDuplicate": false
+        },
+        {
+          "filename": "R2_EDPB_Art65_66_约束性决定与Art64_2_意见全量清单.md",
+          "originalName": "R2_EDPB_Art65_66_约束性决定与Art64_2_意见全量清单.md",
+          "targetDir": "D:/projects/cybernium/ai_projects/docs/claude-ai-archive/privacy-frameworks",
+          "chars": 11567,
+          "isDuplicate": false
+        },
+        {
+          "filename": "R3_EDPB_Art64_Consistency_Opinions_全量索引.md",
+          "originalName": "R3_EDPB_Art64_Consistency_Opinions_全量索引.md",
+          "targetDir": "D:/projects/cybernium/ai_projects/docs/claude-ai-archive/privacy-frameworks",
+          "chars": 13645,
+          "isDuplicate": false
+        },
+        {
+          "filename": "R4_EDPS_立法意见_全量索引.md",
+          "originalName": "R4_EDPS_立法意见_全量索引.md",
+          "targetDir": "D:/projects/cybernium/ai_projects/docs/claude-ai-archive/privacy-frameworks",
+          "chars": 12864,
+          "isDuplicate": false
+        },
+        {
+          "filename": "R5_EDPB_联合意见_Statements_Letters_汇总校验.md",
+          "originalName": "R5_EDPB_联合意见_Statements_Letters_汇总校验.md",
+          "targetDir": "D:/projects/cybernium/ai_projects/docs/claude-ai-archive/privacy-frameworks",
+          "chars": 9909,
+          "isDuplicate": false
+        },
+        {
+          "filename": "UK_数据保护体系_检索研究方案.md",
+          "originalName": "UK_数据保护体系_检索研究方案.md",
+          "targetDir": "D:/projects/cybernium/ai_projects/docs/claude-ai-archive/privacy-frameworks",
+          "chars": 6991,
+          "isDuplicate": false
+        },
+        {
+          "filename": "UK_第2轮_执法与传输机制_检索方案.md",
+          "originalName": "UK_第2轮_执法与传输机制_检索方案.md",
+          "targetDir": "D:/projects/cybernium/ai_projects/docs/claude-ai-archive/privacy-frameworks",
+          "chars": 6663,
+          "isDuplicate": false
+        },
+        {
+          "filename": "UK_2B_传输机制与充分性认定.md",
+          "originalName": "UK_2B_传输机制与充分性认定.md",
+          "targetDir": "D:/projects/cybernium/ai_projects/docs/claude-ai-archive/privacy-frameworks",
+          "chars": 13376,
+          "isDuplicate": false
+        },
+        {
+          "filename": "UK_第3轮_AI监管交叉_检索方案.md",
+          "originalName": "UK_第3轮_AI监管交叉_检索方案.md",
+          "targetDir": "D:/projects/cybernium/ai_projects/docs/claude-ai-archive/privacy-frameworks",
+          "chars": 7301,
+          "isDuplicate": false
+        },
+        {
+          "filename": "巴西_LGPD_第2轮_分步检索方案.md",
+          "originalName": "巴西_LGPD_第2轮_分步检索方案.md",
+          "targetDir": "D:/projects/cybernium/ai_projects/docs/claude-ai-archive/privacy-frameworks",
+          "chars": 3564,
+          "isDuplicate": false
+        },
+        {
+          "filename": "UK_3A_AI监管框架与立法动态.md",
+          "originalName": "UK_3A_AI监管框架与立法动态.md",
+          "targetDir": "D:/projects/cybernium/ai_projects/docs/claude-ai-archive/privacy-frameworks",
+          "chars": 13216,
+          "isDuplicate": false
+        },
+        {
+          "filename": "巴西_LGPD_2A_合法性基础与敏感数据_GDPR对标.md",
+          "originalName": "巴西_LGPD_2A_合法性基础与敏感数据_GDPR对标.md",
+          "targetDir": "D:/projects/cybernium/ai_projects/docs/claude-ai-archive/privacy-frameworks",
+          "chars": 10320,
+          "isDuplicate": false
+        },
+        {
+          "filename": "UK_3B_ICO_AI监管实践_自动化决策_生物识别.md",
+          "originalName": "UK_3B_ICO_AI监管实践_自动化决策_生物识别.md",
+          "targetDir": "D:/projects/cybernium/ai_projects/docs/claude-ai-archive/privacy-frameworks",
+          "chars": 15065,
+          "isDuplicate": false
+        },
+        {
+          "filename": "UK_3C_AI监管路径对比_OSA交叉_跨域合规.md",
+          "originalName": "UK_3C_AI监管路径对比_OSA交叉_跨域合规.md",
+          "targetDir": "D:/projects/cybernium/ai_projects/docs/claude-ai-archive/privacy-frameworks",
+          "chars": 16774,
+          "isDuplicate": false
+        },
+        {
+          "filename": "巴西_LGPD_2B_数据主体权利与自动化决策.md",
+          "originalName": "巴西_LGPD_2B_数据主体权利与自动化决策.md",
+          "targetDir": "D:/projects/cybernium/ai_projects/docs/claude-ai-archive/privacy-frameworks",
+          "chars": 7846,
+          "isDuplicate": false
+        },
+        {
+          "filename": "巴西_LGPD_2-D_DPIA与儿童数据_GDPR对标分析.md",
+          "originalName": "巴西_LGPD_2-D_DPIA与儿童数据_GDPR对标分析.md",
+          "targetDir": "D:/projects/cybernium/ai_projects/docs/claude-ai-archive/privacy-frameworks",
+          "chars": 8236,
+          "isDuplicate": false
+        },
+        {
+          "filename": "UK_2A_ICO机构档案与执法数据.md",
+          "originalName": "UK_2A_ICO机构档案与执法数据.md",
+          "targetDir": "D:/projects/cybernium/ai_projects/docs/claude-ai-archive/privacy-frameworks",
+          "chars": 15010,
+          "isDuplicate": false
+        },
+        {
+          "filename": "巴西_LGPD_2-C_跨境传输与DPO处理者义务.md",
+          "originalName": "巴西_LGPD_2-C_跨境传输与DPO处理者义务.md",
+          "targetDir": "D:/projects/cybernium/ai_projects/docs/claude-ai-archive/privacy-frameworks",
+          "chars": 8979,
+          "isDuplicate": false
+        },
+        {
+          "filename": "巴西_LGPD_第3轮_分步检索方案.md",
+          "originalName": "巴西_LGPD_第3轮_分步检索方案.md",
+          "targetDir": "D:/projects/cybernium/ai_projects/docs/claude-ai-archive/privacy-frameworks",
+          "chars": 6462,
+          "isDuplicate": false
+        },
+        {
+          "filename": "巴西_LGPD_第4轮_检索方案.md",
+          "originalName": "巴西_LGPD_第4轮_检索方案.md",
+          "targetDir": "D:/projects/cybernium/ai_projects/docs/claude-ai-archive/privacy-frameworks",
+          "chars": 5706,
+          "isDuplicate": false
+        },
+        {
+          "filename": "UK_2C_EU_UK充分性动态与ICO指南索引.md",
+          "originalName": "UK_2C_EU_UK充分性动态与ICO指南索引.md",
+          "targetDir": "D:/projects/cybernium/ai_projects/docs/claude-ai-archive/privacy-frameworks",
+          "chars": 23775,
+          "isDuplicate": false
+        },
+        {
+          "filename": "巴西_LGPD_3-A_ANPD机构与处罚框架.md",
+          "originalName": "巴西_LGPD_3-A_ANPD机构与处罚框架.md",
+          "targetDir": "D:/projects/cybernium/ai_projects/docs/claude-ai-archive/privacy-frameworks",
+          "chars": 16571,
+          "isDuplicate": false
+        },
+        {
+          "filename": "巴西_LGPD_3-B_执法案例与监管协同.md",
+          "originalName": "巴西_LGPD_3-B_执法案例与监管协同.md",
+          "targetDir": "D:/projects/cybernium/ai_projects/docs/claude-ai-archive/privacy-frameworks",
+          "chars": 11498,
+          "isDuplicate": false
+        },
+        {
+          "filename": "巴西_LGPD_第4轮_跨境传输与充分性_中巴数据流.md",
+          "originalName": "巴西_LGPD_第4轮_跨境传输与充分性_中巴数据流.md",
+          "targetDir": "D:/projects/cybernium/ai_projects/docs/claude-ai-archive/privacy-frameworks",
+          "chars": 16321,
+          "isDuplicate": false
+        },
+        {
+          "filename": "沙特阿联酋_数据保护体系_检索研究方案.md",
+          "originalName": "沙特阿联酋_数据保护体系_检索研究方案.md",
+          "targetDir": "D:/projects/cybernium/ai_projects/docs/claude-ai-archive/privacy-frameworks",
+          "chars": 8389,
+          "isDuplicate": false
+        },
+        {
+          "filename": "土耳其_KVKK_数据保护体系_检索研究方案.md",
+          "originalName": "土耳其_KVKK_数据保护体系_检索研究方案.md",
+          "targetDir": "D:/projects/cybernium/ai_projects/docs/claude-ai-archive/privacy-frameworks",
+          "chars": 8925,
+          "isDuplicate": false
+        },
+        {
+          "filename": "土耳其_KVKK_分阶段开发方案.md",
+          "originalName": "土耳其_KVKK_分阶段开发方案.md",
+          "targetDir": "D:/projects/cybernium/ai_projects/docs/claude-ai-archive/privacy-frameworks",
+          "chars": 7897,
+          "isDuplicate": false
+        },
+        {
+          "filename": "土耳其_KVKK_第1轮A_法律框架与机构_研究报告.md",
+          "originalName": "土耳其_KVKK_第1轮A_法律框架与机构_研究报告.md",
+          "targetDir": "D:/projects/cybernium/ai_projects/docs/claude-ai-archive/privacy-frameworks",
+          "chars": 13827,
+          "isDuplicate": false
+        },
+        {
+          "filename": "土耳其_KVKK_第1轮B_GDPR对标分析_研究报告.md",
+          "originalName": "土耳其_KVKK_第1轮B_GDPR对标分析_研究报告.md",
+          "targetDir": "D:/projects/cybernium/ai_projects/docs/claude-ai-archive/privacy-frameworks",
+          "chars": 13582,
+          "isDuplicate": false
+        },
+        {
+          "filename": "土耳其_KVKK_第3轮B_AI监管与中资合规_研究报告.md",
+          "originalName": "土耳其_KVKK_第3轮B_AI监管与中资合规_研究报告.md",
+          "targetDir": "D:/projects/cybernium/ai_projects/docs/claude-ai-archive/privacy-frameworks",
+          "chars": 16558,
+          "isDuplicate": false
+        },
+        {
+          "filename": "土耳其_KVKK_第3轮A_执法档案_研究报告.md",
+          "originalName": "土耳其_KVKK_第3轮A_执法档案_研究报告.md",
+          "targetDir": "D:/projects/cybernium/ai_projects/docs/claude-ai-archive/privacy-frameworks",
+          "chars": 11362,
+          "isDuplicate": false
+        },
+        {
+          "filename": "土耳其_KVKK_第2轮B_双向传输与行业限制_研究报告.md",
+          "originalName": "土耳其_KVKK_第2轮B_双向传输与行业限制_研究报告.md",
+          "targetDir": "D:/projects/cybernium/ai_projects/docs/claude-ai-archive/privacy-frameworks",
+          "chars": 10277,
+          "isDuplicate": false
+        },
+        {
+          "filename": "土耳其_KVKK_第2轮A_跨境传输框架_研究报告.md",
+          "originalName": "土耳其_KVKK_第2轮A_跨境传输框架_研究报告.md",
+          "targetDir": "D:/projects/cybernium/ai_projects/docs/claude-ai-archive/privacy-frameworks",
+          "chars": 11466,
+          "isDuplicate": false
+        },
+        {
+          "filename": "土耳其_KVKK_悬挂项清单.md",
+          "originalName": "土耳其_KVKK_悬挂项清单.md",
+          "targetDir": "D:/projects/cybernium/ai_projects/docs/claude-ai-archive/privacy-frameworks",
+          "chars": 5864,
+          "isDuplicate": false
+        },
+        {
+          "filename": "土耳其_KVKK_综合研究报告.md",
+          "originalName": "土耳其_KVKK_综合研究报告.md",
+          "targetDir": "D:/projects/cybernium/ai_projects/docs/claude-ai-archive/privacy-frameworks",
+          "chars": 13967,
+          "isDuplicate": false
+        },
+        {
+          "filename": "沙特_PDPL_第1轮_法律框架层_研究报告.md",
+          "originalName": "沙特_PDPL_第1轮_法律框架层_研究报告.md",
+          "targetDir": "D:/projects/cybernium/ai_projects/docs/claude-ai-archive/privacy-frameworks",
+          "chars": 14074,
+          "isDuplicate": false
+        },
+        {
+          "filename": "沙特阿联酋_第3轮_AI监管交叉_研究报告.md",
+          "originalName": "沙特阿联酋_第3轮_AI监管交叉_研究报告.md",
+          "targetDir": "D:/projects/cybernium/ai_projects/docs/claude-ai-archive/privacy-frameworks",
+          "chars": 15018,
+          "isDuplicate": false
+        },
+        {
+          "filename": "阿联酋_三轨体系_第2轮_研究报告.md",
+          "originalName": "阿联酋_三轨体系_第2轮_研究报告.md",
+          "targetDir": "D:/projects/cybernium/ai_projects/docs/claude-ai-archive/privacy-frameworks",
+          "chars": 17635,
+          "isDuplicate": false
+        },
+        {
+          "filename": "Saudi and UAE Data Protection and AI Governance: March 2026 Regulatory Status Assessment.md",
+          "originalName": "Saudi and UAE Data Protection and AI Governance: March 2026 Regulatory Status Assessment.md",
+          "targetDir": "D:/projects/cybernium/ai_projects/docs/claude-ai-archive/privacy-frameworks",
+          "chars": 15069,
+          "isDuplicate": false
+        },
+        {
+          "filename": "沙特_PDPL_数据保护体系汇总.md",
+          "originalName": "沙特_PDPL_数据保护体系汇总.md",
+          "targetDir": "D:/projects/cybernium/ai_projects/docs/claude-ai-archive/privacy-frameworks",
+          "chars": 7893,
+          "isDuplicate": false
+        },
+        {
+          "filename": "阿联酋_三轨数据保护体系汇总.md",
+          "originalName": "阿联酋_三轨数据保护体系汇总.md",
+          "targetDir": "D:/projects/cybernium/ai_projects/docs/claude-ai-archive/privacy-frameworks",
+          "chars": 13832,
+          "isDuplicate": false
+        },
+        {
+          "filename": "EU_EEA_DPA_在线地址汇总.md",
+          "originalName": "EU_EEA_DPA_在线地址汇总.md",
+          "targetDir": "D:/projects/cybernium/ai_projects/docs/claude-ai-archive/privacy-frameworks",
+          "chars": 9070,
+          "isDuplicate": false
+        },
+        {
+          "filename": "EU_EEA_DPA_在线地址汇总_1.md",
+          "originalName": "EU_EEA_DPA_在线地址汇总.md",
+          "targetDir": "D:/projects/cybernium/ai_projects/docs/claude-ai-archive/privacy-frameworks",
+          "chars": 9070,
+          "isDuplicate": true
+        }
+      ],
+      "totalChars": 783805
+    },
+    {
+      "name": "出海游戏",
+      "description": "Chinese mobile game overseas compliance knowledge base",
+      "target": "D:/projects/gaming-compliance",
+      "docCount": 37,
+      "files": [
+        {
+          "filename": "中国出海游戏公司名录.md",
+          "originalName": "中国出海游戏公司名录.md",
+          "targetDir": "D:\\projects\\gaming-compliance",
+          "chars": 10820,
+          "isDuplicate": false
+        },
+        {
+          "filename": "中资出海游戏公司竞品合规研究_知识库建设路线图.md",
+          "originalName": "中资出海游戏公司竞品合规研究_知识库建设路线图.md",
+          "targetDir": "D:\\projects\\gaming-compliance",
+          "chars": 8154,
+          "isDuplicate": false
+        },
+        {
+          "filename": "知识库建设进度跟踪.md",
+          "originalName": "知识库建设进度跟踪.md",
+          "targetDir": "D:\\projects\\gaming-compliance\\progress",
+          "chars": 5384,
+          "isDuplicate": false
+        },
+        {
+          "filename": "出海合规审查清单_通用版.md",
+          "originalName": "出海合规审查清单_通用版.md",
+          "targetDir": "D:/projects/gaming-compliance",
+          "chars": 9815,
+          "isDuplicate": false
+        },
+        {
+          "filename": "出海合规审查清单_美国补充.md",
+          "originalName": "出海合规审查清单_美国补充.md",
+          "targetDir": "D:\\projects\\gaming-compliance\\checklists",
+          "chars": 4542,
+          "isDuplicate": false
+        },
+        {
+          "filename": "出海合规审查清单_欧盟补充.md",
+          "originalName": "出海合规审查清单_欧盟补充.md",
+          "targetDir": "D:\\projects\\gaming-compliance\\checklists",
+          "chars": 6181,
+          "isDuplicate": false
+        },
+        {
+          "filename": "出海合规审查清单_日本补充.md",
+          "originalName": "出海合规审查清单_日本补充.md",
+          "targetDir": "D:\\projects\\gaming-compliance\\checklists",
+          "chars": 4879,
+          "isDuplicate": false
+        },
+        {
+          "filename": "出海合规审查清单_韩国补充.md",
+          "originalName": "出海合规审查清单_韩国补充.md",
+          "targetDir": "D:\\projects\\gaming-compliance\\checklists",
+          "chars": 5542,
+          "isDuplicate": false
+        },
+        {
+          "filename": "知识库建设进度跟踪_v3.md",
+          "originalName": "知识库建设进度跟踪_v3.md",
+          "targetDir": "D:\\projects\\gaming-compliance\\progress",
+          "chars": 4629,
+          "isDuplicate": false
+        },
+        {
+          "filename": "巴西游戏行业合规要点.md",
+          "originalName": "巴西游戏行业合规要点.md",
+          "targetDir": "D:\\projects\\gaming-compliance\\regulations\\brazil",
+          "chars": 8606,
+          "isDuplicate": false
+        },
+        {
+          "filename": "巴西游戏行业合规要点.json",
+          "originalName": "巴西游戏行业合规要点.json",
+          "targetDir": "D:\\projects\\gaming-compliance\\regulations\\brazil",
+          "chars": 11402,
+          "isDuplicate": false
+        },
+        {
+          "filename": "competitor_hypergryph_yostar.md",
+          "originalName": "competitor_hypergryph_yostar.md",
+          "targetDir": "D:\\projects\\gaming-compliance\\competitors\\hypergryph",
+          "chars": 24698,
+          "isDuplicate": false
+        },
+        {
+          "filename": "项目协作规范_project_conventions.md",
+          "originalName": "项目协作规范_project_conventions.md",
+          "targetDir": "D:\\projects\\gaming-compliance",
+          "chars": 2909,
+          "isDuplicate": false
+        },
+        {
+          "filename": "项目协作规范_project_conventions_1.md",
+          "originalName": "项目协作规范_project_conventions.md",
+          "targetDir": "D:\\projects\\gaming-compliance",
+          "chars": 2909,
+          "isDuplicate": true
+        },
+        {
+          "filename": "项目协作规范_project_conventions_2.md",
+          "originalName": "项目协作规范_project_conventions.md",
+          "targetDir": "D:\\projects\\gaming-compliance",
+          "chars": 2909,
+          "isDuplicate": true
+        },
+        {
+          "filename": "鹰角网络报告完善方案_hypergryph_enhancement_plan.md",
+          "originalName": "鹰角网络报告完善方案_hypergryph_enhancement_plan.md",
+          "targetDir": "D:\\projects\\gaming-compliance\\competitors\\hypergryph",
+          "chars": 19227,
+          "isDuplicate": false
+        },
+        {
+          "filename": "鹰角网络全生态版图：工作室、子品牌与子公司深度解构.md",
+          "originalName": "鹰角网络全生态版图：工作室、子品牌与子公司深度解构.md",
+          "targetDir": "D:\\projects\\gaming-compliance\\competitors\\hypergryph",
+          "chars": 7189,
+          "isDuplicate": false
+        },
+        {
+          "filename": "Hypergryph Product Matrix and Publishing System: A Comprehensive Strategic Analysis 2025-2026.md",
+          "originalName": "Hypergryph Product Matrix and Publishing System: A Comprehensive Strategic Analysis 2025-2026.md",
+          "targetDir": "D:\\projects\\gaming-compliance\\competitors\\hypergryph",
+          "chars": 11624,
+          "isDuplicate": false
+        },
+        {
+          "filename": "鹰角网络合规架构分析_B章节汇总版.md",
+          "originalName": "鹰角网络合规架构分析_B章节汇总版.md",
+          "targetDir": "D:\\projects\\gaming-compliance\\competitors\\hypergryph",
+          "chars": 16698,
+          "isDuplicate": false
+        },
+        {
+          "filename": "鹰角网络合规架构分析_B章节汇总版_v2.md",
+          "originalName": "鹰角网络合规架构分析_B章节汇总版_v2.md",
+          "targetDir": "D:\\projects\\gaming-compliance\\competitors\\hypergryph",
+          "chars": 27330,
+          "isDuplicate": false
+        },
+        {
+          "filename": "鹰角网络_执法记录与安全事件汇总_C章节.md",
+          "originalName": "鹰角网络_执法记录与安全事件汇总_C章节.md",
+          "targetDir": "D:\\projects\\gaming-compliance\\competitors\\hypergryph",
+          "chars": 13166,
+          "isDuplicate": false
+        },
+        {
+          "filename": "鹰角网络竞品合规报告_汇总版.md",
+          "originalName": "鹰角网络竞品合规报告_汇总版.md",
+          "targetDir": "D:\\projects\\gaming-compliance\\competitors\\hypergryph",
+          "chars": 38214,
+          "isDuplicate": false
+        },
+        {
+          "filename": "竞品合规体系检索方案_competitor_compliance_research_plan.md",
+          "originalName": "竞品合规体系检索方案_competitor_compliance_research_plan.md",
+          "targetDir": "D:\\projects\\gaming-compliance\\competitors\\cross-comparison",
+          "chars": 8898,
+          "isDuplicate": false
+        },
+        {
+          "filename": "网易游戏合规架构分析_netease_compliance_analysis.md",
+          "originalName": "网易游戏合规架构分析_netease_compliance_analysis.md",
+          "targetDir": "D:\\projects\\gaming-compliance\\competitors\\netease",
+          "chars": 13774,
+          "isDuplicate": false
+        },
+        {
+          "filename": "鹰角网络产品矩阵与发行体系_全景报告整合版.md",
+          "originalName": "鹰角网络产品矩阵与发行体系_全景报告整合版.md",
+          "targetDir": "D:\\projects\\gaming-compliance\\competitors\\hypergryph",
+          "chars": 18920,
+          "isDuplicate": false
+        },
+        {
+          "filename": "游戏概率机制全球监管梳理_gacha_lootbox_regulation.md",
+          "originalName": "游戏概率机制全球监管梳理_gacha_lootbox_regulation.md",
+          "targetDir": "D:\\projects\\gaming-compliance\\gacha-regulation",
+          "chars": 16044,
+          "isDuplicate": false
+        },
+        {
+          "filename": "鹰角网络合规体系全景梳理_架构驱动分析.md",
+          "originalName": "鹰角网络合规体系全景梳理_架构驱动分析.md",
+          "targetDir": "D:\\projects\\gaming-compliance\\competitors\\hypergryph",
+          "chars": 19449,
+          "isDuplicate": false
+        },
+        {
+          "filename": "鹰角网络合规体系_Phase5_版本迭代与新市场扩展_v2.md",
+          "originalName": "鹰角网络合规体系_Phase5_版本迭代与新市场扩展_v2.md",
+          "targetDir": "D:\\projects\\gaming-compliance\\competitors\\hypergryph",
+          "chars": 7760,
+          "isDuplicate": false
+        },
+        {
+          "filename": "知识库建设进度跟踪_v4.md",
+          "originalName": "知识库建设进度跟踪_v4.md",
+          "targetDir": "D:\\projects\\gaming-compliance\\progress",
+          "chars": 9289,
+          "isDuplicate": false
+        },
+        {
+          "filename": "鹰角网络_Phase3_上线前合规审查_v2.md",
+          "originalName": "鹰角网络_Phase3_上线前合规审查_v2.md",
+          "targetDir": "D:\\projects\\gaming-compliance\\competitors\\hypergryph",
+          "chars": 11292,
+          "isDuplicate": false
+        },
+        {
+          "filename": "鹰角网络合规体系_Phase2_研发与SDK集成_v2.md",
+          "originalName": "鹰角网络合规体系_Phase2_研发与SDK集成_v2.md",
+          "targetDir": "D:\\projects\\gaming-compliance\\competitors\\hypergryph",
+          "chars": 9446,
+          "isDuplicate": false
+        },
+        {
+          "filename": "鹰角网络合规体系_Phase1_立项与架构设计_v2.md",
+          "originalName": "鹰角网络合规体系_Phase1_立项与架构设计_v2.md",
+          "targetDir": "D:\\projects\\gaming-compliance\\competitors\\hypergryph",
+          "chars": 5112,
+          "isDuplicate": false
+        },
+        {
+          "filename": "出海游戏用户投诉处理合规要点.md",
+          "originalName": "出海游戏用户投诉处理合规要点.md",
+          "targetDir": "D:\\projects\\gaming-compliance\\regulations\\general",
+          "chars": 8050,
+          "isDuplicate": false
+        },
+        {
+          "filename": "鹰角网络合规体系_Phase1_立项与架构设计_v2_1.md",
+          "originalName": "鹰角网络合规体系_Phase1_立项与架构设计_v2.md",
+          "targetDir": "D:\\projects\\gaming-compliance\\competitors\\hypergryph",
+          "chars": 10871,
+          "isDuplicate": true
+        },
+        {
+          "filename": "鹰角网络合规体系_Phase1_立项与架构设计_v2_2.md",
+          "originalName": "鹰角网络合规体系_Phase1_立项与架构设计_v2.md",
+          "targetDir": "D:\\projects\\gaming-compliance\\competitors\\hypergryph",
+          "chars": 5112,
+          "isDuplicate": true
+        },
+        {
+          "filename": "韩国游戏行业合规要点_v1.md",
+          "originalName": "韩国游戏行业合规要点_v1.md",
+          "targetDir": "D:\\projects\\gaming-compliance\\regulations\\korea",
+          "chars": 8432,
+          "isDuplicate": false
+        },
+        {
+          "filename": "鹰角网络合规体系全景梳理_架构驱动分析_1.md",
+          "originalName": "鹰角网络合规体系全景梳理_架构驱动分析.md",
+          "targetDir": "D:\\projects\\gaming-compliance\\competitors\\hypergryph",
+          "chars": 19449,
+          "isDuplicate": true
+        }
+      ],
+      "totalChars": 418725
+    }
+  ],
+  "errors": []
+}

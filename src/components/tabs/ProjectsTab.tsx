@@ -1,6 +1,6 @@
+import { StatusStrip } from '../StatusStrip';
 import { PortfolioGrid } from '../PortfolioGrid';
-import { Timeline } from '../Timeline';
-import { ProjectTasks } from '../ProjectTasks';
+import { AlertBanner } from '../AlertBanner';
 import { RoadmapGantt } from '../RoadmapGantt';
 
 interface Props {
@@ -8,16 +8,15 @@ interface Props {
   onSelectProject: (p: string | null) => void;
 }
 
-export default function PortfolioTab({ selectedProject, onSelectProject }: Props) {
+export default function ProjectsTab({ selectedProject, onSelectProject }: Props) {
   return (
     <>
-      <PortfolioGrid selectedProject={selectedProject} onSelectProject={onSelectProject} />
-      <hr className="pixel-divider my-8" />
-      <Timeline selectedProject={selectedProject} />
-      <hr className="pixel-divider my-8" />
-      <ProjectTasks selectedProject={selectedProject} />
-      <hr className="pixel-divider my-8" />
       <RoadmapGantt selectedProject={selectedProject} onSelectProject={onSelectProject} />
+      <hr className="pixel-divider my-6" />
+      <StatusStrip />
+      <AlertBanner />
+      <hr className="pixel-divider my-6" />
+      <PortfolioGrid selectedProject={selectedProject} onSelectProject={onSelectProject} />
     </>
   );
 }
