@@ -6,14 +6,14 @@
       "ecosystem": "cybernium",
       "role": "app",
       "health": "A-",
-      "healthTrend": "↓",
+      "healthTrend": "↑",
       "testCount": 15,
       "techDebtMarkers": 2,
       "lastCommitDate": "2026-03-16",
-      "lastCommitMessage": "auto: agent checkpoint 17:47",
+      "lastCommitMessage": "910cc65 fix: DevBoard P4 review fixes — date filtering, dynamic tasks, i18n",
       "branch": "dev",
-      "uncommittedChanges": 15,
-      "topTodo": "清理 15 个未提交变更；Phase 2 SSR 迁移",
+      "uncommittedChanges": 2,
+      "topTodo": "Vercel INTERNAL_API_KEY + P6 数据回填切换",
       "path": "D:\\projects\\cybernium\\ai_projects"
     },
     {
@@ -72,8 +72,8 @@
       "lastCommitDate": "2026-03-16",
       "lastCommitMessage": "feat: Vision result cache + error handling + retry",
       "branch": "master",
-      "uncommittedChanges": 3,
-      "topTodo": "清理 3 未提交变更 + 1 债务标记",
+      "uncommittedChanges": 2,
+      "topTodo": "清理未提交变更 + 1 债务标记",
       "path": "D:\\projects\\ziyou-assistant\\ziyou-chrome-refactor"
     },
     {
@@ -117,8 +117,8 @@
       "lastCommitDate": "2026-03-16",
       "lastCommitMessage": "auto: agent checkpoint 17:51",
       "branch": "master",
-      "uncommittedChanges": 68,
-      "topTodo": "P0: 处理 68 个未追踪文件；Apple Developer 注册",
+      "uncommittedChanges": 3,
+      "topTodo": "Apple Developer 注册；秋冬真实精灵图",
       "path": "D:\\projects\\Games\\gardern\\pixel-herbarium"
     }
   ]
