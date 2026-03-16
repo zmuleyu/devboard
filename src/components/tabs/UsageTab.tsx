@@ -404,7 +404,7 @@ export default function AnalyticsTab({ selectedProject, onSelectProject }: Props
                 width={50}
               />
               <Tooltip
-                formatter={(value: number, name: string) => [formatTokens(value), name]}
+                formatter={(value, name) => [formatTokens(Number(value)), String(name)]}
                 contentStyle={{
                   fontFamily: 'JetBrains Mono',
                   fontSize: 11,
