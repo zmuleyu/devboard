@@ -20,6 +20,10 @@ Project management visualization dashboard with pixel-art aesthetic.
 - `src/components/ui/` — pixel-art atomic components
 - `src/types.ts` — shared TypeScript interfaces
 
+## Deployment
+- **Production URL**: `devboard.cybernium.cn` (Vercel, auto-deploy on push to `master`)
+- Every `git push origin master` triggers Vercel rebuild and updates `devboard.cybernium.cn`
+
 ## Conventions
 - Pixel-art visual style consistent with cyber-landing
 - Color tokens defined in `index.css` `@theme` block
