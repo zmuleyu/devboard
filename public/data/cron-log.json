@@ -130,5 +130,29 @@
     "durationSec": 0,
     "source": "cron",
     "isOffPeak": false
+  },
+  {
+    "date": "2026-03-16",
+    "time": "13:41",
+    "taskName": "guard-backup",
+    "taskType": "data-sync",
+    "project": "claude-guard",
+    "result": "pass",
+    "detail": "backup 93KB, 49 files archived, 2026-03-16_1.tar.gz",
+    "durationSec": 5,
+    "source": "cron",
+    "isOffPeak": true
+  },
+  {
+    "date": "2026-03-16",
+    "time": "13:41",
+    "taskName": "guard-backup",
+    "taskType": "guard-backup",
+    "project": "unknown",
+    "result": "warn",
+    "detail": "budget exceeded or max turns reached (exit 0)",
+    "durationSec": 0,
+    "source": "cron",
+    "isOffPeak": false
   }
 ]
