@@ -45,17 +45,8 @@ export function TopicSummaries() {
     });
   }, []);
 
-  if (!summariesData) {
-    return (
-      <div className="pixel-border bg-card-bg p-4">
-        <h2 className="font-pixel text-[10px] mb-1">TOPIC SUMMARIES</h2>
-        <p className="text-center text-[10px] text-text-muted py-8 blink">LOADING...</p>
-      </div>
-    );
-  }
-
-  const topics = summariesData.topics;
-  const totalConversations = summariesData.totalConversations;
+  const topics = summariesData?.topics ?? [];
+  const totalConversations = summariesData?.totalConversations ?? 0;
 
   const activeTopic = useMemo(
     () => topics.find((t) => t.id === selectedTopic),
@@ -70,6 +61,15 @@ export function TopicSummaries() {
       (c) => c.title.toLowerCase().includes(q) || c.preview.toLowerCase().includes(q)
     );
   }, [activeTopic, query]);
+
+  if (!summariesData) {
+    return (
+      <div className="pixel-border bg-card-bg p-4">
+        <h2 className="font-pixel text-[10px] mb-1">TOPIC SUMMARIES</h2>
+        <p className="text-center text-[10px] text-text-muted py-8 blink">LOADING...</p>
+      </div>
+    );
+  }
 
   return (
     <div className="pixel-border bg-card-bg p-4">

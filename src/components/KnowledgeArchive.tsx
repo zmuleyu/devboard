@@ -81,7 +81,7 @@ export function KnowledgeArchive() {
       },
       typeDistribution: typeDist,
     };
-  }, []);
+  }, [migrationData]);
 
   if (!migrationData) {
     return (
