@@ -112,8 +112,8 @@
       "prompt": "prompts/guard-backup.txt",
       "schedule": "04:00",
       "tools": "Bash,Read",
-      "maxTurns": 3,
-      "budgetUsd": 0.05,
+      "maxTurns": 5,
+      "budgetUsd": 0.15,
       "description": "Daily claude-guard backup of Claude Code assets"
     },
     {
@@ -122,8 +122,8 @@
       "schedule": "08:30",
       "scheduleDays": "1",
       "tools": "Bash,Read",
-      "maxTurns": 3,
-      "budgetUsd": 0.05,
+      "maxTurns": 5,
+      "budgetUsd": 0.15,
       "description": "Weekly account health audit (Monday)"
     },
     {
@@ -229,8 +229,8 @@
       "schedule": "09:00",
       "scheduleDays": "1",
       "tools": "Bash,Read",
-      "maxTurns": 6,
-      "budgetUsd": 0.15,
+      "maxTurns": 8,
+      "budgetUsd": 0.30,
       "description": "Weekly content freshness scan — flag stale docs >30 days (Monday)"
     }
   ]
