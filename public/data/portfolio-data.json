@@ -96,14 +96,14 @@
       "ecosystem": "standalone",
       "role": "tool",
       "health": "A",
-      "healthTrend": "→",
-      "testCount": 71,
+      "healthTrend": "↑",
+      "testCount": 16,
       "techDebtMarkers": 0,
       "lastCommitDate": "2026-03-16",
-      "lastCommitMessage": "183d310 feat: PH hanakotoba enrichment pipeline",
+      "lastCommitMessage": "71d2d25 auto: agent checkpoint 17:05",
       "branch": "main",
       "uncommittedChanges": 1,
-      "topTodo": "manifest.json 已导出 · S2 ASO(PH上架后)",
+      "topTodo": "GPlay 竞品 ID 更新 · hana300 补全 · S2 ASO(PH上架后)",
       "path": "D:\\projects\\Others\\scrapling-mcp"
     },
     {

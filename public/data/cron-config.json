@@ -204,6 +204,25 @@
       "description": "One-shot: set up tRPC scaffold in ai_projects"
     },
     {
+      "name": "mcp-health",
+      "prompt": "prompts/mcp-health.txt",
+      "schedule": "07:30",
+      "tools": "Bash,Read,mcp__fetch__fetch,mcp__plugin_github_github__get_me,mcp__supabase__list_tables",
+      "maxTurns": 8,
+      "budgetUsd": 0.20,
+      "description": "Daily MCP server health check"
+    },
+    {
+      "name": "dep-update",
+      "prompt": "prompts/dep-update.txt",
+      "schedule": "03:30",
+      "scheduleDays": "3",
+      "tools": "Bash,Read",
+      "maxTurns": 10,
+      "budgetUsd": 0.30,
+      "description": "Weekly dependency update scan — flag outdated packages by severity (Wednesday)"
+    },
+    {
       "name": "portfolio-digest",
       "prompt": "prompts/portfolio-digest.txt",
       "schedule": "06:00",
