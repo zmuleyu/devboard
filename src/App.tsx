@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState, useCallback } from 'react';
 import { AlertBanner } from './components/AlertBanner';
 import { PortfolioGrid } from './components/PortfolioGrid';
 import { TokenAnalytics } from './components/TokenAnalytics';
@@ -15,11 +15,23 @@ import { UsageDashboard } from './components/UsageDashboard';
 import { KnowledgeArchive } from './components/KnowledgeArchive';
 import { ConversationTimeline } from './components/ConversationTimeline';
 import { TopicSummaries } from './components/TopicSummaries';
+import { TabBar } from './components/TabBar';
 import { usePortfolioData } from './hooks/usePortfolioData';
 
 export default function App() {
   const { data } = usePortfolioData();
   const [selectedProject, setSelectedProject] = useState<string | null>(null);
+  const [activeTab, setActiveTab] = useState('portfolio');
+  const [visitedTabs, setVisitedTabs] = useState<Set<string>>(() => new Set(['portfolio']));
+
+  const handleTabChange = useCallback((key: string) => {
+    setActiveTab(key);
+    setVisitedTabs((prev) => {
+      if (prev.has(key)) return prev;
+      return new Set(prev).add(key);
+    });
+    window.scrollTo({ top: 0 });
+  }, []);
 
   return (
     <div className="dot-grid min-h-screen">
@@ -48,83 +60,63 @@ export default function App() {
 
         <hr className="pixel-divider mb-8" />
 
-        {/* Module 1: Portfolio Overview */}
-        <PortfolioGrid selectedProject={selectedProject} onSelectProject={setSelectedProject} />
+        {/* Tab Navigation */}
+        <TabBar activeTab={activeTab} onTabChange={handleTabChange} />
 
-        <hr className="pixel-divider my-8" />
+        {/* ── Portfolio Tab ── */}
+        {visitedTabs.has('portfolio') && (
+          <div style={{ display: activeTab === 'portfolio' ? 'block' : 'none' }}>
+            <PortfolioGrid selectedProject={selectedProject} onSelectProject={setSelectedProject} />
+            <hr className="pixel-divider my-8" />
+            <Timeline selectedProject={selectedProject} />
+            <hr className="pixel-divider my-8" />
+            <ProjectTasks selectedProject={selectedProject} />
+            <hr className="pixel-divider my-8" />
+            <RoadmapGantt selectedProject={selectedProject} onSelectProject={setSelectedProject} />
+          </div>
+        )}
 
-        {/* Module 2: Token Analytics */}
-        <TokenAnalytics />
+        {/* ── DevOps Tab ── */}
+        {visitedTabs.has('devops') && (
+          <div style={{ display: activeTab === 'devops' ? 'block' : 'none' }}>
+            <CronDashboard selectedProject={selectedProject} />
+            <hr className="pixel-divider my-8" />
+            <AgentLogViewer />
+            <hr className="pixel-divider my-8" />
+            <AgentTimeline selectedProject={selectedProject} />
+            <hr className="pixel-divider my-8" />
+            <OffPeakMetrics />
+          </div>
+        )}
 
-        <hr className="pixel-divider my-8" />
+        {/* ── Analytics Tab ── */}
+        {visitedTabs.has('analytics') && (
+          <div style={{ display: activeTab === 'analytics' ? 'block' : 'none' }}>
+            <TokenAnalytics />
+            <hr className="pixel-divider my-8" />
+            <BudgetForecast />
+            <hr className="pixel-divider my-8" />
+            <SessionLog selectedProject={selectedProject} onSelectProject={setSelectedProject} />
+            <hr className="pixel-divider my-8" />
+            <UsageDashboard />
+          </div>
+        )}
 
-        {/* Module 3: Budget Forecast */}
-        <BudgetForecast />
-
-        <hr className="pixel-divider my-8" />
-
-        {/* Module 4: Session Log */}
-        <SessionLog selectedProject={selectedProject} onSelectProject={setSelectedProject} />
-
-        <hr className="pixel-divider my-8" />
-
-        {/* Module 5: Cron Dashboard */}
-        <CronDashboard selectedProject={selectedProject} />
-
-        <hr className="pixel-divider my-8" />
-
-        {/* Module 6: Agent Log Viewer */}
-        <AgentLogViewer />
-
-        <hr className="pixel-divider my-8" />
-
-        {/* Module 7: 24h Agent Timeline */}
-        <AgentTimeline selectedProject={selectedProject} />
-
-        <hr className="pixel-divider my-8" />
-
-        {/* Module 8: Off-Peak Metrics */}
-        <OffPeakMetrics />
-
-        <hr className="pixel-divider my-8" />
-
-        {/* Module 9: Usage Dashboard */}
-        <UsageDashboard />
-
-        <hr className="pixel-divider my-8" />
-
-        {/* Module 10: Knowledge Archive */}
-        <KnowledgeArchive />
-
-        <hr className="pixel-divider my-8" />
-
-        {/* Module 11: Conversation Timeline */}
-        <ConversationTimeline />
-
-        <hr className="pixel-divider my-8" />
-
-        {/* Module 12: Topic Summaries */}
-        <TopicSummaries />
-
-        <hr className="pixel-divider my-8" />
-
-        {/* Module 13: Timeline */}
-        <Timeline selectedProject={selectedProject} />
-
-        <hr className="pixel-divider my-8" />
-
-        {/* Module 14: Project Tasks */}
-        <ProjectTasks selectedProject={selectedProject} />
-
-        <hr className="pixel-divider my-8" />
-
-        {/* Module 15: Roadmap Gantt */}
-        <RoadmapGantt selectedProject={selectedProject} onSelectProject={setSelectedProject} />
+        {/* ── Knowledge Tab ── */}
+        {visitedTabs.has('knowledge') && (
+          <div style={{ display: activeTab === 'knowledge' ? 'block' : 'none' }}>
+            <KnowledgeArchive />
+            <hr className="pixel-divider my-8" />
+            <ConversationTimeline />
+            <hr className="pixel-divider my-8" />
+            <TopicSummaries />
+          </div>
+        )}
 
         {/* Footer */}
         <footer className="text-center py-4 text-[10px] text-text-muted">
           <span className="font-pixel text-[7px]">
-            DEVBOARD v0.6.0 · devboard.cybernium.cn
+            DEVBOARD v0.7.0 · devboard.cybernium.cn
           </span>
         </footer>
       </div>
