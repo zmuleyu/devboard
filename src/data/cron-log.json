@@ -22,5 +22,17 @@
     "durationSec": 15,
     "source": "cron",
     "isOffPeak": false
+  },
+  {
+    "date": "2026-03-16",
+    "time": "11:04",
+    "taskName": "test-crash",
+    "taskType": "test-crash",
+    "project": "unknown",
+    "result": "crash",
+    "detail": "claude exited with code 1",
+    "durationSec": 0,
+    "source": "cron",
+    "isOffPeak": false
   }
 ]

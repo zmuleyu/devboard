@@ -117,8 +117,8 @@
       "lastCommitDate": "2026-03-16",
       "lastCommitMessage": "dcfa8c9 feat: add filter chips to herbarium screen",
       "branch": "master",
-      "uncommittedChanges": 0,
-      "topTodo": "目测验证 onboarding + UI 参考图保存",
+      "uncommittedChanges": 3,
+      "topTodo": "取景框美化(UI方向3) + 目测验证",
       "path": "D:\\projects\\Games\\gardern\\pixel-herbarium"
     },
     {
@@ -130,10 +130,10 @@
       "testCount": 0,
       "techDebtMarkers": 0,
       "lastCommitDate": "2026-03-16",
-      "lastCommitMessage": "8dc5e1a feat: add tab navigation with 4 groups and lazy loading",
+      "lastCommitMessage": "45ef91f fix: async data loading hooks order in Knowledge tab",
       "branch": "master",
       "uncommittedChanges": 0,
-      "topTodo": "Bundle size 优化",
+      "topTodo": "TSC 自动执行验证(明日09:07)",
       "path": "D:\\projects\\devboard"
     }
   ]
