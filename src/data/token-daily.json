@@ -22,11 +22,11 @@
   },
   {
     "date": "2026-03-16",
-    "totalTokens": 6300000,
+    "totalTokens": 6600000,
     "byModel": {
       "haiku": 0,
       "sonnet": 400000,
-      "opus": 5900000
+      "opus": 6200000
     },
     "byProject": {
       "ai_projects": 200000,
@@ -35,6 +35,6 @@
       "devboard": 3650000,
       "pixel-herbarium": 1700000
     },
-    "sessionCount": 7
+    "sessionCount": 8
   }
 ]
