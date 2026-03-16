@@ -10,10 +10,10 @@
       "testCount": 16,
       "techDebtMarkers": 2,
       "lastCommitDate": "2026-03-16",
-      "lastCommitMessage": "e8aeb87 DevBoard P6 Cutover complete — proxy fix + backfill + DNS redirect",
+      "lastCommitMessage": "c29541d ci: add Claude auto-fix workflow for labeled issues",
       "branch": "dev",
-      "uncommittedChanges": 1,
-      "topTodo": "Phase 3 双轨优化",
+      "uncommittedChanges": 0,
+      "topTodo": "火山引擎成本优化（手动控制台）",
       "path": "D:\\projects\\cybernium\\ai_projects"
     },
     {
@@ -70,9 +70,9 @@
       "testCount": 38,
       "techDebtMarkers": 0,
       "lastCommitDate": "2026-03-16",
-      "lastCommitMessage": "5212afe fix: reset Vision FAB when region selection is cancelled",
+      "lastCommitMessage": "00d6cde feat: add site adaptation infra — URL patterns, fill tracker, recon script",
       "branch": "master",
-      "uncommittedChanges": 2,
+      "uncommittedChanges": 4,
       "topTodo": "SimilarWeb Top N 适配测试矩阵",
       "path": "D:\\projects\\ziyou-assistant\\ziyou-chrome-refactor"
     },
@@ -100,10 +100,10 @@
       "testCount": 17,
       "techDebtMarkers": 0,
       "lastCommitDate": "2026-03-16",
-      "lastCommitMessage": "150992c auto: agent checkpoint 19:48",
+      "lastCommitMessage": "00c7319 docs: add signal baseline and zero-match samples from ph-monitor",
       "branch": "main",
-      "uncommittedChanges": 3,
-      "topTodo": "注册 Yahoo Developer API Key；首次真实数据采集（--save --classify）",
+      "uncommittedChanges": 1,
+      "topTodo": "S1 Google Trends 集成 · S2 Twitter site pack · Yahoo API Key",
       "path": "D:\\projects\\Others\\scrapling-mcp"
     },
     {
@@ -115,9 +115,9 @@
       "testCount": 25,
       "techDebtMarkers": 0,
       "lastCommitDate": "2026-03-16",
-      "lastCommitMessage": "0955ee3 docs: add competitive research methodology docs + manual SOP",
+      "lastCommitMessage": "0c24522 chore: add poster debug test + gitignore supabase temp dirs",
       "branch": "master",
-      "uncommittedChanges": 3,
+      "uncommittedChanges": 0,
       "topTodo": "Apple Developer 注册；秋冬真实精灵图",
       "path": "D:\\projects\\Games\\gardern\\pixel-herbarium"
     }
