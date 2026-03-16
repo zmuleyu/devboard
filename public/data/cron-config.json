@@ -190,9 +190,9 @@
       "schedule": "10:00",
       "scheduleDays": "0",
       "tools": "Bash,Read,Write",
-      "maxTurns": 12,
-      "budget": "0.80",
-      "description": "Weekly PH competitor review collection + signal classification (Sunday + hanami Mon/Wed Mar-May)"
+      "maxTurns": 8,
+      "budget": "0.50",
+      "description": "Weekly PH competitor monitoring via ph-all (Sunday + hanami Mon/Wed Mar-May)"
     },
     {
       "name": "batch-fix",
