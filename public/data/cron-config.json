@@ -2,12 +2,44 @@
   "offPeakWindow": { "start": "01:00", "end": "07:00" },
   "defaultModel": "sonnet",
   "projects": [
-    { "name": "ai_projects", "path": "D:/projects/cybernium/ai_projects" },
-    { "name": "pixel-herbarium", "path": "D:/projects/Games/gardern/pixel-herbarium" },
-    { "name": "scrapling-mcp", "path": "D:/projects/Others/scrapling-mcp" },
-    { "name": "Data_management", "path": "D:/projects/Others/Data_management" },
-    { "name": "ziyou-server", "path": "D:/projects/ziyou-assistant/ziyou-server" },
-    { "name": "devboard", "path": "D:/projects/devboard" }
+    {
+      "name": "ai_projects", "path": "D:/projects/cybernium/ai_projects",
+      "type": "js", "pkgManager": "pnpm", "mainBranch": "dev",
+      "tscCmd": "pnpm tsc --noEmit", "testCmd": "pnpm test",
+      "auditCmd": "pnpm audit --json",
+      "coverageCmd": "pnpm test -- --coverage --coverageReporters=json-summary 2>/dev/null || pnpm test"
+    },
+    {
+      "name": "pixel-herbarium", "path": "D:/projects/Games/gardern/pixel-herbarium",
+      "type": "js", "pkgManager": "npm", "mainBranch": "master",
+      "tscCmd": "npx tsc --noEmit", "testCmd": "npm test",
+      "auditCmd": "npm audit --json",
+      "coverageCmd": "npm test -- --coverage --coverageReporters=json-summary 2>/dev/null || npm test"
+    },
+    {
+      "name": "scrapling-mcp", "path": "D:/projects/Others/scrapling-mcp",
+      "type": "python", "mainBranch": "main",
+      "testCmd": "pytest -x --tb=short",
+      "coverageCmd": "pytest --cov --cov-report=term-missing -q 2>/dev/null || pytest -x --tb=short"
+    },
+    {
+      "name": "Data_management", "path": "D:/projects/Others/Data_management",
+      "type": "js", "pkgManager": "npm", "mainBranch": "master",
+      "tscCmd": "npx tsc --noEmit", "testCmd": "npm test",
+      "auditCmd": "npm audit --json",
+      "coverageCmd": "npm test -- --coverage --coverageReporters=json-summary 2>/dev/null || npm test"
+    },
+    {
+      "name": "ziyou-server", "path": "D:/projects/ziyou-assistant/ziyou-server",
+      "type": "python", "mainBranch": "master",
+      "testCmd": "pytest -x --tb=short"
+    },
+    {
+      "name": "devboard", "path": "D:/projects/devboard",
+      "type": "js", "pkgManager": "npm", "mainBranch": "master",
+      "tscCmd": "npx tsc --noEmit",
+      "auditCmd": "npm audit --json"
+    }
   ],
   "workflows": [
     {
@@ -152,6 +184,24 @@
       "maxTurns": 15,
       "budgetUsd": 1.00,
       "description": "Weekly changelog summary (Monday)"
+    },
+    {
+      "name": "lobehub-icons-install",
+      "prompt": "prompts/lobehub-icons-install.txt",
+      "schedule": "02:30",
+      "tools": "Bash,Read,Write,Edit",
+      "maxTurns": 20,
+      "budgetUsd": 0.80,
+      "description": "One-shot: install @lobehub/icons across ecosystem projects"
+    },
+    {
+      "name": "trpc-scaffold",
+      "prompt": "prompts/trpc-scaffold.txt",
+      "schedule": "03:00",
+      "tools": "Bash,Read,Write,Edit",
+      "maxTurns": 12,
+      "budgetUsd": 0.50,
+      "description": "One-shot: set up tRPC scaffold in ai_projects"
     }
   ]
 }

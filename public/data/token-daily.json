@@ -22,19 +22,19 @@
   },
   {
     "date": "2026-03-16",
-    "totalTokens": 8100000,
+    "totalTokens": 16100000,
     "byModel": {
       "haiku": 0,
       "sonnet": 400000,
-      "opus": 7700000
+      "opus": 15700000
     },
     "byProject": {
       "ai_projects": 200000,
       "claude-cron": 550000,
       "Data_management": 500000,
-      "devboard": 4850000,
+      "devboard": 12850000,
       "pixel-herbarium": 1700000
     },
-    "sessionCount": 9
+    "sessionCount": 10
   }
 ]
