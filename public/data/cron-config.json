@@ -92,7 +92,7 @@
       "schedule": "05:30",
       "tools": "Bash,Read,Write,Grep,Glob",
       "maxTurns": 8,
-      "description": "DevBoard data sync + daily report"
+      "description": "DevBoard API sync (ai_projects) + daily report"
     },
     {
       "name": "pr-review",
