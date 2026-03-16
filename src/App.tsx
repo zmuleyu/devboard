@@ -14,6 +14,7 @@ import { OffPeakMetrics } from './components/OffPeakMetrics';
 import { UsageDashboard } from './components/UsageDashboard';
 import { KnowledgeArchive } from './components/KnowledgeArchive';
 import { ConversationTimeline } from './components/ConversationTimeline';
+import { TopicSummaries } from './components/TopicSummaries';
 import { usePortfolioData } from './hooks/usePortfolioData';
 
 export default function App() {
@@ -102,17 +103,22 @@ export default function App() {
 
         <hr className="pixel-divider my-8" />
 
-        {/* Module 12: Timeline */}
+        {/* Module 12: Topic Summaries */}
+        <TopicSummaries />
+
+        <hr className="pixel-divider my-8" />
+
+        {/* Module 13: Timeline */}
         <Timeline selectedProject={selectedProject} />
 
         <hr className="pixel-divider my-8" />
 
-        {/* Module 13: Project Tasks */}
+        {/* Module 14: Project Tasks */}
         <ProjectTasks selectedProject={selectedProject} />
 
         <hr className="pixel-divider my-8" />
 
-        {/* Module 14: Roadmap Gantt */}
+        {/* Module 15: Roadmap Gantt */}
         <RoadmapGantt selectedProject={selectedProject} onSelectProject={setSelectedProject} />
 
         {/* Footer */}
