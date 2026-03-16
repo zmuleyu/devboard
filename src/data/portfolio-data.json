@@ -12,7 +12,7 @@
       "lastCommitDate": "2026-03-16",
       "lastCommitMessage": "a033809 auto: agent checkpoint 03:35 (type error fix)",
       "branch": "dev",
-      "uncommittedChanges": 1,
+      "uncommittedChanges": 0,
       "topTodo": "KR 内容建设",
       "path": "D:\\projects\\cybernium\\ai_projects"
     },
@@ -72,7 +72,7 @@
       "lastCommitDate": "2026-03-15",
       "lastCommitMessage": "a567564 fix: registration bar button and add drag support",
       "branch": "master",
-      "uncommittedChanges": 1,
+      "uncommittedChanges": 0,
       "topTodo": "Registration Engine E2E 修复验证 + 实操案例对比",
       "path": "D:\\projects\\ziyou-assistant\\ziyou-chrome-refactor"
     },
@@ -99,10 +99,10 @@
       "healthTrend": "→",
       "testCount": 71,
       "techDebtMarkers": 0,
-      "lastCommitDate": "2026-03-15",
-      "lastCommitMessage": "feat: add Layer 2 signal classifier for competitor review analysis (S1 M1.3)",
+      "lastCommitDate": "2026-03-16",
+      "lastCommitMessage": "59f85a9 chore: gitignore Claude.ai archive directory",
       "branch": "main",
-      "uncommittedChanges": 1,
+      "uncommittedChanges": 0,
       "topTodo": "S1 M1.4 定时调度",
       "path": "D:\\projects\\Others\\scrapling-mcp"
     },
@@ -117,7 +117,7 @@
       "lastCommitDate": "2026-03-16",
       "lastCommitMessage": "dcfa8c9 feat: add filter chips to herbarium screen",
       "branch": "master",
-      "uncommittedChanges": 2,
+      "uncommittedChanges": 0,
       "topTodo": "目测验证 onboarding + UI 参考图保存",
       "path": "D:\\projects\\Games\\gardern\\pixel-herbarium"
     },
@@ -130,9 +130,9 @@
       "testCount": 0,
       "techDebtMarkers": 0,
       "lastCommitDate": "2026-03-16",
-      "lastCommitMessage": "8f36ca3 fix: resolve TSC errors in KnowledgeArchive and ConversationTimeline",
+      "lastCommitMessage": "c93967f docs: reorganize module numbering and add modules reference",
       "branch": "master",
-      "uncommittedChanges": 1,
+      "uncommittedChanges": 0,
       "topTodo": "无",
       "path": "D:\\projects\\devboard"
     }
