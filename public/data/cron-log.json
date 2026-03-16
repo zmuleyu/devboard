@@ -46,5 +46,41 @@
     "durationSec": 0,
     "source": "cron",
     "isOffPeak": false
+  },
+  {
+    "date": "2026-03-16",
+    "time": "12:20",
+    "taskName": "changelog-gen",
+    "taskType": "changelog-gen",
+    "project": "unknown",
+    "result": "warn",
+    "detail": "budget exceeded or max turns reached (exit 0)",
+    "durationSec": 0,
+    "source": "cron",
+    "isOffPeak": false
+  },
+  {
+    "date": "2026-03-16",
+    "time": "12:24",
+    "taskName": "changelog-gen",
+    "taskType": "changelog-gen",
+    "project": "unknown",
+    "result": "warn",
+    "detail": "budget exceeded or max turns reached (exit 0)",
+    "durationSec": 0,
+    "source": "cron",
+    "isOffPeak": false
+  },
+  {
+    "date": "2026-03-16",
+    "time": "12:29",
+    "taskName": "changelog-gen",
+    "taskType": "changelog-gen",
+    "project": "unknown",
+    "result": "warn",
+    "detail": "budget exceeded or max turns reached (exit 0)",
+    "durationSec": 0,
+    "source": "cron",
+    "isOffPeak": false
   }
 ]

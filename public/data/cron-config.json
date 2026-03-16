@@ -95,6 +95,16 @@
       "description": "Weekly account health audit (Monday)"
     },
     {
+      "name": "ph-monitor",
+      "prompt": "prompts/ph-monitor.txt",
+      "schedule": "10:00",
+      "scheduleDays": "0",
+      "tools": "Bash,Read",
+      "maxTurns": 6,
+      "budgetUsd": 0.15,
+      "description": "Weekly PH competitor review collection + signal classification (Sunday)"
+    },
+    {
       "name": "batch-fix",
       "prompt": "prompts/batch-fix.txt",
       "schedule": "manual",
@@ -119,8 +129,8 @@
       "schedule": "04:00",
       "scheduleDays": "6",
       "tools": "Bash,Read,Grep",
-      "maxTurns": 12,
-      "budgetUsd": 0.40,
+      "maxTurns": 15,
+      "budgetUsd": 0.80,
       "description": "Weekly test coverage report (Saturday)"
     },
     {
@@ -139,8 +149,8 @@
       "schedule": "01:00",
       "scheduleDays": "1",
       "tools": "Bash,Read,Write",
-      "maxTurns": 6,
-      "budgetUsd": 0.20,
+      "maxTurns": 15,
+      "budgetUsd": 1.00,
       "description": "Weekly changelog summary (Monday)"
     }
   ]
