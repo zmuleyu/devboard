@@ -1,4 +1,4 @@
-import { useMemo } from 'react';
+import { useState, useEffect, useMemo } from 'react';
 import {
   BarChart,
   Bar,
@@ -10,7 +10,6 @@ import {
   Pie,
   Cell,
 } from 'recharts';
-import migrationData from '../data/migration-report.json';
 
 const COLORS = [
   '#6366f1', '#10b981', '#f59e0b', '#ef4444', '#8b5cf6',
@@ -27,8 +26,17 @@ interface ProjectEntry {
 }
 
 export function KnowledgeArchive() {
+  const [migrationData, setMigrationData] = useState<{ projects: ProjectEntry[] } | null>(null);
+
+  useEffect(() => {
+    import('../data/migration-report.json').then((m) => {
+      setMigrationData(m.default as { projects: ProjectEntry[] });
+    });
+  }, []);
+
   const { barData, pieData, stats, typeDistribution } = useMemo(() => {
-    const projects = (migrationData as { projects: ProjectEntry[] }).projects;
+    if (!migrationData) return { barData: [], pieData: [], stats: { totalProjects: 0, totalDocs: 0, totalSizeKB: 0, duplicates: 0 }, typeDistribution: [] };
+    const projects = migrationData.projects;
 
     // Bar chart: docs per project (sorted desc)
     const bar = projects
@@ -74,6 +82,15 @@ export function KnowledgeArchive() {
       typeDistribution: typeDist,
     };
   }, []);
+
+  if (!migrationData) {
+    return (
+      <div className="pixel-border bg-card-bg p-4">
+        <h2 className="font-pixel text-[10px] mb-1">KNOWLEDGE ARCHIVE</h2>
+        <p className="text-center text-[10px] text-text-muted py-8 blink">LOADING...</p>
+      </div>
+    );
+  }
 
   return (
     <div className="pixel-border bg-card-bg p-4">

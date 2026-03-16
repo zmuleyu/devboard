@@ -1,22 +1,13 @@
-import { useState, useCallback } from 'react';
+import { useState, useCallback, lazy, Suspense } from 'react';
 import { AlertBanner } from './components/AlertBanner';
-import { PortfolioGrid } from './components/PortfolioGrid';
-import { TokenAnalytics } from './components/TokenAnalytics';
-import { BudgetForecast } from './components/BudgetForecast';
-import { SessionLog } from './components/SessionLog';
-import { Timeline } from './components/Timeline';
-import { ProjectTasks } from './components/ProjectTasks';
-import { RoadmapGantt } from './components/RoadmapGantt';
-import { CronDashboard } from './components/CronDashboard';
-import { AgentLogViewer } from './components/AgentLogViewer';
-import { AgentTimeline } from './components/AgentTimeline';
-import { OffPeakMetrics } from './components/OffPeakMetrics';
-import { UsageDashboard } from './components/UsageDashboard';
-import { KnowledgeArchive } from './components/KnowledgeArchive';
-import { ConversationTimeline } from './components/ConversationTimeline';
-import { TopicSummaries } from './components/TopicSummaries';
 import { TabBar } from './components/TabBar';
+import { LoadingPlaceholder } from './components/LoadingPlaceholder';
 import { usePortfolioData } from './hooks/usePortfolioData';
+
+const PortfolioTab = lazy(() => import('./components/tabs/PortfolioTab'));
+const DevOpsTab = lazy(() => import('./components/tabs/DevOpsTab'));
+const AnalyticsTab = lazy(() => import('./components/tabs/AnalyticsTab'));
+const KnowledgeTab = lazy(() => import('./components/tabs/KnowledgeTab'));
 
 export default function App() {
   const { data } = usePortfolioData();
@@ -63,60 +54,41 @@ export default function App() {
         {/* Tab Navigation */}
         <TabBar activeTab={activeTab} onTabChange={handleTabChange} />
 
-        {/* ── Portfolio Tab ── */}
-        {visitedTabs.has('portfolio') && (
-          <div style={{ display: activeTab === 'portfolio' ? 'block' : 'none' }}>
-            <PortfolioGrid selectedProject={selectedProject} onSelectProject={setSelectedProject} />
-            <hr className="pixel-divider my-8" />
-            <Timeline selectedProject={selectedProject} />
-            <hr className="pixel-divider my-8" />
-            <ProjectTasks selectedProject={selectedProject} />
-            <hr className="pixel-divider my-8" />
-            <RoadmapGantt selectedProject={selectedProject} onSelectProject={setSelectedProject} />
-          </div>
-        )}
+        {/* Tab Content */}
+        <Suspense fallback={<LoadingPlaceholder />}>
+          {/* ── Portfolio Tab ── */}
+          {visitedTabs.has('portfolio') && (
+            <div style={{ display: activeTab === 'portfolio' ? 'block' : 'none' }}>
+              <PortfolioTab selectedProject={selectedProject} onSelectProject={setSelectedProject} />
+            </div>
+          )}
 
-        {/* ── DevOps Tab ── */}
-        {visitedTabs.has('devops') && (
-          <div style={{ display: activeTab === 'devops' ? 'block' : 'none' }}>
-            <CronDashboard selectedProject={selectedProject} />
-            <hr className="pixel-divider my-8" />
-            <AgentLogViewer />
-            <hr className="pixel-divider my-8" />
-            <AgentTimeline selectedProject={selectedProject} />
-            <hr className="pixel-divider my-8" />
-            <OffPeakMetrics />
-          </div>
-        )}
+          {/* ── DevOps Tab ── */}
+          {visitedTabs.has('devops') && (
+            <div style={{ display: activeTab === 'devops' ? 'block' : 'none' }}>
+              <DevOpsTab selectedProject={selectedProject} />
+            </div>
+          )}
 
-        {/* ── Analytics Tab ── */}
-        {visitedTabs.has('analytics') && (
-          <div style={{ display: activeTab === 'analytics' ? 'block' : 'none' }}>
-            <TokenAnalytics />
-            <hr className="pixel-divider my-8" />
-            <BudgetForecast />
-            <hr className="pixel-divider my-8" />
-            <SessionLog selectedProject={selectedProject} onSelectProject={setSelectedProject} />
-            <hr className="pixel-divider my-8" />
-            <UsageDashboard />
-          </div>
-        )}
+          {/* ── Analytics Tab ── */}
+          {visitedTabs.has('analytics') && (
+            <div style={{ display: activeTab === 'analytics' ? 'block' : 'none' }}>
+              <AnalyticsTab selectedProject={selectedProject} onSelectProject={setSelectedProject} />
+            </div>
+          )}
 
-        {/* ── Knowledge Tab ── */}
-        {visitedTabs.has('knowledge') && (
-          <div style={{ display: activeTab === 'knowledge' ? 'block' : 'none' }}>
-            <KnowledgeArchive />
-            <hr className="pixel-divider my-8" />
-            <ConversationTimeline />
-            <hr className="pixel-divider my-8" />
-            <TopicSummaries />
-          </div>
-        )}
+          {/* ── Knowledge Tab ── */}
+          {visitedTabs.has('knowledge') && (
+            <div style={{ display: activeTab === 'knowledge' ? 'block' : 'none' }}>
+              <KnowledgeTab />
+            </div>
+          )}
+        </Suspense>
 
         {/* Footer */}
         <footer className="text-center py-4 text-[10px] text-text-muted">
           <span className="font-pixel text-[7px]">
-            DEVBOARD v0.7.0 · devboard.cybernium.cn
+            DEVBOARD v0.8.0 · devboard.cybernium.cn
           </span>
         </footer>
       </div>

@@ -1,5 +1,4 @@
-import { useState, useMemo } from 'react';
-import summariesData from '../data/summaries-index.json';
+import { useState, useMemo, useEffect } from 'react';
 
 const TOPIC_COLORS: Record<string, string> = {
   'regulatory-research': '#6366f1',
@@ -28,14 +27,35 @@ interface Topic {
   conversations: Conversation[];
 }
 
+interface SummariesData {
+  topics: Topic[];
+  totalConversations: number;
+}
+
 export function TopicSummaries() {
-  const [selectedTopic, setSelectedTopic] = useState<string>(
-    (summariesData as { topics: Topic[] }).topics[0]?.id ?? ''
-  );
+  const [summariesData, setSummariesData] = useState<SummariesData | null>(null);
+  const [selectedTopic, setSelectedTopic] = useState<string>('');
   const [query, setQuery] = useState('');
 
-  const topics = (summariesData as { topics: Topic[]; totalConversations: number }).topics;
-  const totalConversations = (summariesData as { totalConversations: number }).totalConversations;
+  useEffect(() => {
+    import('../data/summaries-index.json').then((m) => {
+      const data = m.default as SummariesData;
+      setSummariesData(data);
+      setSelectedTopic(data.topics[0]?.id ?? '');
+    });
+  }, []);
+
+  if (!summariesData) {
+    return (
+      <div className="pixel-border bg-card-bg p-4">
+        <h2 className="font-pixel text-[10px] mb-1">TOPIC SUMMARIES</h2>
+        <p className="text-center text-[10px] text-text-muted py-8 blink">LOADING...</p>
+      </div>
+    );
+  }
+
+  const topics = summariesData.topics;
+  const totalConversations = summariesData.totalConversations;
 
   const activeTopic = useMemo(
     () => topics.find((t) => t.id === selectedTopic),
