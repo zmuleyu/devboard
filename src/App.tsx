@@ -6,6 +6,7 @@ import { usePortfolioData } from './hooks/usePortfolioData';
 const ProjectsTab = lazy(() => import('./components/tabs/ProjectsTab'));
 const TasksTab = lazy(() => import('./components/tabs/TasksTab'));
 const UsageTab = lazy(() => import('./components/tabs/UsageTab'));
+const CycleTab = lazy(() => import('./components/tabs/CycleTab'));
 const RegistryTab = lazy(() => import('./components/tabs/RegistryTab'));
 
 export default function App() {
@@ -73,6 +74,13 @@ export default function App() {
             </div>
           )}
 
+          {/* ── Cycle Tab ── */}
+          {visitedTabs.has('cycle') && (
+            <div style={{ display: activeTab === 'cycle' ? 'block' : 'none' }}>
+              <CycleTab />
+            </div>
+          )}
+
           {/* ── Registry Tab ── */}
           {visitedTabs.has('registry') && (
             <div style={{ display: activeTab === 'registry' ? 'block' : 'none' }}>
@@ -84,7 +92,7 @@ export default function App() {
         {/* Footer */}
         <footer className="text-center py-4 text-[10px] text-text-muted">
           <span className="font-pixel text-[7px]">
-            DEVBOARD v1.0.0 · devboard.cybernium.cn
+            DEVBOARD v1.1.0 · devboard.cybernium.cn
           </span>
         </footer>
       </div>

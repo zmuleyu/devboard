@@ -5,8 +5,8 @@ import { formatTokens } from '../utils/format';
 
 const CYCLE_HOURS = 5;
 const CYCLE_MS = CYCLE_HOURS * 60 * 60 * 1000;
-// Max plan budget ~$1 Opus equivalent, roughly 5M tokens
-const CYCLE_TOKEN_BUDGET = 5_000_000;
+// Updated: Claude promotional increase — budget significantly raised
+const CYCLE_TOKEN_BUDGET = 15_000_000;
 
 interface ProjectFitness {
   name: string;
@@ -61,6 +61,11 @@ export function CyclePlanner() {
       return `${h}h ${m}m`;
     };
 
+    // Count today's cycles (each 5h window)
+    const cycleNumber = todayStarts.length > 0
+      ? Math.floor(elapsed / CYCLE_MS) + 1
+      : 1;
+
     return {
       startTime: formatTime(cycleStartMs),
       endTime: formatTime(cycleEndMs),
@@ -71,6 +76,7 @@ export function CyclePlanner() {
       tokensUsed: tokensUsedToday,
       tokensRemaining,
       sessionCount: todaySessions.length,
+      cycleNumber,
     };
   }, [sessions, usageLogs]);
 
@@ -122,13 +128,15 @@ export function CyclePlanner() {
   return (
     <div className="pixel-border bg-card-bg p-4">
       <div className="flex items-center justify-between mb-1">
-        <h2 className="font-pixel text-[10px] text-text-main">CYCLE PLANNER</h2>
-        <span className="text-[10px] text-text-muted">
-          {cycle.sessionCount} sessions today
-        </span>
+        <h2 className="font-pixel text-[10px] text-text-main">CYCLE PROGRESS</h2>
+        <div className="flex items-center gap-3 text-[10px] text-text-muted">
+          <span>周期 #{cycle.cycleNumber}</span>
+          <span className="text-grid-dot">·</span>
+          <span>{cycle.sessionCount} sessions</span>
+        </div>
       </div>
       <p className="text-[10px] text-text-muted mb-4">
-        5h 使用周期规划 - 评估项目可用额度
+        5h 使用周期 — 额度 {formatTokens(CYCLE_TOKEN_BUDGET)} · 利用率 {cycle.tokensRemaining > 0 ? Math.round((cycle.tokensUsed / CYCLE_TOKEN_BUDGET) * 100) : 100}%
       </p>
 
       {/* Progress bar */}

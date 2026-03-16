@@ -1,6 +1,5 @@
 import { useState } from 'react';
 import { RecoveryGuide } from '../RecoveryGuide';
-import { CyclePlanner } from '../CyclePlanner';
 import { ProjectRegistry } from '../ProjectRegistry';
 import { KnowledgeArchive } from '../KnowledgeArchive';
 import { ConversationTimeline } from '../ConversationTimeline';
@@ -12,8 +11,6 @@ export default function RegistryTab() {
   return (
     <>
       <RecoveryGuide />
-      <hr className="pixel-divider my-6" />
-      <CyclePlanner />
       <hr className="pixel-divider my-6" />
       <ProjectRegistry />
 
