@@ -71,7 +71,7 @@ export interface TokenDailyEntry {
   sessionCount: number;
 }
 
-export type CronTaskType = 'dev' | 'monitor' | 'grind' | 'patrol' | 'batch-fix' | 'data-sync' | 'pr-review' | 'manual' | 'verify';
+export type CronTaskType = 'dev' | 'monitor' | 'grind' | 'patrol' | 'batch-fix' | 'data-sync' | 'pr-review' | 'manual' | 'verify' | 'audit' | 'maintenance' | 'report' | 'workflow';
 export type CronResult = 'pass' | 'fail' | 'warn' | 'info' | 'crash';
 export type CronSource = 'session' | 'cron' | 'loop' | 'persistent';
 
@@ -87,6 +87,37 @@ export interface CronLogEntry {
   budgetCap?: number;
   source?: CronSource;
   isOffPeak?: boolean;
+}
+
+export interface CronTaskConfig {
+  name: string;
+  prompt: string;
+  schedule: string;
+  scheduleDays?: string;
+  tools: string;
+  maxTurns: number;
+  budgetUsd: number;
+  description: string;
+}
+
+export interface CronWorkflowStep {
+  task: string;
+  parallel?: boolean;
+  onFail?: 'continue' | 'stop';
+}
+
+export interface CronWorkflow {
+  name: string;
+  description: string;
+  steps: CronWorkflowStep[];
+}
+
+export interface CronConfig {
+  offPeakWindow: { start: string; end: string };
+  defaultModel: string;
+  projects: Array<{ name: string; path: string }>;
+  workflows: CronWorkflow[];
+  tasks: CronTaskConfig[];
 }
 
 export interface UsageLogEntry {

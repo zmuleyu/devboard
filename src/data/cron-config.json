@@ -1,0 +1,147 @@
+{
+  "offPeakWindow": { "start": "01:00", "end": "07:00" },
+  "defaultModel": "sonnet",
+  "projects": [
+    { "name": "ai_projects", "path": "D:/projects/cybernium/ai_projects" },
+    { "name": "pixel-herbarium", "path": "D:/projects/Games/gardern/pixel-herbarium" },
+    { "name": "scrapling-mcp", "path": "D:/projects/Others/scrapling-mcp" },
+    { "name": "Data_management", "path": "D:/projects/Others/Data_management" },
+    { "name": "ziyou-server", "path": "D:/projects/ziyou-assistant/ziyou-server" },
+    { "name": "devboard", "path": "D:/projects/devboard" }
+  ],
+  "workflows": [
+    {
+      "name": "nightly-patrol",
+      "description": "Nightly code quality patrol + backup",
+      "steps": [
+        { "task": "patrol", "onFail": "continue" },
+        { "task": "guard-backup", "parallel": true }
+      ]
+    },
+    {
+      "name": "weekly-maintenance",
+      "description": "Sunday: audit + cleanup + coverage",
+      "steps": [
+        { "task": "dependency-check" },
+        { "task": "stale-branch-cleanup", "parallel": true },
+        { "task": "coverage-report" }
+      ]
+    },
+    {
+      "name": "monday-reports",
+      "description": "Monday: changelog + audit + PR review",
+      "steps": [
+        { "task": "changelog-gen" },
+        { "task": "guard-audit", "parallel": true },
+        { "task": "pr-review" }
+      ]
+    }
+  ],
+  "tasks": [
+    {
+      "name": "tsc-check",
+      "prompt": "prompts/tsc-check.txt",
+      "schedule": "09:07",
+      "tools": "Bash,Read",
+      "maxTurns": 8,
+      "budgetUsd": 0.30,
+      "description": "TypeScript check for ai_projects"
+    },
+    {
+      "name": "patrol",
+      "prompt": "prompts/patrol.txt",
+      "schedule": "02:00",
+      "tools": "Bash,Read,Grep,Glob",
+      "maxTurns": 15,
+      "budgetUsd": 0.50,
+      "description": "Full project TSC + test + lint patrol"
+    },
+    {
+      "name": "data-sync",
+      "prompt": "prompts/data-sync.txt",
+      "schedule": "05:30",
+      "tools": "Bash,Read,Write,Grep,Glob",
+      "maxTurns": 8,
+      "budgetUsd": 0.20,
+      "description": "DevBoard data sync + daily report"
+    },
+    {
+      "name": "pr-review",
+      "prompt": "prompts/pr-review.txt",
+      "schedule": "03:00",
+      "scheduleDays": "1,3,5",
+      "tools": "Bash,Read,Grep,Glob",
+      "maxTurns": 10,
+      "budgetUsd": 0.40,
+      "description": "Auto review open PRs (Mon/Wed/Fri)"
+    },
+    {
+      "name": "guard-backup",
+      "prompt": "prompts/guard-backup.txt",
+      "schedule": "04:00",
+      "tools": "Bash,Read",
+      "maxTurns": 3,
+      "budgetUsd": 0.05,
+      "description": "Daily claude-guard backup of Claude Code assets"
+    },
+    {
+      "name": "guard-audit",
+      "prompt": "prompts/guard-audit.txt",
+      "schedule": "08:30",
+      "scheduleDays": "1",
+      "tools": "Bash,Read",
+      "maxTurns": 3,
+      "budgetUsd": 0.05,
+      "description": "Weekly account health audit (Monday)"
+    },
+    {
+      "name": "batch-fix",
+      "prompt": "prompts/batch-fix.txt",
+      "schedule": "manual",
+      "tools": "Bash,Read,Write,Edit,Grep,Glob",
+      "maxTurns": 20,
+      "budgetUsd": 1.00,
+      "description": "Manual batch code modifications"
+    },
+    {
+      "name": "dependency-check",
+      "prompt": "prompts/dependency-check.txt",
+      "schedule": "03:00",
+      "scheduleDays": "0",
+      "tools": "Bash,Read",
+      "maxTurns": 8,
+      "budgetUsd": 0.15,
+      "description": "Weekly npm/pnpm audit across JS/TS projects (Sunday)"
+    },
+    {
+      "name": "coverage-report",
+      "prompt": "prompts/coverage-report.txt",
+      "schedule": "04:00",
+      "scheduleDays": "6",
+      "tools": "Bash,Read,Grep",
+      "maxTurns": 12,
+      "budgetUsd": 0.40,
+      "description": "Weekly test coverage report (Saturday)"
+    },
+    {
+      "name": "stale-branch-cleanup",
+      "prompt": "prompts/stale-branch-cleanup.txt",
+      "schedule": "05:00",
+      "scheduleDays": "0",
+      "tools": "Bash,Read",
+      "maxTurns": 6,
+      "budgetUsd": 0.10,
+      "description": "Weekly merged branch cleanup (Sunday)"
+    },
+    {
+      "name": "changelog-gen",
+      "prompt": "prompts/changelog-gen.txt",
+      "schedule": "01:00",
+      "scheduleDays": "1",
+      "tools": "Bash,Read,Write",
+      "maxTurns": 6,
+      "budgetUsd": 0.20,
+      "description": "Weekly changelog summary (Monday)"
+    }
+  ]
+}

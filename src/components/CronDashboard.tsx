@@ -1,5 +1,6 @@
 import { useMemo, useState } from 'react';
 import { useCronData } from '../hooks/useCronData';
+import { useCronConfig } from '../hooks/useCronConfig';
 import { useHealthStatus } from '../hooks/useHealthStatus';
 import { projectColor } from '../theme';
 import { formatDuration } from '../utils/format';
@@ -71,7 +72,8 @@ interface CronDashboardProps {
 
 export function CronDashboard({ selectedProject }: CronDashboardProps) {
   const { data } = useCronData();
-  const health = useHealthStatus();
+  const { data: cronConfig } = useCronConfig();
+  const { data: health } = useHealthStatus();
   const [filterType, setFilterType] = useState<CronTaskType | null>(null);
   const [filterResult, setFilterResult] = useState<CronResult | null>(null);
   const [filterTask, setFilterTask] = useState<string | null>(null);
@@ -296,8 +298,91 @@ export function CronDashboard({ selectedProject }: CronDashboardProps) {
         </div>
       )}
 
-      {/* Autopilot Modes */}
+      {/* Task Registry */}
       <hr className="border-text-muted/20 my-4" />
+      <h3 className="font-pixel text-[9px] text-text-muted mb-3">TASK REGISTRY</h3>
+      {cronConfig.tasks.length > 0 ? (
+        <div className="overflow-x-auto mb-4">
+          <table className="w-full text-[10px]">
+            <thead>
+              <tr className="text-text-muted border-b border-text-muted/20">
+                <th className="text-left py-1 pr-3">Task</th>
+                <th className="text-left py-1 pr-3">Schedule</th>
+                <th className="text-right py-1 pr-3">Budget</th>
+                <th className="text-right py-1 pr-3">Turns</th>
+                <th className="text-left py-1">Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              {cronConfig.tasks.map((task) => {
+                const lastEntry = [...data].reverse().find(
+                  (e) => e.taskName === task.name || e.taskName?.startsWith(task.name + ':')
+                );
+                const scheduleDesc = task.scheduleDays
+                  ? `${task.schedule} (${task.scheduleDays === '0' ? 'Sun' : task.scheduleDays === '1' ? 'Mon' : task.scheduleDays === '6' ? 'Sat' : task.scheduleDays})`
+                  : task.schedule;
+                return (
+                  <tr key={task.name} className="border-b border-text-muted/10">
+                    <td className="py-1 pr-3 font-mono">
+                      <span className="flex items-center gap-1">
+                        {lastEntry && (
+                          <span className={RESULT_ICON[lastEntry.result]?.cls ?? ''}>
+                            {RESULT_ICON[lastEntry.result]?.icon ?? '·'}
+                          </span>
+                        )}
+                        {task.name}
+                      </span>
+                    </td>
+                    <td className="py-1 pr-3 text-text-muted">{scheduleDesc}</td>
+                    <td className="py-1 pr-3 text-right">${task.budgetUsd.toFixed(2)}</td>
+                    <td className="py-1 pr-3 text-right text-text-muted">{task.maxTurns}</td>
+                    <td className="py-1 text-text-muted truncate max-w-[200px]">{task.description}</td>
+                  </tr>
+                );
+              })}
+            </tbody>
+          </table>
+          <div className="text-[9px] text-text-muted mt-2">
+            {cronConfig.tasks.length} tasks · Daily budget cap: $
+            {cronConfig.tasks.filter((t) => t.schedule !== 'manual').reduce((s, t) => s + t.budgetUsd, 0).toFixed(2)}
+          </div>
+        </div>
+      ) : (
+        <p className="text-[10px] text-text-muted mb-4">No task config loaded.</p>
+      )}
+
+      {/* Workflows */}
+      {cronConfig.workflows.length > 0 && (
+        <>
+          <h3 className="font-pixel text-[9px] text-text-muted mb-3">WORKFLOWS</h3>
+          <div className="grid grid-cols-3 gap-3 mb-4">
+            {cronConfig.workflows.map((wf) => (
+              <div key={wf.name} className="border border-text-muted/30 p-2">
+                <div className="font-pixel text-[9px] mb-1">{wf.name}</div>
+                <div className="text-[10px] text-text-muted mb-2">{wf.description}</div>
+                <div className="flex flex-wrap items-center gap-1 text-[9px]">
+                  {wf.steps.map((step, i) => (
+                    <span key={step.task} className="flex items-center gap-1">
+                      {i > 0 && (
+                        <span className="text-text-muted">{step.parallel ? '∥' : '→'}</span>
+                      )}
+                      <span className="px-1.5 py-0.5 border border-text-muted/40 bg-card-bg">
+                        {step.task}
+                        {step.onFail === 'stop' && <span className="text-[#ef4444] ml-0.5">!</span>}
+                      </span>
+                    </span>
+                  ))}
+                </div>
+                <div className="text-[9px] text-text-muted mt-2">
+                  CLI: <span className="font-mono">cron workflow {wf.name}</span>
+                </div>
+              </div>
+            ))}
+          </div>
+        </>
+      )}
+
+      {/* Autopilot Modes */}
       <h3 className="font-pixel text-[9px] text-text-muted mb-3">AUTOPILOT MODES</h3>
       <div className="grid grid-cols-4 gap-3">
         {AUTOPILOT_MODES.map((mode) => {
