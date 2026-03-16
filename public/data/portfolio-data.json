@@ -7,13 +7,13 @@
       "role": "app",
       "health": "A-",
       "healthTrend": "↑",
-      "testCount": 15,
+      "testCount": 16,
       "techDebtMarkers": 2,
       "lastCommitDate": "2026-03-16",
-      "lastCommitMessage": "910cc65 fix: DevBoard P4 review fixes — date filtering, dynamic tasks, i18n",
+      "lastCommitMessage": "6d67790 feat: extend tRPC with updates and publicData routers",
       "branch": "dev",
-      "uncommittedChanges": 7,
-      "topTodo": "Vercel INTERNAL_API_KEY + P6 数据回填切换",
+      "uncommittedChanges": 1,
+      "topTodo": "P6 数据回填切换（Vercel INTERNAL_API_KEY → live sync）",
       "path": "D:\\projects\\cybernium\\ai_projects"
     },
     {
