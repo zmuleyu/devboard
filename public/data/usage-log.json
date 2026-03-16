@@ -808,5 +808,14 @@
     "model": "claude-sonnet-4-6",
     "offPeak": false,
     "platform": "win32"
+  },
+  {
+    "ts": "2026-03-16T15:06:25.461Z",
+    "tsCN": "2026-03-16T23:06:25",
+    "event": "start",
+    "cwd": "C:\\Users\\Admin",
+    "model": "claude-sonnet-4-6",
+    "offPeak": false,
+    "platform": "win32"
   }
 ]
