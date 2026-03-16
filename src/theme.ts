@@ -1,6 +1,4 @@
 // Centralized color tokens for models and projects across all modules
-import { Anthropic, OpenAI, Google } from '@lobehub/icons';
-import type { ComponentType } from 'react';
 
 export const MODEL_COLORS = {
   haiku:  '#86efac',
@@ -8,14 +6,11 @@ export const MODEL_COLORS = {
   opus:   '#c084fc',
 } as const;
 
-// LLM provider brand icons from @lobehub/icons
-export const MODEL_ICONS: Record<string, ComponentType<{ size?: number }>> = {
-  haiku:  Anthropic,
-  sonnet: Anthropic,
-  opus:   Anthropic,
-  'gpt-4': OpenAI,
-  'gpt-4o': OpenAI,
-  gemini: Google,
+// Model icon SVGs (inline — @lobehub/icons requires antd, incompatible with Vite standalone)
+export const MODEL_ICON_SVGS: Record<string, string> = {
+  haiku:  '☰', // Anthropic models use text fallback
+  sonnet: '☰',
+  opus:   '☰',
 };
 
 // Ecosystem color families: cybernium=indigo, standalone=emerald, ziyou=amber
