@@ -31,8 +31,9 @@ fi
 # Generate agent-logs index.json for runtime fetch
 if ls "$AGENT_LOGS_DST"/*.md 1>/dev/null 2>&1; then
   (cd "$AGENT_LOGS_DST" && ls -1r *.md | node -e "
-    const lines = require('fs').readFileSync('/dev/stdin','utf-8').trim().split('\n');
-    process.stdout.write(JSON.stringify(lines, null, 2) + '\n');
+    let buf=''; process.stdin.on('data',c=>buf+=c); process.stdin.on('end',()=>{
+      const lines=buf.trim().split('\n'); process.stdout.write(JSON.stringify(lines,null,2)+'\n');
+    });
   " > index.json)
   echo "  done: agent-logs/index.json"
 fi
