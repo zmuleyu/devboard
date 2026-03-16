@@ -153,7 +153,7 @@ export function UtilizationAnalytics() {
                 tickFormatter={v => `${v}%`}
               />
               <Tooltip
-                formatter={(value: number) => [`${value}%`, '利用率']}
+                formatter={(value) => [`${Number(value)}%`, '利用率']}
                 contentStyle={{
                   fontFamily: 'JetBrains Mono',
                   fontSize: 11,
