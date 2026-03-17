@@ -142,5 +142,29 @@
     "durationSec": 0,
     "source": "cron",
     "isOffPeak": false
+  },
+  {
+    "date": "2026-03-17",
+    "time": "17:17",
+    "taskName": "test-heartbeat",
+    "taskType": "test-heartbeat",
+    "project": "unknown",
+    "result": "start",
+    "detail": "task started",
+    "durationSec": 0,
+    "source": "cron",
+    "isOffPeak": false
+  },
+  {
+    "date": "2026-03-17",
+    "time": "17:24",
+    "taskName": "tsc-check",
+    "taskType": "tsc-check",
+    "project": "unknown",
+    "result": "start",
+    "detail": "task started",
+    "durationSec": 0,
+    "source": "cron",
+    "isOffPeak": false
   }
 ]
