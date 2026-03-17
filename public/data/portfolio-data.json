@@ -10,7 +10,7 @@
       "testCount": 27,
       "techDebtMarkers": 0,
       "lastCommitDate": "2026-03-17",
-      "lastCommitMessage": "062576a feat(db): add migration 097 — wechat_articles table for scrapling sync",
+      "lastCommitMessage": "fd1cb5a fix(devboard): correct model percentage display and dynamic project count",
       "branch": "dev",
       "uncommittedChanges": 0,
       "topTodo": "火山引擎成本优化",
