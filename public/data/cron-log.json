@@ -286,5 +286,29 @@
     "durationSec": 0,
     "source": "cron",
     "isOffPeak": false
+  },
+  {
+    "date": "2026-03-17",
+    "time": "07:47",
+    "taskName": "pr-review",
+    "taskType": "pr-review",
+    "project": "unknown",
+    "result": "crash",
+    "detail": "claude exited with code 1",
+    "durationSec": 0,
+    "source": "cron",
+    "isOffPeak": false
+  },
+  {
+    "date": "2026-03-17",
+    "time": "07:47",
+    "taskName": "dep-update",
+    "taskType": "dep-update",
+    "project": "unknown",
+    "result": "crash",
+    "detail": "claude exited with code 1",
+    "durationSec": 0,
+    "source": "cron",
+    "isOffPeak": false
   }
 ]
