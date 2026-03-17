@@ -100,10 +100,10 @@
       "testCount": 26,
       "techDebtMarkers": 0,
       "lastCommitDate": "2026-03-17",
-      "lastCommitMessage": "9602eee fix(xiaohongshu): replace wait_for_function with CDP polling in security verification",
+      "lastCommitMessage": "caaeb8f auto: agent checkpoint 22:26",
       "branch": "main",
-      "uncommittedChanges": 0,
-      "topTodo": "重启MCP加载新XHS代码 · Twitter cookies续期 · IG创建小号",
+      "uncommittedChanges": 1,
+      "topTodo": "重启MCP激活XHS修复 → 扫码登录 · Twitter续期 · 6竞品app-intel",
       "path": "D:\\projects\\Others\\scrapling-mcp"
     },
     {

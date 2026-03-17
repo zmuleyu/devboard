@@ -12,11 +12,10 @@
       "ai_projects": 3900000,
       "scrapling-mcp": 4400000,
       "Data_management": 4600000,
-      "ziyou-chrome-refactor": 5500000,
+      "ziyou-chrome": 8500000,
       "ziyou-server": 1400000,
       "ziyou-browser": 100000,
-      "pixel-herbarium": 6900000,
-      "ziyou-chrome": 3000000
+      "pixel-herbarium": 6900000
     },
     "sessionCount": 19
   },
@@ -42,10 +41,10 @@
   },
   {
     "date": "2026-03-17",
-    "totalTokens": 66350000,
+    "totalTokens": 68850000,
     "byModel": {
       "haiku": 0,
-      "sonnet": 23600000,
+      "sonnet": 26100000,
       "opus": 38350000
     },
     "byProject": {
@@ -56,9 +55,10 @@
       "pixel-herbarium": 8200000,
       "ziyou-chrome": 5200000,
       "ziyou-server": 500000,
-      "scrapling-mcp": 13700000,
-      "claude-infra": 1200000
+      "scrapling-mcp": 14700000,
+      "claude-infra": 1200000,
+      "flowers-of-peace": 1500000
     },
-    "sessionCount": 50
+    "sessionCount": 52
   }
 ]
