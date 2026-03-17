@@ -773,5 +773,17 @@
     ],
     "summary": "Supabase 本地化(000_base_schema+config.toml) + migration 096→remote + v1.32.1→main v52",
     "commitsCreated": 2
+  },
+  {
+    "date": "2026-03-17",
+    "startTime": "12:30",
+    "duration": "0h 45m",
+    "tokenUsed": 700000,
+    "model": "sonnet",
+    "projectsTouched": [
+      "ziyou-chrome"
+    ],
+    "summary": "Phase 3 real-site probe: 7/8 sites detect intent (bar/fab) — real-site-probe.spec.ts + real-sites playwright project",
+    "commitsCreated": 2
   }
 ]

@@ -12,7 +12,7 @@
       "lastCommitDate": "2026-03-17",
       "lastCommitMessage": "d6b631f chore(supabase): add local dev config + base schema migration",
       "branch": "dev",
-      "uncommittedChanges": 0,
+      "uncommittedChanges": 1,
       "topTodo": "火山引擎成本优化",
       "path": "D:\\projects\\cybernium\\ai_projects"
     },
@@ -67,13 +67,13 @@
       "role": "app",
       "health": "A+",
       "healthTrend": "↑",
-      "testCount": 46,
+      "testCount": 49,
       "techDebtMarkers": 0,
       "lastCommitDate": "2026-03-17",
-      "lastCommitMessage": "662c76c feat: expand site-templates 5→20 + E2E 27/27 all green",
+      "lastCommitMessage": "b653945 feat: Phase 3 real-site intent detection probe (7/8 pass)",
       "branch": "master",
       "uncommittedChanges": 1,
-      "topTodo": "Issue 1 (cross-origin iframe, 低优先级) · Phase 3 真实站点 probe",
+      "topTodo": "Issue 1 (cross-origin iframe, 低优先级)",
       "path": "D:\\projects\\ziyou-assistant\\ziyou-chrome-refactor"
     },
     {
@@ -87,7 +87,7 @@
       "lastCommitDate": "2026-03-17",
       "lastCommitMessage": "7f7c1df test: finalize coverage improvements for cover-button, wangpan115, javbus, javdb, base plugins",
       "branch": "master",
-      "uncommittedChanges": 0,
+      "uncommittedChanges": 1,
       "topTodo": "覆盖率 70.93% ✅",
       "path": "D:\\projects\\Others\\Data_management"
     },
@@ -110,7 +110,7 @@
       "name": "pixel-herbarium",
       "ecosystem": "standalone",
       "role": "app",
-      "health": "B",
+      "health": "A-",
       "healthTrend": "↑",
       "testCount": 30,
       "techDebtMarkers": 0,
