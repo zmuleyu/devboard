@@ -5,15 +5,15 @@
       "name": "ai_projects",
       "ecosystem": "cybernium",
       "role": "app",
-      "health": "A-",
+      "health": "A",
       "healthTrend": "↑",
       "testCount": 16,
-      "techDebtMarkers": 2,
+      "techDebtMarkers": 0,
       "lastCommitDate": "2026-03-17",
-      "lastCommitMessage": "4a004b9 docs: mark applicationTimeline tech debt as resolved",
+      "lastCommitMessage": "d6b631f chore(supabase): add local dev config + base schema migration",
       "branch": "dev",
       "uncommittedChanges": 0,
-      "topTodo": "DevBoard 视觉验证 + 后台继续优化",
+      "topTodo": "火山引擎成本优化",
       "path": "D:\\projects\\cybernium\\ai_projects"
     },
     {
@@ -72,7 +72,7 @@
       "lastCommitDate": "2026-03-17",
       "lastCommitMessage": "662c76c feat: expand site-templates 5→20 + E2E 27/27 all green",
       "branch": "master",
-      "uncommittedChanges": 0,
+      "uncommittedChanges": 1,
       "topTodo": "Issue 1 (cross-origin iframe, 低优先级) · Phase 3 真实站点 probe",
       "path": "D:\\projects\\ziyou-assistant\\ziyou-chrome-refactor"
     },
