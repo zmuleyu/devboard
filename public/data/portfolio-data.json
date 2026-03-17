@@ -100,10 +100,10 @@
       "testCount": 448,
       "techDebtMarkers": 0,
       "lastCommitDate": "2026-03-17",
-      "lastCommitMessage": "c14c9fb feat(xiaohongshu): add Xiaohongshu (小红书) note site pack",
+      "lastCommitMessage": "0bc1d5d refactor(xiaohongshu): switch note fetching from httpx API to Playwright DOM extraction",
       "branch": "main",
       "uncommittedChanges": 0,
-      "topTodo": "重启激活 appdist/xhs MCP 工具 + /app-intel 测试 · Yahoo Chiebukuro API Key · Twitter cookies 续期",
+      "topTodo": "XHS 重新扫码登录 · Twitter cookies 续期 · IG 创建小号 · Chiebukuro API Key",
       "path": "D:\\projects\\Others\\scrapling-mcp"
     },
     {
