@@ -1065,5 +1065,17 @@
     ],
     "summary": "TestFlight 基础设施：Apple Developer绑定+本地Supabase端口迁移+index.ts修复+expo-updates OTA配置+iOS坑文档",
     "commitsCreated": 4
+  },
+  {
+    "date": "2026-03-18",
+    "startTime": "00:00",
+    "duration": "1h 30m",
+    "tokenUsed": 1500000,
+    "model": "opus",
+    "projectsTouched": [
+      "scrapling-mcp"
+    ],
+    "summary": "scrapling-mcp health-check command (doctor mode): core/health.py + CLI health-check + MCP tool + 17 tests all green",
+    "commitsCreated": 3
   }
 ]

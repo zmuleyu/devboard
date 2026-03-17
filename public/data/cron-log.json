@@ -190,5 +190,89 @@
     "durationSec": 0,
     "source": "cron",
     "isOffPeak": false
+  },
+  {
+    "date": "2026-03-17",
+    "time": "07:45",
+    "taskName": "pr-review",
+    "taskType": "pr-review",
+    "project": "unknown",
+    "result": "start",
+    "detail": "task started",
+    "durationSec": 0,
+    "source": "cron",
+    "isOffPeak": false
+  },
+  {
+    "date": "2026-03-17",
+    "time": "07:45",
+    "taskName": "data-sync",
+    "taskType": "data-sync",
+    "project": "unknown",
+    "result": "start",
+    "detail": "task started",
+    "durationSec": 0,
+    "source": "cron",
+    "isOffPeak": false
+  },
+  {
+    "date": "2026-03-17",
+    "time": "07:45",
+    "taskName": "patrol",
+    "taskType": "patrol",
+    "project": "unknown",
+    "result": "start",
+    "detail": "task started",
+    "durationSec": 0,
+    "source": "cron",
+    "isOffPeak": false
+  },
+  {
+    "date": "2026-03-17",
+    "time": "07:45",
+    "taskName": "dep-update",
+    "taskType": "dep-update",
+    "project": "unknown",
+    "result": "start",
+    "detail": "task started",
+    "durationSec": 0,
+    "source": "cron",
+    "isOffPeak": false
+  },
+  {
+    "date": "2026-03-17",
+    "time": "07:45",
+    "taskName": "guard-backup",
+    "taskType": "guard-backup",
+    "project": "unknown",
+    "result": "start",
+    "detail": "task started",
+    "durationSec": 0,
+    "source": "cron",
+    "isOffPeak": false
+  },
+  {
+    "date": "2026-03-17",
+    "time": "07:45",
+    "taskName": "mcp-health",
+    "taskType": "mcp-health",
+    "project": "unknown",
+    "result": "start",
+    "detail": "task started",
+    "durationSec": 0,
+    "source": "cron",
+    "isOffPeak": false
+  },
+  {
+    "date": "2026-03-17",
+    "time": "07:46",
+    "taskName": "data-sync",
+    "taskType": "data-sync",
+    "project": "unknown",
+    "result": "crash",
+    "detail": "claude exited with code 1",
+    "durationSec": 0,
+    "source": "cron",
+    "isOffPeak": false
   }
 ]
