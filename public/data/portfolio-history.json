@@ -792,5 +792,16 @@
         "commitCount": 2
       }
     ]
+  },
+  {
+    "date": "2026-03-17",
+    "projects": [
+      {
+        "name": "scrapling-mcp",
+        "health": "A",
+        "testCount": 26,
+        "commitCount": 1
+      }
+    ]
   }
 ]

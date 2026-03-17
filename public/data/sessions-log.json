@@ -931,5 +931,17 @@
     ],
     "summary": "scrapling-mcp appdist+xhs pack 收尾提交：manifest.json 完整重建(14 packs/91 tools)，2 commits(d22a1f1+c14c9fb)，待重启激活",
     "commitsCreated": 2
+  },
+  {
+    "date": "2026-03-17",
+    "startTime": "18:30",
+    "duration": "0h 35m",
+    "tokenUsed": 800000,
+    "model": "sonnet",
+    "projectsTouched": [
+      "scrapling-mcp"
+    ],
+    "summary": "xhs auth bug fix: CDP Runtime.evaluate 绕过 Playwright UtilityScript/apply trap + login() web_session cookie 检测，commit eda4e30",
+    "commitsCreated": 1
   }
 ]
