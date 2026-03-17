@@ -10,10 +10,10 @@
       "testCount": 16,
       "techDebtMarkers": 2,
       "lastCommitDate": "2026-03-17",
-      "lastCommitMessage": "3a8f668 refactor(devboard): full MUI redesign — 5→5 tab restructure + unified theme",
+      "lastCommitMessage": "4a004b9 docs: mark applicationTimeline tech debt as resolved",
       "branch": "dev",
       "uncommittedChanges": 0,
-      "topTodo": "火山引擎成本优化（手动控制台）",
+      "topTodo": "DevBoard 视觉验证 + 后台继续优化",
       "path": "D:\\projects\\cybernium\\ai_projects"
     },
     {
