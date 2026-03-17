@@ -310,5 +310,29 @@
     "durationSec": 0,
     "source": "cron",
     "isOffPeak": false
+  },
+  {
+    "date": "2026-03-17",
+    "time": "07:47",
+    "taskName": "mcp-health",
+    "taskType": "mcp-health",
+    "project": "unknown",
+    "result": "crash",
+    "detail": "claude exited with code 1",
+    "durationSec": 0,
+    "source": "cron",
+    "isOffPeak": false
+  },
+  {
+    "date": "2026-03-17",
+    "time": "07:47",
+    "taskName": "guard-backup",
+    "taskType": "guard-backup",
+    "project": "unknown",
+    "result": "crash",
+    "detail": "claude exited with code 1",
+    "durationSec": 0,
+    "source": "cron",
+    "isOffPeak": false
   }
 ]
