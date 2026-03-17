@@ -321,6 +321,17 @@
       "maxTurns": 8,
       "budget": "0.30",
       "description": "Weekly WeChat article digest — summarize saved articles from past 7 days (Monday)"
+    },
+    {
+      "name": "app-dist-monitor",
+      "schedulerName": "AppDistMonitor",
+      "prompt": "prompts/app-dist-monitor.txt",
+      "schedule": "09:30",
+      "scheduleDays": "1",
+      "tools": "Bash,Read,Write",
+      "maxTurns": 20,
+      "budget": "1.50",
+      "description": "Weekly PH competitor app intel sweep — 7 apps, appstore reviews + appdist DB save (Monday)"
     }
   ]
 }
