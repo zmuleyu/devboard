@@ -10,10 +10,10 @@
       "testCount": 27,
       "techDebtMarkers": 0,
       "lastCommitDate": "2026-03-17",
-      "lastCommitMessage": "76499d8 fix(test): use NextResponse instead of Response in auth mock",
+      "lastCommitMessage": "062576a feat(db): add migration 097 — wechat_articles table for scrapling sync",
       "branch": "dev",
       "uncommittedChanges": 0,
-      "topTodo": "火山引擎控制台操作（DCDN/云拨测/HTTPDNS）",
+      "topTodo": "migration 097 supabase db push · 火山引擎控制台操作",
       "path": "D:\\projects\\cybernium\\ai_projects"
     },
     {
@@ -82,13 +82,13 @@
       "role": "app",
       "health": "A+",
       "healthTrend": "↑",
-      "testCount": 49,
+      "testCount": 51,
       "techDebtMarkers": 0,
       "lastCommitDate": "2026-03-17",
-      "lastCommitMessage": "7f7c1df test: finalize coverage improvements for cover-button, wangpan115, javbus, javdb, base plugins",
+      "lastCommitMessage": "0583ef6 auto: agent checkpoint 15:30",
       "branch": "master",
-      "uncommittedChanges": 1,
-      "topTodo": "覆盖率 70.93% ✅",
+      "uncommittedChanges": 0,
+      "topTodo": "覆盖率 82.09% ✅ — 计划目标全部完成",
       "path": "D:\\projects\\Others\\Data_management"
     },
     {
@@ -97,13 +97,13 @@
       "role": "tool",
       "health": "A",
       "healthTrend": "↑",
-      "testCount": 21,
+      "testCount": 22,
       "techDebtMarkers": 0,
       "lastCommitDate": "2026-03-17",
-      "lastCommitMessage": "fd990c2 feat(ph): add ph-roadmap CLI command + roadmap analysis report",
+      "lastCommitMessage": "de53cd8 feat(wechat): add Supabase sync support for wechat_articles table",
       "branch": "main",
       "uncommittedChanges": 0,
-      "topTodo": "验证 wechat MCP 工具 · Phase 2 Supabase+cron · S3 IG 创建小号",
+      "topTodo": "S3 IG 创建小号 · Yahoo Chiebukuro API Key · Twitter cookies 续期",
       "path": "D:\\projects\\Others\\scrapling-mcp"
     },
     {

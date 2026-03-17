@@ -311,6 +311,16 @@
       "maxTurns": 6,
       "budget": "0.30",
       "description": "Monthly PH flower language enrichment via hanakotoba scraping (1st Sunday)"
+    },
+    {
+      "name": "wechat-digest",
+      "prompt": "prompts/wechat-digest.txt",
+      "schedule": "08:00",
+      "scheduleDays": "1",
+      "tools": "Bash,Read,Write",
+      "maxTurns": 8,
+      "budget": "0.30",
+      "description": "Weekly WeChat article digest — summarize saved articles from past 7 days (Monday)"
     }
   ]
 }
