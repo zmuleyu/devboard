@@ -7,13 +7,13 @@
       "role": "app",
       "health": "A",
       "healthTrend": "↑",
-      "testCount": 16,
+      "testCount": 27,
       "techDebtMarkers": 0,
       "lastCommitDate": "2026-03-17",
-      "lastCommitMessage": "d6b631f chore(supabase): add local dev config + base schema migration",
+      "lastCommitMessage": "76499d8 fix(test): use NextResponse instead of Response in auth mock",
       "branch": "dev",
-      "uncommittedChanges": 1,
-      "topTodo": "火山引擎成本优化",
+      "uncommittedChanges": 0,
+      "topTodo": "火山引擎控制台操作（DCDN/云拨测/HTTPDNS）",
       "path": "D:\\projects\\cybernium\\ai_projects"
     },
     {
