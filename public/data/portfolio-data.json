@@ -100,10 +100,10 @@
       "testCount": 448,
       "techDebtMarkers": 0,
       "lastCommitDate": "2026-03-17",
-      "lastCommitMessage": "eda4e30 fix(xiaohongshu): bypass Playwright UtilityScript using CDP Runtime.evaluate for signing",
+      "lastCommitMessage": "c14c9fb feat(xiaohongshu): add Xiaohongshu (小红书) note site pack",
       "branch": "main",
       "uncommittedChanges": 0,
-      "topTodo": "重启激活 xhs + 首次扫码集成测试 · Yahoo Chiebukuro API Key · Twitter cookies 续期",
+      "topTodo": "重启激活 appdist/xhs MCP 工具 + /app-intel 测试 · Yahoo Chiebukuro API Key · Twitter cookies 续期",
       "path": "D:\\projects\\Others\\scrapling-mcp"
     },
     {
