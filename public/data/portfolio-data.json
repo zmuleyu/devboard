@@ -100,10 +100,10 @@
       "testCount": 20,
       "techDebtMarkers": 0,
       "lastCommitDate": "2026-03-17",
-      "lastCommitMessage": "9cab145 feat: add --direct mode (psycopg2) to sync-to-supabase.py",
+      "lastCommitMessage": "382b574 auto: agent checkpoint 09:02",
       "branch": "main",
       "uncommittedChanges": 0,
-      "topTodo": "S3 IG 创建小号→激活 · Twitter cookies 续期 · Yahoo API Key",
+      "topTodo": "S3 IG 创建小号 · Yahoo Chiebukuro API Key · Twitter cookies 续期",
       "path": "D:\\projects\\Others\\scrapling-mcp"
     },
     {
@@ -118,7 +118,7 @@
       "lastCommitMessage": "18dd26f auto: agent checkpoint 06:43",
       "branch": "master",
       "uncommittedChanges": 0,
-      "topTodo": "Apple Developer 注册；秋冬真实精灵图",
+      "topTodo": "测试补全+i18n+Bouquet过期（计划已批准）· Apple Developer · 秋冬精灵图",
       "path": "D:\\projects\\Games\\gardern\\pixel-herbarium"
     }
   ]

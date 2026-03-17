@@ -300,6 +300,17 @@
       "tools": "Bash,Read",
       "maxTurns": 8,
       "description": "Weekly content freshness scan — flag stale docs >30 days (Monday)"
+    },
+    {
+      "name": "ph-enrichment",
+      "schedulerName": "PHEnrichment",
+      "prompt": "prompts/ph-enrichment.txt",
+      "schedule": "08:30",
+      "scheduleDays": "0",
+      "tools": "Bash,Read,Write",
+      "maxTurns": 6,
+      "budget": "0.30",
+      "description": "Monthly PH flower language enrichment via hanakotoba scraping (1st Sunday)"
     }
   ]
 }
