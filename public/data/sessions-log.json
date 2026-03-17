@@ -1053,5 +1053,17 @@
     ],
     "summary": "XHS auth 5项修复: _reset_visible_page/networkidle→domcontentloaded/timeout/bring_to_front/login-overlay detection",
     "commitsCreated": 9
+  },
+  {
+    "date": "2026-03-17",
+    "startTime": "17:00",
+    "duration": "5h 0m",
+    "tokenUsed": 1500000,
+    "model": "sonnet",
+    "projectsTouched": [
+      "pixel-herbarium"
+    ],
+    "summary": "TestFlight 基础设施：Apple Developer绑定+本地Supabase端口迁移+index.ts修复+expo-updates OTA配置+iOS坑文档",
+    "commitsCreated": 4
   }
 ]

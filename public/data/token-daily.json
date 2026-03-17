@@ -41,10 +41,10 @@
   },
   {
     "date": "2026-03-17",
-    "totalTokens": 70050000,
+    "totalTokens": 71550000,
     "byModel": {
       "haiku": 0,
-      "sonnet": 27300000,
+      "sonnet": 28800000,
       "opus": 38350000,
       "haiku45": 400000
     },
@@ -53,13 +53,13 @@
       "claude-cron": 8300000,
       "Data_management": 3300000,
       "devboard": 13650000,
-      "pixel-herbarium": 8200000,
+      "pixel-herbarium": 9700000,
       "ziyou-chrome": 5200000,
       "ziyou-server": 500000,
       "scrapling-mcp": 15900000,
       "claude-infra": 1200000,
       "flowers-of-peace": 1500000
     },
-    "sessionCount": 53
+    "sessionCount": 54
   }
 ]
