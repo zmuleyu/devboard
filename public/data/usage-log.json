@@ -1528,5 +1528,32 @@
     "model": "claude-sonnet-4-6",
     "offPeak": true,
     "platform": "win32"
+  },
+  {
+    "ts": "2026-03-17T06:15:41.560Z",
+    "tsCN": "2026-03-17T14:15:41",
+    "event": "start",
+    "cwd": "D:\\projects\\Others\\Data_management",
+    "model": "claude-sonnet-4-6",
+    "offPeak": true,
+    "platform": "win32"
+  },
+  {
+    "ts": "2026-03-17T06:16:21.834Z",
+    "tsCN": "2026-03-17T14:16:21",
+    "event": "start",
+    "cwd": "C:\\Users\\Admin",
+    "model": "claude-sonnet-4-6",
+    "offPeak": true,
+    "platform": "win32"
+  },
+  {
+    "ts": "2026-03-17T06:16:22.176Z",
+    "tsCN": "2026-03-17T14:16:22",
+    "event": "start",
+    "cwd": "C:\\Users\\Admin",
+    "model": "claude-sonnet-4-6",
+    "offPeak": true,
+    "platform": "win32"
   }
 ]
