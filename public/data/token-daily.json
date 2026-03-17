@@ -42,11 +42,11 @@
   },
   {
     "date": "2026-03-17",
-    "totalTokens": 51350000,
+    "totalTokens": 51550000,
     "byModel": {
       "haiku": 0,
       "sonnet": 15700000,
-      "opus": 34150000
+      "opus": 34350000
     },
     "byProject": {
       "ai_projects": 9900000,
@@ -56,8 +56,8 @@
       "pixel-herbarium": 6200000,
       "ziyou-chrome": 5200000,
       "ziyou-server": 500000,
-      "scrapling-mcp": 8400000
+      "scrapling-mcp": 8600000
     },
-    "sessionCount": 35
+    "sessionCount": 36
   }
 ]
