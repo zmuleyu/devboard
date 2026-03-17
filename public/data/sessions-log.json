@@ -797,5 +797,17 @@
     ],
     "summary": "claude-fix workflow 诊断修复：Prompt too long根因+pnpm无缓存→双重fix(abbb07c+a76519e)，lessons.md追加2条规则",
     "commitsCreated": 2
+  },
+  {
+    "date": "2026-03-17",
+    "startTime": "14:30",
+    "duration": "1h 30m",
+    "tokenUsed": 800000,
+    "model": "sonnet",
+    "projectsTouched": [
+      "scrapling-mcp"
+    ],
+    "summary": "wechat SitePack Phase 1：3文件+wechat skill，2步提取瀑布(static→Playwright)，实测4016字，修复index日期fallback",
+    "commitsCreated": 0
   }
 ]
