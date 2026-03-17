@@ -101,8 +101,8 @@
       "techDebtMarkers": 0,
       "lastCommitDate": "2026-03-17",
       "lastCommitMessage": "f4addd5 auto: agent checkpoint 16:08",
-      "branch": "main",
-      "uncommittedChanges": 7,
+      "branch": "master",
+      "uncommittedChanges": 6,
       "topTodo": "commit appdist+xhs site packs · Yahoo Chiebukuro API Key · Twitter cookies 续期",
       "path": "D:\\projects\\Others\\scrapling-mcp"
     },

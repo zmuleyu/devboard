@@ -897,5 +897,17 @@
     ],
     "summary": "app-intel v2 — appdist site pack(29 tests) + --save 模式 + cron app-dist-monitor + 信息源全景矩阵(13平台)",
     "commitsCreated": 0
+  },
+  {
+    "date": "2026-03-17",
+    "startTime": "15:30",
+    "duration": "1h 30m",
+    "tokenUsed": 1000000,
+    "model": "sonnet",
+    "projectsTouched": [
+      "scrapling-mcp"
+    ],
+    "summary": "Add Xiaohongshu site pack: auth+recipes+storage+models+pack, 45 tests, /xhs skill",
+    "commitsCreated": 0
   }
 ]
