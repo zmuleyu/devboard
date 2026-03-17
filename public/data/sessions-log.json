@@ -1041,5 +1041,17 @@
     ],
     "summary": "XHS login() 架构修复（持久浏览器登录消除CAPTCHA） + 搜索 GET→POST 修复 + git divergence 修复",
     "commitsCreated": 5
+  },
+  {
+    "date": "2026-03-17",
+    "startTime": "22:10",
+    "duration": "1h 10m",
+    "tokenUsed": 1200000,
+    "model": "sonnet",
+    "projectsTouched": [
+      "scrapling-mcp"
+    ],
+    "summary": "XHS auth 5项修复: _reset_visible_page/networkidle→domcontentloaded/timeout/bring_to_front/login-overlay detection",
+    "commitsCreated": 9
   }
 ]
