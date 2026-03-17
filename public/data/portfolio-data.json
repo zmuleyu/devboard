@@ -97,13 +97,13 @@
       "role": "tool",
       "health": "A",
       "healthTrend": "↑",
-      "testCount": 448,
+      "testCount": 26,
       "techDebtMarkers": 0,
       "lastCommitDate": "2026-03-17",
-      "lastCommitMessage": "0bc1d5d refactor(xiaohongshu): switch note fetching from httpx API to Playwright DOM extraction",
+      "lastCommitMessage": "9602eee fix(xiaohongshu): replace wait_for_function with CDP polling in security verification",
       "branch": "main",
       "uncommittedChanges": 0,
-      "topTodo": "XHS 重新扫码登录 · Twitter cookies 续期 · IG 创建小号 · Chiebukuro API Key",
+      "topTodo": "重启MCP加载新XHS代码 · Twitter cookies续期 · IG创建小号",
       "path": "D:\\projects\\Others\\scrapling-mcp"
     },
     {
@@ -117,7 +117,7 @@
       "lastCommitDate": "2026-03-17",
       "lastCommitMessage": "85e7e2f feat(hanakotoba): add colour meaning layer (3-state flip card)",
       "branch": "master",
-      "uncommittedChanges": 0,
+      "uncommittedChanges": 2,
       "topTodo": "Apple Developer · 秋冬精灵图 · IAP",
       "path": "D:\\projects\\Games\\gardern\\pixel-herbarium"
     }

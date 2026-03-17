@@ -139,6 +139,7 @@
       "tools": "Bash,Read",
       "maxTurns": 8,
       "budget": "0.15",
+      "timeLimit": 45,
       "description": "TypeScript check for ai_projects"
     },
     {
@@ -148,6 +149,7 @@
       "tools": "Bash,Read,Grep,Glob",
       "maxTurns": 15,
       "budget": "0.50",
+      "timeLimit": 70,
       "description": "Full project TSC + test + lint patrol"
     },
     {
@@ -157,6 +159,7 @@
       "tools": "Bash,Read,Write,Grep,Glob",
       "maxTurns": 8,
       "budget": "0.30",
+      "timeLimit": 50,
       "description": "DevBoard API sync (ai_projects) + daily report"
     },
     {
@@ -168,6 +171,7 @@
       "tools": "Bash,Read,Grep,Glob",
       "maxTurns": 10,
       "budget": "0.30",
+      "timeLimit": 50,
       "description": "Auto review open PRs (Mon/Wed/Fri)"
     },
     {
@@ -177,6 +181,7 @@
       "tools": "Bash,Read",
       "maxTurns": 5,
       "budget": "0.10",
+      "timeLimit": 35,
       "description": "Daily claude-guard backup of Claude Code assets"
     },
     {
@@ -187,6 +192,7 @@
       "tools": "Bash,Read",
       "maxTurns": 5,
       "budget": "0.10",
+      "timeLimit": 35,
       "description": "Weekly account health audit (Monday)"
     },
     {
@@ -198,6 +204,7 @@
       "tools": "Bash,Read,Write",
       "maxTurns": 8,
       "budget": "0.50",
+      "timeLimit": 45,
       "description": "Weekly PH competitor monitoring via ph-all (Sunday + hanami Mon/Wed Mar-May)"
     },
     {
@@ -206,6 +213,7 @@
       "schedule": "manual",
       "tools": "Bash,Read,Write,Edit,Grep,Glob",
       "maxTurns": 20,
+      "timeLimit": 90,
       "description": "Manual batch code modifications"
     },
     {
@@ -216,6 +224,7 @@
       "tools": "Bash,Read",
       "maxTurns": 8,
       "budget": "0.20",
+      "timeLimit": 45,
       "description": "Weekly npm/pnpm audit across JS/TS projects (Sunday)"
     },
     {
@@ -226,6 +235,7 @@
       "tools": "Bash,Read,Grep",
       "maxTurns": 15,
       "budget": "0.50",
+      "timeLimit": 70,
       "description": "Weekly test coverage report (Saturday)"
     },
     {
@@ -236,6 +246,7 @@
       "tools": "Bash,Read",
       "maxTurns": 6,
       "budget": "0.10",
+      "timeLimit": 40,
       "description": "Weekly merged branch cleanup (Sunday)"
     },
     {
@@ -246,6 +257,7 @@
       "tools": "Bash,Read,Write",
       "maxTurns": 25,
       "budget": "0.80",
+      "timeLimit": 100,
       "description": "Weekly changelog summary (Monday)"
     },
     {
@@ -255,6 +267,7 @@
       "schedule": "02:30",
       "tools": "Bash,Read,Write,Edit",
       "maxTurns": 20,
+      "timeLimit": 80,
       "description": "One-shot: install @lobehub/icons across ecosystem projects",
       "enabled": false
     },
@@ -264,6 +277,7 @@
       "schedule": "03:00",
       "tools": "Bash,Read,Write,Edit",
       "maxTurns": 12,
+      "timeLimit": 60,
       "description": "One-shot: set up tRPC scaffold in ai_projects",
       "enabled": false
     },
@@ -274,6 +288,7 @@
       "tools": "Bash,Read,mcp__fetch__fetch,mcp__plugin_github_github__get_me,mcp__supabase__list_tables",
       "maxTurns": 8,
       "budget": "0.30",
+      "timeLimit": 45,
       "description": "Daily MCP server health check"
     },
     {
@@ -284,6 +299,7 @@
       "tools": "Bash,Read",
       "maxTurns": 10,
       "budget": "0.20",
+      "timeLimit": 50,
       "description": "Weekly dependency update scan — flag outdated packages by severity (Wednesday)"
     },
     {
@@ -294,6 +310,7 @@
       "tools": "Bash,Read,Write",
       "maxTurns": 12,
       "budget": "0.50",
+      "timeLimit": 60,
       "description": "Weekly development digest — cron stats, token usage, project activity (Sunday)"
     },
     {
@@ -304,6 +321,7 @@
       "tools": "Bash,Read",
       "maxTurns": 6,
       "budget": "0.15",
+      "timeLimit": 40,
       "description": "Weekly Python type check with mypy (Sunday)"
     },
     {
@@ -314,6 +332,7 @@
       "tools": "Bash,Read",
       "maxTurns": 8,
       "budget": "0.20",
+      "timeLimit": 45,
       "description": "Weekly content freshness scan — flag stale docs >30 days (Monday)"
     },
     {
@@ -325,6 +344,7 @@
       "tools": "Bash,Read,Write",
       "maxTurns": 8,
       "budget": "0.50",
+      "timeLimit": 50,
       "description": "Monthly PH flower language enrichment via hanakotoba scraping (1st Sunday)"
     },
     {
@@ -335,6 +355,7 @@
       "tools": "Bash,Read,Write",
       "maxTurns": 8,
       "budget": "0.50",
+      "timeLimit": 50,
       "description": "Weekly WeChat article digest — summarize saved articles from past 7 days (Monday)"
     },
     {
@@ -346,6 +367,7 @@
       "tools": "Bash,Read,Write",
       "maxTurns": 20,
       "budget": "1.50",
+      "timeLimit": 90,
       "description": "Weekly PH competitor app intel sweep — 7 apps, appstore reviews + appdist DB save (Monday)"
     }
   ]
