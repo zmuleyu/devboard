@@ -12,8 +12,8 @@
       "lastCommitDate": "2026-03-18",
       "lastCommitMessage": "a9dcd0f feat(devboard): keyboard shortcuts + sync timestamp + loading skeletons",
       "branch": "dev",
-      "uncommittedChanges": 0,
-      "topTodo": "migration 098 apply to remote Supabase",
+      "uncommittedChanges": 2,
+      "topTodo": "entity-associations/trace + 099_signal_convergence.sql 未提交",
       "path": "D:\\projects\\cybernium\\ai_projects"
     },
     {
@@ -102,8 +102,8 @@
       "lastCommitDate": "2026-03-18",
       "lastCommitMessage": "c1975ca feat(core): add convergence_analyze MCP tool for multi-signal synthesis",
       "branch": "main",
-      "uncommittedChanges": 1,
-      "topTodo": "convergence_analyze 已提交 — 需重启 Claude Code 验证加载",
+      "uncommittedChanges": 0,
+      "topTodo": "wechat-digest cron 首次自动运行（下周一 08:00）",
       "path": "D:\\projects\\Others\\scrapling-mcp"
     },
     {
@@ -115,10 +115,10 @@
       "testCount": 59,
       "techDebtMarkers": 0,
       "lastCommitDate": "2026-03-18",
-      "lastCommitMessage": "44cb18f feat(memory): add agent memory middleware — inject/persist per-task context",
+      "lastCommitMessage": "412c792 fix(bat): use %SystemRoot%\\System32\\timeout.exe to avoid Git Bash shadowing",
       "branch": "master",
       "uncommittedChanges": 1,
-      "topTodo": "memory inject 功能验证 — cron run patrol",
+      "topTodo": ".env 未提交（正常）",
       "path": "D:\\tools\\claude-cron"
     },
     {
@@ -132,7 +132,7 @@
       "lastCommitDate": "2026-03-18",
       "lastCommitMessage": "6815b9a docs: add spinner postmortem + bugfix workflow",
       "branch": "master",
-      "uncommittedChanges": 0,
+      "uncommittedChanges": 1,
       "topTodo": "App Store 待提交：截图+ASC元数据+production build+submit",
       "path": "D:\\projects\\Games\\gardern\\pixel-herbarium"
     }
