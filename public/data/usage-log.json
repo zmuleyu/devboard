@@ -3049,5 +3049,41 @@
     "model": "claude-sonnet-4-6",
     "offPeak": true,
     "platform": "win32"
+  },
+  {
+    "ts": "2026-03-18T09:10:48.921Z",
+    "tsCN": "2026-03-18T17:10:48",
+    "event": "start",
+    "cwd": "C:\\Users\\Admin",
+    "model": "claude-sonnet-4-6",
+    "offPeak": true,
+    "platform": "win32"
+  },
+  {
+    "ts": "2026-03-18T09:10:49.011Z",
+    "tsCN": "2026-03-18T17:10:49",
+    "event": "start",
+    "cwd": "C:\\Users\\Admin",
+    "model": "claude-sonnet-4-6",
+    "offPeak": true,
+    "platform": "win32"
+  },
+  {
+    "ts": "2026-03-18T09:15:25.063Z",
+    "tsCN": "2026-03-18T17:15:25",
+    "event": "start",
+    "cwd": "D:\\projects\\Games\\gardern\\pixel-herbarium",
+    "model": "claude-sonnet-4-6",
+    "offPeak": true,
+    "platform": "win32"
+  },
+  {
+    "ts": "2026-03-18T09:15:27.661Z",
+    "tsCN": "2026-03-18T17:15:27",
+    "event": "start",
+    "cwd": "D:\\projects\\Others\\scrapling-mcp\\.worktrees\\phase0-foundation",
+    "model": "claude-sonnet-4-6",
+    "offPeak": true,
+    "platform": "win32"
   }
 ]
