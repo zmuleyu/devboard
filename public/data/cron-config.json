@@ -26,6 +26,8 @@
   "projects": [
     {
       "name": "ai_projects",
+      "direction": "web",
+      "managementName": "web-legislation",
       "path": "D:/projects/cybernium/ai_projects",
       "type": "js",
       "pkgManager": "pnpm",
@@ -37,6 +39,8 @@
     },
     {
       "name": "pixel-herbarium",
+      "direction": "app",
+      "managementName": "app-herbarium",
       "path": "D:/projects/Games/gardern/pixel-herbarium",
       "type": "js",
       "pkgManager": "npm",
@@ -48,6 +52,8 @@
     },
     {
       "name": "scrapling-mcp",
+      "direction": "tool",
+      "managementName": "tool-scrapling",
       "path": "D:/projects/Others/scrapling-mcp",
       "type": "python",
       "mainBranch": "main",
@@ -56,6 +62,8 @@
     },
     {
       "name": "Data_management",
+      "direction": "tool",
+      "managementName": "tool-data-mgmt",
       "path": "D:/projects/Others/Data_management",
       "type": "js",
       "pkgManager": "npm",
@@ -67,6 +75,8 @@
     },
     {
       "name": "ziyou-server",
+      "direction": "tool",
+      "managementName": "tool-ziyou-server",
       "path": "D:/projects/ziyou-assistant/ziyou-server",
       "type": "python",
       "mainBranch": "master",
@@ -74,6 +84,8 @@
     },
     {
       "name": "devboard",
+      "direction": "archived",
+      "managementName": "archived-devboard",
       "path": "D:/projects/devboard",
       "type": "js",
       "pkgManager": "npm",
@@ -353,10 +365,10 @@
       "schedule": "08:00",
       "scheduleDays": "1",
       "tools": "Bash,Read,Write",
-      "maxTurns": 8,
-      "budget": "0.50",
-      "timeLimit": 50,
-      "description": "Weekly WeChat article digest — summarize saved articles from past 7 days (Monday)"
+      "maxTurns": 15,
+      "budget": "1.00",
+      "timeLimit": 90,
+      "description": "Weekly WeChat article digest — LLM classify + summarize new text articles (Monday)"
     },
     {
       "name": "app-dist-monitor",
