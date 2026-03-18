@@ -61,5 +61,21 @@
       "flowers-of-peace": 1500000
     },
     "sessionCount": 54
+  },
+  {
+    "date": "2026-03-18",
+    "totalTokens": 3500000,
+    "byModel": {
+      "haiku": 0,
+      "sonnet": 3500000,
+      "opus": 0
+    },
+    "byProject": {
+      "scrapling-mcp": 2900000,
+      "ai_projects": 200000,
+      "claude-cron": 100000,
+      "pixel-herbarium": 300000
+    },
+    "sessionCount": 2
   }
 ]

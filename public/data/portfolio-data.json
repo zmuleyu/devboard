@@ -1,5 +1,5 @@
 {
-  "date": "2026-03-17",
+  "date": "2026-03-18",
   "projects": [
     {
       "name": "ai_projects",
@@ -9,11 +9,11 @@
       "healthTrend": "↑",
       "testCount": 27,
       "techDebtMarkers": 0,
-      "lastCommitDate": "2026-03-17",
-      "lastCommitMessage": "fd1cb5a fix(devboard): correct model percentage display and dynamic project count",
+      "lastCommitDate": "2026-03-18",
+      "lastCommitMessage": "bdf44ec feat(db): add migration 098 — scrapling raw data tables (L0-L2)",
       "branch": "dev",
       "uncommittedChanges": 0,
-      "topTodo": "火山引擎成本优化",
+      "topTodo": "migration 098 apply to remote Supabase",
       "path": "D:\\projects\\cybernium\\ai_projects"
     },
     {
@@ -72,7 +72,7 @@
       "lastCommitDate": "2026-03-17",
       "lastCommitMessage": "b653945 feat: Phase 3 real-site intent detection probe (7/8 pass)",
       "branch": "master",
-      "uncommittedChanges": 1,
+      "uncommittedChanges": 0,
       "topTodo": "Issue 1 (cross-origin iframe, 低优先级)",
       "path": "D:\\projects\\ziyou-assistant\\ziyou-chrome-refactor"
     },
@@ -95,15 +95,15 @@
       "name": "scrapling-mcp",
       "ecosystem": "standalone",
       "role": "tool",
-      "health": "A",
+      "health": "A+",
       "healthTrend": "↑",
-      "testCount": 26,
+      "testCount": 30,
       "techDebtMarkers": 0,
-      "lastCommitDate": "2026-03-17",
-      "lastCommitMessage": "f3a8cdb fix(xiaohongshu): login detection + UX improvements",
+      "lastCommitDate": "2026-03-18",
+      "lastCommitMessage": "eafab96 feat: merge feature/ph-crawlers — LLM-free PH data crawl pipeline",
       "branch": "main",
       "uncommittedChanges": 0,
-      "topTodo": "XHS匿名web_session假阳性修复 → 扫码登录验证 · Twitter续期 · 6竞品app-intel",
+      "topTodo": "XHS匿名web_session假阳性修复 · Twitter续期",
       "path": "D:\\projects\\Others\\scrapling-mcp"
     },
     {
@@ -114,11 +114,11 @@
       "healthTrend": "↑",
       "testCount": 30,
       "techDebtMarkers": 0,
-      "lastCommitDate": "2026-03-17",
-      "lastCommitMessage": "ec2eeff auto: agent checkpoint 22:45",
+      "lastCommitDate": "2026-03-18",
+      "lastCommitMessage": "8634a6b feat: auto-reload after OTA download (no button needed)",
       "branch": "master",
-      "uncommittedChanges": 1,
-      "topTodo": "验证build安装后app主界面 · development build · 秋冬精灵图 · IAP",
+      "uncommittedChanges": 0,
+      "topTodo": "iPhone 实机安装 EAS 01cc57f3 验证主界面",
       "path": "D:\\projects\\Games\\gardern\\pixel-herbarium"
     }
   ]
