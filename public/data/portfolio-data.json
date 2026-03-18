@@ -130,10 +130,10 @@
       "testCount": 3,
       "techDebtMarkers": 0,
       "lastCommitDate": "2026-03-18",
-      "lastCommitMessage": "403e177 auto: agent checkpoint 15:43",
+      "lastCommitMessage": "68905fd feat: add API usage tracking, key validation, and error classification",
       "branch": "master",
       "uncommittedChanges": 0,
-      "topTodo": "smoke test + 获取 SF_API_KEY 测试截图识别",
+      "topTodo": "验证 API 监控 UI · build 发布",
       "path": "D:\\projects\\ziyou-assistant\\ziyou-desktop"
     },
     {
