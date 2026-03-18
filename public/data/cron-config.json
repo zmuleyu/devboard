@@ -369,6 +369,27 @@
       "budget": "1.50",
       "timeLimit": 90,
       "description": "Weekly PH competitor app intel sweep — 7 apps, appstore reviews + appdist DB save (Monday)"
+    },
+    {
+      "name": "crawl-patrol",
+      "prompt": "prompts/crawl-patrol.txt",
+      "schedule": "08:00",
+      "tools": "Bash+Read+mcp__supabase__execute_sql",
+      "maxTurns": 8,
+      "budget": "0.30",
+      "timeLimit": 45,
+      "description": "Daily crawl pipeline health check — freshness + failures + diagnosis queue"
+    },
+    {
+      "name": "crawl-analyst",
+      "prompt": "prompts/crawl-analyst.txt",
+      "schedule": "10:30",
+      "scheduleDays": "0",
+      "tools": "Bash+Read+Write+mcp__supabase__execute_sql",
+      "maxTurns": 15,
+      "budget": "2.50",
+      "timeLimit": 90,
+      "description": "Weekly crawl data deep analysis — competitor dynamics + signal trends + health report (Sunday)"
     }
   ]
 }
