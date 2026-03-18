@@ -36,14 +36,14 @@
       "ecosystem": "ziyou",
       "role": "infra",
       "health": "A",
-      "healthTrend": "→",
+      "healthTrend": "↑",
       "testCount": 11,
       "techDebtMarkers": 0,
-      "lastCommitDate": "2026-03-16",
-      "lastCommitMessage": "feat: SiliconFlow Vision as primary provider",
+      "lastCommitDate": "2026-03-18",
+      "lastCommitMessage": "dbb15d6 P3 云迁移: MongoDB Atlas Free M0 + Upstash Redis Free TLS",
       "branch": "master",
       "uncommittedChanges": 0,
-      "topTodo": "—",
+      "topTodo": "P3 云迁移完成 · 维护模式",
       "path": "D:\\projects\\ziyou-assistant\\ziyou-server"
     },
     {
@@ -130,10 +130,10 @@
       "testCount": 30,
       "techDebtMarkers": 0,
       "lastCommitDate": "2026-03-18",
-      "lastCommitMessage": "270f24e auto: agent checkpoint 11:28",
+      "lastCommitMessage": "2a7bafd fix: eliminate infinite spinner with three-layer defense",
       "branch": "master",
       "uncommittedChanges": 0,
-      "topTodo": "EAS production build (交互式 Apple auth) + TestFlight 提交",
+      "topTodo": "App Store 待提交：截图+ASC元数据+production build+submit",
       "path": "D:\\projects\\Games\\gardern\\pixel-herbarium"
     }
   ]
