@@ -145,10 +145,11 @@
       "testCount": 38,
       "techDebtMarkers": 0,
       "lastCommitDate": "2026-03-18",
-      "lastCommitMessage": "f46cf76 fix(e2e): use Japanese text selectors",
+      "lastCommitMessage": "f22ba9c debug(ci): add screenshot + log capture before Maestro E2E",
       "branch": "dev",
-      "uncommittedChanges": 0,
-      "topTodo": "赏花打卡 Pivot Phase 1 实施（计划 v2 已批准）",
+      "uncommittedChanges": 1,
+      "testCount": 38,
+      "topTodo": "Layer 2 Maestro E2E 调试（诊断截图 build 进行中）",
       "path": "D:\\projects\\Games\\gardern\\pixel-herbarium"
     }
   ]
