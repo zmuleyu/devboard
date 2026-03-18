@@ -125,15 +125,15 @@
       "name": "ziyou-desktop",
       "ecosystem": "ziyou",
       "role": "app",
-      "health": "A",
+      "health": "A+",
       "healthTrend": "↑",
       "testCount": 3,
       "techDebtMarkers": 0,
       "lastCommitDate": "2026-03-18",
-      "lastCommitMessage": "68905fd feat: add API usage tracking, key validation, and error classification",
+      "lastCommitMessage": "02ab6eb build: add electron-builder portable packaging",
       "branch": "master",
       "uncommittedChanges": 0,
-      "topTodo": "验证 API 监控 UI · build 发布",
+      "topTodo": "icon 升级 256×256 · 手动验证 API 监控 UI",
       "path": "D:\\projects\\ziyou-assistant\\ziyou-desktop"
     },
     {
