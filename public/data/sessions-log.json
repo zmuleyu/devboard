@@ -236,18 +236,6 @@
     "commitsCreated": 4
   },
   {
-    "date": "2026-03-15",
-    "startTime": "22:00",
-    "duration": "2h 30m",
-    "tokenUsed": 1500000,
-    "model": "sonnet",
-    "projectsTouched": [
-      "pixel-herbarium"
-    ],
-    "summary": "PH onboarding polish implementation (4 commits, 182 tests) + UI reference analysis (20 screenshots)",
-    "commitsCreated": 4
-  },
-  {
     "date": "2026-03-16",
     "startTime": "02:30",
     "duration": "1h 30m",
@@ -1301,6 +1289,18 @@
       "pixel-herbarium"
     ],
     "summary": "AHB Layer 2 Maestro E2E 权限弹窗修复 — discover.tsx onboarding guard + Maestro safety net + simctl explicit grants",
+    "commitsCreated": 1
+  },
+  {
+    "date": "2026-03-18",
+    "startTime": "22:00",
+    "duration": "1h 30m",
+    "tokenUsed": 2000000,
+    "model": "sonnet",
+    "projectsTouched": [
+      "scrapling-mcp"
+    ],
+    "summary": "Track B Phase 2-B/C/D: 12 new MCP tools (analytics/wechat-content/export/data-governance/digest) + PlatformAnalyticsAdapter ABC + 228 tests · 822/823 passing",
     "commitsCreated": 1
   }
 ]
