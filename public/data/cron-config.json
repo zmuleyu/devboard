@@ -402,6 +402,18 @@
       "budget": "2.50",
       "timeLimit": 90,
       "description": "Weekly crawl data deep analysis — competitor dynamics + signal trends + health report (Sunday)"
+    },
+    {
+      "name": "relation-mining",
+      "schedulerName": "RelationMining",
+      "prompt": "prompts/relation-mining.txt",
+      "schedule": "03:30",
+      "scheduleDays": "1",
+      "tools": "Bash+Read+Write+mcp__supabase__execute_sql",
+      "maxTurns": 15,
+      "budget": "0.80",
+      "timeLimit": 75,
+      "description": "Weekly WLE entity relationship extraction — mine cross-references from regulations/articles → entityAssociations (Monday)"
     }
   ]
 }

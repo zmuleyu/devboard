@@ -100,10 +100,10 @@
       "testCount": 28,
       "techDebtMarkers": 0,
       "lastCommitDate": "2026-03-18",
-      "lastCommitMessage": "feat(wechat): add account article discovery + three-signal classifier",
+      "lastCommitMessage": "a2f2ede feat(wechat): add wechat-digest prompt — LLM classify + summary + weekly report",
       "branch": "main",
       "uncommittedChanges": 3,
-      "topTodo": "wechat digest.py + test_wechat_digest.py commit",
+      "topTodo": "convergence_analyze MCP tool 已加入(uncommitted) — 需 commit + 重启 Claude Code",
       "path": "D:\\projects\\Others\\scrapling-mcp"
     },
     {
@@ -115,10 +115,10 @@
       "testCount": 59,
       "techDebtMarkers": 0,
       "lastCommitDate": "2026-03-18",
-      "lastCommitMessage": "0a2d4d7 chore(config): add direction/managementName fields to project entries",
+      "lastCommitMessage": "a544cbb chore(cron): update wechat-digest budget→1.00 maxTurns→15 timeLimit→90",
       "branch": "master",
-      "uncommittedChanges": 0,
-      "topTodo": "验证 mutex 实际效果（等下次 StartWhenAvailable 触发）",
+      "uncommittedChanges": 12,
+      "topTodo": "memory middleware + prompt 清理 未提交 — 需 /commit",
       "path": "D:\\tools\\claude-cron"
     },
     {
@@ -130,7 +130,7 @@
       "testCount": 30,
       "techDebtMarkers": 0,
       "lastCommitDate": "2026-03-18",
-      "lastCommitMessage": "2a7bafd fix: eliminate infinite spinner with three-layer defense",
+      "lastCommitMessage": "6815b9a docs: add spinner postmortem + bugfix workflow",
       "branch": "master",
       "uncommittedChanges": 0,
       "topTodo": "App Store 待提交：截图+ASC元数据+production build+submit",
