@@ -97,13 +97,13 @@
       "role": "tool",
       "health": "A+",
       "healthTrend": "↑",
-      "testCount": 31,
+      "testCount": 32,
       "techDebtMarkers": 0,
       "lastCommitDate": "2026-03-18",
-      "lastCommitMessage": "c1975ca feat(core): add convergence_analyze MCP tool for multi-signal synthesis",
+      "lastCommitMessage": "dfb3323 feat: add 4 crawl monitoring MCP tools (Phase 2-A)",
       "branch": "main",
       "uncommittedChanges": 0,
-      "topTodo": "wechat-digest cron 首次自动运行（下周一 08:00）",
+      "topTodo": "Phase 2-B: pending_alerts 表 + runner escalation + alerts query 工具",
       "path": "D:\\projects\\Others\\scrapling-mcp"
     },
     {
