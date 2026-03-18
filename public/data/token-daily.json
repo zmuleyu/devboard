@@ -64,18 +64,18 @@
   },
   {
     "date": "2026-03-18",
-    "totalTokens": 3500000,
+    "totalTokens": 4000000,
     "byModel": {
       "haiku": 0,
       "sonnet": 3500000,
-      "opus": 0
+      "opus": 500000
     },
     "byProject": {
-      "scrapling-mcp": 2900000,
+      "scrapling-mcp": 3400000,
       "ai_projects": 200000,
       "claude-cron": 100000,
       "pixel-herbarium": 300000
     },
-    "sessionCount": 2
+    "sessionCount": 3
   }
 ]

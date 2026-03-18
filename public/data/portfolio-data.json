@@ -97,13 +97,13 @@
       "role": "tool",
       "health": "A+",
       "healthTrend": "↑",
-      "testCount": 30,
+      "testCount": 28,
       "techDebtMarkers": 0,
       "lastCommitDate": "2026-03-18",
-      "lastCommitMessage": "feat(ph-crawlers): P1-5 — GitHub Actions cloud workflow + output --dry-run support",
-      "branch": "feature/ph-crawlers",
+      "lastCommitMessage": "feat(wechat): add account article discovery + three-signal classifier",
+      "branch": "main",
       "uncommittedChanges": 0,
-      "topTodo": "XHS匿名web_session假阳性修复 · Twitter续期",
+      "topTodo": "wechat account_articles 端到端验证 · XHS假阳性修复",
       "path": "D:\\projects\\Others\\scrapling-mcp"
     },
     {
