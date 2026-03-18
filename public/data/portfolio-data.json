@@ -97,13 +97,13 @@
       "role": "tool",
       "health": "A+",
       "healthTrend": "↑",
-      "testCount": 28,
+      "testCount": 31,
       "techDebtMarkers": 0,
       "lastCommitDate": "2026-03-18",
-      "lastCommitMessage": "a2f2ede feat(wechat): add wechat-digest prompt — LLM classify + summary + weekly report",
+      "lastCommitMessage": "c1975ca feat(core): add convergence_analyze MCP tool for multi-signal synthesis",
       "branch": "main",
-      "uncommittedChanges": 3,
-      "topTodo": "convergence_analyze MCP tool 已加入(uncommitted) — 需 commit + 重启 Claude Code",
+      "uncommittedChanges": 1,
+      "topTodo": "convergence_analyze 已提交 — 需重启 Claude Code 验证加载",
       "path": "D:\\projects\\Others\\scrapling-mcp"
     },
     {
@@ -115,10 +115,10 @@
       "testCount": 59,
       "techDebtMarkers": 0,
       "lastCommitDate": "2026-03-18",
-      "lastCommitMessage": "a544cbb chore(cron): update wechat-digest budget→1.00 maxTurns→15 timeLimit→90",
+      "lastCommitMessage": "44cb18f feat(memory): add agent memory middleware — inject/persist per-task context",
       "branch": "master",
-      "uncommittedChanges": 12,
-      "topTodo": "memory middleware + prompt 清理 未提交 — 需 /commit",
+      "uncommittedChanges": 1,
+      "topTodo": "memory inject 功能验证 — cron run patrol",
       "path": "D:\\tools\\claude-cron"
     },
     {

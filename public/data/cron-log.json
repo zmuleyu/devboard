@@ -358,5 +358,17 @@
     "durationSec": 0,
     "source": "cron",
     "isOffPeak": false
+  },
+  {
+    "date": "2026-03-18",
+    "time": "12:34",
+    "taskName": "wechat-digest",
+    "taskType": "wechat-digest",
+    "project": "unknown",
+    "result": "start",
+    "detail": "task started",
+    "durationSec": 0,
+    "source": "cron",
+    "isOffPeak": false
   }
 ]
