@@ -454,5 +454,101 @@
     "durationSec": 0,
     "source": "cron",
     "isOffPeak": false
+  },
+  {
+    "date": "2026-03-19",
+    "time": "19:42",
+    "taskName": "git-hygiene",
+    "taskType": "monitor",
+    "project": "all",
+    "result": "warn",
+    "detail": "ai_projects:0mod/6stale-branches(7-10d) | pixel-herbarium:8untracked/1stash | scrapling-mcp:clean | Data_management:clean | ziyou-server:clean | devboard:clean",
+    "durationSec": 8,
+    "source": "session-cron",
+    "isOffPeak": false
+  },
+  {
+    "date": "2026-03-19",
+    "time": "20:42",
+    "taskName": "git-hygiene",
+    "taskType": "monitor",
+    "project": "all",
+    "result": "warn",
+    "detail": "ai_projects:0mod/6stale(8-10d) | pixel-herbarium:8untracked/1stash | scrapling:clean | data-mgmt:clean | ziyou-server:clean | devboard:clean",
+    "durationSec": 6,
+    "source": "session-cron",
+    "isOffPeak": false
+  },
+  {
+    "date": "2026-03-19",
+    "time": "20:59",
+    "taskName": "patrol",
+    "taskType": "patrol",
+    "project": "ai_projects",
+    "result": "warn",
+    "detail": "tsc: 1 error (task-budget-tracker.tsx:189 Formatter type); tests: 299 passed",
+    "durationSec": 15,
+    "source": "session-cron",
+    "isOffPeak": false
+  },
+  {
+    "date": "2026-03-19",
+    "time": "20:59",
+    "taskName": "patrol",
+    "taskType": "patrol",
+    "project": "pixel-herbarium",
+    "result": "pass",
+    "detail": "tsc: clean; tests: 58 suites 493 passed; 8 untracked files",
+    "durationSec": 12,
+    "source": "session-cron",
+    "isOffPeak": false
+  },
+  {
+    "date": "2026-03-19",
+    "time": "20:59",
+    "taskName": "patrol",
+    "taskType": "patrol",
+    "project": "scrapling-mcp",
+    "result": "pass",
+    "detail": "pytest: 752 passed 13 warnings in 27s",
+    "durationSec": 28,
+    "source": "session-cron",
+    "isOffPeak": false
+  },
+  {
+    "date": "2026-03-19",
+    "time": "20:59",
+    "taskName": "patrol",
+    "taskType": "patrol",
+    "project": "Data_management",
+    "result": "warn",
+    "detail": "tsc: 5 errors (history-plugin.test.ts querySelector/appendChild on never); tests: 1106 passed",
+    "durationSec": 18,
+    "source": "session-cron",
+    "isOffPeak": false
+  },
+  {
+    "date": "2026-03-19",
+    "time": "20:59",
+    "taskName": "patrol",
+    "taskType": "patrol",
+    "project": "ziyou-server",
+    "result": "warn",
+    "detail": "pytest timeout >5min (likely Redis/MongoDB not running)",
+    "durationSec": 300,
+    "source": "session-cron",
+    "isOffPeak": false
+  },
+  {
+    "date": "2026-03-19",
+    "time": "21:42",
+    "taskName": "git-hygiene",
+    "taskType": "monitor",
+    "project": "all",
+    "result": "warn",
+    "detail": "ai_projects:0mod/6stale(8-10d) | pixel-herbarium:8untracked/1stash | scrapling:clean | data-mgmt:clean | ziyou-server:clean | devboard:clean",
+    "durationSec": 5,
+    "source": "session-cron",
+    "isOffPeak": false
   }
 ]
