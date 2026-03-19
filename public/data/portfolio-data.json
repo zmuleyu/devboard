@@ -130,10 +130,11 @@
       "testCount": 4,
       "techDebtMarkers": 0,
       "lastCommitDate": "2026-03-19",
-      "lastCommitMessage": "27f44e6 feat: v1.2 multi-turn chat engine + UX polish",
+      "lastCommitMessage": "fae7b9c feat: v1.3 — history session preview + sidebar drawer mode",
       "branch": "master",
       "uncommittedChanges": 0,
-      "topTodo": "v1.3 候选：历史页会话预览 · 打包新版 portable exe"
+      "topTodo": "v1.4 候选：侧边栏IPC listener cleanup · portable exe 重新打包",
+      "path": "D:\\projects\\ziyou-assistant\\ziyou-desktop"
     },
     {
       "name": "pixel-herbarium",
@@ -141,13 +142,13 @@
       "role": "app",
       "health": "A",
       "healthTrend": "↑",
-      "testCount": 52,
+      "testCount": 492,
       "techDebtMarkers": 0,
       "lastCommitDate": "2026-03-19",
-      "lastCommitMessage": "bdbbfa6 fix(deps): sync package-lock.json with expo-store-review addition",
+      "lastCommitMessage": "fe38b7a feat(data): expand sakura spots 25 → 100",
       "branch": "dev",
-      "uncommittedChanges": 6,
-      "topTodo": "Codemagic E2E验证 → 真机截图 → /publish screenshots → Production build",
+      "uncommittedChanges": 3,
+      "topTodo": "OTA update (eas update --branch preview) → /publish App Store 发版",
       "path": "D:\\projects\\Games\\gardern\\pixel-herbarium"
     }
   ]
