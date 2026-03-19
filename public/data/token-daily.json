@@ -80,5 +80,18 @@
       "ziyou-desktop": 3300000
     },
     "sessionCount": 22
+  },
+  {
+    "date": "2026-03-19",
+    "totalTokens": 800000,
+    "byModel": {
+      "haiku": 0,
+      "sonnet": 0,
+      "opus": 800000
+    },
+    "byProject": {
+      "pixel-herbarium": 800000
+    },
+    "sessionCount": 1
   }
 ]

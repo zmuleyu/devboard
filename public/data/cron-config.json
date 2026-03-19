@@ -414,6 +414,17 @@
       "budget": "0.80",
       "timeLimit": 75,
       "description": "Weekly WLE entity relationship extraction — mine cross-references from regulations/articles → entityAssociations (Monday)"
+    },
+    {
+      "name": "ph-self-monitor",
+      "schedulerName": "PHSelfMonitor",
+      "prompt": "prompts/ph-self-monitor.txt",
+      "schedule": "06:30",
+      "tools": "Bash+Read+mcp__scrapling__ph_health_check+mcp__scrapling__pending_alerts_query",
+      "maxTurns": 6,
+      "budget": "0.15",
+      "timeLimit": 35,
+      "description": "Daily PH self App Store health check — rating + review sentiment + threshold alerts"
     }
   ]
 }
