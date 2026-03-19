@@ -217,7 +217,8 @@
       "maxTurns": 8,
       "budget": "0.50",
       "timeLimit": 45,
-      "description": "Weekly PH competitor monitoring via ph-all (Sunday + hanami Mon/Wed Mar-May)"
+      "description": "Weekly PH competitor monitoring via ph-all (Sunday + hanami Mon/Wed Mar-May)",
+      "enabled": false
     },
     {
       "name": "batch-fix",
@@ -380,7 +381,8 @@
       "maxTurns": 20,
       "budget": "1.50",
       "timeLimit": 90,
-      "description": "Weekly PH competitor app intel sweep — 7 apps, appstore reviews + appdist DB save (Monday)"
+      "description": "Weekly PH competitor app intel sweep — 7 apps, appstore reviews + appdist DB save (Monday)",
+      "enabled": false
     },
     {
       "name": "crawl-patrol",
@@ -390,7 +392,8 @@
       "maxTurns": 8,
       "budget": "0.30",
       "timeLimit": 45,
-      "description": "Daily crawl pipeline health check — freshness + failures + diagnosis queue"
+      "description": "Daily crawl pipeline health check — freshness + failures + diagnosis queue",
+      "enabled": false
     },
     {
       "name": "crawl-analyst",
@@ -401,7 +404,8 @@
       "maxTurns": 15,
       "budget": "2.50",
       "timeLimit": 90,
-      "description": "Weekly crawl data deep analysis — competitor dynamics + signal trends + health report (Sunday)"
+      "description": "Weekly crawl data deep analysis — competitor dynamics + signal trends + health report (Sunday)",
+      "enabled": false
     },
     {
       "name": "relation-mining",
@@ -424,7 +428,30 @@
       "maxTurns": 6,
       "budget": "0.15",
       "timeLimit": 35,
-      "description": "Daily PH self App Store health check — rating + review sentiment + threshold alerts"
+      "description": "Daily PH self App Store health check — rating + review sentiment + threshold alerts",
+      "enabled": false
+    },
+    {
+      "name": "storage-scan",
+      "prompt": "prompts/storage-scan.txt",
+      "schedule": "03:00",
+      "scheduleDayOfWeek": 0,
+      "tools": "Bash",
+      "maxTurns": 3,
+      "budget": "0.10",
+      "timeLimit": 15,
+      "description": "Weekly storage scan and report for all local dev projects"
+    },
+    {
+      "name": "storage-clean",
+      "prompt": "prompts/storage-clean.txt",
+      "schedule": "03:00",
+      "scheduleDayOfMonth": 1,
+      "tools": "Bash",
+      "maxTurns": 5,
+      "budget": "0.20",
+      "timeLimit": 25,
+      "description": "Monthly storage cleanup — git gc + session log compression + inactive cache removal"
     }
   ]
 }

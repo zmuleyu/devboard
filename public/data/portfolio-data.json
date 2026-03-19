@@ -9,11 +9,11 @@
       "healthTrend": "↑",
       "testCount": 27,
       "techDebtMarkers": 0,
-      "lastCommitDate": "2026-03-18",
-      "lastCommitMessage": "a9dcd0f feat(devboard): keyboard shortcuts + sync timestamp + loading skeletons",
+      "lastCommitDate": "2026-03-19",
+      "lastCommitMessage": "00bedea feat(db+api): add signal convergence table and entity trace endpoint",
       "branch": "dev",
-      "uncommittedChanges": 2,
-      "topTodo": "entity-associations/trace + 099_signal_convergence.sql 未提交",
+      "uncommittedChanges": 0,
+      "topTodo": "migration 099 整合 + trace API · 下次 release 前",
       "path": "D:\\projects\\cybernium\\ai_projects"
     },
     {
@@ -58,7 +58,7 @@
       "lastCommitMessage": "docs: add Claude.ai archive — 63 子尤浏览器 docs migrated",
       "branch": "master",
       "uncommittedChanges": 0,
-      "topTodo": "—",
+      "topTodo": "挂起 — 后期继续开发",
       "path": "D:\\projects\\ziyou-browser"
     },
     {
@@ -118,7 +118,7 @@
       "lastCommitMessage": "412c792 fix(bat): use %SystemRoot%\\System32\\timeout.exe to avoid Git Bash shadowing",
       "branch": "master",
       "uncommittedChanges": 1,
-      "topTodo": ".env 未提交（正常）",
+      "topTodo": "storage-scan+storage-clean 两个新任务已加 · .env 未提交（正常）",
       "path": "D:\\tools\\claude-cron"
     },
     {
@@ -133,7 +133,7 @@
       "lastCommitMessage": "fae7b9c feat: v1.3 — history session preview + sidebar drawer mode",
       "branch": "master",
       "uncommittedChanges": 0,
-      "topTodo": "v1.4 候选：侧边栏IPC listener cleanup · portable exe 重新打包",
+      "topTodo": "v1.4 已发布 ✅ · 下一版本规划中",
       "path": "D:\\projects\\ziyou-assistant\\ziyou-desktop"
     },
     {
@@ -145,9 +145,9 @@
       "testCount": 492,
       "techDebtMarkers": 0,
       "lastCommitDate": "2026-03-19",
-      "lastCommitMessage": "19cbda9 auto: agent checkpoint 12:00",
+      "lastCommitMessage": "629e0a2 auto: agent checkpoint 14:22",
       "branch": "dev",
-      "uncommittedChanges": 45,
+      "uncommittedChanges": 40,
       "topTodo": "Build #25 69bb952e E2E结果 → ASC元数据 → production EAS build(4/1额度重置)",
       "path": "D:\\projects\\Games\\gardern\\pixel-herbarium"
     }
