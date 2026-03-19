@@ -83,10 +83,10 @@
   },
   {
     "date": "2026-03-19",
-    "totalTokens": 40000000,
+    "totalTokens": 40500000,
     "byModel": {
       "haiku": 1000000,
-      "sonnet": 34100000,
+      "sonnet": 34600000,
       "opus": 4900000
     },
     "byProject": {
@@ -94,8 +94,8 @@
       "ziyou-desktop": 7000000,
       "scrapling-mcp": 1800000,
       "storage-audit": 1000000,
-      "claude-cron": 800000
+      "claude-cron": 1300000
     },
-    "sessionCount": 18
+    "sessionCount": 19
   }
 ]
