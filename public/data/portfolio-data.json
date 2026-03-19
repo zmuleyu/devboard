@@ -142,13 +142,13 @@
       "role": "app",
       "health": "A",
       "healthTrend": "↑",
-      "testCount": 492,
+      "testCount": 58,
       "techDebtMarkers": 0,
       "lastCommitDate": "2026-03-19",
-      "lastCommitMessage": "629e0a2 auto: agent checkpoint 14:22",
+      "lastCommitMessage": "1554fcd feat(line): add line-oa-bridge edge function (Phase 2B)",
       "branch": "dev",
-      "uncommittedChanges": 40,
-      "topTodo": "Build #25 69bb952e E2E结果 → ASC元数据 → production EAS build(4/1额度重置)",
+      "uncommittedChanges": 38,
+      "topTodo": "LINE Console隐私政策URL · Supabase PAT吊销 · OA创建(Track B) · production EAS build(4/1额度重置)",
       "path": "D:\\projects\\Games\\gardern\\pixel-herbarium"
     }
   ]
