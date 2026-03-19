@@ -145,10 +145,10 @@
       "testCount": 492,
       "techDebtMarkers": 0,
       "lastCommitDate": "2026-03-19",
-      "lastCommitMessage": "5d1ede5 auto: agent checkpoint 10:36 (stamp editor complete)",
+      "lastCommitMessage": "5d1ede5 auto: agent checkpoint 10:36",
       "branch": "dev",
       "uncommittedChanges": 3,
-      "topTodo": "Codemagic E2E 69bb6039 结果确认 → merge PR to master → OTA update",
+      "topTodo": "OTA 零摩擦已上线 (b5443d32) · Codemagic E2E 结果确认 → merge to master",
       "path": "D:\\projects\\Games\\gardern\\pixel-herbarium"
     }
   ]
