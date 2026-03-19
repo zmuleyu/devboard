@@ -97,5 +97,18 @@
       "claude-cron": 1300000
     },
     "sessionCount": 19
+  },
+  {
+    "date": "2026-03-20",
+    "totalTokens": 1500000,
+    "byModel": {
+      "haiku": 0,
+      "sonnet": 500000,
+      "opus": 1000000
+    },
+    "byProject": {
+      "ziyou-desktop": 1500000
+    },
+    "sessionCount": 1
   }
 ]
