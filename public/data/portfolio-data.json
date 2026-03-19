@@ -145,10 +145,10 @@
       "testCount": 492,
       "techDebtMarkers": 0,
       "lastCommitDate": "2026-03-19",
-      "lastCommitMessage": "5d1ede5 auto: agent checkpoint 10:36",
+      "lastCommitMessage": "282385e ci: build iOS simulator app locally (eas build --local) to avoid quota",
       "branch": "dev",
-      "uncommittedChanges": 3,
-      "topTodo": "OTA 零摩擦已上线 (b5443d32) · Codemagic E2E 结果确认 → merge to master",
+      "uncommittedChanges": 4,
+      "topTodo": "Codemagic 69bb6fc1 截图 → Canva后期 → 上传ASC → production EAS build(4/1额度重置)",
       "path": "D:\\projects\\Games\\gardern\\pixel-herbarium"
     }
   ]
