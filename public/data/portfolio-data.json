@@ -145,10 +145,10 @@
       "testCount": 492,
       "techDebtMarkers": 0,
       "lastCommitDate": "2026-03-19",
-      "lastCommitMessage": "fe38b7a feat(data): expand sakura spots 25 → 100",
+      "lastCommitMessage": "5d1ede5 auto: agent checkpoint 10:36 (stamp editor complete)",
       "branch": "dev",
       "uncommittedChanges": 3,
-      "topTodo": "OTA update (eas update --branch preview) → /publish App Store 发版",
+      "topTodo": "Codemagic E2E 69bb6039 结果确认 → merge PR to master → OTA update",
       "path": "D:\\projects\\Games\\gardern\\pixel-herbarium"
     }
   ]
