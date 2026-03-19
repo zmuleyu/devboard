@@ -1495,5 +1495,17 @@
     ],
     "summary": "AHB E2E八层故障系统排查：GoTrue NULL→密码→SecureStore→超时→路由wait→Jest mock→segments竞态→CJK编码，全部修复+经验总结",
     "commitsCreated": 8
+  },
+  {
+    "date": "2026-03-19",
+    "startTime": "16:30",
+    "duration": "1h 15m",
+    "tokenUsed": 800000,
+    "model": "opus",
+    "projectsTouched": [
+      "pixel-herbarium"
+    ],
+    "summary": "PH docs restructuring — merge 26 research files into docs/research/, create INDEX.md, archive 13 files, fix 12 broken links",
+    "commitsCreated": 5
   }
 ]
