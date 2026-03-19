@@ -432,6 +432,29 @@
       "enabled": false
     },
     {
+      "name": "ph-daily",
+      "schedulerName": "PHDaily",
+      "prompt": "prompts/ph-daily.txt",
+      "schedule": "08:00",
+      "tools": "Bash,Read,Write,mcp__scrapling__ph_health_check,mcp__scrapling__pending_alerts_query,mcp__scrapling__crawl_status_summary,mcp__scrapling__crawl_error_log",
+      "maxTurns": 8,
+      "budget": "0.20",
+      "timeLimit": 40,
+      "description": "Daily PH health: self App Store check + crawl pipeline status (replaces ph-self-monitor + crawl-patrol)"
+    },
+    {
+      "name": "ph-weekly",
+      "schedulerName": "PHWeekly",
+      "prompt": "prompts/ph-weekly.txt",
+      "schedule": "10:00",
+      "scheduleDays": "0",
+      "tools": "Bash,Read,Write,mcp__scrapling__appstore_reviews,mcp__scrapling__appstore_snapshot,mcp__scrapling__appdist_save_reviews,mcp__scrapling__chiebukuro_search,mcp__scrapling__chiebukuro_unanswered,mcp__scrapling__data_stats,mcp__scrapling__trend_summary,mcp__scrapling__convergence_analyze",
+      "maxTurns": 20,
+      "budget": "1.50",
+      "timeLimit": 90,
+      "description": "Weekly PH: 5 competitor reviews + chiebukuro + signal analysis (Sunday + hanami Mon/Wed Mar-May)"
+    },
+    {
       "name": "storage-scan",
       "prompt": "prompts/storage-scan.txt",
       "schedule": "03:00",

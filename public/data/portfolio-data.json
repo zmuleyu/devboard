@@ -103,7 +103,7 @@
       "lastCommitMessage": "98766a2 refactor(tsc): phase 1-4 — unify config/storage, delete market_crawlers",
       "branch": "main",
       "uncommittedChanges": 0,
-      "topTodo": "Phase 5 cron整合(7→3任务) · 重启Claude Code激活新MCP工具",
+      "topTodo": "重启Claude Code激活新MCP工具（Phase 5已完成）",
       "path": "D:\\projects\\Others\\scrapling-mcp"
     },
     {
@@ -114,11 +114,11 @@
       "healthTrend": "↑",
       "testCount": 59,
       "techDebtMarkers": 0,
-      "lastCommitDate": "2026-03-18",
-      "lastCommitMessage": "412c792 fix(bat): use %SystemRoot%\\System32\\timeout.exe to avoid Git Bash shadowing",
+      "lastCommitDate": "2026-03-19",
+      "lastCommitMessage": "5cde66d feat(cron): Phase 5 — consolidate PH tasks 6→3 (ph-daily + ph-weekly)",
       "branch": "master",
       "uncommittedChanges": 1,
-      "topTodo": "storage-scan+storage-clean 两个新任务已加 · .env 未提交（正常）",
+      "topTodo": ".env 未提交（正常）· TSC Phase 5 全部完成",
       "path": "D:\\tools\\claude-cron"
     },
     {
