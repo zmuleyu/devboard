@@ -83,17 +83,17 @@
   },
   {
     "date": "2026-03-19",
-    "totalTokens": 21100000,
+    "totalTokens": 26100000,
     "byModel": {
       "haiku": 1000000,
-      "sonnet": 19300000,
+      "sonnet": 24300000,
       "opus": 800000
     },
     "byProject": {
-      "pixel-herbarium": 13300000,
+      "pixel-herbarium": 18300000,
       "ziyou-desktop": 7000000,
       "scrapling-mcp": 300000
     },
-    "sessionCount": 7
+    "sessionCount": 9
   }
 ]
