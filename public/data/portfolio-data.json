@@ -97,13 +97,13 @@
       "role": "tool",
       "health": "A+",
       "healthTrend": "↑",
-      "testCount": 41,
+      "testCount": 42,
       "techDebtMarkers": 0,
-      "lastCommitDate": "2026-03-18",
-      "lastCommitMessage": "672e37d feat: Phase 2-B/C/D management tools + wechat analytics + data ops",
+      "lastCommitDate": "2026-03-19",
+      "lastCommitMessage": "98766a2 refactor(tsc): phase 1-4 — unify config/storage, delete market_crawlers",
       "branch": "main",
       "uncommittedChanges": 0,
-      "topTodo": "重启 Claude Code 激活新 MCP 工具 · config_read/update(Scenario 4) 待开发",
+      "topTodo": "Phase 5 cron整合(7→3任务) · 重启Claude Code激活新MCP工具",
       "path": "D:\\projects\\Others\\scrapling-mcp"
     },
     {
