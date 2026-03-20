@@ -5056,5 +5056,41 @@
     "model": "claude-sonnet-4-6",
     "offPeak": true,
     "platform": "win32"
+  },
+  {
+    "ts": "2026-03-20T02:58:34.648Z",
+    "tsCN": "2026-03-20T10:58:34",
+    "event": "start",
+    "cwd": "C:\\Users\\Admin",
+    "model": "claude-sonnet-4-6",
+    "offPeak": true,
+    "platform": "win32"
+  },
+  {
+    "ts": "2026-03-20T02:58:55.672Z",
+    "tsCN": "2026-03-20T10:58:55",
+    "event": "start",
+    "cwd": "C:\\Users\\Admin",
+    "model": "claude-sonnet-4-6",
+    "offPeak": true,
+    "platform": "win32"
+  },
+  {
+    "ts": "2026-03-20T02:58:55.839Z",
+    "tsCN": "2026-03-20T10:58:55",
+    "event": "start",
+    "cwd": "C:\\Users\\Admin",
+    "model": "claude-sonnet-4-6",
+    "offPeak": true,
+    "platform": "win32"
+  },
+  {
+    "ts": "2026-03-20T03:00:57.604Z",
+    "tsCN": "2026-03-20T11:00:57",
+    "event": "start",
+    "cwd": "D:\\projects\\Games\\gardern\\pixel-herbarium",
+    "model": "claude-sonnet-4-6",
+    "offPeak": true,
+    "platform": "win32"
   }
 ]

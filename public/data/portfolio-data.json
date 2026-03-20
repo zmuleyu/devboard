@@ -145,10 +145,10 @@
       "testCount": 66,
       "techDebtMarkers": 0,
       "lastCommitDate": "2026-03-20",
-      "lastCommitMessage": "c72ef71 fix(ci): idb tap point coords + SCREENSHOT_MODE + /screenshots skill",
+      "lastCommitMessage": "1bdbee5 refactor(stamps): remove temporary React.FC<any> casts — Phase B1 complete",
       "branch": "dev",
       "uncommittedChanges": 3,
-      "topTodo": "P0×3: ①截图ASC上传 ②ASC隐私标签+年龄分级 ③Production Build(4/1额度重置)",
+      "topTodo": "P0 → ①Production Build(4/1额度重置) ②ASC満開home截图 ③Phase B2 高精度SVG",
       "path": "D:\\projects\\Games\\gardern\\pixel-herbarium"
     }
   ]
