@@ -142,12 +142,12 @@
       "role": "app",
       "health": "A+",
       "healthTrend": "↑",
-      "testCount": 58,
+      "testCount": 66,
       "techDebtMarkers": 0,
       "lastCommitDate": "2026-03-20",
-      "lastCommitMessage": "80c2933 auto: agent checkpoint 08:15",
+      "lastCommitMessage": "c72ef71 fix(ci): idb tap point coords + SCREENSHOT_MODE + /screenshots skill",
       "branch": "dev",
-      "uncommittedChanges": 13,
+      "uncommittedChanges": 3,
       "topTodo": "P0×3: ①截图ASC上传 ②ASC隐私标签+年龄分级 ③Production Build(4/1额度重置)",
       "path": "D:\\projects\\Games\\gardern\\pixel-herbarium"
     }
