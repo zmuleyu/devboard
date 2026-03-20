@@ -100,10 +100,10 @@
       "testCount": 56,
       "techDebtMarkers": 0,
       "lastCommitDate": "2026-03-20",
-      "lastCommitMessage": "4ceecfd feat(ph-data): Phase 4 — hanakotoba backfill + patch script",
+      "lastCommitMessage": "9068cb0 feat(ph-data): sakura variety patch — 69 curated spots + エゾヤマザクラ",
       "branch": "main",
       "uncommittedChanges": 0,
-      "topTodo": "sakura 69条无variety（detail页补全，需重新爬取）",
+      "topTodo": "PH采集体系全部完成 218/218 · 可选：detail页精化",
       "path": "D:\\projects\\Others\\scrapling-mcp"
     },
     {
@@ -145,10 +145,10 @@
       "testCount": 66,
       "techDebtMarkers": 0,
       "lastCommitDate": "2026-03-20",
-      "lastCommitMessage": "fbf6408 ci: clean up debug flags from ios-production workflow",
+      "lastCommitMessage": "0e4360e feat(checkin): wire stampPosition + previousVisitYears; fix revisit overlay bugs",
       "branch": "dev",
       "uncommittedChanges": 4,
-      "topTodo": "P0 → ①ASC満開home截图(手動) ②多tab截图(iOS26正式版後) ③Phase B2 高精度SVG",
+      "topTodo": "P0 → ①ASC満開home截图(手動) ②多tab截图(iOS26正式版後) · Stamp B2 Part1地标像素画(blocked on assets)",
       "path": "D:\\projects\\Games\\gardern\\pixel-herbarium"
     }
   ]
