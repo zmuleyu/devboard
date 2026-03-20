@@ -145,10 +145,10 @@
       "testCount": 66,
       "techDebtMarkers": 0,
       "lastCommitDate": "2026-03-20",
-      "lastCommitMessage": "0e4360e feat(checkin): wire stampPosition + previousVisitYears; fix revisit overlay bugs",
+      "lastCommitMessage": "3954ccc chore: bump version to 1.1.0 (buildNumber 2)",
       "branch": "dev",
-      "uncommittedChanges": 4,
-      "topTodo": "P0 → ①ASC満開home截图(手動) ②多tab截图(iOS26正式版後) · Stamp B2 Part1地标像素画(blocked on assets)",
+      "uncommittedChanges": 1,
+      "topTodo": "P0 → 等 TestFlight binary 处理 → 真机5张截图 → canvas合成 → 上传ASC → 提交v1.1审核",
       "path": "D:\\projects\\Games\\gardern\\pixel-herbarium"
     }
   ]
