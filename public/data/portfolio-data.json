@@ -145,10 +145,10 @@
       "testCount": 66,
       "techDebtMarkers": 0,
       "lastCommitDate": "2026-03-20",
-      "lastCommitMessage": "1bdbee5 refactor(stamps): remove temporary React.FC<any> casts — Phase B1 complete",
+      "lastCommitMessage": "fbf6408 ci: clean up debug flags from ios-production workflow",
       "branch": "dev",
-      "uncommittedChanges": 3,
-      "topTodo": "P0 → ①Production Build(4/1额度重置) ②ASC満開home截图 ③Phase B2 高精度SVG",
+      "uncommittedChanges": 4,
+      "topTodo": "P0 → ①ASC満開home截图(手動) ②多tab截图(iOS26正式版後) ③Phase B2 高精度SVG",
       "path": "D:\\projects\\Games\\gardern\\pixel-herbarium"
     }
   ]
