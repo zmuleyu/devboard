@@ -97,13 +97,13 @@
       "role": "tool",
       "health": "A+",
       "healthTrend": "↑",
-      "testCount": 56,
+      "testCount": 53,
       "techDebtMarkers": 0,
       "lastCommitDate": "2026-03-20",
-      "lastCommitMessage": "9068cb0 feat(ph-data): sakura variety patch — 69 curated spots + エゾヤマザクラ",
+      "lastCommitMessage": "598127a feat: integrate LangExtract for LLM-driven structured extraction",
       "branch": "main",
       "uncommittedChanges": 0,
-      "topTodo": "PH采集体系全部完成 218/218 · 可选：detail页精化",
+      "topTodo": "LangExtract已集成 · 可选：enrich_llm处理下一批采集数据",
       "path": "D:\\projects\\Others\\scrapling-mcp"
     },
     {

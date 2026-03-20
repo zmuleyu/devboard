@@ -458,6 +458,31 @@
       "description": "Weekly PH: 5 competitor reviews + chiebukuro + signal analysis (Sunday + hanami Mon/Wed Mar-May)"
     },
     {
+      "name": "ph-gate-check",
+      "schedulerName": "PHGateCheck",
+      "prompt": "prompts/ph-gate-check.txt",
+      "schedule": "09:00",
+      "scheduleDays": "1",
+      "tools": "Bash,Read,Write",
+      "maxTurns": 10,
+      "budget": "0.30",
+      "timeLimit": 30,
+      "description": "Weekly Monday: run auto gate checks for current PH phase, update app-status.json"
+    },
+    {
+      "name": "app-ops-weekly",
+      "schedulerName": "AppOpsWeekly",
+      "prompt": "prompts/app-ops-weekly.txt",
+      "schedule": "11:00",
+      "scheduleDays": "0",
+      "tools": "Bash,Read,Write,mcp__scrapling__appstore_reviews",
+      "maxTurns": 15,
+      "budget": "0.80",
+      "timeLimit": 60,
+      "enabled": false,
+      "description": "Weekly Sunday: generate ops report for AHB (enable after launch, phase=ops)"
+    },
+    {
       "name": "storage-scan",
       "prompt": "prompts/storage-scan.txt",
       "schedule": "03:00",
