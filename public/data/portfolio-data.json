@@ -97,13 +97,13 @@
       "role": "tool",
       "health": "A+",
       "healthTrend": "↑",
-      "testCount": 42,
+      "testCount": 45,
       "techDebtMarkers": 0,
       "lastCommitDate": "2026-03-20",
-      "lastCommitMessage": "7a92f74 auto: agent checkpoint 08:25",
+      "lastCommitMessage": "9effc7f PH采集体系Phase1: canonical schema+4季config+validate+ph_export v2",
       "branch": "main",
-      "uncommittedChanges": 8,
-      "topTodo": "hanami pack入库 / 扩充数据源 / 导出→Supabase闭环 · commit dashboard+walkerplus改动",
+      "uncommittedChanges": 0,
+      "topTodo": "Phase 2: season_scraper.py + merge_sources + momiji採集 + hanakotoba映射 + Dashboard多季節",
       "path": "D:\\projects\\Others\\scrapling-mcp"
     },
     {
