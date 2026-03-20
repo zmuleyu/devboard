@@ -658,5 +658,14 @@
     "durationSec": 0,
     "source": "cron",
     "isOffPeak": false
+  },
+  {
+    "date": "2026-03-20",
+    "time": "12:59",
+    "taskName": "data-sync",
+    "result": "alert",
+    "priority": "high",
+    "detail": "manual test failure",
+    "source": "on-failure"
   }
 ]

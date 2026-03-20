@@ -162,7 +162,8 @@
       "maxTurns": 15,
       "budget": "0.50",
       "timeLimit": 70,
-      "description": "Full project TSC + test + lint patrol"
+      "description": "Full project TSC + test + lint patrol",
+      "onFailure": "notify"
     },
     {
       "name": "data-sync",
@@ -172,7 +173,8 @@
       "maxTurns": 8,
       "budget": "0.30",
       "timeLimit": 50,
-      "description": "DevBoard API sync (ai_projects) + daily report"
+      "description": "DevBoard API sync (ai_projects) + daily report",
+      "onFailure": "notify"
     },
     {
       "name": "pr-review",
@@ -194,7 +196,8 @@
       "maxTurns": 5,
       "budget": "0.10",
       "timeLimit": 35,
-      "description": "Daily claude-guard backup of Claude Code assets"
+      "description": "Daily claude-guard backup of Claude Code assets",
+      "onFailure": "notify"
     },
     {
       "name": "guard-audit",

@@ -5227,5 +5227,77 @@
     "model": "claude-sonnet-4-6",
     "offPeak": true,
     "platform": "win32"
+  },
+  {
+    "ts": "2026-03-20T04:16:10.052Z",
+    "tsCN": "2026-03-20T12:16:10",
+    "event": "start",
+    "cwd": "C:\\Users\\Admin",
+    "model": "claude-sonnet-4-6",
+    "offPeak": true,
+    "platform": "win32"
+  },
+  {
+    "ts": "2026-03-20T04:16:10.260Z",
+    "tsCN": "2026-03-20T12:16:10",
+    "event": "start",
+    "cwd": "C:\\Users\\Admin",
+    "model": "claude-sonnet-4-6",
+    "offPeak": true,
+    "platform": "win32"
+  },
+  {
+    "ts": "2026-03-20T04:18:21.475Z",
+    "tsCN": "2026-03-20T12:18:21",
+    "event": "start",
+    "cwd": "C:\\Users\\Admin",
+    "model": "claude-sonnet-4-6",
+    "offPeak": true,
+    "platform": "win32"
+  },
+  {
+    "ts": "2026-03-20T04:18:21.716Z",
+    "tsCN": "2026-03-20T12:18:21",
+    "event": "start",
+    "cwd": "C:\\Users\\Admin",
+    "model": "claude-sonnet-4-6",
+    "offPeak": true,
+    "platform": "win32"
+  },
+  {
+    "ts": "2026-03-20T04:56:18.233Z",
+    "tsCN": "2026-03-20T12:56:18",
+    "event": "start",
+    "cwd": "C:\\Users\\Admin",
+    "model": "claude-sonnet-4-6",
+    "offPeak": true,
+    "platform": "win32"
+  },
+  {
+    "ts": "2026-03-20T04:56:45.651Z",
+    "tsCN": "2026-03-20T12:56:45",
+    "event": "start",
+    "cwd": "D:\\projects\\ziyou-assistant\\ziyou-desktop",
+    "model": "claude-sonnet-4-6",
+    "offPeak": true,
+    "platform": "win32"
+  },
+  {
+    "ts": "2026-03-20T05:09:04.851Z",
+    "tsCN": "2026-03-20T13:09:04",
+    "event": "start",
+    "cwd": "D:\\projects\\Others\\scrapling-mcp",
+    "model": "claude-sonnet-4-6",
+    "offPeak": true,
+    "platform": "win32"
+  },
+  {
+    "ts": "2026-03-20T05:24:20.716Z",
+    "tsCN": "2026-03-20T13:24:20",
+    "event": "start",
+    "cwd": "C:\\Users\\Admin",
+    "model": "claude-sonnet-4-6",
+    "offPeak": true,
+    "platform": "win32"
   }
 ]
