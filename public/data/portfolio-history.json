@@ -1396,5 +1396,16 @@
         "commitCount": 6
       }
     ]
+  },
+  {
+    "date": "2026-03-20",
+    "projects": [
+      {
+        "name": "ziyou-desktop",
+        "health": "A+",
+        "testCount": 190,
+        "commitCount": 1
+      }
+    ]
   }
 ]
