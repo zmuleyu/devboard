@@ -102,7 +102,7 @@
       "lastCommitDate": "2026-03-19",
       "lastCommitMessage": "98766a2 refactor(tsc): phase 1-4 — unify config/storage, delete market_crawlers",
       "branch": "main",
-      "uncommittedChanges": 0,
+      "uncommittedChanges": 9,
       "topTodo": "重启Claude Code激活新MCP工具（Phase 5已完成）",
       "path": "D:\\projects\\Others\\scrapling-mcp"
     },
@@ -144,10 +144,10 @@
       "healthTrend": "↑",
       "testCount": 58,
       "techDebtMarkers": 0,
-      "lastCommitDate": "2026-03-19",
-      "lastCommitMessage": "e50a7d1 auto: 9宫格位置+透明度/大小滑块+CheckinSuccessOverlay+情感化文案",
+      "lastCommitDate": "2026-03-20",
+      "lastCommitMessage": "80c2933 auto: agent checkpoint 08:15",
       "branch": "dev",
-      "uncommittedChanges": 8,
+      "uncommittedChanges": 13,
       "topTodo": "P0×3: ①截图ASC上传 ②ASC隐私标签+年龄分级 ③Production Build(4/1额度重置)",
       "path": "D:\\projects\\Games\\gardern\\pixel-herbarium"
     }

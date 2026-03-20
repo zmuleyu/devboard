@@ -550,5 +550,101 @@
     "durationSec": 5,
     "source": "session-cron",
     "isOffPeak": false
+  },
+  {
+    "date": "2026-03-19",
+    "time": "06:42",
+    "taskName": "data-sync",
+    "taskType": "data-sync",
+    "project": "unknown",
+    "result": "start",
+    "detail": "task started",
+    "durationSec": 0,
+    "source": "cron",
+    "isOffPeak": true
+  },
+  {
+    "date": "2026-03-19",
+    "time": "06:42",
+    "taskName": "storage-clean",
+    "taskType": "storage-clean",
+    "project": "unknown",
+    "result": "start",
+    "detail": "task started",
+    "durationSec": 0,
+    "source": "cron",
+    "isOffPeak": true
+  },
+  {
+    "date": "2026-03-19",
+    "time": "06:42",
+    "taskName": "guard-backup",
+    "taskType": "guard-backup",
+    "project": "unknown",
+    "result": "start",
+    "detail": "task started",
+    "durationSec": 0,
+    "source": "cron",
+    "isOffPeak": true
+  },
+  {
+    "date": "2026-03-19",
+    "time": "06:42",
+    "taskName": "patrol",
+    "taskType": "patrol",
+    "project": "unknown",
+    "result": "start",
+    "detail": "task started",
+    "durationSec": 0,
+    "source": "cron",
+    "isOffPeak": true
+  },
+  {
+    "date": "2026-03-19",
+    "time": "06:42",
+    "taskName": "storage-scan",
+    "taskType": "storage-scan",
+    "project": "unknown",
+    "result": "start",
+    "detail": "task started",
+    "durationSec": 0,
+    "source": "cron",
+    "isOffPeak": true
+  },
+  {
+    "date": "2026-03-19",
+    "time": "06:42",
+    "taskName": "pr-review",
+    "taskType": "pr-review",
+    "project": "unknown",
+    "result": "start",
+    "detail": "task started",
+    "durationSec": 0,
+    "source": "cron",
+    "isOffPeak": true
+  },
+  {
+    "date": "2026-03-19",
+    "time": "07:31",
+    "taskName": "mcp-health",
+    "taskType": "mcp-health",
+    "project": "unknown",
+    "result": "start",
+    "detail": "task started",
+    "durationSec": 0,
+    "source": "cron",
+    "isOffPeak": false
+  },
+  {
+    "date": "2026-03-20",
+    "time": "08:01",
+    "taskName": "ph-daily",
+    "taskType": "ph-daily",
+    "project": "unknown",
+    "result": "start",
+    "detail": "task started",
+    "durationSec": 0,
+    "source": "cron",
+    "isOffPeak": false
   }
 ]

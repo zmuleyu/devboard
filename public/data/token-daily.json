@@ -100,15 +100,17 @@
   },
   {
     "date": "2026-03-20",
-    "totalTokens": 1500000,
+    "totalTokens": 3000000,
     "byModel": {
       "haiku": 0,
-      "sonnet": 500000,
-      "opus": 1000000
+      "sonnet": 1500000,
+      "opus": 1500000
     },
     "byProject": {
-      "ziyou-desktop": 1500000
+      "ziyou-desktop": 1500000,
+      "pixel-herbarium": 700000,
+      "app-review-skill": 800000
     },
-    "sessionCount": 1
+    "sessionCount": 2
   }
 ]
