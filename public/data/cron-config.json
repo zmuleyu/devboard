@@ -475,6 +475,17 @@
       "budget": "0.20",
       "timeLimit": 25,
       "description": "Monthly storage cleanup — git gc + session log compression + inactive cache removal"
+    },
+    {
+      "name": "lesson-digest",
+      "schedule": "06:30",
+      "scheduleDays": "0",
+      "tools": "Bash+Read+Write+Grep+Glob",
+      "maxTurns": 15,
+      "budget": "0.80",
+      "timeLimit": 70,
+      "prompt": "prompts/lesson-digest.txt",
+      "enabled": true
     }
   ]
 }
