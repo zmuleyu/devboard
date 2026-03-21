@@ -115,5 +115,19 @@
       "claude-infra": 3500000
     },
     "sessionCount": 17
+  },
+  {
+    "date": "2026-03-21",
+    "totalTokens": 6500000,
+    "byModel": {
+      "haiku": 0,
+      "sonnet": 0,
+      "opus": 6500000
+    },
+    "byProject": {
+      "otome-companion": 3000000,
+      "pixel-herbarium": 3500000
+    },
+    "sessionCount": 2
   }
 ]
