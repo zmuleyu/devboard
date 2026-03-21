@@ -46,5 +46,17 @@
     ],
     "summary": "AHB brand visual system — App Icon SVG + 22 PNG export + Splash + TabBarIcon + brand colors",
     "commitsCreated": 1
+  },
+  {
+    "date": "2026-03-21",
+    "startTime": "14:00",
+    "duration": "3h 00m",
+    "tokenUsed": 5000000,
+    "model": "opus",
+    "projectsTouched": [
+      "ziyou-desktop"
+    ],
+    "summary": "AZD Buddy Float fixes (sidebarMode/decay/glow/drag/errors) + interaction research report (6 competitors)",
+    "commitsCreated": 0
   }
 ]
