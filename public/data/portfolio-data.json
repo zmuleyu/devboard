@@ -145,10 +145,10 @@
       "testCount": 66,
       "techDebtMarkers": 0,
       "lastCommitDate": "2026-03-22",
-      "lastCommitMessage": "e950f83 auto: agent checkpoint 21:54 (expo-build-properties Swift6 fix)",
+      "lastCommitMessage": "7c9457d auto: agent checkpoint 22:47",
       "branch": "dev",
-      "uncommittedChanges": 8,
-      "topTodo": "GHA Run #23405055269 截图构建中 → 截图→Phase C→Phase D→提交审核",
+      "uncommittedChanges": 7,
+      "topTodo": "Petal Press 动画优化(分析XHS视频+专业动效工具) + GHA截图构建 + Phase C/D",
       "path": "D:\\projects\\Games\\gardern\\pixel-herbarium"
     }
   ]
