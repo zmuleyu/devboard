@@ -130,5 +130,19 @@
       "ziyou-desktop": 5000000
     },
     "sessionCount": 3
+  },
+  {
+    "date": "2026-03-22",
+    "totalTokens": 12000000,
+    "byModel": {
+      "haiku": 0,
+      "sonnet": 0,
+      "opus": 12000000
+    },
+    "byProject": {
+      "claude-config": 8000000,
+      "gdpr-monitor": 4000000
+    },
+    "sessionCount": 2
   }
 ]
