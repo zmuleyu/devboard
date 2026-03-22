@@ -8053,5 +8053,122 @@
     "model": "claude-sonnet-4-6",
     "offPeak": true,
     "platform": "win32"
+  },
+  {
+    "ts": "2026-03-22T09:54:31.775Z",
+    "tsCN": "2026-03-22T17:54:31",
+    "event": "start",
+    "cwd": "C:\\Users\\Admin",
+    "model": "claude-sonnet-4-6",
+    "offPeak": true,
+    "platform": "win32"
+  },
+  {
+    "ts": "2026-03-22T09:54:31.811Z",
+    "tsCN": "2026-03-22T17:54:31",
+    "event": "start",
+    "cwd": "C:\\Users\\Admin",
+    "model": "claude-sonnet-4-6",
+    "offPeak": true,
+    "platform": "win32"
+  },
+  {
+    "ts": "2026-03-22T09:54:31.958Z",
+    "tsCN": "2026-03-22T17:54:31",
+    "event": "start",
+    "cwd": "C:\\Users\\Admin",
+    "model": "claude-sonnet-4-6",
+    "offPeak": true,
+    "platform": "win32"
+  },
+  {
+    "ts": "2026-03-22T09:54:31.963Z",
+    "tsCN": "2026-03-22T17:54:31",
+    "event": "start",
+    "cwd": "C:\\Users\\Admin",
+    "model": "claude-sonnet-4-6",
+    "offPeak": true,
+    "platform": "win32"
+  },
+  {
+    "ts": "2026-03-22T09:54:32.120Z",
+    "tsCN": "2026-03-22T17:54:32",
+    "event": "start",
+    "cwd": "C:\\Users\\Admin",
+    "model": "claude-sonnet-4-6",
+    "offPeak": true,
+    "platform": "win32"
+  },
+  {
+    "ts": "2026-03-22T09:54:32.676Z",
+    "tsCN": "2026-03-22T17:54:32",
+    "event": "start",
+    "cwd": "C:\\Users\\Admin",
+    "model": "claude-sonnet-4-6",
+    "offPeak": true,
+    "platform": "win32"
+  },
+  {
+    "ts": "2026-03-22T09:55:15.130Z",
+    "tsCN": "2026-03-22T17:55:15",
+    "event": "start",
+    "cwd": "C:\\Users\\Admin",
+    "model": "claude-sonnet-4-6",
+    "offPeak": true,
+    "platform": "win32"
+  },
+  {
+    "ts": "2026-03-22T09:55:19.339Z",
+    "tsCN": "2026-03-22T17:55:19",
+    "event": "start",
+    "cwd": "C:\\Users\\Admin",
+    "model": "claude-sonnet-4-6",
+    "offPeak": true,
+    "platform": "win32"
+  },
+  {
+    "ts": "2026-03-22T09:55:19.346Z",
+    "tsCN": "2026-03-22T17:55:19",
+    "event": "start",
+    "cwd": "C:\\Users\\Admin",
+    "model": "claude-sonnet-4-6",
+    "offPeak": true,
+    "platform": "win32"
+  },
+  {
+    "ts": "2026-03-22T09:55:59.863Z",
+    "tsCN": "2026-03-22T17:55:59",
+    "event": "start",
+    "cwd": "C:\\Users\\Admin",
+    "model": "claude-sonnet-4-6",
+    "offPeak": true,
+    "platform": "win32"
+  },
+  {
+    "ts": "2026-03-22T09:56:30.837Z",
+    "tsCN": "2026-03-22T17:56:30",
+    "event": "start",
+    "cwd": "C:\\Users\\Admin",
+    "model": "claude-sonnet-4-6",
+    "offPeak": true,
+    "platform": "win32"
+  },
+  {
+    "ts": "2026-03-22T09:56:30.925Z",
+    "tsCN": "2026-03-22T17:56:30",
+    "event": "start",
+    "cwd": "C:\\Users\\Admin",
+    "model": "claude-sonnet-4-6",
+    "offPeak": true,
+    "platform": "win32"
+  },
+  {
+    "ts": "2026-03-22T09:57:10.719Z",
+    "tsCN": "2026-03-22T17:57:10",
+    "event": "start",
+    "cwd": "C:\\Users\\Admin",
+    "model": "claude-sonnet-4-6",
+    "offPeak": true,
+    "platform": "win32"
   }
 ]
