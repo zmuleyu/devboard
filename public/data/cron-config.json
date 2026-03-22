@@ -514,6 +514,62 @@
       "timeLimit": 70,
       "prompt": "prompts/lesson-digest.txt",
       "enabled": true
+    },
+    {
+      "name": "gdpr-weekly",
+      "schedulerName": "GDPRWeekly",
+      "prompt": "prompts/gdpr-weekly.txt",
+      "schedule": "09:45",
+      "scheduleDays": "1",
+      "tools": "Bash+Read+Write+mcp__scrapling__gdpr_feed_fetch+mcp__scrapling__gdpr_feed_diff",
+      "maxTurns": 12,
+      "budget": "0.30",
+      "timeLimit": 60,
+      "description": "Weekly GDPR feed update — EDPB/EDPS/CNIL/GDPRhub diff + knowledge-base patch (Mon)",
+      "onFailure": "notify",
+      "enabled": true
+    },
+    {
+      "name": "gdpr-monthly-a",
+      "schedulerName": "GDPRMonthlyA",
+      "prompt": "prompts/gdpr-monthly-a.txt",
+      "schedule": "10:00",
+      "scheduleDays": "1",
+      "tools": "Bash+Read+Write+mcp__scrapling__gdpr_feed_fetch+mcp__scrapling__gdpr_enforcement_scrape",
+      "maxTurns": 20,
+      "budget": "1.00",
+      "timeLimit": 90,
+      "description": "Monthly Session A — enforcement tracker update, P0 DPA scrape (1st Mon)",
+      "onFailure": "notify",
+      "enabled": true
+    },
+    {
+      "name": "gdpr-monthly-b",
+      "schedulerName": "GDPRMonthlyB",
+      "prompt": "prompts/gdpr-monthly-b.txt",
+      "schedule": "10:00",
+      "scheduleDays": "1",
+      "tools": "Bash+Read+Write+mcp__scrapling__gdpr_feed_fetch",
+      "maxTurns": 20,
+      "budget": "1.00",
+      "timeLimit": 90,
+      "description": "Monthly Session B — policy updates, risk register refresh (2nd Mon)",
+      "onFailure": "notify",
+      "enabled": true
+    },
+    {
+      "name": "gdpr-monthly-c",
+      "schedulerName": "GDPRMonthlyC",
+      "prompt": "prompts/gdpr-monthly-c.txt",
+      "schedule": "10:00",
+      "scheduleDays": "1",
+      "tools": "Bash+Read+Write",
+      "maxTurns": 12,
+      "budget": "0.50",
+      "timeLimit": 60,
+      "description": "Monthly Session C — risk analysis summary, signal convergence (3rd Mon)",
+      "onFailure": "notify",
+      "enabled": true
     }
   ]
 }
