@@ -133,16 +133,17 @@
   },
   {
     "date": "2026-03-22",
-    "totalTokens": 12000000,
+    "totalTokens": 17000000,
     "byModel": {
       "haiku": 0,
-      "sonnet": 0,
+      "sonnet": 5000000,
       "opus": 12000000
     },
     "byProject": {
       "claude-config": 8000000,
-      "gdpr-monitor": 4000000
+      "gdpr-monitor": 4000000,
+      "pixel-herbarium": 5000000
     },
-    "sessionCount": 2
+    "sessionCount": 3
   }
 ]
