@@ -99,11 +99,11 @@
       "healthTrend": "↑",
       "testCount": 53,
       "techDebtMarkers": 0,
-      "lastCommitDate": "2026-03-20",
-      "lastCommitMessage": "598127a feat: integrate LangExtract for LLM-driven structured extraction",
+      "lastCommitDate": "2026-03-22",
+      "lastCommitMessage": "73a2ef0 feat(xhs): add video analysis pipeline — download, OCR, speech-to-text",
       "branch": "main",
-      "uncommittedChanges": 0,
-      "topTodo": "LangExtract已集成 · 可选：enrich_llm处理下一批采集数据",
+      "uncommittedChanges": 1,
+      "topTodo": "重启 Claude Code 加载 3 个新 XHS MCP 工具（video_analyze/video_download/batch_collect）",
       "path": "D:\\projects\\Others\\scrapling-mcp"
     },
     {
