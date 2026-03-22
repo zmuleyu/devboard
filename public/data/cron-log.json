@@ -967,5 +967,89 @@
     "durationSec": 0,
     "source": "cron",
     "isOffPeak": true
+  },
+  {
+    "date": "2026-03-22",
+    "time": "07:08",
+    "taskName": "guard-backup",
+    "taskType": "guard-backup",
+    "project": "unknown",
+    "result": "start",
+    "detail": "task started",
+    "durationSec": 0,
+    "source": "cron",
+    "isOffPeak": false
+  },
+  {
+    "date": "2026-03-22",
+    "time": "07:08",
+    "taskName": "storage-clean",
+    "taskType": "storage-clean",
+    "project": "unknown",
+    "result": "start",
+    "detail": "task started",
+    "durationSec": 0,
+    "source": "cron",
+    "isOffPeak": false
+  },
+  {
+    "date": "2026-03-22",
+    "time": "07:08",
+    "taskName": "storage-scan",
+    "taskType": "storage-scan",
+    "project": "unknown",
+    "result": "start",
+    "detail": "task started",
+    "durationSec": 0,
+    "source": "cron",
+    "isOffPeak": false
+  },
+  {
+    "date": "2026-03-22",
+    "time": "07:08",
+    "taskName": "patrol",
+    "taskType": "patrol",
+    "project": "unknown",
+    "result": "start",
+    "detail": "task started",
+    "durationSec": 0,
+    "source": "cron",
+    "isOffPeak": false
+  },
+  {
+    "date": "2026-03-22",
+    "time": "07:09",
+    "taskName": "pr-review",
+    "taskType": "pr-review",
+    "project": "unknown",
+    "result": "start",
+    "detail": "task started",
+    "durationSec": 0,
+    "source": "cron",
+    "isOffPeak": false
+  },
+  {
+    "date": "2026-03-22",
+    "time": "07:09",
+    "taskName": "data-sync",
+    "taskType": "data-sync",
+    "project": "unknown",
+    "result": "start",
+    "detail": "task started",
+    "durationSec": 0,
+    "source": "cron",
+    "isOffPeak": false
+  },
+  {
+    "date": "2026-03-22",
+    "time": "07:09",
+    "taskName": "relation-mining",
+    "taskType": "relation-mining",
+    "project": "unknown",
+    "result": "start",
+    "detail": "task started",
+    "durationSec": 0,
+    "source": "cron",
+    "isOffPeak": false
   }
 ]
