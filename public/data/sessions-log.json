@@ -145,5 +145,30 @@
     ],
     "summary": "WGM Phase 2 完成 — gdpr site pack(43 tests, 4 MCP工具: feed_fetch/enforcement_scrape/local_search/feed_diff) + 4 cron任务 + DevBoard/cron-memory JSON",
     "commitsCreated": 0
+  },
+  {
+    "date": "2026-03-23",
+    "startTime": "10:00",
+    "duration": "1h 30m",
+    "tokenUsed": 2000000,
+    "model": "sonnet",
+    "projectsTouched": [
+      "ai_projects"
+    ],
+    "summary": "WLE KR Migration 100 — 4 regulations + 3 EAs + 2 timeline_events + region_configs narrative · duplicate cleanup · pnpm build pass",
+    "commitsCreated": 0
+  },
+  {
+    "date": "2026-03-23",
+    "startTime": "14:00",
+    "duration": "2h 00m",
+    "tokenUsed": 3000000,
+    "model": "sonnet",
+    "projectsTouched": [
+      "ai_projects",
+      "gdpr-monitor"
+    ],
+    "summary": "WGM Phase 4 admin 完成 — 4个admin页面 + tRPC gdpr router + React Query hooks + sidebar GDPR折叠组 · WLE dev 38a41e1 · pnpm build --no-turbo ✅",
+    "commitsCreated": 2
   }
 ]

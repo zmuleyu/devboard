@@ -955,5 +955,17 @@
     "durationSec": 0,
     "source": "cron",
     "isOffPeak": false
+  },
+  {
+    "date": "2026-03-22",
+    "time": "01:00",
+    "taskName": "changelog-gen",
+    "taskType": "changelog-gen",
+    "project": "unknown",
+    "result": "start",
+    "detail": "task started",
+    "durationSec": 0,
+    "source": "cron",
+    "isOffPeak": true
   }
 ]

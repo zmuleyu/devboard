@@ -9,10 +9,14 @@
       "enabled": true
     },
     "webhook": {
-      "enabled": false,
-      "url": "",
-      "onlyOnFail": true,
+      "enabled": true,
+      "url": "http://127.0.0.1:8789",
+      "onlyOnFail": false,
       "headers": {}
+    },
+    "webhookLegacy": {
+      "_note": "Previous URL before Channels integration (2026-03-23)",
+      "url": "http://127.0.0.1:3456/notify"
     },
     "devboard": {
       "enabled": true,

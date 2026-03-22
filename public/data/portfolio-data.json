@@ -1,5 +1,5 @@
 {
-  "date": "2026-03-22",
+  "date": "2026-03-23",
   "projects": [
     {
       "name": "ai_projects",
@@ -9,11 +9,11 @@
       "healthTrend": "↑",
       "testCount": 27,
       "techDebtMarkers": 0,
-      "lastCommitDate": "2026-03-20",
-      "lastCommitMessage": "00bedea feat(db+api): add signal convergence table and entity trace endpoint",
+      "lastCommitDate": "2026-03-23",
+      "lastCommitMessage": "38a41e1 feat(gdpr): Phase 4 admin pages + tRPC router + sidebar nav",
       "branch": "dev",
-      "uncommittedChanges": 0,
-      "topTodo": "migration 099 整合 + trace API · 下次 release 前",
+      "uncommittedChanges": 4,
+      "topTodo": "WGM Phase 4 remaining: gdpr.cybernium.cn public frontend + cross-signal display",
       "path": "D:\\projects\\cybernium\\ai_projects"
     },
     {
@@ -102,8 +102,8 @@
       "lastCommitDate": "2026-03-22",
       "lastCommitMessage": "73a2ef0 feat(xhs): add video analysis pipeline — download, OCR, speech-to-text",
       "branch": "main",
-      "uncommittedChanges": 5,
-      "topTodo": "重启 scrapling MCP 加载 gdpr pack (4 工具) · /commit WGM Phase 2 files",
+      "uncommittedChanges": 1,
+      "topTodo": "重启 scrapling MCP 加载 gdpr pack (4 工具)",
       "path": "D:\\projects\\Others\\scrapling-mcp"
     },
     {
