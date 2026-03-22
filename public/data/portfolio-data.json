@@ -7,13 +7,13 @@
       "role": "app",
       "health": "A",
       "healthTrend": "↑",
-      "testCount": 27,
+      "testCount": 716,
       "techDebtMarkers": 0,
       "lastCommitDate": "2026-03-23",
-      "lastCommitMessage": "38a41e1 feat(gdpr): Phase 4 admin pages + tRPC router + sidebar nav",
+      "lastCommitMessage": "61f2153 💄 style: hide stats and progress row from region header card",
       "branch": "dev",
-      "uncommittedChanges": 4,
-      "topTodo": "WGM Phase 4 remaining: gdpr.cybernium.cn public frontend + cross-signal display",
+      "uncommittedChanges": 0,
+      "topTodo": "GDPR_DATABASE_URL 配置(WLE→WGM Supabase) · KR区域前端可见性 · dev push ahead 17",
       "path": "D:\\projects\\cybernium\\ai_projects"
     },
     {

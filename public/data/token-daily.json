@@ -151,18 +151,18 @@
   },
   {
     "date": "2026-03-23",
-    "totalTokens": 6000000,
+    "totalTokens": 7000000,
     "byModel": {
       "haiku": 0,
-      "sonnet": 6000000,
+      "sonnet": 7000000,
       "opus": 0
     },
     "byProject": {
-      "ai_projects": 4000000,
+      "ai_projects": 5000000,
       "gdpr-monitor": 1000000,
       "wechat-notify": 500000,
       "claude-cron": 500000
     },
-    "sessionCount": 3
+    "sessionCount": 4
   }
 ]
