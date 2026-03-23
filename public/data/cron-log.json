@@ -1099,5 +1099,41 @@
     "durationSec": 0,
     "source": "cron",
     "isOffPeak": false
+  },
+  {
+    "date": "2026-03-23",
+    "time": "09:01",
+    "taskName": "content-freshness",
+    "taskType": "content-freshness",
+    "project": "unknown",
+    "result": "start",
+    "detail": "task started",
+    "durationSec": 0,
+    "source": "cron",
+    "isOffPeak": false
+  },
+  {
+    "date": "2026-03-23",
+    "time": "09:07",
+    "taskName": "tsc-check",
+    "taskType": "tsc-check",
+    "project": "unknown",
+    "result": "start",
+    "detail": "task started",
+    "durationSec": 0,
+    "source": "cron",
+    "isOffPeak": false
+  },
+  {
+    "date": "2026-03-23",
+    "time": "10:01",
+    "taskName": "ph-weekly",
+    "taskType": "ph-weekly",
+    "project": "unknown",
+    "result": "start",
+    "detail": "task started",
+    "durationSec": 0,
+    "source": "cron",
+    "isOffPeak": false
   }
 ]

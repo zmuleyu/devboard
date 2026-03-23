@@ -562,6 +562,19 @@
       "enabled": true
     },
     {
+      "name": "wechat-article-scan",
+      "schedulerName": "WeChatArticleScan",
+      "prompt": "prompts/wechat-article-scan.txt",
+      "schedule": "09:00",
+      "tools": "Bash,Read,mcp__scrapling__wechat_account_manage,mcp__scrapling__wechat_account_articles,mcp__scrapling__wechat_article_read,mcp__supabase__execute_sql,mcp__fetch__fetch",
+      "maxTurns": 20,
+      "budget": "1.00",
+      "timeLimit": 120,
+      "description": "Daily WeChat account scan — read new articles, match GDPR regulations, push high/medium relevance results to WeChat",
+      "onFailure": "notify",
+      "enabled": false
+    },
+    {
       "name": "gdpr-monthly-c",
       "schedulerName": "GDPRMonthlyC",
       "prompt": "prompts/gdpr-monthly-c.txt",
