@@ -294,5 +294,29 @@
     ],
     "summary": "Petal Press stamp animation implementation: PetalPressAnimation.tsx 4-stage + StampPreview integration + haptics.stampPress + 4 tests",
     "commitsCreated": 0
+  },
+  {
+    "date": "2026-03-23",
+    "startTime": "12:00",
+    "duration": "2h 00m",
+    "tokenUsed": 3000000,
+    "model": "opus",
+    "projectsTouched": [
+      "wechat-notify"
+    ],
+    "summary": "TWN account-commands architecture rewrite: claude -p(>150s timeout) → direct Python call(0.7s) + 5 bug fixes (timeout/zombie/stderr/FileNotFound/Playwright proxy) + 4 new lessons",
+    "commitsCreated": 0
+  },
+  {
+    "date": "2026-03-23",
+    "startTime": "15:00",
+    "duration": "1h 30m",
+    "tokenUsed": 2000000,
+    "model": "sonnet",
+    "projectsTouched": [
+      "scrapling-mcp"
+    ],
+    "summary": "TSC XHS 视频 Gemini 双通道 — video_gemini.py(OpenRouter httpx) + auto/gemini/local 路由 + pack.py method参数 + 28 tests · API切换GOOGLE→OPENROUTER",
+    "commitsCreated": 0
   }
 ]
