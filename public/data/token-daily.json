@@ -151,11 +151,11 @@
   },
   {
     "date": "2026-03-23",
-    "totalTokens": 16000000,
+    "totalTokens": 19000000,
     "byModel": {
       "haiku": 0,
       "sonnet": 14000000,
-      "opus": 2000000
+      "opus": 5000000
     },
     "byProject": {
       "ai_projects": 5500000,
@@ -164,8 +164,8 @@
       "claude-cron": 500000,
       "claude-config": 2000000,
       "scrapling-mcp": 3000000,
-      "pixel-herbarium": 2000000
+      "pixel-herbarium": 5000000
     },
-    "sessionCount": 10
+    "sessionCount": 11
   }
 ]
