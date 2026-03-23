@@ -565,14 +565,27 @@
       "name": "wechat-article-scan",
       "schedulerName": "WeChatArticleScan",
       "prompt": "prompts/wechat-article-scan.txt",
-      "schedule": "09:00",
-      "tools": "Bash,Read,mcp__scrapling__wechat_account_manage,mcp__scrapling__wechat_account_articles,mcp__scrapling__wechat_article_read,mcp__supabase__execute_sql,mcp__fetch__fetch",
+      "schedule": "08:30",
+      "tools": "Bash,Read,Write,mcp__scrapling__wechat_account_manage,mcp__scrapling__wechat_account_articles,mcp__scrapling__wechat_article_read,mcp__supabase__execute_sql",
       "maxTurns": 20,
       "budget": "1.00",
       "timeLimit": 120,
-      "description": "Daily WeChat account scan — read new articles, match GDPR regulations, push high/medium relevance results to WeChat",
+      "description": "Daily WeChat account scan — crawl new articles, score relevance, save to wechat_article_scores",
       "onFailure": "notify",
-      "enabled": false
+      "enabled": true
+    },
+    {
+      "name": "wechat-daily-digest",
+      "schedulerName": "WeChatDailyDigest",
+      "prompt": "prompts/wechat-daily-digest.txt",
+      "schedule": "09:00",
+      "tools": "Bash,Read,mcp__fetch__fetch",
+      "maxTurns": 8,
+      "budget": "0.20",
+      "timeLimit": 45,
+      "description": "Daily digest push — read scored articles from DB, format and push to WeChat via TWN webhook",
+      "onFailure": "notify",
+      "enabled": true
     },
     {
       "name": "gdpr-monthly-c",

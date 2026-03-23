@@ -100,10 +100,10 @@
       "testCount": 62,
       "techDebtMarkers": 0,
       "lastCommitDate": "2026-03-23",
-      "lastCommitMessage": "cbc0a6f auto: agent checkpoint 15:16",
+      "lastCommitMessage": "d97fa79 fix(xhs): switch to direct Google Gemini API for video analysis",
       "branch": "main",
-      "uncommittedChanges": 5,
-      "topTodo": "设置 OPENROUTER_API_KEY · 重启 scrapling MCP · git commit 4 files (video_gemini.py/test/pack.py/pyproject.toml) · 集成测试 69bd239b",
+      "uncommittedChanges": 1,
+      "topTodo": "重启 scrapling MCP → 集成测试 video_analyze(method=gemini) · 问一问DOM选择器验证",
       "path": "D:\\projects\\Others\\scrapling-mcp"
     },
     {

@@ -318,5 +318,17 @@
     ],
     "summary": "TSC XHS 视频 Gemini 双通道 — video_gemini.py(OpenRouter httpx) + auto/gemini/local 路由 + pack.py method参数 + 28 tests · API切换GOOGLE→OPENROUTER",
     "commitsCreated": 0
+  },
+  {
+    "date": "2026-03-23",
+    "startTime": "17:00",
+    "duration": "1h 30m",
+    "tokenUsed": 2000000,
+    "model": "opus",
+    "projectsTouched": [
+      "scrapling-mcp"
+    ],
+    "summary": "TSC Gemini API fix — OpenRouter 502 → direct Google Gemini REST API + Git cleanup (11→3 commits) + model ID fix",
+    "commitsCreated": 4
   }
 ]
