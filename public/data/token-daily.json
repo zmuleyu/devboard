@@ -151,10 +151,10 @@
   },
   {
     "date": "2026-03-23",
-    "totalTokens": 14500000,
+    "totalTokens": 16000000,
     "byModel": {
       "haiku": 0,
-      "sonnet": 12500000,
+      "sonnet": 14000000,
       "opus": 2000000
     },
     "byProject": {
@@ -163,9 +163,9 @@
       "wechat-notify": 1000000,
       "claude-cron": 500000,
       "claude-config": 2000000,
-      "scrapling-mcp": 2500000,
-      "pixel-herbarium": 500000
+      "scrapling-mcp": 3000000,
+      "pixel-herbarium": 2000000
     },
-    "sessionCount": 9
+    "sessionCount": 10
   }
 ]

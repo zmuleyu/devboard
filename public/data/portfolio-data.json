@@ -145,10 +145,10 @@
       "testCount": 66,
       "techDebtMarkers": 0,
       "lastCommitDate": "2026-03-23",
-      "lastCommitMessage": "e70cd1c auto: agent checkpoint 11:48",
+      "lastCommitMessage": "8c3fc67 fix(ci): uncomment EXPO_PUBLIC_SCREENSHOT_MODE in .env.local before prebuild",
       "branch": "dev",
-      "uncommittedChanges": 8,
-      "topTodo": "GHA screenshot-build run #23405494527 in_progress → Phase C/D · Petal Press 动画优化",
+      "uncommittedChanges": 3,
+      "topTodo": "GHA run #23421677574 in_progress → 完成后下载截图 → /screenshots compose → Phase C/D",
       "path": "D:\\projects\\Games\\gardern\\pixel-herbarium"
     }
   ]
