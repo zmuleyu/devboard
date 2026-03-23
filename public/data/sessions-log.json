@@ -232,5 +232,17 @@
     ],
     "summary": "export/import secrets scripts fix: cygpath Windows path conversion + grep pipefail || true + bundle verified (10 keys, 4 projectEnvs) + /recap",
     "commitsCreated": 3
+  },
+  {
+    "date": "2026-03-23",
+    "startTime": "14:00",
+    "duration": "0h 30m",
+    "tokenUsed": 500000,
+    "model": "sonnet",
+    "projectsTouched": [
+      "wechat-notify"
+    ],
+    "summary": "TWN regulation-query.txt 精准重写：修正 legal_docs.jurisdiction 字段错误、补全 regulations 5字段、新增 4张关联表+6种SQL模板+fallback策略",
+    "commitsCreated": 0
   }
 ]
