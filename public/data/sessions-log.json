@@ -220,5 +220,17 @@
     ],
     "summary": "WGM Phase 4 Task E: Vercel domain gdpr.cybernium.cn added + 火山引擎 DNS CNAME 配置 + DNS 传播验证生效",
     "commitsCreated": 0
+  },
+  {
+    "date": "2026-03-23",
+    "startTime": "08:00",
+    "duration": "1h 30m",
+    "tokenUsed": 1500000,
+    "model": "sonnet",
+    "projectsTouched": [
+      "claude-config"
+    ],
+    "summary": "export/import secrets scripts fix: cygpath Windows path conversion + grep pipefail || true + bundle verified (10 keys, 4 projectEnvs) + /recap",
+    "commitsCreated": 3
   }
 ]
